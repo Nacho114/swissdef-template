@@ -1,22 +1,25 @@
-# create-svelte
+# Svelte template for Swiss defibrillator
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Features
 
-## Creating a project
+- [x] Multi language support via i18n
+- [x] Dynamic page creation based on product list
+- [x] Routing example
+- [x] Image loading example
+- [x] Main css file 
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Road map
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- [ ] Design UI in figma
+- [ ] Translate UI to Svelte project
+- [ ] Add products
+- [ ] Add SEO
+- [ ] Deploy
+- [ ] $$$ Profit
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Install dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
 npm run dev

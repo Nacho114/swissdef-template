@@ -5,6 +5,16 @@
   --global-color-gray: #565758;
 }
 
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    src: url('/fonts/Oswald-Medium.ttf') format('truetype');
+}
+
+body {
+  font-family: Oswald;
+}
+
 h1 {
   color: var(--global-color-primary);
 }

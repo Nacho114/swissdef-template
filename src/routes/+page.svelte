@@ -2,7 +2,7 @@
   import { _ } from 'svelte-i18n';
 </script>
 
-<h1>Welcome to SvelteKit</h1>
+<h1>Fight Against Cardiac Arrest</h1>
 
 <h2>
     {$_('page_title')}

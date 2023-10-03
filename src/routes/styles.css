@@ -6,15 +6,21 @@
 }
 
 @font-face {
-    font-family: 'Oswald';
+    font-family: 'Outfit-Regular';
     font-style: normal;
-    src: url('/fonts/Oswald-Medium.ttf') format('truetype');
+    src: url('/fonts/Outfit-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Oswald-SemiBold';
+    font-style: normal;
+    src: url('/fonts/Oswald-SemiBold.ttf') format('truetype');
 }
 
 body {
-  font-family: Oswald;
+  font-family: Outfit-Regular;
 }
 
 h1 {
-  color: var(--global-color-primary);
+  font-family: Oswald-SemiBold;
 }

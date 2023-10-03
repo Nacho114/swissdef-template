@@ -7,12 +7,11 @@
 - [x] Routing example
 - [x] Image loading example
 - [x] Main css file 
+- [x] Icon [library](https://iconify.design/docs/usage/svg/unplugin/)
 
 ## Road map
 
-- [ ] Design UI in figma
-- [ ] Translate UI to Svelte project
-- [ ] Add products
+- [ ] Add different font formats in style for better accessability. 
 - [ ] Add SEO
 - [ ] Deploy
 - [ ] $$$ Profit

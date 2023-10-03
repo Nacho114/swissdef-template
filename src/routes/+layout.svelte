@@ -1,27 +1,19 @@
 <script>
 	import './styles.css';
   import '$lib/i18n.ts';
-  import { locale, locales } from 'svelte-i18n';
+  import Header from '$lib/components/header.svelte';
 </script>
 
-<nav>
-  <ul>
-    <li>
-      <a href="/">home</a>
-      <a href="/products">products</a>
-      <a href="/training">training</a>
-    </li>
-  </ul>
-</nav>
+<div class='main'>
 
-<select bind:value={$locale}>
-  {#each $locales as locale}
-    <option value={locale}>{locale}</option>
-  {/each}
-</select>
+  <Header />
 
-<slot />
+  <slot />
+</div>
 
 <style>
-
+.main {
+  padding-left: 60px;
+  padding-right: 30px;
+}
 </style>

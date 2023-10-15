@@ -26,9 +26,28 @@
   .card img {
     width: 90%; /* Increase from 90% to 95% */
     height: auto;
+    position: relative;
+    z-index: 1;
   }
 
-  .card-title {
+  .card::before {
+    width: 90%; /* Increase from 90% to 95% */
+    z-index: 2;
+    content: ""; /* empty content */
+    position: absolute; /* absolute position */
+    top: 0; 
+    left: 1vw;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* semi-transparent black overlay */
+    opacity: 0; /* initial opacity */
+    transition: opacity 0.3s; /* transition effect */
+    pointer-events: none; /* so that the overlay doesn't interfere with mouse events */
+  }
+
+.card:hover::before {
+    opacity: 1; /* full opacity on hover */
+}  .card-title {
     position: absolute;
     top: 35%; /* Adjusted position to make space for summary */
     left: 50%;
@@ -38,7 +57,12 @@
     transition: top 0.3s; /* Smooth transition for title position */
   }
 
+  .card-title {
+      z-index: 3;
+    }
+
   .card-summary {
+    z-index: 3;
     position: absolute;
     bottom: 0; /* Align to the bottom of the card */
     left: 50%;

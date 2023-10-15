@@ -5,32 +5,26 @@
   import { _ } from 'svelte-i18n';
 </script>
 
-<div class="landing-header-background">
-  <Container>
-    <div class="landing-header">
-      <div class="header-text">
-        <h1>{$_('landing_header_title')}</h1>
-        <p class="subtitle">One life-saving device at a time</p>
-        <Button>
-          <div class="button">
-            Book an appointment
-            <ChevronRight />
-          </div>
-        </Button>
-      </div>
-
-      <div class="header-image">
-        <img src="/assets/phillips_hs1_home.png" alt="info info" />
-      </div>
+<Container style="background-color: #F2EEF5;">
+  <div class="landing-header">
+    <div class="header-text">
+      <h1>{$_('landing_header_title')}</h1>
+      <p class="subtitle">One life-saving device at a time</p>
+      <Button>
+        <div class="button">
+          Book an appointment
+          <ChevronRight />
+        </div>
+      </Button>
     </div>
-  </Container>
-</div>
+
+    <div class="header-image">
+      <img src="/assets/home/phillips_hs1_home.png" alt="info info" />
+    </div>
+  </div>
+</Container>
 
 <style>
-  /* Background styling */
-  .landing-header-background {
-    background-color: #F2EEF5;
-  }
 
   /* Flex layout for header */
   .landing-header {

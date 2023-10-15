@@ -1,19 +1,22 @@
 <script>
 	import './styles.css';
   import '$lib/i18n.ts';
-  import Header from '$lib/components/header.svelte';
+  import Header from '$lib/sections/layout/header.svelte';
 </script>
 
-<div class='main'>
-
+<div class="header">
   <Header />
-
-  <slot />
 </div>
 
+<slot />
+
 <style>
-.main {
-  padding-left: 60px;
+
+.header {
+  margin-top: 6px;
+  margin-bottom: 20px;
+  padding-left: var(--main-padding-left);
   padding-right: 30px;
 }
+
 </style>

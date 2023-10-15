@@ -11,6 +11,6 @@
 
 <span class="welcome">
   <picture>
-    <img src="/assets/{data.slug}.jpg" alt="info info" />
+    <img src="/assets/products/{data.img}.jpg" alt="info info" />
   </picture>
 </span>

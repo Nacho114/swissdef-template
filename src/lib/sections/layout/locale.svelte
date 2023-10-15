@@ -5,8 +5,11 @@
   import FlagFr from 'virtual:icons/circle-flags/fr'
   import NavArrowDown from 'virtual:icons/iconoir/nav-arrow-down'
 
+  // Define a type for the flags object
+  type FlagKeys = 'en' | 'de' | 'fr';
+
   // Create a mapping of locale keys to flag components
-  const flags = {
+  const flags: Record<FlagKeys, any> = {
     en: FlagEn,
     de: FlagDe,
     fr: FlagFr,
@@ -14,7 +17,7 @@
 
   // Dynamic component to hold the flag of the selected locale
   let FlagComponent: any;
-  $: FlagComponent = flags[$locale];
+  $: FlagComponent = flags[$locale as FlagKeys]; // use a type assertion
 </script>
 
 <div class="select-wrapper">

@@ -1,5 +1,9 @@
 # Svelte template for Swiss defibrillator
 
+## Icons
+
+Icons can be found [here](http://icon-sets.iconify.design).
+
 ## Features
 
 - [x] Multi language support via i18n
@@ -17,6 +21,16 @@
 - [ ] $$$ Profit
 
 ## Developing
+
+### nvim - coc 
+
+If running nvim coc install the [syntax highlighting](https://github.com/coc-extensions/coc-svelte)
+
+```
+:CocInstall coc-svelte
+```
+
+### Install
 
 Install dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 

@@ -2,10 +2,10 @@
 <div class="trusted-brands-section">
   <h2>Trusted By World’s Most Favourite Brands</h2>
   <div class="brand-logos">
-    <img class="logo" src="/assets/client_logos/novotel.png" alt="Novotel Logo" />
-    <img class="logo" src="/assets/client_logos/novotel.png" alt="Novotel Logo" />
-    <img class="logo" src="/assets/client_logos/novotel.png" alt="Novotel Logo" />
-    <img class="logo" src="/assets/client_logos/novotel.png" alt="Novotel Logo" />
+    <img class="logo" src="/assets/home/clients/ibis.png" alt="Novotel Logo" />
+    <img class="logo" src="/assets/home/clients/novotel.png" alt="Novotel Logo" />
+    <img class="logo" src="/assets/home/clients/cdf-logo.png" alt="Novotel Logo" />
+    <img class="logo" src="/assets/home/clients/logitech.png" alt="Novotel Logo" />
     <!-- Add other logos similarly -->
   </div>
 </div>
@@ -23,11 +23,6 @@
     color: var(--global-color-gray);
     font-size: 1.2rem; /* Adjust size as needed */
     margin-bottom: 1rem; /* Space below the heading */
-  }
-
-  .logo {
-    width: 10vw; /* This will scale the logo based on the viewport width */
-    height: auto; /* Maintains the aspect ratio */
   }
 
   .brand-logos {

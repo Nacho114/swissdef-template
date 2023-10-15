@@ -6,13 +6,13 @@
 
 <div class="services-section">
   <div class="card-section">
-    <ServiceCard src="/assets/services/ambulance.png" summary="Hello" alt="Training" title="TRAINING"/>
-    <ServiceCard src="/assets/services/ambulance.png" summary="Ensure your defibrillator is always ready to be used." alt="Training" title="TRAINING"/>
-    <ServiceCard src="/assets/services/ambulance.png" summary="Hello" alt="Training" title="TRAINING"/>
+    <ServiceCard src="/assets/home/training.png" summary="Hands-on sessions to master defibrillator usage." alt="Training" title="TRAINING"/>
+    <ServiceCard src="/assets/home/maintenance.png" summary="Regular checks to ensure device reliability." alt="Training" title="MAINTENANCE"/>
+    <ServiceCard src="/assets/home/defibrillator.png" summary="Life-saving devices for cardiac emergencies." alt="Training" title="DEFIBRILLATORS"/>
   </div>
   
   <div class="cta">
-    <h1>ALL In One Place</h1>
+    <h1>All In One Place</h1>
     <p>We offer a vibe array of services to suit your needs</p>
     <Button isOutlined={true}>Learn More</Button>
   </div>
@@ -33,11 +33,6 @@
     padding-left: 3vw;
     padding-right: 3vw;
     padding-top: 2vw;
-  }
-
-  .cta h2 {
-    font-size: 2vw;
-    margin-bottom: 1rem;
   }
 
   .cta p {

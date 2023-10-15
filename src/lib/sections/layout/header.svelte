@@ -1,30 +1,33 @@
 <script lang="ts">
+  import Container from '$lib/components/container.svelte';
   import LOGO from '$lib/svg/logo.svelte'
   import Locale from './locale.svelte'
 </script>
 
-<div class="container">
-  <nav>
-    <ul>
-      <li>
-        <a href="/">Home</a>
-        <a href="/products">Products</a>
-        <a href="/training">Training</a>
-      </li>
-    </ul>
-  </nav>
+<Container>
+  <div class="container">
+    <nav>
+      <ul>
+        <li>
+          <a href="/">Home</a>
+          <a href="/products">Products</a>
+          <a href="/training">Training</a>
+        </li>
+      </ul>
+    </nav>
 
-  <div class="logo">
-    <a href="/">
-      <LOGO />
-    </a>
-  </div>
+    <div class="logo">
+      <a href="/">
+        <LOGO />
+      </a>
+    </div>
 
-  <div class="locale">
-    <Locale />
+    <div class="locale">
+      <Locale />
+    </div>
+    
   </div>
-  
-</div>
+</Container>
 
 <style>
 

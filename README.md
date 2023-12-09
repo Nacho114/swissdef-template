@@ -1,5 +1,7 @@
 # Svelte template for Swiss defibrillator
 
+Hello world
+
 ## Features
 
 - [x] Multi language support via i18n

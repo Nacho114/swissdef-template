@@ -1,14 +1,14 @@
 <script lang="ts">
-  import Container from '$lib/components/container.svelte';
-  import Button from '$lib/components/button.svelte';
-  import ChevronRight from 'virtual:icons/gg/chevron-right';
-  import { _ } from 'svelte-i18n';
+  import Container from "$lib/components/container.svelte";
+  import Button from "$lib/components/button.svelte";
+  import ChevronRight from "virtual:icons/gg/chevron-right";
+  import { _ } from "svelte-i18n";
 </script>
 
 <Container style="background-color: #F2EEF5;">
   <div class="landing-header">
     <div class="header-text">
-      <h1>{$_('landing_header_title')}</h1>
+      <h1>{$_("landing_header_title")}</h1>
       <p class="subtitle">One life-saving device at a time</p>
       <Button>
         <div class="button">
@@ -25,7 +25,6 @@
 </Container>
 
 <style>
-
   /* Flex layout for header */
   .landing-header {
     padding-top: 30px;
@@ -83,4 +82,3 @@
     font-size: 1.5vw; /* Adjust this as needed */
   }
 </style>
-

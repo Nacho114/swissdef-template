@@ -1,16 +1,30 @@
-
 <script>
-  import Button from '$lib/components/button.svelte';
-  import ServiceCard from './service_card.svelte';
+  import Button from "$lib/components/button.svelte";
+  import ServiceCard from "./service_card.svelte";
 </script>
 
 <div class="services-section">
   <div class="card-section">
-    <ServiceCard src="/assets/home/training.png" summary="Hands-on sessions to master defibrillator usage." alt="Training" title="TRAINING"/>
-    <ServiceCard src="/assets/home/maintenance.png" summary="Regular checks to ensure device reliability." alt="Training" title="MAINTENANCE"/>
-    <ServiceCard src="/assets/home/defibrillator.png" summary="Life-saving devices for cardiac emergencies." alt="Training" title="DEFIBRILLATORS"/>
+    <ServiceCard
+      src="/assets/home/training.png"
+      summary="Hands-on sessions to master defibrillator usage."
+      alt="Training"
+      title="TRAINING"
+    />
+    <ServiceCard
+      src="/assets/home/maintenance.png"
+      summary="Regular checks to ensure device reliability."
+      alt="Training"
+      title="MAINTENANCE"
+    />
+    <ServiceCard
+      src="/assets/home/defibrillator.png"
+      summary="Life-saving devices for cardiac emergencies."
+      alt="Training"
+      title="DEFIBRILLATORS"
+    />
   </div>
-  
+
   <div class="cta">
     <h1>All In One Place</h1>
     <p>We offer a vibe array of services to suit your needs</p>
@@ -42,4 +56,3 @@
     margin-bottom: 1rem;
   }
 </style>
-

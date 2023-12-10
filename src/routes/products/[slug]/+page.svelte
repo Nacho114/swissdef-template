@@ -1,12 +1,12 @@
 <script lang="ts">
   import type { Product } from "$lib/products";
-  import { _ } from 'svelte-i18n';
-	export let data: Product;
+  import { _ } from "svelte-i18n";
+  export let data: Product;
 </script>
 
-<h1>{data.slug + '_title'}</h1>
-<p> 
-  {$_(data.slug + '_summary')}
+<h1>{data.slug + "_title"}</h1>
+<p>
+  {$_(data.slug + "_summary")}
 </p>
 
 <span class="welcome">

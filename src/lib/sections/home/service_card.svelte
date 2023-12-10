@@ -1,14 +1,14 @@
 <script lang="ts">
-    export let src: string;
-    export let alt: string;
-    export let title: string;
-    export let summary: string;
+  export let src: string;
+  export let alt: string;
+  export let title: string;
+  export let summary: string;
 </script>
 
-<div class="card" >
-    <img src={src} alt={alt}>
-    <h3 class="card-title">{title}</h3>
-    <p class="card-summary">{summary}</p>
+<div class="card">
+  <img {src} {alt} />
+  <h3 class="card-title">{title}</h3>
+  <p class="card-summary">{summary}</p>
 </div>
 
 <style>
@@ -35,7 +35,7 @@
     z-index: 2;
     content: ""; /* empty content */
     position: absolute; /* absolute position */
-    top: 0; 
+    top: 0;
     left: 1vw;
     right: 0;
     bottom: 0;
@@ -45,9 +45,10 @@
     pointer-events: none; /* so that the overlay doesn't interfere with mouse events */
   }
 
-.card:hover::before {
+  .card:hover::before {
     opacity: 1; /* full opacity on hover */
-}  .card-title {
+  }
+  .card-title {
     position: absolute;
     top: 35%; /* Adjusted position to make space for summary */
     left: 50%;
@@ -58,8 +59,8 @@
   }
 
   .card-title {
-      z-index: 3;
-    }
+    z-index: 3;
+  }
 
   .card-summary {
     z-index: 3;
@@ -69,10 +70,11 @@
     transform: translateX(-50%) translateY(100%); /* Initially positioned just below the card */
     color: white;
     font-size: 1.4vw;
-    opacity: 0; 
-    transition: transform 0.3s, opacity 0.3s; /* Transition for both transform and opacity */
+    opacity: 0;
+    transition:
+      transform 0.3s,
+      opacity 0.3s; /* Transition for both transform and opacity */
   }
-
 
   .card:hover .card-title {
     top: 30%; /* Move title slightly up on hover */
@@ -83,4 +85,3 @@
     opacity: 1; /* Show summary on hover */
   }
 </style>
-

@@ -1,8 +1,8 @@
 <script>
-  export let style = '';
+  export let style = "";
 </script>
 
-<div class="container" style={style}>
+<div class="container" {style}>
   <slot />
 </div>
 

@@ -74,11 +74,9 @@
   }
 
   @media screen and (max-width: 600px) {
-  .locale-select {
-    background-color: black;
-    color: white;
+    .locale-select {
+      background-color: black;
+      color: white;
+    }
   }
-
-}
-
 </style>

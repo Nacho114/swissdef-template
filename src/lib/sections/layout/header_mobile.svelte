@@ -37,7 +37,7 @@
   <a href="/">
     <LOGO />
   </a>
-
+  
   <div class={menuOpen ? "side-menu open" : "side-menu"}>
     <div class="side-menu-content">
       <nav>
@@ -52,7 +52,10 @@
         <Locale />
       </div>
 
-      <div class="menu-bottom-links">contact us</div>
+      <div class="menu-bottom-links">
+        <a href="/contact" on:click={toggleMenu}>Contact Us</a>
+        <a href="/warranty" on:click={toggleMenu}>Warranty</a>
+      </div>
     </div>
   </div>
 
@@ -156,12 +159,22 @@
   }
 
   .menu-bottom-links {
-    margin-top: auto; /* Pushes the container to the bottom */
-    width: 100%; /* Ensures full width for center alignment */
-    text-align: center; /* Centers the text */
-    padding-bottom: 80px; /* Vertical padding */
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-</style>
+  margin-top: auto; /* Pushes the container to the bottom */
+  width: 100%; /* Ensures full width for center alignment */
+  text-align: center; /* Centers the text */
+  padding-bottom: 80px; /* Vertical padding */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.menu-bottom-links a {
+  display: block; /* Block-level for full width */
+  text-decoration: none;
+  color: white;
+  font-size: 12px; /* Smaller font size */
+}
+
+
+
+  </style>

@@ -13,8 +13,8 @@ export const load: PageLoad = ({ params }) => {
 
 /** @type {import('./$types').EntryGenerator} */
 export function entries() {
-  const productSlugs = products.map(product => ({ slug: product.slug }));
-	return productSlugs;
+  const productSlugs = products.map((product) => ({ slug: product.slug }));
+  return productSlugs;
 }
 
 export const prerender = true;

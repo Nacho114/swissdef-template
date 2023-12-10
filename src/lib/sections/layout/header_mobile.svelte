@@ -52,9 +52,7 @@
         <Locale />
       </div>
 
-      <div class="menu-bottom-links">
-        contact us
-      </div>
+      <div class="menu-bottom-links">contact us</div>
     </div>
   </div>
 
@@ -165,12 +163,5 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-  }
-
-  .menu-bottom-links a {
-    display: block; /* Block-level for full width */
-    text-decoration: none;
-    color: white;
-    font-size: 12px; /* Smaller font size */
   }
 </style>

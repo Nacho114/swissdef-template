@@ -33,7 +33,7 @@
   /* Styles for outlined version of the button */
   .appointment-btn.outlined {
     background-color: transparent;
-    color: #000000;  /* Black text for the outlined button */
+    color: #000000; /* Black text for the outlined button */
     border: 2px solid #d45a4d;
   }
 
@@ -42,4 +42,3 @@
     color: #ffffff;
   }
 </style>
-

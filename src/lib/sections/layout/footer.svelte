@@ -1,18 +1,20 @@
 <script>
-  import Container from '$lib/components/container.svelte';
-  import CircularButton from '$lib/components/circular_button.svelte';
-  import Facebook from 'virtual:icons/gg/facebook';
-  import Twitter from 'virtual:icons/ant-design/twitter-outlined';
-  import Instagram from 'virtual:icons/ant-design/instagram';
-  import Location from 'virtual:icons/typcn/location';
-  import Phone from 'virtual:icons/solar/phone-linear';
-  import Email from 'virtual:icons/iconamoon/email';
+  import Container from "$lib/components/container.svelte";
+  import CircularButton from "$lib/components/circular_button.svelte";
+  import Facebook from "virtual:icons/gg/facebook";
+  import Twitter from "virtual:icons/ant-design/twitter-outlined";
+  import Instagram from "virtual:icons/ant-design/instagram";
+  import Location from "virtual:icons/typcn/location";
+  import Phone from "virtual:icons/solar/phone-linear";
+  import Email from "virtual:icons/iconamoon/email";
 </script>
 
 <Container style="background-color: #040707;">
   <div class="footer">
     <div class="left">
-      <h3>Empowering lives with the most advanced defibrillation technology.</h3>
+      <h3>
+        Empowering lives with the most advanced defibrillation technology.
+      </h3>
       <div class="icon">
         <CircularButton>
           <Facebook />
@@ -48,36 +50,34 @@
         <h4>Contact Us</h4>
         <div class="contactContainer">
           <CircularButton bgColor="#363939" scale=".8">
-            <Location/>
+            <Location />
           </CircularButton>
           <div class="addressText">
-          <p>Iggy Street <br> 1000 - Switzerland</p>
+            <p>Iggy Street <br /> 1000 - Switzerland</p>
           </div>
         </div>
         <div class="contactContainer">
           <CircularButton bgColor="#363939" scale=".8">
-            <Phone/>
+            <Phone />
           </CircularButton>
           <div class="addressText">
-          <p>+41 21 311 25 38</p>
+            <p>+41 21 311 25 38</p>
           </div>
         </div>
         <div class="contactContainer">
           <CircularButton bgColor="#363939" scale=".8">
-            <Email/>
+            <Email />
           </CircularButton>
           <div class="addressText">
-          <p>info@swissdefibrillator.ch</p>
+            <p>info@swissdefibrillator.ch</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-
 </Container>
 <div class="endContainer">
-  <hr class="gray-line">
+  <hr class="gray-line" />
 
   <div class="divider">
     <span>Terms & Conditions</span>
@@ -94,8 +94,9 @@
     padding-top: 3.5vw;
     padding-bottom: 3vw;
   }
-  
-  .left, .right {
+
+  .left,
+  .right {
     display: flex;
     flex-direction: column;
   }
@@ -117,11 +118,11 @@
   }
 
   .addressText p {
-      margin: 0;
+    margin: 0;
   }
 
   .right p {
-    color: #B9B9B9;
+    color: #b9b9b9;
     font-size: 1vw;
   }
 
@@ -149,10 +150,6 @@
     justify-content: center;
     padding-bottom: 0.5vw;
     padding: 0.8vw;
-    color: #B9B9B9;
+    color: #b9b9b9;
   }
-
-
 </style>
-
-

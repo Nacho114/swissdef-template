@@ -10,19 +10,19 @@ Icons can be found [here](http://icon-sets.iconify.design).
 - [x] Dynamic page creation based on product list
 - [x] Routing example
 - [x] Image loading example
-- [x] Main css file 
+- [x] Main css file
 - [x] Icon [library](https://iconify.design/docs/usage/svg/unplugin/)
 
 ## Road map
 
-- [ ] Add different font formats in style for better accessability. 
+- [ ] Add different font formats in style for better accessability.
 - [ ] Add SEO
 - [ ] Deploy
 - [ ] $$$ Profit
 
 ## Developing
 
-### nvim - coc 
+### nvim - coc
 
 If running nvim coc install the [syntax highlighting](https://github.com/coc-extensions/coc-svelte)
 

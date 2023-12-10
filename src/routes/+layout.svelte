@@ -1,8 +1,8 @@
 <script>
-	import './styles.css';
-  import '$lib/i18n.ts';
-  import Header from '$lib/sections/layout/header.svelte';
-  import Footer from '$lib/sections/layout/footer.svelte';
+  import "./styles.css";
+  import "$lib/i18n.ts";
+  import Header from "$lib/sections/layout/header.svelte";
+  import Footer from "$lib/sections/layout/footer.svelte";
 </script>
 
 <div class="header">
@@ -16,14 +16,12 @@
 </div>
 
 <style>
+  .header {
+    margin-top: 6px;
+    margin-bottom: 20px;
+  }
 
-.header {
-  margin-top: 6px;
-  margin-bottom: 20px;
-}
-
-.footer {
-  margin-top: 6vw;
-}
-
+  .footer {
+    margin-top: 6vw;
+  }
 </style>

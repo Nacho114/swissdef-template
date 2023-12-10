@@ -1,5 +1,4 @@
 :root {
-
   /* Padding */
 
   --main-padding-left: 80px;
@@ -12,19 +11,18 @@
   --global-color-light: #f6f7f8;
   --global-color-gray: #565758;
   --global-color-gray-light: #737780;
-
 }
 
 @font-face {
-    font-family: 'Outfit-Regular';
-    font-style: normal;
-    src: url('/fonts/Outfit-Regular.ttf') format('truetype');
+  font-family: "Outfit-Regular";
+  font-style: normal;
+  src: url("/fonts/Outfit-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Oswald-SemiBold';
-    font-style: normal;
-    src: url('/fonts/Oswald-SemiBold.ttf') format('truetype');
+  font-family: "Oswald-SemiBold";
+  font-style: normal;
+  src: url("/fonts/Oswald-SemiBold.ttf") format("truetype");
 }
 
 body {

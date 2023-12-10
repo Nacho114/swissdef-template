@@ -3,9 +3,21 @@
   <h2>Trusted By World’s Most Favourite Brands</h2>
   <div class="brand-logos">
     <img class="logo" src="/assets/home/clients/ibis.png" alt="Novotel Logo" />
-    <img class="logo" src="/assets/home/clients/novotel.png" alt="Novotel Logo" />
-    <img class="logo" src="/assets/home/clients/cdf-logo.png" alt="Novotel Logo" />
-    <img class="logo" src="/assets/home/clients/logitech.png" alt="Novotel Logo" />
+    <img
+      class="logo"
+      src="/assets/home/clients/novotel.png"
+      alt="Novotel Logo"
+    />
+    <img
+      class="logo"
+      src="/assets/home/clients/cdf-logo.png"
+      alt="Novotel Logo"
+    />
+    <img
+      class="logo"
+      src="/assets/home/clients/logitech.png"
+      alt="Novotel Logo"
+    />
     <!-- Add other logos similarly -->
   </div>
 </div>
@@ -36,4 +48,3 @@
     max-height: 60px; /* Set a max height for the logos for consistency. Adjust as needed. */
   }
 </style>
-

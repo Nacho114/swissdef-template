@@ -77,8 +77,4 @@
     gap: 4px;
     font-size: 1.3vw; /* Adjust as needed for the button's text */
   }
-
-  .button ChevronRight {
-    font-size: 1.5vw; /* Adjust this as needed */
-  }
 </style>

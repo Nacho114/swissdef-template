@@ -1,5 +1,6 @@
 <script lang="ts">
   import Container from "$lib/components/container.svelte";
+  import MobileHeader from "./header_mobile.svelte";
   import LOGO from "$lib/svg/logo.svelte";
   import Locale from "./locale.svelte";
 </script>
@@ -29,7 +30,9 @@
   </div>
 
   <!-- Content for mobile screens -->
-  <div class="mobile-header">Hello World</div>
+  <div class="mobile-header">
+    <MobileHeader />
+  </div>
 </Container>
 
 <style>
@@ -94,8 +97,6 @@
     /* Show mobile header */
     .mobile-header {
       display: block;
-      text-align: center;
-      /* Additional styling for mobile header */
     }
   }
 </style>

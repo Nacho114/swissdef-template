@@ -33,6 +33,7 @@
   "type": "module",
   "dependencies": {
     "@rollup/plugin-json": "^6.0.0",
+    "intl-messageformat": "^10.5.8",
     "svelte-i18n": "^3.7.4"
   }
 }

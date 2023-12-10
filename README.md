@@ -41,6 +41,10 @@ npm run dev
 npm run dev -- --open
 ```
 
+Setup pre-commit hooks
+
+`pnpm husky install`
+
 ## Building
 
 To create a production version of your app:

@@ -21,6 +21,8 @@
     border-radius: 50%;
     width: 2.6vw;
     height: 2.6vw;
+    min-height: 40px;
+    min-width: 40px;
     text-decoration: none;
     transition: background-color 0.3s ease;
   }

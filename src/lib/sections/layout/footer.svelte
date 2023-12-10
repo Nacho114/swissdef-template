@@ -103,11 +103,32 @@
 
   .left h3 {
     width: 17vw;
+    text-align: left;
   }
 
   .right {
     display: flex;
     flex-direction: row;
+  }
+
+  /* Media query for smaller screens (adjust the breakpoint as needed) */
+  @media (max-width: 600px) {
+    .footer {
+      flex-direction: column; /* Stack vertically on smaller screens */
+      padding-left: var(--main-padding-sides-mobile);
+      padding-right: var(--main-padding-sides-mobile);
+    }
+
+    .right {
+      text-align: left;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .left h3 {
+      width: 70vw;
+    }
   }
 
   .contactContainer {
@@ -123,16 +144,12 @@
 
   .right p {
     color: #b9b9b9;
-    font-size: 1vw;
-  }
-
-  .sub-div {
-    margin-left: 20px;
+    font-size: 12px;
   }
 
   .icon {
     display: flex;
-    gap: 0.8vw;
+    gap: 20px;
   }
 
   .endContainer {
@@ -146,10 +163,10 @@
 
   .divider {
     display: flex;
-    gap: 1vw;
+    flex-wrap: wrap;
+    gap: 10px;
     justify-content: center;
-    padding-bottom: 0.5vw;
-    padding: 0.8vw;
+    padding: 12px;
     color: #b9b9b9;
   }
 </style>

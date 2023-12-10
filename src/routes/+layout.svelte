@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import "./styles.css";
   import "$lib/i18n.ts";
   import Header from "$lib/sections/layout/header.svelte";

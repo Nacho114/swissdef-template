@@ -9,7 +9,7 @@ addMessages("fr", fr);
 addMessages("de", de);
 
 const navigatorLocale = getLocaleFromNavigator();
-let matchedLocale = undefined;
+let matchedLocale = "fr";
 
 if (navigatorLocale) {
   const match = /^(en|fr|de)/.exec(navigatorLocale);

@@ -1,5 +1,9 @@
 # Svelte template for Swiss defibrillator
 
+## TODO
+
+- Have only 3-4 different font sizes.
+
 ## Icons
 
 Icons can be found [here](http://icon-sets.iconify.design).

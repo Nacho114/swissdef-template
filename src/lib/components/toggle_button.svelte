@@ -1,6 +1,6 @@
 <script lang="ts">
-  export let button1: string = 'Accessories'; // Default button 1 text
-  export let button2: string = 'Defibrillators'; // Default button 2 text
+  export let button1: string;
+  export let button2: string;
   let selected: string = button1; // Initialize selected button with button1
 </script>
 
@@ -40,6 +40,4 @@
     background-color: black;
     color: white;
   }
-
 </style>
-

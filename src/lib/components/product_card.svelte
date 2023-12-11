@@ -7,22 +7,24 @@
 </script>
 
 <div class="product-card">
-  <img src={imagePath} alt={title} class="product-image"/>
+  <img src={imagePath} alt={title} class="product-image" />
+  <div class="product-info-container">
   <div class="product-info">
     <h2 class="product-title">{title}</h2>
     <p class="product-summary">{summary}</p>
     <p class="product-price">{price}</p>
   </div>
+  </div>
 </div>
 
 <style>
   .product-card {
-    width: calc(100% / 3 - 2rem); /* 3 per row, adjust margin as needed */
-    margin: 1rem; /* Spacing between cards */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for depth */
+    width: 25vw; /* 3 per row, adjust margin as needed */
+    padding: 0.5vw;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional: adds a shadow for depth */
     border-radius: 8px; /* Optional: rounds the corners */
     overflow: hidden; /* Ensures the content respects border radius */
-    background-color: #fff; /* White background */
+    background-color: var(--global-color-light); /* White background */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,12 +32,23 @@
   }
 
   .product-image {
-    max-width: 100%; /* Ensures the image doesn't exceed the card's width */
+    padding-top: 4vw;
+    max-width: 80%; /* Ensures the image doesn't exceed the card's width */
     height: auto; /* Maintains aspect ratio */
   }
 
+  .product-info-container {
+    border-radius: 4px;
+    width: 100%;
+    background-color: white;
+    }
+
   .product-info {
     padding: 1rem; /* Padding inside the card */
+    padding-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
   }
 
   .product-title {

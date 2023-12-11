@@ -9,11 +9,11 @@
 <div class="product-card">
   <img src={imagePath} alt={title} class="product-image" />
   <div class="product-info-container">
-  <div class="product-info">
-    <h2 class="product-title">{title}</h2>
-    <p class="product-summary">{summary}</p>
-    <p class="product-price">{price}</p>
-  </div>
+    <div class="product-info">
+      <h2 class="product-title">{title}</h2>
+      <p class="product-summary">{summary}</p>
+      <p class="product-price">{price}</p>
+    </div>
   </div>
 </div>
 
@@ -41,7 +41,7 @@
     border-radius: 4px;
     width: 100%;
     background-color: white;
-    }
+  }
 
   .product-info {
     padding: 1rem; /* Padding inside the card */

@@ -6,7 +6,7 @@
   import { _ } from "svelte-i18n";
   import { products } from "$lib/products";
 
-  let more_products = products.concat(products).concat(products)
+  let more_products = products.concat(products).concat(products);
 </script>
 
 <div class="toggle-container">
@@ -14,16 +14,16 @@
 </div>
 
 <Container>
-<div class="product-grid">
-  {#each more_products as { img, slug }}
-    <ProductCard
-      imagePath={`/assets/products/${img}.jpg`}
-      title={$_(slug + "_title")}
-      summary={$_(slug + "_summary")}
-      price={"2"}
-    />
-  {/each}
-</div>
+  <div class="product-grid">
+    {#each more_products as { img, slug }}
+      <ProductCard
+        imagePath={`/assets/products/${img}.jpg`}
+        title={$_(slug + "_title")}
+        summary={$_(slug + "_summary")}
+        price={"2"}
+      />
+    {/each}
+  </div>
 </Container>
 
 <style>

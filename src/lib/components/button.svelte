@@ -19,7 +19,7 @@
     display: inline-block;
     text-align: center;
     font-weight: 500;
-    white-space: nowrap;
+    white-space: normal;
   }
 
   .appointment-btn:hover {

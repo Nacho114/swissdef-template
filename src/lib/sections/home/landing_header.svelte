@@ -36,19 +36,20 @@
 
   /* Text styling inside header */
   .landing-header h1 {
-    font-size: 4vw;
+    font-size: max(4vw, 20px); /* Sets a minimum font size of 24px */
     max-width: 90%;
     margin-bottom: 20px;
   }
 
   .landing-header p {
     font-weight: 50;
-    font-size: 1.3vw; /* Adjust as needed for appropriate scaling */
+    font-size: max(1.5vw, 14px); /* Sets a minimum font size of 24px */
     margin-bottom: 20px;
   }
 
   .subtitle {
     color: Var(--global-color-gray-light);
+    box-sizing: border-box;
   }
 
   /* Text container */
@@ -74,7 +75,18 @@
   .button {
     display: flex;
     align-items: center;
-    gap: 4px;
-    font-size: 1.3vw; /* Adjust as needed for the button's text */
+    gap: 6px;
+    font-size: max(1.5vw, 12px); /* Sets a minimum font size of 12px */
+  }
+
+  @media (max-width: 768px) {
+    .landing-header {
+      flex-direction: column; /* Stack items in a column */
+    }
+
+    .header-text {
+      /* Hack due to weird behavior of subtitle */
+      width: 55vw;
+    }
   }
 </style>

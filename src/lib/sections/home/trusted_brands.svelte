@@ -33,12 +33,12 @@
   h2 {
     font-weight: 400; /* Less thick than the default h2 weight */
     color: var(--global-color-gray);
-    font-size: 1.2rem; /* Adjust size as needed */
-    margin-bottom: 1rem; /* Space below the heading */
+    font-size: max(3vw, 16px);
   }
 
   .brand-logos {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 2rem; /* Adjust the space between logos as needed */
     margin-top: 1.4rem; /* Space between the heading and the logos */
@@ -46,5 +46,18 @@
 
   .brand-logos img {
     max-height: 60px; /* Set a max height for the logos for consistency. Adjust as needed. */
+  }
+
+    @media (max-width: 600px) {
+    .brand-logos {
+      align-items: center; /* Center logos horizontally */
+      justify-content: center;
+    }
+
+    .brand-logos img {
+      max-width: 120px; /* Set a max width for the logos */
+      max-height: 60px; /* Keep max height for consistency */
+      margin-bottom: 1rem; /* Space between stacked logos */
+    }
   }
 </style>

@@ -79,7 +79,7 @@
     font-size: max(1.5vw, 12px); /* Sets a minimum font size of 12px */
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     .landing-header {
       flex-direction: column; /* Stack items in a column */
     }

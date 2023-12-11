@@ -1,26 +1,30 @@
-
 <!-- YourComponent.svelte -->
 <script lang="ts">
-  import { products } from "$lib/products";
-  import ToggleButtons from '$lib/components/toggle_button.svelte';
+  import Container from "$lib/components/container.svelte";
+  import ToggleButtons from "$lib/components/toggle_button.svelte";
   import ProductCard from "$lib/components/product_card.svelte";
   import { _ } from "svelte-i18n";
+  import { products } from "$lib/products";
+
+  let more_products = products.concat(products).concat(products)
 </script>
 
 <div class="toggle-container">
   <ToggleButtons button1="Defibrillators" button2="Accessories" />
 </div>
 
+<Container>
 <div class="product-grid">
-  {#each products as { img, slug }}
-    <ProductCard 
-      imagePath={`/assets/products/${img}.jpg`} 
-      title={$_(slug + "_title")} 
-      summary={$_(slug + "_summary")} 
-      price={"2"} 
+  {#each more_products as { img, slug }}
+    <ProductCard
+      imagePath={`/assets/products/${img}.jpg`}
+      title={$_(slug + "_title")}
+      summary={$_(slug + "_summary")}
+      price={"2"}
     />
   {/each}
 </div>
+</Container>
 
 <style>
   .toggle-container {
@@ -32,9 +36,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1rem; /* Space between cards */
-    justify-content: center; /* Distribute space around items */
+    justify-content: space-between; /* Distribute space around items */
     margin: 0 auto; /* Center the grid */
-    max-width: 1200px; /* Maximum width of the grid */
   }
 
   /* ProductCard component will take care of its own styling internally. */
@@ -46,4 +49,3 @@
     }
   }
 </style>
-

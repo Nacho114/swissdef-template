@@ -48,7 +48,7 @@
     max-height: 60px; /* Set a max height for the logos for consistency. Adjust as needed. */
   }
 
-    @media (max-width: 600px) {
+  @media (max-width: 600px) {
     .brand-logos {
       align-items: center; /* Center logos horizontally */
       justify-content: center;

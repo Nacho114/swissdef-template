@@ -28,7 +28,13 @@
   <div class="cta">
     <h1>All In One Place</h1>
     <p>We offer a vibe array of services to suit your needs</p>
-    <Button isOutlined={true}>Learn More</Button>
+    <div class="mobile-links">
+      <a href="/products">Products</a>
+      <a href="/training">Training</a>
+    </div>
+    <div class="learn-more-button">
+      <Button isOutlined={true}>Learn More</Button>
+    </div>
   </div>
 </div>
 
@@ -50,9 +56,50 @@
   }
 
   .cta p {
-    font-size: 1.3vw;
+    font-size: max(1.3vw, 16px);
     font-weight: 100;
     color: Var(--global-color-gray-light);
     margin-bottom: 1rem;
+  }
+
+  .mobile-links {
+    display: none; /* Hide the links by default */
+    text-align: center; /* Center align the links */
+    padding: 1rem 0; /* Add some vertical padding */
+  }
+
+  .mobile-links a {
+    display: inline-block; /* Display links inline-block for better control */
+    margin: 0.5rem; /* Add margin around each link */
+    padding: 0.5rem 1rem; /* Padding for clickable area */
+    background-color: #d45a4d; /* A nice shade of red */
+    color: white; /* White text color */
+    border-radius: 25px; /* Rounded corners for the links */
+    text-decoration: none; /* Remove underline from links */
+    transition:
+      background-color 0.3s,
+      color 0.3s; /* Smooth transition for hover effect */
+  }
+
+  .mobile-links a:hover,
+  .mobile-links a:focus {
+    background-color: #bf4e44; /* Slightly darker shade on hover/focus */
+    color: #ffffff; /* Keep text color white on hover/focus */
+  }
+
+  .mobile-links a:visited {
+    color: white; /* Ensure visited links remain white */
+  }
+
+  @media (max-width: 600px) {
+    .mobile-links {
+      display: block; /* Show the links on small screens */
+    }
+    .card-section {
+      display: none; /* Hide the services section on small screens */
+    }
+    .learn-more-button {
+      display: none;
+    }
   }
 </style>

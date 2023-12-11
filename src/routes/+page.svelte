@@ -18,6 +18,7 @@
 
 <img class="statistics" src="/assets/home/statistics.png" alt="info info" />
 
+
 <img
   class="statistics-mobile"
   src="/assets/home/statistics-mobile.png"
@@ -43,7 +44,6 @@
     display: none;
     padding-top: 3vw;
     padding-bottom: 3vw;
-    display: block;
     margin: 0 auto;
     width: 95vw;
     height: auto;

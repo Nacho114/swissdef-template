@@ -49,6 +49,9 @@
   }
 
   @media (max-width: 600px) {
+    .trusted-brands-section {
+      padding-bottom: 6vw;
+    }
     .brand-logos {
       align-items: center; /* Center logos horizontally */
       justify-content: center;

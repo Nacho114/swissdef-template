@@ -18,7 +18,6 @@
 
 <img class="statistics" src="/assets/home/statistics.png" alt="info info" />
 
-
 <img
   class="statistics-mobile"
   src="/assets/home/statistics-mobile.png"

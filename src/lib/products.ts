@@ -4,7 +4,7 @@ export interface Product {
   price: number;
 }
 
-export const products: Product[] = [
+export const defibrillators: Product[] = [
   {
     slug: "phillips_hs1",
     img: "phillips_hs1",
@@ -15,6 +15,9 @@ export const products: Product[] = [
     img: "phillips_frx",
     price: 69,
   },
+];
+
+export const accessories: Product[] = [
   {
     slug: "first_aid_kit",
     img: "first_aid_kit",

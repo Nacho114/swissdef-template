@@ -19,7 +19,7 @@
 
 <style>
   .product-card {
-    width: 25vw; /* 3 per row, adjust margin as needed */
+    width: 28vw; /* 3 per row, adjust margin as needed */
     padding: 0.5vw;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional: adds a shadow for depth */
     border-radius: 8px; /* Optional: rounds the corners */
@@ -66,5 +66,17 @@
     font-weight: bold; /* Highlights the price */
     font-size: 1.2rem; /* Adjust font size as needed */
     color: #333; /* Dark text for contrast */
+  }
+
+  @media (max-width: 1300px) {
+    .product-card {
+      width: 40vw; /* 3 per row, adjust margin as needed */
+    }
+  }
+
+  @media (max-width: 600px) {
+    .product-card {
+      width: 70vw; /* 3 per row, adjust margin as needed */
+    }
   }
 </style>

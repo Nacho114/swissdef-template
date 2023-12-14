@@ -1,18 +1,37 @@
 <script lang="ts">
+  import { createEventDispatcher } from "svelte";
+  const dispatch = createEventDispatcher();
+
   export let button1: string;
   export let button2: string;
+
   let selected: string = button1; // Initialize selected button with button1
+
+  // Reactive statement to reset the selected button if its name changes
+  $: if (selected !== button1 && selected !== button2) {
+    selected = button1;
+  }
+
+  function selectButton(button: string) {
+    selected = button;
+    dispatch("toggleChange", selected);
+  }
+
+  //function selectButton(button: string) {
+  //selected = button;
+  //dispatch('toggleChange', selected);
+  //}
 </script>
 
 <div class="button-group">
   <button
-    on:click={() => (selected = button1)}
+    on:click={() => selectButton(button1)}
     class:selected={selected === button1}
   >
     {button1}
   </button>
   <button
-    on:click={() => (selected = button2)}
+    on:click={() => selectButton(button2)}
     class:selected={selected === button2}
   >
     {button2}

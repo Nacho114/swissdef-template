@@ -9,13 +9,13 @@
     menuOpen = !menuOpen;
   }
 
-  function handleKeydown(event: any) {
+  function handleKeydown(event: KeyboardEvent) {
     // Check if the Enter key or Space key is pressed
     if (event.key === "Enter" || event.key === " ") {
       toggleMenu();
     }
   }
-  function handleOverlayKeydown(event: any) {
+  function handleOverlayKeydown(event: KeyboardEvent) {
     // Check if the Enter key or Space key is pressed
     if (event.key === "Enter" || event.key === " ") {
       toggleMenu();

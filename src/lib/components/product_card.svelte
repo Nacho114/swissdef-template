@@ -31,6 +31,21 @@
     text-align: center;
   }
 
+  .product-card {
+    /* Existing styles... */
+    cursor: pointer; /* Changes cursor to hand pointer on hover */
+    transition:
+      box-shadow 0.3s,
+      transform 0.3s; /* Smooth transition for shadow and transform */
+  }
+
+  .product-card:hover {
+    /* Add a more defined shadow on hover */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+
+    /* Move the card slightly to the top left */
+    transform: translate(-5px, -5px);
+  }
   .product-image {
     padding-top: 4vw;
     max-width: 80%; /* Ensures the image doesn't exceed the card's width */

@@ -24,3 +24,5 @@ export const accessories: Product[] = [
     price: 69,
   },
 ];
+
+export const products = defibrillators.concat(accessories);

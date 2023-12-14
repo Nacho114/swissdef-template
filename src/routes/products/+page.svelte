@@ -16,7 +16,6 @@
 
   // Function to handle toggle change
   function handleToggleChange(selectedProduct: string) {
-    // TODO: Use i18 here also! Else it will break
     if (selectedProduct === defibrillator_button_name) {
       more_products = _defibrillators;
     } else if (selectedProduct === accessories_button_name) {
@@ -39,12 +38,14 @@
 
   <div class="product-grid">
     {#each more_products as { img, slug }}
-      <ProductCard
-        imagePath={`/assets/products/${img}.jpg`}
-        title={$_(slug + "_title")}
-        summary={$_(slug + "_summary")}
-        price={"2"}
-      />
+      <a href="/products/{slug}" class="product-link">
+        <ProductCard
+          imagePath={`/assets/products/${img}.jpg`}
+          title={$_(slug + "_title")}
+          summary={$_(slug + "_summary")}
+          price={"2"}
+        />
+      </a>
     {/each}
   </div>
 </Container>

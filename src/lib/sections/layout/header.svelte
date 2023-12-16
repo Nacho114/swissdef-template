@@ -13,6 +13,7 @@
         <li>
           <a href="/">Home</a>
           <a href="/products">Products</a>
+          <a href="/services">Services</a>
           <a href="/training">Training</a>
         </li>
       </ul>

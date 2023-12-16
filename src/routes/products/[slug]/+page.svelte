@@ -7,11 +7,10 @@
   import { _ } from "svelte-i18n";
   export let data: Product;
 
-  function getI18nValue(
-    attribute: "title" | "summary" | "features" | "about",
-  ): string {
-    return $_(`section_products_${data.slug}_${attribute}`);
-  }
+  $: title = $_(`section_products_${data.slug}_title`);
+  $: summary = $_(`section_products_${data.slug}_summary`);
+  $: about = $_(`section_products_${data.slug}_about`);
+  $: features = $_(`section_products_${data.slug}_features`);
 </script>
 
 <Container>
@@ -27,9 +26,9 @@
       </div>
 
       <div class="product-info">
-        <h1>{getI18nValue("title")}</h1>
+        <h1>{title}</h1>
         <p>
-          {getI18nValue("summary")}
+          {summary}
         </p>
         <Button>
           <div class="button">
@@ -40,12 +39,10 @@
       </div>
     </div>
     <div class="about">
-      <InfoListCard title="About" infoListString={getI18nValue("about")}
-      ></InfoListCard>
+      <InfoListCard title="About" infoListString={about}></InfoListCard>
     </div>
     <div class="features">
-      <InfoListCard title="Features" infoListString={getI18nValue("features")}
-      ></InfoListCard>
+      <InfoListCard title="Features" infoListString={features}></InfoListCard>
     </div>
   </div>
 </Container>

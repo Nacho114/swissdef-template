@@ -2,18 +2,38 @@
 <script lang="ts">
   import Yes from "virtual:icons/healthicons/yes-negative";
   import No from "virtual:icons/healthicons/no-negative";
+  import { _ } from "svelte-i18n";
 
-  export let title: string;
-  export let price: string;
-  export let duration: string;
-  export let description: string;
-  export let features: { name: string; included: boolean }[];
+  export let slug: string;
+  export let price: number;
+  export let duration: number;
+
+  $: featuresString = $_(`maintenance_${slug}_features`);
+
+  let features: Array<{ name: string; included: boolean }> = [];
+  // Reactive statement for features
+  $: {
+    features = parseFeatures(featuresString);
+  }
+
+  // This function parses the feature string and is called inside the reactive block above
+  function parseFeatures(featuresString: string) {
+    return featuresString.split("\n").map((feature) => {
+      const [name, included] = feature.split("||");
+      return { name: name.trim(), included: included.trim() === "true" };
+    });
+  }
+
+  $: title = $_(`maintenance_${slug}_title`);
+  let price_info = `${price} CHF`;
+  let duration_info = `${duration}h`;
+  $: description = $_(`maintenance_${slug}_description`);
 </script>
 
 <div class="service-card">
   <h2 class="service-title">{title}</h2>
-  <div class="service-price">{price}</div>
-  <div class="service-duration">{duration}</div>
+  <div class="service-price">{price_info}</div>
+  <div class="service-duration">{duration_info}</div>
   <p class="service-description">{description}</p>
   <div class="service-features">
     <h3>All Features</h3>
@@ -83,5 +103,4 @@
     color: #333;
     margin-bottom: 0.5rem;
   }
-
 </style>

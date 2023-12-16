@@ -18,10 +18,6 @@
       toggled_products = accessories;
     }
   }
-
-  function getI18nValue(slug: string, attribute: "title" | "summary"): string {
-    return $_(`section_products_${slug}_${attribute}`);
-  }
 </script>
 
 <Container>
@@ -40,10 +36,9 @@
     {#each toggled_products as { img, slug }}
       <a href="/products/{slug}" class="product-link">
         <ProductCard
+          {slug}
           imagePath={`/assets/products/${img}.jpg`}
-          title={getI18nValue(slug, "title")}
-          summary={getI18nValue(slug, "summary")}
-          price={"2"}
+          price={2}
         />
       </a>
     {/each}

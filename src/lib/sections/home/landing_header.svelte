@@ -8,7 +8,7 @@
 <Container style="background-color: #F2EEF5;">
   <div class="landing-header">
     <div class="header-text">
-      <h1>{$_("landing_header_title")}</h1>
+      <h1>{$_("section_home_landing_header_title")}</h1>
       <p class="subtitle">One life-saving device at a time</p>
       <Button>
         <div class="button">

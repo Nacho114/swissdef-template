@@ -5,21 +5,17 @@
   import { _ } from "svelte-i18n";
   import { defibrillators, accessories } from "$lib/products";
 
-  let _defibrillators = defibrillators
-    .concat(defibrillators)
-    .concat(defibrillators);
-  let _accessories = accessories.concat(accessories);
-  let more_products = _defibrillators; // default to defibrillators
+  let toggled_products = defibrillators; // default to defibrillators
 
-  $: defibrillator_button_name = $_("defibrillator");
-  $: accessories_button_name = $_("accessories");
+  $: defibrillator_button_name = $_("section_general_defibrillator");
+  $: accessories_button_name = $_("section_general_accessories");
 
   // Function to handle toggle change
   function handleToggleChange(selectedProduct: string) {
     if (selectedProduct === defibrillator_button_name) {
-      more_products = _defibrillators;
+      toggled_products = defibrillators;
     } else if (selectedProduct === accessories_button_name) {
-      more_products = _accessories;
+      toggled_products = accessories;
     }
   }
 </script>
@@ -37,12 +33,12 @@
   </div>
 
   <div class="product-grid">
-    {#each more_products as { img, slug }}
+    {#each toggled_products as { img, slug }}
       <a href="/products/{slug}" class="product-link">
         <ProductCard
           imagePath={`/assets/products/${img}.jpg`}
-          title={$_(slug + "_title")}
-          summary={$_(slug + "_summary")}
+          title={$_("section_products_" + slug + "_title")}
+          summary={$_("section_products_" + slug + "_summary")}
           price={"2"}
         />
       </a>

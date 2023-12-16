@@ -1,9 +1,13 @@
 <!-- ProductCard.svelte -->
 <script lang="ts">
+  export let slug: string;
   export let imagePath: string;
-  export let title: string;
-  export let summary: string;
-  export let price: string;
+  export let price: number;
+  import { _ } from "svelte-i18n";
+
+  // Reactive statement that updates the i18n keys when language changes
+  $: title = $_(`section_products_${slug}_title`);
+  $: summary = $_(`section_products_${slug}_summary`);
 </script>
 
 <div class="product-card">

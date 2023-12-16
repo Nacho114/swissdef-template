@@ -44,7 +44,7 @@
         <ul>
           <li><a href="/" on:click={toggleMenu}>Home</a></li>
           <li><a href="/products" on:click={toggleMenu}>Products</a></li>
-          <li><a href="/services" on:click={toggleMenu}>Services</a></li>
+          <li><a href="/maintenance" on:click={toggleMenu}>Maintenance</a></li>
           <li><a href="/training" on:click={toggleMenu}>Training</a></li>
         </ul>
       </nav>

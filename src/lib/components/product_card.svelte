@@ -40,7 +40,6 @@
       transform 0.3s; /* Smooth transition for shadow and transform */
   }
 
-
   .product-card:hover {
     /* Add a more defined shadow on hover */
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);

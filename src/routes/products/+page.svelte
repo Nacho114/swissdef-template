@@ -70,9 +70,9 @@
     margin-top: 2vw;
   }
 
-.product-link {
-  text-decoration: none;
-  color: black;
+  .product-link {
+    text-decoration: none;
+    color: black;
   }
 
   /* ProductCard component will take care of its own styling internally. */

@@ -65,9 +65,14 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1rem; /* Space between cards */
-    justify-content: space-between; /* Distribute space around items */
+    justify-content: flex-start; /* Distribute space around items */
     margin: 0 auto; /* Center the grid */
     margin-top: 2vw;
+  }
+
+.product-link {
+  text-decoration: none;
+  color: black;
   }
 
   /* ProductCard component will take care of its own styling internally. */

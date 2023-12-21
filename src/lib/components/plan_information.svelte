@@ -65,6 +65,7 @@
 
   .yes-icon,
   .no-icon {
+    display: flex;
     margin-right: 0.5rem;
   }
 

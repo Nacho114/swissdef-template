@@ -27,10 +27,23 @@
   .service-card {
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional: adds a shadow for depth */
     padding: 2rem;
     max-width: 400px;
+    cursor: pointer; /* Changes cursor to hand pointer on hover */
+    transition:
+      box-shadow 0.3s,
+      transform 0.3s; /* Smooth transition for shadow and transform */
   }
+
+  .service-card:hover {
+    /* Add a more defined shadow on hover */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+
+    /* Move the card slightly to the top left */
+    transform: translate(-5px, -5px);
+  }
+
 
   .service-title {
     color: #333;

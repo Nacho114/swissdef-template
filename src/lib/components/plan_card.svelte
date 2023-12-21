@@ -1,7 +1,7 @@
 <!-- ServiceCard.svelte -->
 <script lang="ts">
-  import Yes from "virtual:icons/healthicons/yes-negative";
-  import No from "virtual:icons/healthicons/no-negative";
+  import Yes from "virtual:icons/healthicons/yes";
+  import No from "virtual:icons/healthicons/no";
   import { _ } from "svelte-i18n";
 
   export let slug: string;
@@ -41,9 +41,13 @@
       {#each features as feature}
         <li class="feature-item">
           {#if feature.included}
-            <Yes class="icon included" />
+            <div class="yes-icon">
+              <Yes />
+            </div>
           {:else}
-            <No class="icon not-included" />
+            <div class="no-icon">
+              <No />
+            </div>
           {/if}
           {feature.name}
         </li>
@@ -58,7 +62,6 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 2rem;
-    margin: 1rem;
     max-width: 400px;
   }
 
@@ -70,7 +73,7 @@
 
   .service-price {
     font-size: 2rem;
-    color: #4caf50; /* Green for price */
+    color: black;
     margin-bottom: 0.5rem;
   }
 
@@ -102,5 +105,12 @@
     font-size: 1rem;
     color: #333;
     margin-bottom: 0.5rem;
+  }
+
+  .yes-icon {
+    color: #7c67fe;
+  }
+  .no-icon {
+    color: #ff4794;
   }
 </style>

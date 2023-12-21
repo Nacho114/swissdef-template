@@ -38,11 +38,14 @@
         </Button>
       </div>
     </div>
-    <div class="about">
-      <InfoListCard title="About" infoListString={about}></InfoListCard>
+    <div>
+      <InfoListCard title="Description" infoListString={about}></InfoListCard>
     </div>
-    <div class="features">
-      <InfoListCard title="Features" infoListString={features}></InfoListCard>
+    <div>
+      <InfoListCard title="Specification" infoListString={features}></InfoListCard>
+    </div>
+    <div>
+      <InfoListCard title="Returns & Warrant" infoListString={features}></InfoListCard>
     </div>
   </div>
 </Container>

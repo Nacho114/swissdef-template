@@ -24,6 +24,7 @@
 <style>
   .product-card {
     width: 28vw; /* 3 per row, adjust margin as needed */
+    height: 50vw;
     padding: 0.5vw;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional: adds a shadow for depth */
     border-radius: 8px; /* Optional: rounds the corners */
@@ -33,15 +34,12 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-  }
-
-  .product-card {
-    /* Existing styles... */
     cursor: pointer; /* Changes cursor to hand pointer on hover */
     transition:
       box-shadow 0.3s,
       transform 0.3s; /* Smooth transition for shadow and transform */
   }
+
 
   .product-card:hover {
     /* Add a more defined shadow on hover */
@@ -90,12 +88,14 @@
   @media (max-width: 1300px) {
     .product-card {
       width: 40vw; /* 3 per row, adjust margin as needed */
+      height: auto;
     }
   }
 
   @media (max-width: 600px) {
     .product-card {
-      width: 70vw; /* 3 per row, adjust margin as needed */
+      width: 85vw; /* 3 per row, adjust margin as needed */
+      height: auto;
     }
   }
 </style>

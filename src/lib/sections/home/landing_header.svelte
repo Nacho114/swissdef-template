@@ -5,7 +5,7 @@
   import { _ } from "svelte-i18n";
 </script>
 
-<Container style="background-color: #F2EEF5;">
+<Container>
   <div class="landing-header">
     <div class="header-text">
       <h1>{$_("section_home_landing_header_title")}</h1>

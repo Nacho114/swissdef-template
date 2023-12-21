@@ -44,7 +44,6 @@
     transform: translate(-5px, -5px);
   }
 
-
   .service-title {
     color: #333;
     font-size: 1.5rem;

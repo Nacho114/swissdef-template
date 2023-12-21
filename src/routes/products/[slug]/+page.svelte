@@ -42,10 +42,12 @@
       <InfoListCard title="Description" infoListString={about}></InfoListCard>
     </div>
     <div>
-      <InfoListCard title="Specification" infoListString={features}></InfoListCard>
+      <InfoListCard title="Specification" infoListString={features}
+      ></InfoListCard>
     </div>
     <div>
-      <InfoListCard title="Returns & Warrant" infoListString={features}></InfoListCard>
+      <InfoListCard title="Returns & Warrant" infoListString={features}
+      ></InfoListCard>
     </div>
   </div>
 </Container>

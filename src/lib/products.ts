@@ -39,6 +39,19 @@ export const defibrillators: Product[] = [
     type: ProductType.Accessory,
   },
   {
+    slug: "philips_hs1_electrodes_child",
+    img: "pads/philips_hs1_child",
+    price: 69,
+    type: ProductType.Accessory,
+  },
+  {
+    slug: "philips_frx_electrodes_child",
+    img: "pads/philips_frx_child",
+    price: 69,
+    type: ProductType.Accessory,
+  },
+
+  {
     slug: "philips_hs1_frx_batteries",
     img: "batteries/philips_hs1_frx",
     price: 69,
@@ -61,8 +74,8 @@ export const accessories: Product[] = [
     type: ProductType.Accessory,
   },
   {
-    slug: "philips_hs1_perspex",
-    img: "cabinet/philips_hs1_perspex",
+    slug: "philips_hs1_plexiglas",
+    img: "cabinet/philips_hs1_plexiglas",
     price: 69,
     type: ProductType.Accessory,
   },

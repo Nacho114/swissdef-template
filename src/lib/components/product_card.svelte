@@ -50,7 +50,7 @@
     transform: translate(-5px, -5px);
   }
 
-   .image-container {
+  .image-container {
     width: 24vw; /* or another appropriate size */
     height: 20vw; /* or another appropriate size */
     padding: 1vw; /* Adjust padding to create uniformity */

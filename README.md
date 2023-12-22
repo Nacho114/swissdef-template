@@ -8,7 +8,7 @@
 
 Icons can be found [here](http://icon-sets.iconify.design).
 
-## Images 
+## Images
 
 More images can be found [here](https://mega.nz/folder/tKdHVJ5D#g1wS8E-bZsXK3kLAW8-uBQ)
 

@@ -37,15 +37,23 @@
   }
 </script>
 
-<InfoCard {title}>
-  <ul>
-    {#each infoKeyValuePairs as info}
-      <li>
-        {#if info.key}
-          <strong>{info.key}:</strong>
-        {/if}
-        {info.value}
-      </li>
-    {/each}
-  </ul>
-</InfoCard>
+<div class="container">
+  <InfoCard {title}>
+    <ul>
+      {#each infoKeyValuePairs as info}
+        <li>
+          {#if info.key}
+            <strong>{info.key}:</strong>
+          {/if}
+          {info.value}
+        </li>
+      {/each}
+    </ul>
+  </InfoCard>
+</div>
+
+<style>
+  .container {
+    width: 100%;
+  }
+</style>

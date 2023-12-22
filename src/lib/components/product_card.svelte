@@ -28,7 +28,7 @@
     width: 28vw; /* 3 per row, adjust margin as needed */
     height: 50vw;
     padding: 0.5vw;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional: adds a shadow for depth */
+    box-shadow: var(--box-shadow); /* Optional: adds a shadow for depth */
     border-radius: 8px; /* Optional: rounds the corners */
     overflow: hidden; /* Ensures the content respects border radius */
     background-color: var(--global-color-light); /* White background */

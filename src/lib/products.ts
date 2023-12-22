@@ -16,31 +16,31 @@ export interface Product {
 export const defibrillators: Product[] = [
   {
     slug: "philips_hs1",
-    img: "philips_hs1",
+    img: "defibrillator/philips_hs1_1",
     price: 12,
     type: ProductType.Defibrillator,
   },
   {
     slug: "philips_frx",
-    img: "philips_hs1",
+    img: "defibrillator/philips_frx_1",
     price: 69,
     type: ProductType.Defibrillator,
   },
   {
     slug: "philips_hs1_electrodes",
-    img: "philips_hs1",
+    img: "pads/philips_hs1",
     price: 69,
     type: ProductType.Accessory,
   },
   {
     slug: "philips_frx_electrodes",
-    img: "philips_hs1",
+    img: "pads/philips_frx",
     price: 69,
     type: ProductType.Accessory,
   },
   {
     slug: "philips_hs1_frx_batteries",
-    img: "philips_hs1",
+    img: "batteries/philips_hs1_frx",
     price: 69,
     type: ProductType.Accessory,
   },
@@ -49,20 +49,38 @@ export const defibrillators: Product[] = [
 // Array of accessory products with type
 export const accessories: Product[] = [
   {
-    slug: "aivia_wall_cabinets",
-    img: "philips_hs1",
+    slug: "aivia_100",
+    img: "cabinet/aivia_100",
     price: 69,
     type: ProductType.Accessory,
   },
   {
-    slug: "aed_wall_mounts",
-    img: "philips_hs1",
+    slug: "aivia_200",
+    img: "cabinet/aivia_200",
+    price: 69,
+    type: ProductType.Accessory,
+  },
+  {
+    slug: "philips_hs1_perspex",
+    img: "cabinet/philips_hs1_perspex",
+    price: 69,
+    type: ProductType.Accessory,
+  },
+  {
+    slug: "wap_cabinet",
+    img: "cabinet/wap",
     price: 69,
     type: ProductType.Accessory,
   },
   {
     slug: "philips_fast_response_kit",
-    img: "philips_hs1",
+    img: "aed-accessories/philips_fast_response_kit",
+    price: 69,
+    type: ProductType.Accessory,
+  },
+  {
+    slug: "aed_sticker",
+    img: "sign/aed_sticker",
     price: 69,
     type: ProductType.Accessory,
   },

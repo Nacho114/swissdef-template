@@ -11,7 +11,9 @@
 </script>
 
 <div class="product-card">
-  <img src={imagePath} alt={title} class="product-image" />
+  <div class="image-container">
+    <img src={imagePath} alt={title} class="product-image" />
+  </div>
   <div class="product-info-container">
     <div class="product-info">
       <h2 class="product-title">{title}</h2>
@@ -47,10 +49,21 @@
     /* Move the card slightly to the top left */
     transform: translate(-5px, -5px);
   }
+
+   .image-container {
+    width: 24vw; /* or another appropriate size */
+    height: 20vw; /* or another appropriate size */
+    padding: 1vw; /* Adjust padding to create uniformity */
+    display: flex; /* Ensures image is centered */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    background-color: white; /* Matches the image background */
+  }
+
   .product-image {
-    padding-top: 4vw;
-    max-width: 80%; /* Ensures the image doesn't exceed the card's width */
-    height: auto; /* Maintains aspect ratio */
+    max-width: 100%; /* Ensures the image doesn't exceed container's width */
+    max-height: 100%; /* Ensures the image doesn't exceed container's height */
+    object-fit: contain; /* Maintains aspect ratio and fits within the container */
   }
 
   .product-info-container {

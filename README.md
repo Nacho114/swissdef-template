@@ -8,6 +8,10 @@
 
 Icons can be found [here](http://icon-sets.iconify.design).
 
+## Images 
+
+More images can be found [here](https://mega.nz/folder/tKdHVJ5D#g1wS8E-bZsXK3kLAW8-uBQ)
+
 ## Features
 
 - [x] Multi language support via i18n

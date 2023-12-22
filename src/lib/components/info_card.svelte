@@ -17,10 +17,8 @@
   .info-card {
     background-color: white;
     border-radius: 4px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--box-shadow); /* Optional: adds a shadow for depth */
     padding: 1rem;
-    margin: 1rem;
-    max-width: 80vw;
   }
 
   .card-title {

@@ -12,6 +12,9 @@
   --global-color-light: #f6f7f8;
   --global-color-gray: #565758;
   --global-color-gray-light: #737780;
+  --global-color-blue: #7c67fe;
+
+  --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional: adds a shadow for depth */
 }
 
 @font-face {

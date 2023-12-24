@@ -15,6 +15,7 @@
           <a href="/products">Products</a>
           <a href="/maintenance">Maintenance</a>
           <a href="/training">Training</a>
+          <a href="/contact">Contact</a>
         </li>
       </ul>
     </nav>

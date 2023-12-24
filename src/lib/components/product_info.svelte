@@ -10,11 +10,7 @@
 
 <div class="container">
   <div class="product-image">
-    <span class="welcome">
-      <picture>
-        <img src={image_path} alt={title} />
-      </picture>
-    </span>
+    <img src={image_path} alt={title} />
   </div>
 
   <article class="product-info">
@@ -121,26 +117,38 @@
     color: gray;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 600px) {
     .container {
       flex-direction: column;
       align-items: center;
-      gap: 2rem; /* Adjust gap for vertical layout */
+      width: var(--main-mobile-container-width);
+      gap: 0rem; /* Adjust gap for vertical layout */
+      padding-top: 1rem;
+      padding-bottom: 1rem;
     }
 
     .product-image {
       width: 80vw; /* Adjust width for small screens */
-      height: 80vw; /* Adjust height for small screens */
+      height: auto; /* Adjust height for small screens */
+      padding: 0rem; /* Reduced padding for smaller screens */
+      margin: 0rem;
+    }
+
+    h1 {
+      margin-top: 0;
     }
 
     .product-info {
       width: 80vw; /* Adjust the width for smaller screens */
+      padding: 0rem; /* Reduced padding for smaller screens */
+      margin: 0rem;
       /* Other styling adjustments for smaller screens */
     }
 
     .header {
       flex-direction: column;
       align-items: center; /* Align title and price vertically */
+      margin-top: 0rem; /* Reduced top margin for smaller screens */
     }
 
     .buttons {

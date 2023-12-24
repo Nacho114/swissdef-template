@@ -26,7 +26,7 @@
 <style>
   .product-card {
     width: 28vw; /* 3 per row, adjust margin as needed */
-    height: 50vw;
+    height: 40vw;
     padding: 0.5vw;
     box-shadow: var(--box-shadow); /* Optional: adds a shadow for depth */
     border-radius: 8px; /* Optional: rounds the corners */
@@ -106,8 +106,25 @@
 
   @media (max-width: 600px) {
     .product-card {
-      width: 85vw; /* 3 per row, adjust margin as needed */
+      width: var(
+        --main-mobile-container-width
+      ); /* 3 per row, adjust margin as needed */
       height: auto;
+    }
+
+    .image-container {
+      width: 80vw; /* Increase the width to make image larger */
+      height: 40vw; /* Adjust height accordingly to maintain aspect ratio */
+      padding: 2vw; /* Optionally adjust padding for aesthetics */
+    }
+
+    .product-info {
+      padding: 1rem; /* Increase padding for smaller screens */
+    }
+
+    .product-image {
+      max-width: 100%; /* Ensures image fits within the new container size */
+      max-height: 100%; /* Adjusts height to fit within the new container size */
     }
   }
 </style>

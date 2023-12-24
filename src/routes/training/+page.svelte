@@ -36,12 +36,14 @@
     </div>
     <div class="training-cards-content">
       {#each toggledTrainings as training}
-        <PlanCard
-          service_type={"training"}
-          slug={training.slug}
-          price={training.price}
-          duration={training.duration}
-        />
+        <a href="/training/{training.slug}" class="product-link">
+          <PlanCard
+            service_type={"training"}
+            slug={training.slug}
+            price={training.price}
+            duration={training.duration}
+          />
+        </a>
       {/each}
     </div>
   </div>
@@ -59,6 +61,10 @@
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
+  }
+  .product-link {
+    text-decoration: none;
+    color: black;
   }
 
   h1 {

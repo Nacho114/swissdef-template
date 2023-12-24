@@ -26,7 +26,7 @@
 <style>
   .product-card {
     width: 28vw; /* 3 per row, adjust margin as needed */
-    height: 40vw;
+    height: 45vw;
     padding: 0.5vw;
     box-shadow: var(--box-shadow); /* Optional: adds a shadow for depth */
     border-radius: 8px; /* Optional: rounds the corners */

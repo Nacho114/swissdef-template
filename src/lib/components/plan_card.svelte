@@ -5,10 +5,11 @@
   export let slug: string;
   export let price: number;
   export let duration: number;
+  export let service_type: string;
 
-  $: featuresString = $_(`maintenance_${slug}_features`);
-  $: title = $_(`maintenance_${slug}_title`);
-  $: description = $_(`maintenance_${slug}_description`);
+  $: featuresString = $_(`${service_type}_${slug}_features`);
+  $: title = $_(`${service_type}_${slug}_title`);
+  $: description = $_(`${service_type}_${slug}_description`);
 
   let price_info = `${price} CHF`;
   let duration_info = `${duration}h`;

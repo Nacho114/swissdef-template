@@ -56,4 +56,14 @@
   .container {
     width: 100%;
   }
+
+  @media (max-width: 600px) {
+    .container {
+      width: var(--main-mobile-container-width);
+    }
+
+    ul {
+      padding-left: 10px; /* Reduced padding for smaller screens */
+    }
+  }
 </style>

@@ -1,7 +1,6 @@
 <script lang="ts">
   import Container from "$lib/components/container.svelte";
   import ContactInfo from "./contact_info.svelte";
-  import InfoRequest from "./info-request.svelte";
 </script>
 
 <Container>
@@ -30,7 +29,6 @@
   .main-container {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    margin-top: 4vw;
   }
 
   .contact-info {
@@ -40,6 +38,7 @@
   }
 
   .info-request {
+    margin-top: 4vw;
     width: 100%; /* Adjust as needed */
   }
 

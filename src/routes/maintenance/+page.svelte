@@ -34,4 +34,12 @@
     justify-content: center;
     gap: 3vw;
   }
+
+  @media (max-width: 600px) {
+    .maintenance-cards-content {
+      display: flex;
+      flex-direction: column; /* Stack left and right side on top of each other */
+      width: 85vw;
+    }
+  }
 </style>

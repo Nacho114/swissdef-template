@@ -15,6 +15,10 @@
   });
 </script>
 
+{#if source === ""}
+  <div class="empty" />
+{/if}
+
 <Container>
   <div class="container">
     <SvelteMarkdown {source} />
@@ -82,6 +86,10 @@
 
   .container :global(a:hover) {
     text-decoration: underline;
+  }
+
+  .empty {
+    height: 100vw;
   }
 
   /* Add additional global styles for other markdown elements as needed */

@@ -82,4 +82,21 @@
     justify-content: center;
     gap: 3vw;
   }
+
+  @media (max-width: 600px) {
+    .header {
+      display: flex;
+      flex-direction: column; /* Stack left and right side on top of each other */
+      width: 85vw;
+    }
+
+    .training-cards-content {
+      display: flex;
+      flex-direction: column; /* Stack left and right side on top of each other */
+      width: 85vw;
+    }
+    .training-cards-container {
+      gap: 8vw;
+    }
+  }
 </style>

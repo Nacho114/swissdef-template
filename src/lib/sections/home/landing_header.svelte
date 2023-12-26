@@ -10,7 +10,7 @@
     <div class="header-text">
       <h1>{$_("section_home_landing_header_title")}</h1>
       <p class="subtitle">One life-saving device at a time</p>
-      <Button>
+      <Button fullWidth={false}>
         <div class="button">
           Book an appointment
           <ChevronRight />
@@ -19,7 +19,7 @@
     </div>
 
     <div class="header-image">
-      <img src="/assets/home/phillips_hs1_home.png" alt="info info" />
+      <img src="/assets/home/phillips_hs1_home_l.png" alt="Phillips device" />
     </div>
   </div>
 </Container>
@@ -63,6 +63,7 @@
   .header-image {
     flex: 1;
     padding-right: 20px;
+    height: 33vw; /* Adjust as needed */
     max-width: 50%;
   }
 
@@ -75,6 +76,7 @@
   .button {
     display: flex;
     align-items: center;
+    width: auto;
     gap: 6px;
     font-size: max(1.5vw, 12px); /* Sets a minimum font size of 12px */
   }

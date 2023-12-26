@@ -1,6 +1,8 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
   import PlanInformation from "./plan_information.svelte";
+  import Button from "$lib/components/button.svelte";
+  import ChevronRight from "virtual:icons/gg/chevron-right";
 
   export let slug: string;
   export let price: number;
@@ -20,6 +22,13 @@
   <div class="service-price">{price_info}</div>
   <div class="service-duration">{duration_info}</div>
   <p class="service-description">{description}</p>
+  <div class="button">
+    <Button fullWidth={true}>
+      Order
+      <ChevronRight />
+    </Button>
+  </div>
+
   <PlanInformation {featuresString} />
   <PlanInformation {featuresString} />
 </div>

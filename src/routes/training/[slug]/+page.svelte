@@ -3,15 +3,25 @@
   import Container from "$lib/components/container.svelte";
   import SvelteMarkdown from "svelte-markdown";
   import { onMount } from "svelte";
+  import { _, locale } from "svelte-i18n";
 
   export let data: Training;
-
   let source = "";
 
-  onMount(async () => {
-    //TODO: HARDCODED PATH
-    const res = await fetch("/markdown/training/bls-aed.md");
+  // Reactive statement to handle locale changes
+  $: if ($locale) loadMarkdown($locale);
+
+  async function loadMarkdown(currentLocale: string) {
+    // Provide a default value for locale if it's undefined or null
+    currentLocale = currentLocale || "default"; // replace 'default' with your default locale
+
+    const filePath = `/markdown/training/bls-aed_${currentLocale}.md`;
+    const res = await fetch(filePath);
     source = await res.text();
+  }
+
+  onMount(() => {
+    if ($locale) loadMarkdown($locale);
   });
 </script>
 
@@ -20,14 +30,26 @@
 {/if}
 
 <Container>
-  <div class="container">
-    <SvelteMarkdown {source} />
+  <div class="box">
+    <div class="container">
+      <SvelteMarkdown {source} />
+    </div>
+    TODO
+    {data.slug}
   </div>
-  TODO
-  {data.slug}
 </Container>
 
 <style>
+  .box {
+    margin-top: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    width: 85vw;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional: adds a shadow for depth */
+  }
   .container {
     /* Applying styles specifically to markdown content within .container */
     width: 60vw;
@@ -97,6 +119,10 @@
   @media (max-width: 600px) {
     .container {
       width: 85vw;
+    }
+    .box {
+      border-radius: 0; /* Removes the border radius */
+      box-shadow: none; /* Removes the box shadow */
     }
   }
 </style>

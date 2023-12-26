@@ -1,17 +1,27 @@
 <script>
   export let isOutlined = false;
   export let isBlueColor = false; // New prop to toggle blue color
+  export let fullWidth = false; // Add this line for new prop
 </script>
 
 <button
   class="appointment-btn {isOutlined ? 'outlined' : ''} {isBlueColor
     ? 'blue-color'
-    : ''}"
+    : ''} {fullWidth ? 'full-width' : 'auto-width'}"
 >
   <slot />
 </button>
 
 <style>
+  .appointment-btn.full-width {
+    width: 100%;
+  }
+
+  .appointment-btn.auto-width {
+    width: auto; /* Or whatever default width you prefer */
+    display: inline-block; /* Adjust as necessary */
+  }
+
   .appointment-btn {
     background-color: #d45a4d;
     color: #ffffff;

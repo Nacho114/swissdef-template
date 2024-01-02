@@ -1,46 +1,62 @@
 <script lang="ts">
+  import { onMount } from "svelte";
+  import { locale } from "svelte-i18n";
   import type { Training } from "$lib/training";
   import Container from "$lib/components/container.svelte";
   import SvelteMarkdown from "svelte-markdown";
-  import { onMount } from "svelte";
-  import { _, locale } from "svelte-i18n";
+  import { fade } from "svelte/transition";
 
   export let data: Training;
   let source = "";
+  let previousLocale: string | undefined | null = undefined;
 
-  // Reactive statement to handle locale changes
-  $: if ($locale) loadMarkdown($locale);
-
-  async function loadMarkdown(currentLocale: string) {
+  // Function to load markdown based on the current locale
+  async function loadMarkdown(currentLocale: string | undefined | null) {
+    console.log("Loading markdown for locale: ", currentLocale);
     // Provide a default value for locale if it's undefined or null
-    currentLocale = currentLocale || "default"; // replace 'default' with your default locale
+    currentLocale = currentLocale || "en"; // replace 'default' with your default locale
 
-    const filePath = `/markdown/training/bls-aed_${currentLocale}.md`;
-    const res = await fetch(filePath);
-    source = await res.text();
+    try {
+      const filePath = `/markdown/training/bls-aed_${currentLocale}.md`;
+      const res = await fetch(filePath);
+      source = await res.text();
+    } catch (error) {
+      console.error("Failed to load markdown:", error);
+      source = "Content not found"; // Fallback text
+    }
   }
 
+  // Reactive statement to reload content when locale changes
+  $: if ($locale !== previousLocale && previousLocale !== undefined) {
+    previousLocale = $locale;
+    loadMarkdown($locale);
+  }
+
+  // Initialize previousLocale and load content on component mount
   onMount(() => {
-    if ($locale) loadMarkdown($locale);
+    previousLocale = $locale; // Track the initial locale
+    loadMarkdown($locale); // Load the initial markdown
   });
+
+  console.log(data.slug);
 </script>
 
-{#if source === ""}
-  <div class="empty" />
-{/if}
-
 <Container>
-  <div class="box">
-    <div class="container">
-      <SvelteMarkdown {source} />
-    </div>
-    TODO
-    {data.slug}
+  <div class="box" in:fade={{ duration: 300 }}>
+    <!-- Conditional rendering with fade transition for the content -->
+    {#if source !== ""}
+      <div class="container" in:fade={{ duration: 300, delay: 300 }}>
+        <SvelteMarkdown {source} />
+      </div>
+    {:else}
+      <!-- Maybe some loading indicator here if you want -->
+    {/if}
   </div>
 </Container>
 
 <style>
   .box {
+    min-height: 100vh; /* Make box at least as tall as the viewport */
     margin-top: 1vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
@@ -108,10 +124,6 @@
 
   .container :global(a:hover) {
     text-decoration: underline;
-  }
-
-  .empty {
-    height: 100vw;
   }
 
   /* Add additional global styles for other markdown elements as needed */

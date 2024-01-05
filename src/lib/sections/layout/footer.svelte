@@ -95,8 +95,7 @@
     padding-bottom: 3vw;
   }
 
-  .left,
-  .right {
+  .left {
     display: flex;
     flex-direction: column;
   }
@@ -109,6 +108,7 @@
   .right {
     display: flex;
     flex-direction: row;
+    gap: 2vw;
   }
 
   /* Media query for smaller screens (adjust the breakpoint as needed) */
@@ -164,7 +164,7 @@
   .divider {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 2.5vw;
     justify-content: center;
     padding: 12px;
     color: #b9b9b9;

@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { Product } from "$lib/products";
   import Container from "$lib/components/container.svelte";
-  import ProductInfo from "$lib/components/product_info.svelte";
+  import ProductInfo from "../product_info.svelte";
   import InfoListCard from "$lib/components/info_list_card.svelte";
   import { _ } from "svelte-i18n";
   export let data: Product;

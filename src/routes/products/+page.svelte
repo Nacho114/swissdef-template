@@ -1,7 +1,7 @@
 <script lang="ts">
   import Container from "$lib/components/container.svelte";
   import ToggleButtons from "$lib/components/toggle_button.svelte";
-  import ProductCard from "$lib/components/product_card.svelte";
+  import ProductCard from "./product_card.svelte";
   import { _ } from "svelte-i18n";
   import { defibrillators, accessories } from "$lib/products";
 

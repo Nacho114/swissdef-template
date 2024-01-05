@@ -10,12 +10,14 @@
     <h1>Maintenance</h1>
     <div class="maintenance-cards-content">
       {#each maintenances as m}
-        <PlanCard
-          service_type={"maintenance"}
-          slug={m.slug}
-          price={m.price}
-          duration={m.duration}
-        />
+        <a href="/maintenance/{m.slug}" class="product-link">
+          <PlanCard
+            service_type={"maintenance"}
+            slug={m.slug}
+            price={m.price}
+            duration={m.duration}
+          />
+        </a>
       {/each}
     </div>
   </div>
@@ -33,6 +35,11 @@
     display: flex;
     justify-content: center;
     gap: 3vw;
+  }
+
+  .product-link {
+    text-decoration: none;
+    color: black;
   }
 
   @media (max-width: 600px) {

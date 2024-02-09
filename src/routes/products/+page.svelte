@@ -37,7 +37,7 @@
       <a href="/products/{slug}" class="product-link">
         <ProductCard
           {slug}
-          imagePath={`/assets/products/${img}.jpg`}
+          imagePath={`/assets/products/${img}_s.jpg`}
           price={2}
         />
       </a>

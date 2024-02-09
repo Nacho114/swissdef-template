@@ -2,23 +2,38 @@
 <script lang="ts">
   export let slug: string;
   export let imagePath: string;
-  export let price: number;
   import { _ } from "svelte-i18n";
 
   // Reactive statement that updates the i18n keys when language changes
-  $: title = $_(`section_products_${slug}_title`);
-  $: summary = $_(`section_products_${slug}_summary`);
+  let title: string;
+  let summary: string;
+
+  let maxWords = 40; // Adjust the number of words you want to display
+  let truncatedSummary: string;
+
+  $: {
+    title = $_(`section_products_${slug}_title`);
+    summary = $_(`section_products_${slug}_summary`);
+    truncatedSummary = summarizeText(summary, maxWords);
+  }
+
+  function summarizeText(text: string, maxWords: number): string {
+    const words = text.split(" ");
+    const truncatedWords = words.slice(0, maxWords);
+    return truncatedWords.join(" ") + (words.length > maxWords ? "..." : "");
+  }
 </script>
 
 <div class="product-card">
-  <div class="image-container">
-    <img src={imagePath} alt={title} class="product-image" />
-  </div>
-  <div class="product-info-container">
-    <div class="product-info">
-      <h2 class="product-title">{title}</h2>
-      <p class="product-summary">{summary}</p>
-      <p class="product-price">{price}</p>
+  <div class="product-content">
+    <div class="image-container">
+      <img src={imagePath} alt={title} class="product-image" />
+    </div>
+    <div class="product-info-container">
+      <div class="product-info">
+        <h2 class="product-title">{title}</h2>
+        <p class="product-summary">{truncatedSummary}</p>
+      </div>
     </div>
   </div>
 </div>
@@ -35,6 +50,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
     cursor: pointer; /* Changes cursor to hand pointer on hover */
     transition:
@@ -48,6 +64,16 @@
 
     /* Move the card slightly to the top left */
     transform: translate(-5px, -5px);
+  }
+
+  .product-content {
+    border-radius: 8px; /* TODO make this a var to standarize borders */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 98%;
+    height: 98%;
   }
 
   .image-container {
@@ -89,12 +115,7 @@
   .product-summary {
     font-size: 1rem; /* Adjust font size as needed */
     margin-bottom: 1rem;
-  }
-
-  .product-price {
-    font-weight: bold; /* Highlights the price */
-    font-size: 1.2rem; /* Adjust font size as needed */
-    color: #333; /* Dark text for contrast */
+    overflow: hidden;
   }
 
   @media (max-width: 1300px) {

@@ -29,6 +29,11 @@
     flex-direction: column;
     gap: 4vw;
     align-items: center;
-    width: 100%; /* Set width to span the entire container */
+    justify-content: center;
+    background-color: Var(--global-color-gray-light-bg); /* Light gray background */
+    border-radius: Var(--border-radius);
+    padding: 3vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
   }
 </style>

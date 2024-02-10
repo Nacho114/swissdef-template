@@ -1,6 +1,7 @@
 <script lang="ts">
   import Button from "$lib/components/button.svelte";
   import ChevronRight from "virtual:icons/gg/chevron-right";
+  import Box from "$lib/components/box.svelte";
 
   export let image_path: string;
   export let title: string;
@@ -9,57 +10,61 @@
 </script>
 
 <div class="container">
-  <div class="product-image">
-    <img src={image_path} alt={title} />
-  </div>
+  <Box>
+    <div class="product-image">
+      <img src={image_path} alt={title} />
+    </div>
+  </Box>
 
-  <article class="product-info">
-    <div class="header">
-      <h1>{title}</h1>
-      <div class="price-vat-group">
-        <h2 class="price">CHF {price}</h2>
-        <h3 class="vat">VAT Included</h3>
+  <Box>
+    <article class="product-info">
+      <div class="header">
+        <h1>{title}</h1>
+        <div class="price-vat-group">
+          <h2 class="price">CHF {price}</h2>
+          <h3 class="vat">VAT Included</h3>
+        </div>
       </div>
-    </div>
 
-    <p class="summary">{summary}</p>
-    <div class="buttons">
-      <Button>
-        <div class="button-content">
-          Order
-          <ChevronRight />
-        </div>
-      </Button>
-      <Button isBlueColor={true}>
-        <div class="button-content">
-          Add Maintenance
-          <ChevronRight />
-        </div>
-      </Button>
-    </div>
-  </article>
+      <p class="summary">{summary}</p>
+      <div class="buttons">
+        <Button>
+          <div class="button-content">
+            Order
+            <ChevronRight />
+          </div>
+        </Button>
+        <Button isBlueColor={true}>
+          <div class="button-content">
+            Add Maintenance
+            <ChevronRight />
+          </div>
+        </Button>
+      </div>
+    </article>
+  </Box>
 </div>
 
 <style>
   .container {
     display: flex;
     flex-direction: row;
-    justify-content: center; /* Distributes space evenly */
-    gap: 10vw;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: var(--box-shadow); /* Optional: adds a shadow for depth */
-    margin: auto;
+    justify-content: space-between;
     width: 100%;
+  }
+
+  .product-info {
+    padding: 10px;
   }
 
   .product-image {
     width: 30vw; /* Fixed viewport width */
-    height: 30vw; /* Fixed viewport height to maintain aspect ratio */
+    height: 100%; /* Fixed viewport height to maintain aspect ratio */
     padding: 1vw; /* Padding around the image */
     display: flex;
     justify-content: center; /* Centers image horizontally */
     align-items: center; /* Centers image vertically */
+    margin: auto;
     overflow: hidden;
   }
 
@@ -88,6 +93,10 @@
     padding: 0;
   }
 
+  .price {
+    margin: 1px;
+  }
+
   .vat {
     color: gray;
     font-size: smaller; /* Optional: Make VAT text slightly smaller */
@@ -96,6 +105,8 @@
   .product-info {
     width: 30vw;
     padding: 1rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -112,53 +123,75 @@
     align-items: center;
   }
 
+  h1 {
+    margin: 0;
+  }
+
+  h2 {
+      margin: 0;
+      padding: 0;
+  }
+
   p {
-    font-size: 1.5vw;
+    font-size: 1.2rem;
     color: gray;
   }
 
-  @media (max-width: 600px) {
-    .container {
-      flex-direction: column;
-      align-items: center;
-      width: var(--main-mobile-container-width);
-      gap: 0rem; /* Adjust gap for vertical layout */
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-    }
-
-    .product-image {
-      width: 80vw; /* Adjust width for small screens */
-      height: auto; /* Adjust height for small screens */
-      padding: 0rem; /* Reduced padding for smaller screens */
-      margin: 0rem;
-    }
-
-    h1 {
-      margin-top: 0;
-    }
-
-    .product-info {
-      width: 80vw; /* Adjust the width for smaller screens */
-      padding: 0rem; /* Reduced padding for smaller screens */
-      margin: 0rem;
-      /* Other styling adjustments for smaller screens */
-    }
-
-    .header {
-      flex-direction: column;
-      align-items: center; /* Align title and price vertically */
-      margin-top: 0rem; /* Reduced top margin for smaller screens */
-    }
-
-    .buttons {
-      flex-direction: column; /* Stack buttons vertically */
-      gap: 1rem; /* Add space between buttons */
-    }
-
-    /* Other adjustments for smaller screen sizes */
-    p {
-      font-size: 4vw; /* Adjust font size for readability on small screens */
-    }
+@media (max-width: 1200px) {
+  .buttons {
+      flex-direction: column; /* Adjust if you want buttons side by side or use column for stacked */
+      width: 100%; /* Adjust based on content, could also be a percentage */
+      gap: 10px;
   }
+
+ .header {
+      flex-direction: column;
+      align-items: start;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .container {
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 4vw;
+      width: var(--main-mobile-container-width);
+  }
+
+  .product-info {
+    width: 80%;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+  }
+
+  .product-image {
+    width: 80vw; /* Adjust the width to a fixed viewport width percentage */
+    min-width: 200px; /* Minimum width to prevent the image from becoming too small */
+    height: auto; /* Maintain aspect ratio */
+    min-height: 100px; /* Minimum height to prevent the image from becoming too small */
+    padding: 10px; /* Adjust padding as needed */
+  }
+
+  .product-image img {
+    max-width: 100%; /* Allows the image to scale down */
+    max-height: auto; /* Adjust based on your design needs */
+    object-fit: cover; /* Keeps the aspect ratio, but you can change it to 'contain' if you don't want the image to be cropped */
+  }
+
+  .price-vat-group {
+    /* Control the grouping of price and VAT */
+    display: flex;
+    align-items: flex-start;
+  }
+
+  p {
+      font-size: 16px; /* Adjust font size for readability, avoid using vw for text if too small */
+      text-align: justify; /* Optional: adjust text alignment for better readability */
+  }
+}
+
+
 </style>

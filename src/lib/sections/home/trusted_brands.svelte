@@ -24,7 +24,7 @@
 
 <style>
   .trusted-brands-section {
-    background-color: #f5f5f5; /* Light gray background */
+    background-color: Var(--global-color-gray-light-bg); /* Light gray background */
     padding: 2rem; /* Adjust the padding as needed */
     padding-bottom: 4rem;
     text-align: center;

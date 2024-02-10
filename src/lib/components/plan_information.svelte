@@ -45,7 +45,6 @@
   }
 
   .service-features h3 {
-    font-size: 1.2rem;
     color: #333;
     margin-bottom: 0.5rem;
   }
@@ -58,7 +57,6 @@
   .feature-item {
     display: flex;
     align-items: center;
-    font-size: 1rem;
     color: #333;
     margin-bottom: 0.5rem;
   }

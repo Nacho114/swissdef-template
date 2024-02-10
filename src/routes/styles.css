@@ -1,5 +1,4 @@
 :root {
-
   --font-size-base: 16px; /* Default font size */
   /* Padding */
 
@@ -23,7 +22,6 @@
 
   --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional: adds a shadow for depth */
   --border-radius: 4px;
-
 }
 
 @font-face {
@@ -53,7 +51,6 @@ h3 {
   font-size: 1.2rem;
 }
 
-
 p {
   font-size: 1rem;
 }
@@ -70,4 +67,3 @@ p {
 
   /* Adjust other elements as needed */
 }
-

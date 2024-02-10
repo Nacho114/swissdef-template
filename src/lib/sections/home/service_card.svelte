@@ -12,6 +12,7 @@
 </div>
 
 <style>
+
   .card {
     flex: 1;
     position: relative;
@@ -54,7 +55,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 1.7vw;
+    font-size: 1.3rem;
     transition: top 0.3s; /* Smooth transition for title position */
   }
 
@@ -69,7 +70,7 @@
     left: 50%;
     transform: translateX(-50%) translateY(100%); /* Initially positioned just below the card */
     color: white;
-    font-size: 1.4vw;
+    font-size: 1.1rem;
     opacity: 0;
     transition:
       transform 0.3s,

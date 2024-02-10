@@ -30,7 +30,9 @@
     gap: 4vw;
     align-items: center;
     justify-content: center;
-    background-color: Var(--global-color-gray-light-bg); /* Light gray background */
+    background-color: Var(
+      --global-color-gray-light-bg
+    ); /* Light gray background */
     border-radius: Var(--border-radius);
     padding: 3vw;
     padding-left: 7vw;

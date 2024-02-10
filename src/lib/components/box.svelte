@@ -1,5 +1,5 @@
 <div class="box">
-  <slot/>
+  <slot />
 </div>
 
 <style>
@@ -7,7 +7,7 @@
     background-color: white;
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
-    padding: 0; 
+    padding: 0;
     width: auto;
   }
 

@@ -128,8 +128,8 @@
   }
 
   h2 {
-      margin: 0;
-      padding: 0;
+    margin: 0;
+    padding: 0;
   }
 
   p {
@@ -137,61 +137,58 @@
     color: gray;
   }
 
-@media (max-width: 1200px) {
-  .buttons {
+  @media (max-width: 1200px) {
+    .buttons {
       flex-direction: column; /* Adjust if you want buttons side by side or use column for stacked */
       width: 100%; /* Adjust based on content, could also be a percentage */
       gap: 10px;
-  }
+    }
 
- .header {
+    .header {
       flex-direction: column;
       align-items: start;
+    }
   }
 
-}
-
-@media (max-width: 1000px) {
-  .container {
+  @media (max-width: 1000px) {
+    .container {
       flex-direction: column-reverse;
       align-items: center;
       gap: 4vw;
       width: var(--main-mobile-container-width);
-  }
+    }
 
-  .product-info {
-    width: 80%;
-    padding: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: auto;
-  }
+    .product-info {
+      width: 80%;
+      padding: 0;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin: auto;
+    }
 
-  .product-image {
-    width: 80vw; /* Adjust the width to a fixed viewport width percentage */
-    min-width: 200px; /* Minimum width to prevent the image from becoming too small */
-    height: auto; /* Maintain aspect ratio */
-    min-height: 100px; /* Minimum height to prevent the image from becoming too small */
-    padding: 10px; /* Adjust padding as needed */
-  }
+    .product-image {
+      width: 80vw; /* Adjust the width to a fixed viewport width percentage */
+      min-width: 200px; /* Minimum width to prevent the image from becoming too small */
+      height: auto; /* Maintain aspect ratio */
+      min-height: 100px; /* Minimum height to prevent the image from becoming too small */
+      padding: 10px; /* Adjust padding as needed */
+    }
 
-  .product-image img {
-    max-width: 100%; /* Allows the image to scale down */
-    max-height: auto; /* Adjust based on your design needs */
-    object-fit: cover; /* Keeps the aspect ratio, but you can change it to 'contain' if you don't want the image to be cropped */
-  }
+    .product-image img {
+      max-width: 100%; /* Allows the image to scale down */
+      max-height: auto; /* Adjust based on your design needs */
+      object-fit: cover; /* Keeps the aspect ratio, but you can change it to 'contain' if you don't want the image to be cropped */
+    }
 
-  .price-vat-group {
-    /* Control the grouping of price and VAT */
-    display: flex;
-    align-items: flex-start;
-  }
+    .price-vat-group {
+      /* Control the grouping of price and VAT */
+      display: flex;
+      align-items: flex-start;
+    }
 
-  p {
+    p {
       font-size: 16px; /* Adjust font size for readability, avoid using vw for text if too small */
       text-align: justify; /* Optional: adjust text alignment for better readability */
+    }
   }
-}
-
-
 </style>

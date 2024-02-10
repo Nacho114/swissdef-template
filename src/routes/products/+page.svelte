@@ -35,10 +35,7 @@
   <div class="product-grid">
     {#each toggled_products as { img, slug }}
       <a href="/products/{slug}" class="product-link">
-        <ProductCard
-          {slug}
-          imagePath={`/assets/products/${img}_s.jpg`}
-        />
+        <ProductCard {slug} imagePath={`/assets/products/${img}_s.jpg`} />
       </a>
     {/each}
   </div>

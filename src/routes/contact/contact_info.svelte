@@ -1,4 +1,5 @@
-<script lang="ts"> import CircularButton from "$lib/components/circular_button.svelte";
+<script lang="ts">
+  import CircularButton from "$lib/components/circular_button.svelte";
   import Facebook from "virtual:icons/gg/facebook";
   import Twitter from "virtual:icons/ant-design/twitter-outlined";
   import Instagram from "virtual:icons/ant-design/instagram";
@@ -61,6 +62,8 @@
   .contact-info {
     display: inline-block;
     padding: 2vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
     background-color: #000; /* Black background */
     border-radius: 5px;
     text-align: center;
@@ -106,17 +109,17 @@
     gap: 20px;
   }
 
-
   /* Media query for screens with a max width of 600px */
   @media (max-width: 600px) {
     .contact-info {
       display: block; /* Optional: Change display back to block if needed */
-      padding: 5%; /* Adjust padding for smaller screens */
+      padding: 10%; /* Adjust padding for smaller screens */
       margin: 1rem auto; /* Adjust margin for smaller screens */
     }
 
     .sub-div {
       flex-direction: column; /* Stack the flex items vertically */
+      align-items: start;
     }
 
     .contactContainer {
@@ -129,7 +132,9 @@
     }
 
     /* Adjust font sizes if necessary */
-    h1, .subtitle, .closing-text p {
+    h1,
+    .subtitle,
+    .closing-text p {
       font-size: smaller; /* Adjust font size for smaller screens */
     }
   }

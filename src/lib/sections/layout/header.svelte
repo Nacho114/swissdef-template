@@ -90,7 +90,7 @@
     display: none; /* Hide mobile header on large screens */
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 880px) {
     /* Hide large screen content */
     .large-screen {
       display: none;

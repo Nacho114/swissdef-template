@@ -38,7 +38,6 @@
         <ProductCard
           {slug}
           imagePath={`/assets/products/${img}_s.jpg`}
-          price={2}
         />
       </a>
     {/each}
@@ -61,6 +60,7 @@
     grid-column: 2 / 3;
     text-align: center;
   }
+
   .product-grid {
     display: flex;
     flex-wrap: wrap;

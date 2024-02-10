@@ -107,13 +107,11 @@
   }
 
   .product-title {
-    font-size: 1.2rem; /* Adjust font size as needed */
     margin-top: 1rem;
     margin-bottom: 0.5rem;
   }
 
   .product-summary {
-    font-size: 1rem; /* Adjust font size as needed */
     margin-bottom: 1rem;
     overflow: hidden;
   }
@@ -121,7 +119,7 @@
   @media (max-width: 1300px) {
     .product-card {
       width: 40vw; /* 3 per row, adjust margin as needed */
-      height: auto;
+      height: 600px;
     }
   }
 

@@ -1,24 +1,26 @@
 <script lang="ts">
+  import Box from "./box.svelte";
   export let title = "";
   export let text = "";
 </script>
 
-<div class="info-card">
-  {#if title}
-    <h2 class="card-title">{title}</h2>
-  {/if}
-  {#if text}
-    <p class="card-text">{text}</p>
-  {/if}
-  <slot />
-</div>
+<Box>
+  <div class="info-card">
+    {#if title}
+      <h2 class="card-title">{title}</h2>
+    {/if}
+    {#if text}
+      <p class="card-text">{text}</p>
+    {/if}
+    <slot />
+  </div>
+</Box>
 
 <style>
   .info-card {
-    background-color: white;
-    border-radius: 4px;
-    box-shadow: var(--box-shadow); /* Optional: adds a shadow for depth */
     padding: 1rem;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
   }
 
   .card-title {

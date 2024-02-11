@@ -17,7 +17,6 @@
         </div>
       </Button>
     </div>
-
     <div class="header-image">
       <img src="/assets/home/phillips_hs1_home_l.png" alt="Phillips device" />
     </div>
@@ -28,9 +27,10 @@
   /* Flex layout for header */
   .landing-header {
     padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 1rem; /* Margin between text and image */
   }
 
@@ -54,16 +54,15 @@
 
   /* Text container */
   .header-text {
-    flex: 1;
     text-align: left;
     line-height: 1.1;
+    width: 33vw;
   }
 
   /* Image container */
   .header-image {
-    flex: 1;
     padding-right: 20px;
-    height: 33vw; /* Adjust as needed */
+    width: 36vw;
     max-width: 50%;
   }
 

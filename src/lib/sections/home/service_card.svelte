@@ -12,7 +12,6 @@
 </div>
 
 <style>
-
   .card {
     flex: 1;
     position: relative;

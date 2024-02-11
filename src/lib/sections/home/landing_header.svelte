@@ -26,7 +26,6 @@
 <style>
   /* Flex layout for header */
   .landing-header {
-    padding-top: 30px;
     padding-bottom: 30px;
     display: flex;
     align-items: center;
@@ -36,14 +35,14 @@
 
   /* Text styling inside header */
   .landing-header h1 {
-    font-size: max(4vw, 20px); /* Sets a minimum font size of 24px */
+    font-size: max(4vw, var(--global-mobile-font-h1)); /* Sets a minimum font size of 24px */
     max-width: 90%;
     margin-bottom: 20px;
   }
 
   .landing-header p {
     font-weight: 50;
-    font-size: max(1.5vw, 14px); /* Sets a minimum font size of 24px */
+    font-size: max(1.5vw, var(--global-mobile-font-p)); /* Sets a minimum font size of 24px */
     margin-bottom: 20px;
   }
 
@@ -88,6 +87,10 @@
     .header-text {
       /* Hack due to weird behavior of subtitle */
       width: 55vw;
+    }
+
+    .header-image {
+      width: 50%;
     }
   }
 </style>

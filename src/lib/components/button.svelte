@@ -9,7 +9,9 @@
     ? 'blue-color'
     : ''} {fullWidth ? 'full-width' : 'auto-width'}"
 >
-  <slot />
+  <div class="button-content">
+    <slot />
+  </div>
 </button>
 
 <style>
@@ -68,4 +70,11 @@
     background-color: #d45a4d;
     color: #ffffff;
   }
+
+  .button-content {
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Horizontally center the items in the container */
+    align-items: center;
+  }
+
 </style>

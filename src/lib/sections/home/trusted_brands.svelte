@@ -35,7 +35,7 @@
   h2 {
     font-weight: 400; /* Less thick than the default h2 weight */
     color: var(--global-color-gray);
-    font-size: max(3vw, 16px);
+    font-size: max(3vw, 1.4rem);
   }
 
   .brand-logos {

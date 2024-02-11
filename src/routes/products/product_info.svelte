@@ -29,16 +29,12 @@
       <p class="summary">{summary}</p>
       <div class="buttons">
         <Button>
-          <div class="button-content">
             Order
             <ChevronRight />
-          </div>
         </Button>
         <Button isBlueColor={true}>
-          <div class="button-content">
             Add Maintenance
             <ChevronRight />
-          </div>
         </Button>
       </div>
     </article>
@@ -117,11 +113,6 @@
     justify-content: space-between;
   }
 
-  .button-content {
-    display: flex; /* Enables flexbox */
-    justify-content: center; /* Horizontally center the items in the container */
-    align-items: center;
-  }
 
   h1 {
     margin: 0;
@@ -155,23 +146,17 @@
       flex-direction: column-reverse;
       align-items: center;
       gap: 4vw;
-      width: var(--main-mobile-container-width);
+      width: 100%;
     }
 
     .product-info {
-      width: 80%;
-      padding: 0;
-      padding-top: 20px;
-      padding-bottom: 20px;
+      width: 90%;
       margin: auto;
+      padding: 20px;
     }
 
     .product-image {
-      width: 80vw; /* Adjust the width to a fixed viewport width percentage */
-      min-width: 200px; /* Minimum width to prevent the image from becoming too small */
-      height: auto; /* Maintain aspect ratio */
-      min-height: 100px; /* Minimum height to prevent the image from becoming too small */
-      padding: 10px; /* Adjust padding as needed */
+      width: 90%;
     }
 
     .product-image img {

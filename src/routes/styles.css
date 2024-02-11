@@ -22,6 +22,18 @@
 
   --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional: adds a shadow for depth */
   --border-radius: 4px;
+
+  /* Font sizes */
+  --global-font-h1: 2.5rem;
+  --global-font-h2: 2rem;
+  --global-font-h3: 1.2rem;
+  --global-font-p: 1rem;
+
+  /* Font sizes mobile */
+  --global-mobile-font-h1: 2rem;
+  --global-mobile-font-h2: 1.3rem;
+  --global-mobile-font-h3: 1.1rem;
+  --global-mobile-font-p: 0.9rem;
 }
 
 @font-face {

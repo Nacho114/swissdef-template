@@ -6,13 +6,13 @@
 }
 
 @font-face {
-    font-family: 'Oswald';
-    font-style: normal;
-    src: url('/fonts/Oswald-Medium.ttf') format('truetype');
+  font-family: 'Oswald';
+  font-style: normal;
+  src: url('/fonts/Oswald-Medium.ttf') format('truetype');
 }
 
 body {
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
 }
 
 h1 {

@@ -12,12 +12,13 @@ Hello world
 
 ## Road map
 
-- [ ] Design UI in figma
-- [ ] Translate UI to Svelte project
+- [x] Design UI in figma
+- [x] Translate UI to Svelte project
 - [ ] Add products
 - [ ] Add SEO
 - [ ] Deploy
 - [ ] $$$ Profit
+- [ ] Go to a nicki minaj concert and FTCU!
 
 ## Developing
 

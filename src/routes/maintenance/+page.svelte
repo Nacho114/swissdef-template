@@ -11,12 +11,7 @@
     <div class="maintenance-cards-content">
       {#each maintenances as m}
         <a href="/maintenance/{m.slug}" class="product-link">
-          <PlanCard
-            service_type={"maintenance"}
-            slug={m.slug}
-            price={m.price}
-            duration={m.duration}
-          />
+          <PlanCard service_type="maintenance" {...m} />
         </a>
       {/each}
     </div>

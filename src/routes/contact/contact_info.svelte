@@ -1,11 +1,13 @@
 <script lang="ts">
   import CircularButton from "$lib/components/circular_button.svelte";
-  import Facebook from "virtual:icons/gg/facebook";
-  import Twitter from "virtual:icons/ant-design/twitter-outlined";
-  import Instagram from "virtual:icons/ant-design/instagram";
-  import Location from "virtual:icons/typcn/location";
-  import Phone from "virtual:icons/solar/phone-linear";
-  import Email from "virtual:icons/iconamoon/email";
+  import {
+    Facebook,
+    Twitter,
+    Instagram,
+    Location,
+    Phone,
+    Email,
+  } from "virtual:icons";
 </script>
 
 <div class="contact-info">

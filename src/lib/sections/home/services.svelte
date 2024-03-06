@@ -84,7 +84,7 @@
 
   .mobile-links a:hover,
   .mobile-links a:focus {
-    background-color: #bf4e44;
+    background-color: #D82B1C;
     color: #ffffff;
   }
 

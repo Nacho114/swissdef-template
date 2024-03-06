@@ -23,7 +23,7 @@
   }
 
   .appointment-btn {
-    background-color: #d45a4d;
+    background-color: #D82B1C;
     color: #ffffff;
     font-size: 16px;
     padding: 12px 24px;
@@ -38,7 +38,7 @@
   }
 
   .appointment-btn:hover {
-    background-color: #bf4e44;
+    background-color: #D82B1C;
   }
 
   .appointment-btn:focus {
@@ -61,11 +61,11 @@
   .appointment-btn.outlined {
     background-color: transparent;
     color: #000000; /* Black text for the outlined button */
-    border: 2px solid #d45a4d;
+    border: 2px solid #D82B1C;
   }
 
   .appointment-btn.outlined:hover {
-    background-color: #d45a4d;
+    background-color: #D82B1C;
     color: #ffffff;
   }
 </style>

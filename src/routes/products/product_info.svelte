@@ -28,19 +28,18 @@
 
       <p class="summary">{summary}</p>
       <div class="buttons">
+        <a href="/contact">
+          <Button>
+            Order
+            <ChevronRight />
+          </Button>
+        </a>
 
-          <a href="/contact">
-        <Button>
-          Order
-          <ChevronRight />
-        </Button>
-          </a>
-
-          <a href="/maintenance">
-        <Button isBlueColor={true}>
-          Add Maintenance
-          <ChevronRight />
-        </Button>
+        <a href="/maintenance">
+          <Button isBlueColor={true}>
+            Add Maintenance
+            <ChevronRight />
+          </Button>
         </a>
       </div>
     </article>

@@ -22,12 +22,13 @@
   <div class="service-price">{price_info}</div>
   <div class="service-duration">{duration_info}</div>
   <p class="service-description">{description}</p>
+          <a href="/contact">
   <div class="button">
     <Button fullWidth={true}>
       Order
       <ChevronRight />
     </Button>
-  </div>
+  </div></a>
 
   <PlanInformation {featuresString} />
   <PlanInformation {featuresString} />
@@ -76,5 +77,4 @@
     color: #666;
     margin-bottom: 1rem;
   }
-
 </style>

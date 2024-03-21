@@ -10,14 +10,14 @@
     <div class="header-text">
       <h1>{$_("section_home_landing_header_title")}</h1>
       <p class="subtitle">One life-saving device at a time</p>
-          <a href="/contact">
-      <Button fullWidth={false}>
-        <div class="button">
-          Book an appointment
-          <ChevronRight />
-        </div>
-      </Button>
-        </a>
+      <a href="/contact">
+        <Button fullWidth={false}>
+          <div class="button">
+            Book an appointment
+            <ChevronRight />
+          </div>
+        </Button>
+      </a>
     </div>
     <div class="header-image">
       <img src="/assets/home/phillips_hs1_home_l.png" alt="Phillips device" />

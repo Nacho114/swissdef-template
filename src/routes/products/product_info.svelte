@@ -28,14 +28,20 @@
 
       <p class="summary">{summary}</p>
       <div class="buttons">
+
+          <a href="/contact">
         <Button>
-            Order
-            <ChevronRight />
+          Order
+          <ChevronRight />
         </Button>
+          </a>
+
+          <a href="/maintenance">
         <Button isBlueColor={true}>
-            Add Maintenance
-            <ChevronRight />
+          Add Maintenance
+          <ChevronRight />
         </Button>
+        </a>
       </div>
     </article>
   </Box>
@@ -112,7 +118,6 @@
     display: flex;
     justify-content: space-between;
   }
-
 
   h1 {
     margin: 0;

@@ -76,5 +76,4 @@
     justify-content: center; /* Horizontally center the items in the container */
     align-items: center;
   }
-
 </style>

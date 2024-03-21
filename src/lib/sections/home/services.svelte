@@ -5,24 +5,27 @@
 
 <div class="services-section">
   <div class="card-section">
+          <a href="/training">
     <ServiceCard
       src="/assets/home/training.png"
       summary="Hands-on sessions to master defibrillator usage."
       alt="Training"
       title="TRAINING"
-    />
+    /></a>
+          <a href="/maintenance">
     <ServiceCard
       src="/assets/home/maintenance.png"
       summary="Regular checks to ensure device reliability."
       alt="Training"
       title="MAINTENANCE"
-    />
+    /></a>
+          <a href="/products">
     <ServiceCard
       src="/assets/home/defibrillator.png"
       summary="Life-saving devices for cardiac emergencies."
       alt="Training"
       title="DEFIBRILLATORS"
-    />
+    /></a>
   </div>
 
   <div class="cta">
@@ -33,7 +36,9 @@
       <a href="/training">Training</a>
     </div>
     <div class="learn-more-button">
+          <a href="/contact">
       <Button isOutlined={true}>Learn More</Button>
+        </a>
     </div>
   </div>
 </div>

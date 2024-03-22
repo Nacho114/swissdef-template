@@ -1,6 +1,6 @@
 <script>
   import { _ } from "svelte-i18n";
-  import { ContactInfo } from '$lib/info'; 
+  import { ContactInfo } from "$lib/info";
   import Container from "$lib/components/container.svelte";
   import CircularButton from "$lib/components/circular_button.svelte";
   import Facebook from "virtual:icons/gg/facebook";
@@ -86,19 +86,31 @@
           </div>
         </div>
         <div class="contactContainer">
-          <CircularButton link="tel:{ContactInfo.getPhoneNumber()}" bgColor="#363939" scale=".8">
+          <CircularButton
+            link="tel:{ContactInfo.getPhoneNumber()}"
+            bgColor="#363939"
+            scale=".8"
+          >
             <Phone />
           </CircularButton>
           <div class="addressText">
-            <a href="tel:{ContactInfo.getPhoneNumber()}"><p>{ContactInfo.getPhoneNumber()}</p></a>
+            <a href="tel:{ContactInfo.getPhoneNumber()}"
+              ><p>{ContactInfo.getPhoneNumber()}</p></a
+            >
           </div>
         </div>
         <div class="contactContainer">
-          <CircularButton link="mailto:{ContactInfo.getEmail()}" bgColor="#363939" scale=".8">
+          <CircularButton
+            link="mailto:{ContactInfo.getEmail()}"
+            bgColor="#363939"
+            scale=".8"
+          >
             <Email />
           </CircularButton>
           <div class="addressText">
-            <a href="mailto:{ContactInfo.getEmail()}"><p>{ContactInfo.getEmail()}</p></a>
+            <a href="mailto:{ContactInfo.getEmail()}"
+              ><p>{ContactInfo.getEmail()}</p></a
+            >
           </div>
         </div>
       </div>

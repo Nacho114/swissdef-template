@@ -1,36 +1,42 @@
 <script>
   import Button from "$lib/components/button.svelte";
   import ServiceCard from "./service_card.svelte";
+  import StatisticsChart from "src/lib/sections/home/StatisticsChart.svelte";
 </script>
 
 <div class="services-section">
   <div class="card-section">
+    <!-- Existing service cards -->
     <a href="/training">
       <ServiceCard
         src="/assets/home/training.png"
         summary="Hands-on sessions to master defibrillator usage."
         alt="Training"
         title="TRAINING"
-      /></a
-    >
+      />
+    </a>
     <a href="/maintenance">
       <ServiceCard
         src="/assets/home/maintenance.png"
         summary="Regular checks to ensure device reliability."
-        alt="Training"
+        alt="Maintenance"
         title="MAINTENANCE"
-      /></a
-    >
+      />
+    </a>
     <a href="/products">
       <ServiceCard
         src="/assets/home/defibrillator.png"
         summary="Life-saving devices for cardiac emergencies."
-        alt="Training"
+        alt="Defibrillators"
         title="DEFIBRILLATORS"
-      /></a
-    >
+      />
+    </a>
   </div>
 
+ 
+  <StatisticsChart />
+
+  <!-- Call to action section -->
   <div class="cta">
     <h1>All In One Place</h1>
     <p>We offer a vibe array of services to suit your needs</p>
@@ -45,6 +51,7 @@
     </div>
   </div>
 </div>
+
 
 <style>
   .services-section {

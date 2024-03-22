@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { _ } from "svelte-i18n";
   import { onMount } from "svelte";
   import Chart from "chart.js/auto";
 
@@ -41,12 +42,22 @@
             ticks: {
               color: "#9E9E9E",
             },
+            title: {
+              display: true,
+              text: "Chance of Survival (%)",
+              color: "#9E9E9E",
+            },
           },
           x: {
             grid: {
               display: false,
             },
             ticks: {
+              color: "#9E9E9E",
+            },
+            title: {
+              display: true,
+              text: "Time",
               color: "#9E9E9E",
             },
           },
@@ -65,10 +76,11 @@
 
 <div class="statistics-layout">
   <div class="statistics-header">
-    <h1>Statistics</h1>
+    <h1>
+      {$_("section_home_statistics_title")}
+    </h1>
     <p>
-      Sudden Cardiac Arrest (SCA) strikes swiftly, claiming more lives than many
-      cancers. Here's what you should know about SCA in Switzerland
+      {$_("section_home_statistics_subtitle")}
     </p>
   </div>
 
@@ -78,27 +90,35 @@
 
   <div class="info-columns">
     <div class="info-column">
-      <h3>Every Hour:</h3>
-      <p>One person faces a life-threatening SCA.</p>
-    </div>
-    <div class="info-column">
-      <h3>First 3 Minutes:</h3>
+      <h3>
+        {$_("section_home_statistics_info_one_title")}
+      </h3>
       <p>
-        Critical for survival. Without aid, irreversible brain damage can occur.
+        {$_("section_home_statistics_info_one_subtitle")}
       </p>
     </div>
     <div class="info-column">
-      <h3>Ambulance Response:</h3>
+      <h3>
+        {$_("section_home_statistics_info_two_title")}
+      </h3>
       <p>
-        Vital, but often not swift enough. Every minute delay decreases survival
-        by 7-10%.
+        {$_("section_home_statistics_info_two_subtitle")}
       </p>
     </div>
     <div class="info-column">
-      <h3>AED Impact:</h3>
+      <h3>
+        {$_("section_home_statistics_info_three_title")}
+      </h3>
       <p>
-        Using an Automated External Defibrillator within the first few minutes
-        boosts survival rates up to 90%.
+        {$_("section_home_statistics_info_three_subtitle")}
+      </p>
+    </div>
+    <div class="info-column">
+      <h3>
+        {$_("section_home_statistics_info_four_title")}
+      </h3>
+      <p>
+        {$_("section_home_statistics_info_four_subtitle")}
       </p>
     </div>
   </div>
@@ -175,7 +195,7 @@
   }
 
   .cta-container {
-    background-color: #007bff;
+    background-color: #d45a4d;
     color: white;
     text-align: center;
     padding: 1.5rem;

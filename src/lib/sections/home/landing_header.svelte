@@ -9,11 +9,11 @@
   <div class="landing-header">
     <div class="header-text">
       <h1>{$_("section_home_landing_header_title")}</h1>
-      <p class="subtitle">One life-saving device at a time</p>
+      <p class="subtitle">{$_("section_home_landing_header_subtitle")}</p>
       <a href="/contact">
         <Button fullWidth={false}>
           <div class="button">
-            Book an appointment
+           {$_("section_home_landing_header_button")} 
             <ChevronRight />
           </div>
         </Button>

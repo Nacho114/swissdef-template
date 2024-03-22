@@ -1,4 +1,5 @@
 <script>
+  import { _ } from "svelte-i18n";
   import Container from "$lib/components/container.svelte";
   import CircularButton from "$lib/components/circular_button.svelte";
   import Facebook from "virtual:icons/gg/facebook";
@@ -13,7 +14,7 @@
   <div class="footer">
     <div class="left">
       <h3>
-        Empowering lives with the most advanced defibrillation technology.
+        {$_("section_footer_left_title")}
       </h3>
       <div class="icon">
         <CircularButton>
@@ -30,33 +31,51 @@
 
     <div class="right">
       <div class="sub-div">
-        <h4>Quick Links</h4>
+        <h4>
+        {$_("section_footer_quick_links")}
+        </h4>
         <a href="/">
-          <p>Home</p>
+          <p>
+            {$_("section_general_home")}
+          </p>
         </a>
         <a href="/contact">
-          <p>Contact Us</p>
+          <p>
+            {$_("section_general_contact")}
+          </p>
         </a>
         <a href="/products">
-          <p>Products</p>
+          <p>
+            {$_("section_general_products")}
+          </p>
         </a>
       </div>
 
       <div class="sub-div">
-        <h4>Support & Services</h4>
+        <h4>
+        {$_("section_footer_support_and_services")}
+        </h4>
         <a href="/maintenance">
-          <p>Maintenance</p>
+          <p>
+            {$_("section_general_maintenance")}
+          </p>
         </a>
         <a href="/training">
-          <p>Training</p>
+          <p>
+            {$_("section_general_training")}
+          </p>
         </a>
         <a href="/warranty_and_returns">
-          <p>Warranty & Returns</p>
+          <p>
+            {$_("section_general_warranty_and_returns")}
+          </p>
         </a>
       </div>
 
       <div class="sub-div">
-        <h4>Contact Us</h4>
+        <h4>
+        {$_("section_footer_contact_us")}
+        </h4>
         <div class="contactContainer">
           <CircularButton bgColor="#363939" scale=".8">
             <Location />
@@ -74,7 +93,11 @@
           </div>
         </div>
         <div class="contactContainer">
-          <CircularButton link="mailto:info@swissdefibrillator.ch" bgColor="#363939" scale=".8">
+          <CircularButton
+            link="mailto:info@swissdefibrillator.ch"
+            bgColor="#363939"
+            scale=".8"
+          >
             <Email />
           </CircularButton>
           <div class="addressText">
@@ -92,10 +115,14 @@
 
   <div class="divider">
     <span>
-      <a href="/terms_and_conditions">Terms & Conditions</a>
+      <a href="/terms_and_conditions">
+        {$_("section_general_terms_and_conditions")}
+      </a>
     </span>
     <span>
-      <a href="/privacy_policy">Privacy Policy</a>
+      <a href="/privacy_policy">
+        {$_("section_general_privacy_policy")}
+      </a>
     </span>
   </div>
 </div>

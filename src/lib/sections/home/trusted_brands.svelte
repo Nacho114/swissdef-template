@@ -1,8 +1,13 @@
-<!-- Section container with light gray background -->
+<script lang="ts">
+  import { _ } from "svelte-i18n";
+</script>
+
 <div class="trusted-brands-section">
-  <h2>Trusted By World’s Most Favourite Brands</h2>
+  <h2>
+    {$_("section_home_trusted_brands_title")}
+  </h2>
   <div class="brand-logos">
-    <img class="logo" src="/assets/home/clients/ibis.png" alt="Novotel Logo" />
+    <img class="logo" src="/assets/home/clients/ibis.png" alt="Ibis Logo" />
     <img
       class="logo"
       src="/assets/home/clients/novotel.png"
@@ -11,12 +16,12 @@
     <img
       class="logo"
       src="/assets/home/clients/cdf-logo.png"
-      alt="Novotel Logo"
+      alt="CDF Logo"
     />
     <img
       class="logo"
       src="/assets/home/clients/logitech.png"
-      alt="Novotel Logo"
+      alt="Logitech Logo"
     />
     <!-- Add other logos similarly -->
   </div>

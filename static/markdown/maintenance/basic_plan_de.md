@@ -22,4 +22,3 @@ Unser Basic-Wartungsplan ist die ultimative Lösung für Organisationen, die das
 ## Loslegen
 
 Sichern Sie noch heute die Sicherheit und Einsatzbereitschaft Ihrer Notfallausrüstung. Klicken Sie auf den Button „buchen“, um Ihre Bedürfnisse mit einem Kundenbetreuer zu besprechen und den ersten Schritt zu unübertroffener Vorbereitung und Seelenfrieden zu gehen.
-

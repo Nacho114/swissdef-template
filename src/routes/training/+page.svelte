@@ -74,7 +74,7 @@
     text-align: left;
   }
 
-/* For extra button toggle
+  /* For extra button toggle
   .toggle-container {
     grid-column: 2 / 3;
     text-align: center;

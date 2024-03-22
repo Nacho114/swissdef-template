@@ -20,7 +20,7 @@
 </script>
 
 <div class="service-features">
-  <h3>All Features</h3>
+  <h3>{$_("section_general_all_features")}</h3>
   <ul>
     {#each features as feature}
       <li class="feature-item">

@@ -7,7 +7,7 @@
 
 <Container>
   <div class="maintenance-cards-container">
-    <h1>Maintenance</h1>
+    <h1>{$_("section_general_maintenance")}</h1>
     <div class="maintenance-cards-content">
       {#each maintenances as m}
         <a href="/maintenance/{m.slug}" class="product-link">

@@ -1,6 +1,13 @@
 # Svelte template for Swiss defibrillator
 
-Hello world
+## Important
+deploy link:
+https://poetic-genie-db4436.netlify.app
+
+
+## To do @misteriggy
+- [ ] I couldnt find the markdown reference code. - i added a new german file under static/markdown/training/bls-aed_de.md so you have to implement it
+
 
 ## Features
 

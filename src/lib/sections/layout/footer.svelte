@@ -66,7 +66,7 @@
           </div>
         </div>
         <div class="contactContainer">
-          <CircularButton bgColor="#363939" scale=".8">
+          <CircularButton link="tel:+41794412406" bgColor="#363939" scale=".8">
             <Phone />
           </CircularButton>
           <div class="addressText">
@@ -74,7 +74,7 @@
           </div>
         </div>
         <div class="contactContainer">
-          <CircularButton bgColor="#363939" scale=".8">
+          <CircularButton link="mailto:info@swissdefibrillator.ch" bgColor="#363939" scale=".8">
             <Email />
           </CircularButton>
           <div class="addressText">

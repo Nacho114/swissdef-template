@@ -10,9 +10,13 @@ export default defineConfig({
     }),
   ],
   ssr: {
-    noExternal: ['chart.js'], 
+    noExternal: ['chart.js/auto'], 
   },
   optimizeDeps: {
     exclude: ['chart.js'] 
+  },
+  build: {
+    rollupOptions: {
+      external: ['chart.js/auto'] 
   },
 });

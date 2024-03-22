@@ -1,57 +1,57 @@
-# basic plan de
+# Wartung und Schulung für Defibrillatoren
 
-**Formation interactive et dynamique** donnée par 1 formatrice d’adultes certifiée FSEA EduQua avec 20 ans d’expérience, 75% exercices pratiques. Comprend:
+**Interaktives und dynamisches Training** durch einen zertifizierten Erwachsenenbildner mit 20 Jahren Erfahrung, mit einem Schwerpunkt auf 75% praktischen Übungen. Der Kurs beinhaltet:
 
-- Flyers explicatifs et illustrés
-- Test à remplir par chaque participant à la fin de la formation
-- Power Point, Vidéos
-- AED Trainer, HS-1 et FRx HeartStart Philips Défibrillateur, diverses marques des défibrillateurs pour la démo, Brayden Mannequins avec feedback visuel et Laerdal mannequins enfant et bébé
-- Masques, Outil pour la Manoeuvre de Heimlich
-- Trousse de Premiers Secours, Outils d’exercice pour les premiers secours
+- Informative und illustrierte Flyer
+- Ein Test, den jeder Teilnehmer am Ende der Schulung ausfüllen muss
+- PowerPoint-Präsentationen und Videos
+- AED-Trainer, HS-1 und FRx HeartStart Philips Defibrillatoren, verschiedene Defibrillatormarken für die Demonstration, Brayden Übungspuppen mit visuellem Feedback und Laerdal Kinder- und Babymanikins
+- Masken, Heimlich-Manöver-Werkzeug
+- Erste-Hilfe-Set, Erste-Hilfe-Übungswerkzeuge
 
-**Langues**: Français, Allemand et Anglais.
+**Sprachen**: Englisch, Französisch und Deutsch.
 
-## Contrôle des connaissances
+## Wissenskontrolle
 
-Durant le cours. Exercices pour pouvoir porter secours sûrement et efficacement avec des situations pratiques réalistes.
+Während des Kurses werden Übungen durchgeführt, um den Teilnehmern zu ermöglichen, sicher und effektiv Hilfe zu leisten, mit realistischen praktischen Situationen.
 
-## Compris
+## Inklusive
 
-- Flyers explicatifs et illustratives
-- L’algorithme 2015 et 2020 de la SRC Swiss Ressuscitation Council
-- 1 masque de poche pour la ventilation par participant
+- Informative und illustrierte Flyer
+- Die Algorithmen 2015 und 2020 des SRC (Schweizerischer Reanimationsrat)
+- Eine Taschenmaske zur Beatmung pro Teilnehmer
 
-## Instructeur certifié par
+## Zertifizierter Ausbilder durch
 
-- L’école de Santé SanPool
-- La SRC Swiss Ressuscitation Council
-- EduQua FSEA Formateur d’Adultes
-- IAS Inter-Association de Sauvetage
+- SanPool Gesundheitsschule
+- SRC Schweizerischer Reanimationsrat
+- EduQua FSEA Erwachsenenbildner
+- IAS Inter-Verband für Rettungswesen
 
-## Locaux
+## Veranstaltungsort
 
-Le lieu du cours est mis à disposition par le client. Ce lieu doit :
+Der Kursort wird vom Kunden gestellt und muss:
 
-- Permettre d'accueillir les participants et le(s) formateur(s)
-- Inclure une place assise par participant et de l’espace pour des exercices pratiques
-- Être disponibles au minimum une heure avant le début du cours pour préparation
+- Platz für Teilnehmer und Trainer bieten
+- Einen Sitzplatz pro Teilnehmer und Platz für praktische Übungen beinhalten
+- Mindestens eine Stunde vor Kursbeginn zur Vorbereitung verfügbar sein
 
-## Durée
+## Dauer
 
-Le cours comprend 3h00 heures de temps d’enseignement sans pauses.
+Der Kurs dauert 3 Stunden ohne Pausen.
 
-## Prix
+## Preis
 
-CHF 890.- plus TVA pour max. 12 participants.
+CHF 890.- plus MwSt. für bis zu 12 Teilnehmer.
 
-## Certificat
+## Zertifizierung
 
-Le participant reçoit une attestation au cours de BLS-AED-SRC contenant:
+Teilnehmer erhalten eine BLS-AED-SRC Bescheinigung, die enthält:
 
-- Titre: "BLS-AED-SRC et Bases aux Premiers Secours"
+- Titel: "BLS-AED-SRC und Grundlagen der Ersten Hilfe"
 - "Swiss Defibrillator"
-- Données personnelles du participant: prénom, nom, date de naissance
-- Date d’émission du formateur du cours
-- Q-label SRC et EduQua
+- Persönliche Informationen des Teilnehmers: Vorname, Nachname, Geburtsdatum
+- Ausstellungsdatum des Kursleiters
+- SRC Q-Label und EduQua
 
-La durée de validité de l’attestation est de 2 ans.
+Das Zertifikat ist 2 Jahre gültig.

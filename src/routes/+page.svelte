@@ -4,10 +4,10 @@
   import LandingHeader from "$lib/sections/home/landing_header.svelte";
   import TrustedBrands from "$lib/sections/home/trusted_brands.svelte";
   import Services from "$lib/sections/home/services.svelte";
+  import StatisticsChart from "$lib/components/StatisticsChart.svelte"; 
 </script>
 
 <LandingHeader />
-
 <TrustedBrands />
 
 <div class="services">
@@ -16,13 +16,10 @@
   </Container>
 </div>
 
-<img class="statistics" src="/assets/home/statistics.png" alt="info info" />
 
-<img
-  class="statistics-mobile"
-  src="/assets/home/statistics-mobile.png"
-  alt="Statistics"
-/>
+<Container>
+  <StatisticsChart />
+</Container>
 
 <style>
   .services {
@@ -37,6 +34,16 @@
     width: 95vw;
     height: auto;
   }
+
+
+  .statistics-container {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    width: 95vw;
+    max-width: 95vw;
+    margin: 0 auto;
+  }
+
 
   /* Hide mobile image on larger screens */
   .statistics-mobile {

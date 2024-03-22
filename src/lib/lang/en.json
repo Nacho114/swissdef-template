@@ -99,8 +99,10 @@
   "maintenance_basic_plan_title": "Basic Plan",
   "maintenance_basic_plan_description": "Essential Lifesaving Skills in a Snap",
   "maintenance_basic_plan_features": "Fundamental BLS and AED principles||true\nCPR technique for adults||true\nBasic airway management||true\nEmergency response protocol||true\nIntroduction to first aid||true\nHands-on AED practice||false\nPhysical lessons||false",
+
   "training_toggle_main": "Main courses",
   "training_toggle_extra": "Extra courses",
+
   "training_lite_plan_title": "Lite train",
   "training_lite_plan_description": "Simple maintenance plan",
   "training_lite_plan_features": "Fundamental BLS and AED principles||true\nCPR technique for adults||true\nBasic airway management||true\nEmergency response protocol||true\nIntroduction to first aid||true\nHands-on AED practice||false\nPhysical lessons||false",

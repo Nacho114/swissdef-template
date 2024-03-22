@@ -1,4 +1,3 @@
-
 # Terms and Conditions
 
 Welcome to Swiss Defibrillator, your source for Automated External Defibrillators (AEDs), maintenance, and training services. By accessing or using our website and services, you agree to be bound by these Terms and Conditions. Please read them carefully.
@@ -60,4 +59,3 @@ We do not guarantee, represent or warrant that your use of our service will be u
 ## 13. Indemnification
 
 You agree to indemnify, defend and hold harmless Swiss Defibrillator and our parent, subsidiaries, affiliates, partners, officers, directors, agents, contractors, licensors, service providers, subcontractors, employees, interns, and suppliers, harmless from any claim or demand, including reasonable attorneys’ fees, made by any third-party due to or arising out of your breach of these Terms of Service or the documents they incorporate by reference, or your violation of any law or the rights of a third-party.
-

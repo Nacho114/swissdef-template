@@ -189,6 +189,7 @@
     font-size: 1.4rem;
     color: #222;
     margin-bottom: 1rem;
+    min-height: 2.5em; /* To top align <p> info */
   }
 
   .info-column p {

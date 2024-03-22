@@ -1,7 +1,7 @@
 <script>
   import Button from "$lib/components/button.svelte";
   import ServiceCard from "./service_card.svelte";
-  import StatisticsChart from "./StatisticsChart.svelte";
+  // import StatisticsChart from "./StatisticsChart.svelte"; // Temporarily commented out
 </script>
 
 <div class="services-section">
@@ -33,8 +33,7 @@
     </a>
   </div>
 
- 
-  <StatisticsChart />
+  <!-- <StatisticsChart /> Temporarily commented out -->
 
   <!-- Call to action section -->
   <div class="cta">
@@ -51,7 +50,6 @@
     </div>
   </div>
 </div>
-
 
 <style>
   .services-section {

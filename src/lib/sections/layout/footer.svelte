@@ -32,31 +32,26 @@
       <div class="sub-div">
         <h4>Quick Links</h4>
         <a href="/">
-        <p>
-        Home</p>
+          <p>Home</p>
         </a>
         <a href="/contact">
-        <p>
-        Contact Us</p>
+          <p>Contact Us</p>
         </a>
         <a href="/products">
-        <p>
-        Products</p>
+          <p>Products</p>
         </a>
       </div>
 
       <div class="sub-div">
         <h4>Support & Services</h4>
         <a href="/maintenance">
-        <p>Maintenance</p>
+          <p>Maintenance</p>
         </a>
         <a href="/training">
-        <p>Training</p>
+          <p>Training</p>
         </a>
         <a href="/warranty_and_returns">
-        <p>
-        Warranty & Returns
-        </p>
+          <p>Warranty & Returns</p>
         </a>
       </div>
 
@@ -75,7 +70,7 @@
             <Phone />
           </CircularButton>
           <div class="addressText">
-          <a href="tel:+41794412406"><p>+41 79 441 24 06</p></a>
+            <a href="tel:+41794412406"><p>+41 79 441 24 06</p></a>
           </div>
         </div>
         <div class="contactContainer">
@@ -83,7 +78,9 @@
             <Email />
           </CircularButton>
           <div class="addressText">
-           <a href="mailto:info@swissdefibrillator.ch"><p>info@swissdefibrillator.ch</p></a>
+            <a href="mailto:info@swissdefibrillator.ch"
+              ><p>info@swissdefibrillator.ch</p></a
+            >
           </div>
         </div>
       </div>

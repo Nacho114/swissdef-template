@@ -33,7 +33,7 @@
   "type": "module",
   "dependencies": {
     "@rollup/plugin-json": "^6.0.0",
-    "chart.js": "^3.7.1",
+    "chart.js": "^3.9.1",
     "intl-messageformat": "^10.5.8",
     "svelte-i18n": "^3.7.4",
     "svelte-markdown": "^0.4.0"

@@ -4,9 +4,7 @@
 
   export let data: Training;
 
-  let file_name = "/markdown/maintenance/bls-aed";
-
-  console.log(data.slug);
+  let file_name = `/markdown/maintenance/${data.slug}`;
 </script>
 
 <MdInfoPage {file_name} />

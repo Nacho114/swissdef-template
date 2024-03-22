@@ -12,7 +12,6 @@
 
   // Function to load markdown based on the current locale
   async function loadMarkdown(currentLocale: string | undefined | null) {
-    console.log("Loading markdown for locale: ", currentLocale);
     // Provide a default value for locale if it's undefined or null
     currentLocale = currentLocale || "en"; // replace 'default' with your default locale
 

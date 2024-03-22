@@ -1,7 +1,7 @@
 <script>
   import Button from "$lib/components/button.svelte";
   import ServiceCard from "./service_card.svelte";
-  import StatisticsChart from "src/lib/sections/home/StatisticsChart.svelte";
+  import StatisticsChart from "./StatisticsChart.svelte";
 </script>
 
 <div class="services-section">

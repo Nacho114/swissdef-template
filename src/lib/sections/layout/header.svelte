@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { _ } from "svelte-i18n";
   import Container from "$lib/components/container.svelte";
   import MobileHeader from "./header_mobile.svelte";
   import LOGO from "$lib/svg/logo.svelte";
@@ -11,11 +12,11 @@
     <nav>
       <ul>
         <li>
-          <a href="/">Home</a>
-          <a href="/products">Products</a>
-          <a href="/maintenance">Maintenance</a>
-          <a href="/training">Training</a>
-          <a href="/contact">Contact</a>
+          <a href="/">{$_("section_general_home")}</a>
+          <a href="/products">{$_("section_general_products")}</a>
+          <a href="/maintenance">{$_("section_general_maintenance")}</a>
+          <a href="/training">{$_("section_general_training")}</a>
+          <a href="/contact">{$_("section_general_contact")}</a>
         </li>
       </ul>
     </nav>

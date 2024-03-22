@@ -56,6 +56,7 @@
     color: white;
     font-size: 1.3rem;
     transition: top 0.3s; /* Smooth transition for title position */
+    text-transform: uppercase;
   }
 
   .card-title {

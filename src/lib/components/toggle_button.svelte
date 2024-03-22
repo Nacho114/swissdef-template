@@ -53,6 +53,7 @@
     cursor: pointer;
     background-color: white;
     transition: background-color 0.3s;
+    text-transform: lowercase;
   }
 
   button.selected {

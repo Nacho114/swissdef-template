@@ -1,4 +1,5 @@
 <script>
+  import { _ } from "svelte-i18n";
   import Button from "$lib/components/button.svelte";
   import ServiceCard from "./service_card.svelte";
 </script>
@@ -8,39 +9,46 @@
     <a href="/training">
       <ServiceCard
         src="/assets/home/training.png"
-        summary="Hands-on sessions to master defibrillator usage."
+        summary={$_("section_home_services_training_summary")}
         alt="Training"
-        title="TRAINING"
+        title={$_("section_general_training")}
       /></a
     >
     <a href="/maintenance">
       <ServiceCard
         src="/assets/home/maintenance.png"
-        summary="Regular checks to ensure device reliability."
-        alt="Training"
-        title="MAINTENANCE"
+        summary={$_("section_home_services_maintenance_summary")}
+        alt="Maintenance"
+        title={$_("section_general_maintenance")}
       /></a
     >
     <a href="/products">
       <ServiceCard
         src="/assets/home/defibrillator.png"
-        summary="Life-saving devices for cardiac emergencies."
-        alt="Training"
-        title="DEFIBRILLATORS"
+        summary={$_("section_home_services_defibrillators_summary")}
+        alt="Defibrillators"
+        title={$_("section_general_defibrillators")}
       /></a
     >
   </div>
 
   <div class="cta">
-    <h1>All In One Place</h1>
-    <p>We offer a vibe array of services to suit your needs</p>
+    <h1>
+      {$_("section_home_services_title")}
+    </h1>
+    <p>
+      {$_("section_home_services_subtitle")}
+    </p>
     <div class="mobile-links">
-      <a href="/products">Products</a>
-      <a href="/training">Training</a>
+      <a href="/products">{$_("section_general_products")}</a>
+      <a href="/training">{$_("section_general_training")}</a>
+      <a href="/maintenance">{$_("section_general_maintenance")}</a>
     </div>
     <div class="learn-more-button">
       <a href="/contact">
-        <Button isOutlined={true}>Learn More</Button>
+        <Button isOutlined={true}>
+      {$_("section_home_services_learn_more_button")}
+        </Button>
       </a>
     </div>
   </div>

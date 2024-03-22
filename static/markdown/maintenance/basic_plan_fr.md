@@ -1,57 +1,25 @@
-# Basic Maintenance fr
+# Plan de Maintenance de Base
 
-**Formation interactive et dynamique** donnée par 1 formatrice d’adultes certifiée FSEA EduQua avec 20 ans d’expérience, 75% exercices pratiques. Comprend:
+Notre Plan de Maintenance de Base est la solution ultime pour les organisations qui exigent le plus haut niveau de préparation de leurs unités de défibrillateurs. Avec ce plan, vous n'achetez pas seulement un service de maintenance ; vous investissez dans la fiabilité et l'efficacité de vos capacités de réponse d'urgence. Ce plan est idéal pour les environnements à forte fréquentation tels que les centres commerciaux, les écoles et les grands bureaux, où l'utilisation opportune d'un défibrillateur entièrement fonctionnel pourrait faire la différence entre la vie et la mort.
 
-- Flyers explicatifs et illustrés
-- Test à remplir par chaque participant à la fin de la formation
-- Power Point, Vidéos
-- AED Trainer, HS-1 et FRx HeartStart Philips Défibrillateur, diverses marques des défibrillateurs pour la démo, Brayden Mannequins avec feedback visuel et Laerdal mannequins enfant et bébé
-- Masques, Outil pour la Manoeuvre de Heimlich
-- Trousse de Premiers Secours, Outils d’exercice pour les premiers secours
+## Fonctionnalités et Avantages
 
-**Langues**: Français, Allemand et Anglais.
+- **Vérifications Trimestrielles**: Nos techniciens experts effectuent des vérifications complètes tous les trois mois. Ce calendrier régulier garantit que vos défibrillateurs sont toujours en parfait état, que les batteries sont chargées et que les tampons sont dans leur date d'utilisation, éliminant tout doute sur leur fonctionnalité en cas d'urgence.
+- **Remplacement Gratuit des Pièces Utilisées**: Après un événement de sauvetage, il est crucial que votre défibrillateur soit rapidement restauré à son plein état opérationnel. Nous garantissons le remplacement gratuit et rapide de toutes les pièces utilisées, assurant aucun temps d'arrêt pour votre appareil.
+- **Support Client**: Gagnez en tranquillité d'esprit avec l'accès à notre équipe de support client dédiée. Que vous ayez des questions sur votre appareil, besoin d'assistance ou nécessitez un support d'urgence, nous sommes là pour vous.
+- **Réduction sur les Cours de Premiers Secours**: Améliorez la préparation de votre équipe avec nos cours de premiers secours, proposés à des tarifs réduits exclusivement pour les abonnés du Plan de Base. Ces cours peuvent autonomiser votre personnel avec les connaissances et compétences pour agir avec confiance lors des urgences.
+- **Service National en Suisse**: Notre réseau de techniciens qualifiés couvre toute la Suisse, garantissant un service rapide et efficace, quel que soit votre emplacement.
 
-## Contrôle des connaissances
+## Tarification
 
-Durant le cours. Exercices pour pouvoir porter secours sûrement et efficacement avec des situations pratiques réalistes.
+- CHF 890 par mois, par défibrillateur.
+- Un engagement sur un contrat minimum de 24 mois vous assure un service continu et ininterrompu. Voir les termes et conditions pour plus de détails.
 
-## Compris
+## Offres Spéciales
 
-- Flyers explicatifs et illustratives
-- L’algorithme 2015 et 2020 de la SRC Swiss Ressuscitation Council
-- 1 masque de poche pour la ventilation par participant
+- Bénéficiez de réductions significatives lors de l'inscription de plusieurs défibrillateurs dans notre plan, rendant économique pour les établissements plus grands de maintenir leurs capacités de réponse d'urgence.
 
-## Instructeur certifié par
+## Commencez
 
-- L’école de Santé SanPool
-- La SRC Swiss Ressuscitation Council
-- EduQua FSEA Formateur d’Adultes
-- IAS Inter-Association de Sauvetage
+Assurez aujourd'hui la sécurité et la préparation de votre équipement d'urgence. Cliquez sur le bouton "réserver" pour discuter de vos besoins avec un représentant du support client et faire le premier pas vers une préparation et une tranquillité d'esprit inégalées.
 
-## Locaux
-
-Le lieu du cours est mis à disposition par le client. Ce lieu doit :
-
-- Permettre d'accueillir les participants et le(s) formateur(s)
-- Inclure une place assise par participant et de l’espace pour des exercices pratiques
-- Être disponibles au minimum une heure avant le début du cours pour préparation
-
-## Durée
-
-Le cours comprend 3h00 heures de temps d’enseignement sans pauses.
-
-## Prix
-
-CHF 890.- plus TVA pour max. 12 participants.
-
-## Certificat
-
-Le participant reçoit une attestation au cours de BLS-AED-SRC contenant:
-
-- Titre: "BLS-AED-SRC et Bases aux Premiers Secours"
-- "Swiss Defibrillator"
-- Données personnelles du participant: prénom, nom, date de naissance
-- Date d’émission du formateur du cours
-- Q-label SRC et EduQua
-
-La durée de validité de l’attestation est de 2 ans.

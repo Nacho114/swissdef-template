@@ -1,57 +1,23 @@
-# Maintenance en ENGLISH :)
+# Lite Maintenance Plan
 
-**Formation interactive et dynamique** donnée par 1 formatrice d’adultes certifiée FSEA EduQua avec 20 ans d’expérience, 75% exercices pratiques. Comprend:
+The Lite Maintenance Plan is tailored for businesses seeking essential defibrillator maintenance services without the comprehensive coverage of our Basic Plan. This option is perfect for smaller organizations or those with fewer high-risk scenarios, providing a cost-effective solution that still ensures your defibrillator is checked and maintained by professionals.
 
-- Flyers explicatifs et illustrés
-- Test à remplir par chaque participant à la fin de la formation
-- Power Point, Vidéos
-- AED Trainer, HS-1 et FRx HeartStart Philips Défibrillateur, diverses marques des défibrillateurs pour la démo, Brayden Mannequins avec feedback visuel et Laerdal mannequins enfant et bébé
-- Masques, Outil pour la Manoeuvre de Heimlich
-- Trousse de Premiers Secours, Outils d’exercice pour les premiers secours
+## Features and Benefits
 
-**Langues**: Français, Allemand et Anglais.
+- **Routine Check Upon Replacement Due**: Our maintenance schedule is designed to align with your defibrillator's replacement cycle. This targeted approach ensures that your device is inspected and serviced precisely when needed, maintaining its readiness without unnecessary interventions.
+- **Qualified Technicians**: Every maintenance visit is conducted by our team of highly trained technicians, who specialize in defibrillator maintenance. Their expertise ensures that your device's maintenance is carried out efficiently, with minimal disruption to your daily operations.
+- **Nationwide Service in Switzerland**: Regardless of your location within Switzerland, our technicians are available to provide you with the same high-quality service, ensuring that your defibrillators are maintained to the highest standards.
 
-## Contrôle des connaissances
+## Pricing
 
-Durant le cours. Exercices pour pouvoir porter secours sûrement et efficacement avec des situations pratiques réalistes.
+- CHF 450 per month, per defibrillator.
+- Opting for this plan means committing to a 24-month term, which guarantees that your defibrillator maintenance needs are met over a significant period. See terms and conditions for additional information.
 
-## Compris
+## Special Offers
 
-- Flyers explicatifs et illustratives
-- L’algorithme 2015 et 2020 de la SRC Swiss Ressuscitation Council
-- 1 masque de poche pour la ventilation par participant
+- Organizations with multiple defibrillators can benefit from our discounted rates, making it even more affordable to ensure all your devices are maintained properly.
 
-## Instructeur certifié par
+## Get Started
 
-- L’école de Santé SanPool
-- La SRC Swiss Ressuscitation Council
-- EduQua FSEA Formateur d’Adultes
-- IAS Inter-Association de Sauvetage
+If the Lite Maintenance Plan sounds like the right fit for your organization, click the "book" button. A customer support representative will be in touch to guide you through the enrollment process, ensuring that your defibrillators are in capable hands.
 
-## Locaux
-
-Le lieu du cours est mis à disposition par le client. Ce lieu doit :
-
-- Permettre d'accueillir les participants et le(s) formateur(s)
-- Inclure une place assise par participant et de l’espace pour des exercices pratiques
-- Être disponibles au minimum une heure avant le début du cours pour préparation
-
-## Durée
-
-Le cours comprend 3h00 heures de temps d’enseignement sans pauses.
-
-## Prix
-
-CHF 890.- plus TVA pour max. 12 participants.
-
-## Certificat
-
-Le participant reçoit une attestation au cours de BLS-AED-SRC contenant:
-
-- Titre: "BLS-AED-SRC et Bases aux Premiers Secours"
-- "Swiss Defibrillator"
-- Données personnelles du participant: prénom, nom, date de naissance
-- Date d’émission du formateur du cours
-- Q-label SRC et EduQua
-
-La durée de validité de l’attestation est de 2 ans.

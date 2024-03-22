@@ -1,57 +1,57 @@
-# Méthodologie en ENGLISH :)
+# Defibrillator Maintenance and Training Course
 
-**Formation interactive et dynamique** donnée par 1 formatrice d’adultes certifiée FSEA EduQua avec 20 ans d’expérience, 75% exercices pratiques. Comprend:
+**Interactive and Dynamic Training** provided by a certified adult educator with 20 years of experience, boasting a 75% focus on practical exercises. The course includes:
 
-- Flyers explicatifs et illustrés
-- Test à remplir par chaque participant à la fin de la formation
-- Power Point, Vidéos
-- AED Trainer, HS-1 et FRx HeartStart Philips Défibrillateur, diverses marques des défibrillateurs pour la démo, Brayden Mannequins avec feedback visuel et Laerdal mannequins enfant et bébé
-- Masques, Outil pour la Manoeuvre de Heimlich
-- Trousse de Premiers Secours, Outils d’exercice pour les premiers secours
+- Informative and illustrated flyers
+- A test for each participant to complete at the end of the training
+- PowerPoint presentations and videos
+- AED Trainer, HS-1, and FRx HeartStart Philips Defibrillators, various defibrillator brands for demonstration, Brayden Manikins with visual feedback, and Laerdal child and baby manikins
+- Masks, Heimlich Maneuver Tool
+- First Aid Kit, First Aid exercise tools
 
-**Langues**: Français, Allemand et Anglais.
+**Languages**: English, French, and German.
 
-## Contrôle des connaissances
+## Knowledge Assessment
 
-Durant le cours. Exercices pour pouvoir porter secours sûrement et efficacement avec des situations pratiques réalistes.
+Throughout the course, exercises are designed to enable participants to provide safe and effective assistance through realistic practical situations.
 
-## Compris
+## Included
 
-- Flyers explicatifs et illustratives
-- L’algorithme 2015 et 2020 de la SRC Swiss Ressuscitation Council
-- 1 masque de poche pour la ventilation par participant
+- Informative and illustrative flyers
+- The 2015 and 2020 SRC (Swiss Resuscitation Council) algorithms
+- One pocket mask for ventilation per participant
 
-## Instructeur certifié par
+## Certified Instructor by
 
-- L’école de Santé SanPool
-- La SRC Swiss Ressuscitation Council
-- EduQua FSEA Formateur d’Adultes
-- IAS Inter-Association de Sauvetage
+- SanPool Health School
+- SRC Swiss Resuscitation Council
+- EduQua FSEA Adult Educator
+- IAS Inter-Association of Rescue
 
-## Locaux
+## Venue
 
-Le lieu du cours est mis à disposition par le client. Ce lieu doit :
+The course venue is provided by the client and must:
 
-- Permettre d'accueillir les participants et le(s) formateur(s)
-- Inclure une place assise par participant et de l’espace pour des exercices pratiques
-- Être disponibles au minimum une heure avant le début du cours pour préparation
+- Accommodate participants and the trainer(s)
+- Include a seat for each participant and space for practical exercises
+- Be available at least one hour before the start of the course for setup
 
-## Durée
+## Duration
 
-Le cours comprend 3h00 heures de temps d’enseignement sans pauses.
+The course lasts 3 hours without breaks.
 
-## Prix
+## Price
 
-CHF 890.- plus TVA pour max. 12 participants.
+CHF 890.- plus VAT for up to 12 participants.
 
-## Certificat
+## Certification
 
-Le participant reçoit une attestation au cours de BLS-AED-SRC contenant:
+Participants will receive a BLS-AED-SRC certification that includes:
 
-- Titre: "BLS-AED-SRC et Bases aux Premiers Secours"
+- Title: "BLS-AED-SRC and First Aid Basics"
 - "Swiss Defibrillator"
-- Données personnelles du participant: prénom, nom, date de naissance
-- Date d’émission du formateur du cours
-- Q-label SRC et EduQua
+- Participant's personal information: first name, last name, date of birth
+- Course trainer’s issuance date
+- SRC Q-label and EduQua
 
-La durée de validité de l’attestation est de 2 ans.
+The certificate is valid for 2 years.

@@ -13,11 +13,7 @@
       src="/assets/home/clients/novotel.png"
       alt="Novotel Logo"
     />
-    <img
-      class="logo"
-      src="/assets/home/clients/cdf-logo.png"
-      alt="CDF Logo"
-    />
+    <img class="logo" src="/assets/home/clients/cdf-logo.png" alt="CDF Logo" />
     <img
       class="logo"
       src="/assets/home/clients/logitech.png"

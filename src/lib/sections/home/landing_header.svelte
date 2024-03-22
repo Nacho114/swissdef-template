@@ -13,7 +13,7 @@
       <a href="/contact">
         <Button fullWidth={false}>
           <div class="button">
-           {$_("section_home_landing_header_button")} 
+            {$_("section_home_landing_header_button")}
             <ChevronRight />
           </div>
         </Button>

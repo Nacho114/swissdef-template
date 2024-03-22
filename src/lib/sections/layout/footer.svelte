@@ -31,19 +31,33 @@
     <div class="right">
       <div class="sub-div">
         <h4>Quick Links</h4>
-        <p>About Us</p>
-        <p>Contact Us</p>
-        <p>Home</p>
-        <p>Testimonials</p>
-        <p>Products & Training</p>
+        <a href="/">
+        <p>
+        Home</p>
+        </a>
+        <a href="/contact">
+        <p>
+        Contact Us</p>
+        </a>
+        <a href="/products">
+        <p>
+        Products</p>
+        </a>
       </div>
 
       <div class="sub-div">
         <h4>Support & Services</h4>
-        <p>FAQs</p>
-        <p>Technical Support</p>
-        <p>Warranty & Returns</p>
-        <p>Training & Workshops</p>
+        <a href="/maintenance">
+        <p>Maintenance</p>
+        </a>
+        <a href="/training">
+        <p>Training</p>
+        </a>
+        <a href="/warranty_and_returns">
+        <p>
+        Warranty & Returns
+        </p>
+        </a>
       </div>
 
       <div class="sub-div">
@@ -53,7 +67,7 @@
             <Location />
           </CircularButton>
           <div class="addressText">
-            <p>Iggy Street <br /> 1000 - Switzerland</p>
+            <p>Route de l'Aiglon <br /> 1854 - Switzerland</p>
           </div>
         </div>
         <div class="contactContainer">
@@ -61,7 +75,7 @@
             <Phone />
           </CircularButton>
           <div class="addressText">
-            <p>+41 21 311 25 38</p>
+          <a href="tel:+41794412406"><p>+41 79 441 24 06</p></a>
           </div>
         </div>
         <div class="contactContainer">
@@ -69,7 +83,7 @@
             <Email />
           </CircularButton>
           <div class="addressText">
-            <p>info@swissdefibrillator.ch</p>
+           <a href="mailto:info@swissdefibrillator.ch"><p>info@swissdefibrillator.ch</p></a>
           </div>
         </div>
       </div>
@@ -80,12 +94,23 @@
   <hr class="gray-line" />
 
   <div class="divider">
-    <span>Terms & Conditions</span>
-    <span>Privacy Polices</span>
+    <span>
+      <a href="/terms_and_conditions">Terms & Conditions</a>
+    </span>
+    <span>
+      <a href="/privacy_policy">Privacy Policy</a>
+    </span>
   </div>
 </div>
 
 <style>
+  a {
+    display: block; /* Makes the entire area clickable */
+    text-decoration: none; /* Removes underline from links */
+    text-align: left;
+    color: white; /* White text color */
+  }
+
   .footer {
     display: flex;
     color: white;

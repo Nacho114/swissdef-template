@@ -10,7 +10,7 @@
 ### Kai
 
 - [ ] Add bullet features for maintenance and training.
-- [ ] Prettify contact page
+- [x] Prettify contact page
 - [x] Do statistics diagram (Figma)
   - [ ] in French and German (where is the folder? , I'cant find em!)
 - [ ] Go over text with my Mom so she can change (just english)

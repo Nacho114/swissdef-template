@@ -9,22 +9,24 @@
     chart = new Chart(context, {
       type: 'line',
       data: {
-        labels: [...Array(11).keys()], // [0, 1, ..., 10]
+        labels: Array.from({length: 11}, (_, i) => i), 
         datasets: [
           {
             label: 'Without AED',
             data: [100, 88, 76, 65, 55, 45, 38, 30, 25, 20, 15], 
-            borderColor: 'rgb(255, 99, 132)',
+            borderColor: '#FF6384',
+            borderWidth: 2,
             fill: false,
-            tension: 0.1
+            tension: 0.4 
           },
           {
             label: 'With AED',
             data: [100, 95, 90, 88, 85, 84, 82, 80, 79, 78, 77], 
-            borderColor: 'rgb(54, 162, 235)',
-            backgroundColor: 'rgba(54, 162, 235, 0.5)',
+            borderColor: '#36A2EB',
+            backgroundColor: 'rgba(54, 162, 235, 0.2)', 
+            borderWidth: 2,
             fill: true,
-            tension: 0.1
+            tension: 0.4 
           },
         ],
       },
@@ -32,15 +34,35 @@
         scales: {
           y: {
             beginAtZero: true,
-            max: 100
+            max: 100,
+            grid: {
+              display: false, 
+            },
+            ticks: {
+              color: '#9E9E9E' 
+            }
+          },
+          x: {
+            grid: {
+              display: false,
+            },
+            ticks: {
+              color: '#9E9E9E' 
+            }
           }
         },
         responsive: true,
-        maintainAspectRatio: false
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            position: 'bottom', 
+          }
+        },
       },
     });
   });
 </script>
+
 
 <div class="statistics-layout">
   <div class="statistics-header">
@@ -77,73 +99,76 @@
 </div>
 
 <style>
-  .statistics-layout {
-    max-width: 1200px;
-    margin: auto;
-    font-family: 'Arial', sans-serif;
-  }
+.statistics-layout {
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Poppins', sans-serif; 
+  color: #333; 
+}
 
-  .statistics-header {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
+.statistics-header {
+  text-align: center;
+  margin-bottom: 3rem; 
+}
 
-  .statistics-header h1 {
-    color: #333;
-    font-size: 2.5rem;
-  }
+.statistics-header h1 {
+  color: #222;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
 
-  .statistics-header p {
-    color: #666;
-    font-size: 1rem;
-    margin-top: 1rem;
-  }
+.statistics-header p {
+  color: #555;
+  font-size: 1.1rem;
+  max-width: 80%;
+  margin: auto; 
+}
 
-  .chart-container {
-    position: relative;
-    height: 400px; 
-  }
+.chart-container {
+  position: relative;
+  height: 400px; 
+  margin-bottom: 3rem; 
+}
 
-  .info-columns {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
-  }
+.info-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 1.5rem; 
+  margin-top: 3rem;
+}
 
-  .info-column {
-    flex: 1;
-    padding: 0 1rem;
-  }
+.info-column {
+  padding: 1.5rem; 
+  background-color: #ffffff;
+  border-radius: 12px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease;
+}
 
-  .info-column h3 {
-    font-size: 1.2rem;
-    color: #333;
-    margin-bottom: 0.5rem;
-  }
+.info-column:hover {
+  transform: translateY(-10px);
+}
 
-  .info-column p {
-    font-size: 1rem;
-    color: #666;
-  }
+.info-column h3 {
+  font-size: 1.4rem; 
+  color: #222;
+  margin-bottom: 1rem;
+}
 
-  .cta-container {
-    background-color: #ff9900; 
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
-    font-size: 1rem;
-  }
+.info-column p {
+  font-size: 1.1rem; 
+  color: #555;
+}
 
-  @media (max-width: 768px) {
-    .info-columns {
-      flex-direction: column;
-    }
+.cta-container {
+  background-color: #007BFF; 
+  color: white;
+  text-align: center;
+  padding: 1.5rem; 
+  margin-top: 3rem;
+  font-size: 1.1rem;
+  border-radius: 12px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
 
-    .info-column {
-      margin-bottom: 1rem;
-    }
-  }
-
-  
 </style>

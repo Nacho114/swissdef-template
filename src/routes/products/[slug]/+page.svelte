@@ -19,7 +19,6 @@
     <ProductInfo {image_path} {title} {price} {summary} />
     <InfoListCard title="Description" infoListString={about} />
     <InfoListCard title="Specification" infoListString={features} />
-    <InfoListCard title="Returns & Warrant" infoListString={features} />
   </div>
 </Container>
 

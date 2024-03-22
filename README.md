@@ -2,8 +2,8 @@
 
 ## Deployment link
 
-[Dev deployment link](https://swissdef-dev.netlify.app/)
-[Kai deployment link](https://poetic-genie-db4436.netlify.app)
+- [Dev deployment link](https://swissdef-dev.netlify.app/)
+- [Kai deployment link](https://poetic-genie-db4436.netlify.app)
 
 ## TODO
 

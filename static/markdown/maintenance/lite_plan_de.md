@@ -1,57 +1,22 @@
-# Maintenance de
+# Lite-Wartungsplan
 
-**Formation interactive et dynamique** donnée par 1 formatrice d’adultes certifiée FSEA EduQua avec 20 ans d’expérience, 75% exercices pratiques. Comprend:
+Der Lite-Wartungsplan ist für Unternehmen konzipiert, die grundlegende Wartungsdienste für ihre Defibrillatoren zu einem kosteneffektiven Preis suchen, ohne den umfassenden Umfang unseres Basic-Plans. Diese Option ist perfekt für kleinere Organisationen oder solche mit weniger hochriskanten Szenarien und bietet eine kostengünstige Lösung, die dennoch sicherstellt, dass Ihr Defibrillator von Fachleuten überprüft und gewartet wird.
 
-- Flyers explicatifs et illustrés
-- Test à remplir par chaque participant à la fin de la formation
-- Power Point, Vidéos
-- AED Trainer, HS-1 et FRx HeartStart Philips Défibrillateur, diverses marques des défibrillateurs pour la démo, Brayden Mannequins avec feedback visuel et Laerdal mannequins enfant et bébé
-- Masques, Outil pour la Manoeuvre de Heimlich
-- Trousse de Premiers Secours, Outils d’exercice pour les premiers secours
+## Merkmale und Vorteile
 
-**Langues**: Français, Allemand et Anglais.
+- **Routineüberprüfung bei Ersatzbedarf**: Unser Wartungsplan ist so gestaltet, dass er mit dem Ersatzzyklus Ihres Defibrillators übereinstimmt. Dieser gezielte Ansatz stellt sicher, dass Ihr Gerät genau dann inspiziert und gewartet wird, wenn es benötigt wird, und erhält seine Einsatzbereitschaft, ohne unnötige Eingriffe.
+- **Qualifizierte Techniker**: Jeder Wartungsbesuch wird von unserem Team hochqualifizierter Techniker durchgeführt, die sich auf die Wartung von Defibrillatoren spezialisiert haben. Ihre Expertise gewährleistet, dass die Wartung Ihres Geräts effizient und mit minimaler Störung Ihrer täglichen Abläufe durchgeführt wird.
+- **Bundesweiter Service in der Schweiz**: Unabhängig von Ihrem Standort innerhalb der Schweiz stehen unsere Techniker zur Verfügung, um Ihnen denselben hochwertigen Service zu bieten, und stellen sicher, dass Ihre Defibrillatoren nach höchsten Standards gewartet werden.
 
-## Contrôle des connaissances
+## Preise
 
-Durant le cours. Exercices pour pouvoir porter secours sûrement et efficacement avec des situations pratiques réalistes.
+- CHF 450 pro Monat, pro Defibrillator.
+- Die Wahl dieses Plans bedeutet eine Verpflichtung zu einer Laufzeit von 24 Monaten, was gewährleistet, dass Ihre Defibrillator-Wartungsbedürfnisse über einen signifikanten Zeitraum erfüllt werden. Weitere Informationen finden Sie in den Allgemeinen Geschäftsbedingungen.
 
-## Compris
+## Spezialangebote
 
-- Flyers explicatifs et illustratives
-- L’algorithme 2015 et 2020 de la SRC Swiss Ressuscitation Council
-- 1 masque de poche pour la ventilation par participant
+- Organisationen mit mehreren Defibrillatoren profitieren von unseren ermäßigten Tarifen, was es noch erschwinglicher macht, sicherzustellen, dass alle Ihre Geräte ordnungsgemäß gewartet werden.
 
-## Instructeur certifié par
+## Loslegen
 
-- L’école de Santé SanPool
-- La SRC Swiss Ressuscitation Council
-- EduQua FSEA Formateur d’Adultes
-- IAS Inter-Association de Sauvetage
-
-## Locaux
-
-Le lieu du cours est mis à disposition par le client. Ce lieu doit :
-
-- Permettre d'accueillir les participants et le(s) formateur(s)
-- Inclure une place assise par participant et de l’espace pour des exercices pratiques
-- Être disponibles au minimum une heure avant le début du cours pour préparation
-
-## Durée
-
-Le cours comprend 3h00 heures de temps d’enseignement sans pauses.
-
-## Prix
-
-CHF 890.- plus TVA pour max. 12 participants.
-
-## Certificat
-
-Le participant reçoit une attestation au cours de BLS-AED-SRC contenant:
-
-- Titre: "BLS-AED-SRC et Bases aux Premiers Secours"
-- "Swiss Defibrillator"
-- Données personnelles du participant: prénom, nom, date de naissance
-- Date d’émission du formateur du cours
-- Q-label SRC et EduQua
-
-La durée de validité de l’attestation est de 2 ans.
+Wenn der Lite-Wartungsplan wie die richtige Wahl für Ihre Organisation klingt, klicken Sie auf den Button „buchen“. Ein Kundenbetreuer wird sich mit Ihnen in Verbindung setzen, um Sie durch den Einschreibungsprozess zu führen und sicherzustellen, dass Ihre Defibrillatoren in fähigen Händen sind.

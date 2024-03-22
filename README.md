@@ -1,5 +1,8 @@
 # Svelte template for Swiss defibrillator
 
+## Link for my deployment
+https://poetic-genie-db4436.netlify.app
+
 ## TODO
 
 - Have only 3-4 different font sizes.

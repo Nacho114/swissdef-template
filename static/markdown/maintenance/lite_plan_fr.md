@@ -1,57 +1,22 @@
-# Maintenance fr
+# Plan de Maintenance Lite
 
-**Formation interactive et dynamique** donnée par 1 formatrice d’adultes certifiée FSEA EduQua avec 20 ans d’expérience, 75% exercices pratiques. Comprend:
+Le Plan de Maintenance Lite est spécialement conçu pour les entreprises en quête de services de maintenance essentiels pour leurs défibrillateurs, mais à un tarif plus abordable. Cette option est idéale pour les petites entreprises ou celles moins exposées à des situations à haut risque, offrant une solution économique tout en assurant que vos équipements sont entretenus par des professionnels.
 
-- Flyers explicatifs et illustrés
-- Test à remplir par chaque participant à la fin de la formation
-- Power Point, Vidéos
-- AED Trainer, HS-1 et FRx HeartStart Philips Défibrillateur, diverses marques des défibrillateurs pour la démo, Brayden Mannequins avec feedback visuel et Laerdal mannequins enfant et bébé
-- Masques, Outil pour la Manoeuvre de Heimlich
-- Trousse de Premiers Secours, Outils d’exercice pour les premiers secours
+## Fonctionnalités et Avantages
 
-**Langues**: Français, Allemand et Anglais.
+- **Vérification de Routine à l'Échéance du Remplacement**: Notre planification de maintenance est intelligemment alignée avec les périodes de remplacement nécessaires de votre défibrillateur. Cette stratégie assure que votre appareil est inspecté et servi précisément au moment opportun, garantissant sa disponibilité opérationnelle sans interventions superflues.
+- **Techniciens Qualifiés**: Chaque intervention de maintenance est effectuée par nos techniciens hautement qualifiés, formés spécifiquement pour l'entretien des défibrillateurs. Leur compétence garantit que la maintenance de votre appareil est réalisée avec une efficacité maximale, tout en minimisant les perturbations pour votre entreprise.
+- **Service à l'Échelle Nationale en Suisse**: Peu importe où vous vous trouvez en Suisse, notre équipe de techniciens qualifiés est prête à vous fournir un service de qualité supérieure, assurant que vos défibrillateurs sont maintenus selon les normes les plus strictes.
 
-## Contrôle des connaissances
+## Tarification
 
-Durant le cours. Exercices pour pouvoir porter secours sûrement et efficacement avec des situations pratiques réalistes.
+- CHF 450 par mois, par défibrillateur.
+- En choisissant ce plan, vous vous engagez pour un terme minimal de 24 mois, ce qui garantit que les besoins de maintenance de votre défibrillateur sont couverts sur une période significative. Consultez les termes et conditions pour plus d'informations.
 
-## Compris
+## Offres Spéciales
 
-- Flyers explicatifs et illustratives
-- L’algorithme 2015 et 2020 de la SRC Swiss Ressuscitation Council
-- 1 masque de poche pour la ventilation par participant
+- Les organisations possédant plusieurs défibrillateurs bénéficieront de nos tarifs réduits, rendant encore plus abordable l'assurance que tous vos dispositifs sont correctement entretenus.
 
-## Instructeur certifié par
+## Commencez
 
-- L’école de Santé SanPool
-- La SRC Swiss Ressuscitation Council
-- EduQua FSEA Formateur d’Adultes
-- IAS Inter-Association de Sauvetage
-
-## Locaux
-
-Le lieu du cours est mis à disposition par le client. Ce lieu doit :
-
-- Permettre d'accueillir les participants et le(s) formateur(s)
-- Inclure une place assise par participant et de l’espace pour des exercices pratiques
-- Être disponibles au minimum une heure avant le début du cours pour préparation
-
-## Durée
-
-Le cours comprend 3h00 heures de temps d’enseignement sans pauses.
-
-## Prix
-
-CHF 890.- plus TVA pour max. 12 participants.
-
-## Certificat
-
-Le participant reçoit une attestation au cours de BLS-AED-SRC contenant:
-
-- Titre: "BLS-AED-SRC et Bases aux Premiers Secours"
-- "Swiss Defibrillator"
-- Données personnelles du participant: prénom, nom, date de naissance
-- Date d’émission du formateur du cours
-- Q-label SRC et EduQua
-
-La durée de validité de l’attestation est de 2 ans.
+Si le Plan de Maintenance Lite correspond aux besoins de votre organisation, cliquez sur le bouton "réserver". Un représentant du service clientèle vous contactera pour vous guider à travers le processus d'inscription, s'assurant que vos défibrillateurs sont entre de bonnes mains.

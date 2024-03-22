@@ -99,8 +99,7 @@
   "maintenance_lite_plan_features": "Routine Check Upon Replacement Due||true\nQualified Technicians||true\nNationwide Service in Switzerland||true\nQuarterly Maintenance Checks||false\nFree Replacement of Used Parts||false\nCustomer Support||false\nDiscount on First Aid Training Courses||false",
   "maintenance_basic_plan_title": "Basic Plan",
   "maintenance_basic_plan_description": "Essential Lifesaving Skills in a Snap",
-  "maintenance_basic_plan_features": "Routine Check Upon Replacement Due||true\nQualified Technicians||true\nNationwide Service in Switzerland||true\nQuarterly Maintenance Checks||true\nFree Replacement of Used Parts||true\nCustomer Support||true\nDiscount on First Aid Training Courses||true"
-
+  "maintenance_basic_plan_features": "Routine Check Upon Replacement Due||true\nQualified Technicians||true\nNationwide Service in Switzerland||true\nQuarterly Maintenance Checks||true\nFree Replacement of Used Parts||true\nCustomer Support||true\nDiscount on First Aid Training Courses||true",
   
   "training_toggle_main": "Main courses",
   "training_toggle_extra": "Extra courses",

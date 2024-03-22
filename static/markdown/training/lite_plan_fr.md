@@ -1,4 +1,4 @@
-# lite plan fr
+# Méthodologie
 
 **Formation interactive et dynamique** donnée par 1 formatrice d’adultes certifiée FSEA EduQua avec 20 ans d’expérience, 75% exercices pratiques. Comprend:
 

@@ -22,4 +22,3 @@ Notre Plan de Maintenance de Base est la solution ultime pour les organisations 
 ## Commencez
 
 Assurez aujourd'hui la sécurité et la préparation de votre équipement d'urgence. Cliquez sur le bouton "réserver" pour discuter de vos besoins avec un représentant du support client et faire le premier pas vers une préparation et une tranquillité d'esprit inégalées.
-

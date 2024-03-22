@@ -1,11 +1,27 @@
 # Svelte template for Swiss defibrillator
 
-## Link for my deployment
-https://poetic-genie-db4436.netlify.app
+## Deployment link
+
+[Dev deployment link](https://swissdef-dev.netlify.app/)
+[Kai deployment link](https://poetic-genie-db4436.netlify.app)
 
 ## TODO
 
-- Have only 3-4 different font sizes.
+### Kai
+
+- [ ] Add bullet features for maintenance and training.
+- [ ] Prettify contact page
+- [ ] Do statistics diagram (Figma) in French and German
+- [ ] Go over text with my Mom so she can change (just english)
+- [ ] SEO
+- [ ] Ask my mom to get a WAP first aid kit pic, with white background
+
+### Ignacio
+
+- [ ] Finish links
+- [ ] Move text to i18n
+- [ ] Hide extra course (maybe for future online course)
+- [ ] Unify font size to 3-4 vars
 
 ## Icons
 
@@ -23,13 +39,6 @@ More images can be found [here](https://mega.nz/folder/tKdHVJ5D#g1wS8E-bZsXK3kLA
 - [x] Image loading example
 - [x] Main css file
 - [x] Icon [library](https://iconify.design/docs/usage/svg/unplugin/)
-
-## Road map
-
-- [ ] Add different font formats in style for better accessability.
-- [ ] Add SEO
-- [ ] Deploy
-- [ ] $$$ Profit
 
 ## Developing
 

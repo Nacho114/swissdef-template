@@ -72,6 +72,8 @@
       },
     });
   });
+  // Hack to supress unused var
+  console.log(chart);
 </script>
 
 <div class="statistics-layout">

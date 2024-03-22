@@ -27,7 +27,7 @@
 <Container>
   <div class="training-cards-container">
     <div class="header">
-      <h1>Training</h1>
+      <h1>{$_("section_general_training")}</h1>
       <!-- <div class="toggle-container">
         <ToggleButtons
           button1={popular_button_name}

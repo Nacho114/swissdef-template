@@ -1,5 +1,6 @@
 <script>
   import { _ } from "svelte-i18n";
+  import { ContactInfo } from '$lib/info'; 
   import Container from "$lib/components/container.svelte";
   import CircularButton from "$lib/components/circular_button.svelte";
   import Facebook from "virtual:icons/gg/facebook";
@@ -81,29 +82,23 @@
             <Location />
           </CircularButton>
           <div class="addressText">
-            <p>Route de l'Aiglon <br /> 1854 - Switzerland</p>
+            <p>{ContactInfo.getAddress()}</p>
           </div>
         </div>
         <div class="contactContainer">
-          <CircularButton link="tel:+41794412406" bgColor="#363939" scale=".8">
+          <CircularButton link="tel:{ContactInfo.getPhoneNumber()}" bgColor="#363939" scale=".8">
             <Phone />
           </CircularButton>
           <div class="addressText">
-            <a href="tel:+41794412406"><p>+41 79 441 24 06</p></a>
+            <a href="tel:{ContactInfo.getPhoneNumber()}"><p>{ContactInfo.getPhoneNumber()}</p></a>
           </div>
         </div>
         <div class="contactContainer">
-          <CircularButton
-            link="mailto:info@swissdefibrillator.ch"
-            bgColor="#363939"
-            scale=".8"
-          >
+          <CircularButton link="mailto:{ContactInfo.getEmail()}" bgColor="#363939" scale=".8">
             <Email />
           </CircularButton>
           <div class="addressText">
-            <a href="mailto:info@swissdefibrillator.ch"
-              ><p>info@swissdefibrillator.ch</p></a
-            >
+            <a href="mailto:{ContactInfo.getEmail()}"><p>{ContactInfo.getEmail()}</p></a>
           </div>
         </div>
       </div>

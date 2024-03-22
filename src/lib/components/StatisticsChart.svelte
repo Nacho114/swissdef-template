@@ -44,7 +44,7 @@
             },
             title: {
               display: true,
-              text: "Chance of Survival (%)",
+              text: $_("section_home_statistics_chart_y_axis"),
               color: "#9E9E9E",
             },
           },
@@ -57,7 +57,7 @@
             },
             title: {
               display: true,
-              text: "Time",
+              text: $_("section_home_statistics_chart_x_axis"),
               color: "#9E9E9E",
             },
           },

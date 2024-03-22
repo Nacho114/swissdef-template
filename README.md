@@ -9,21 +9,25 @@
 
 ### Kai
 
+- [ ] Go over text with my Mom so she can change (just english)
+- [ ] Ask my mom to get a WAP first aid kit pic, with white background
+- [ ] Add bullet features for training
+- [ ] Make statistics chart responsive for mobile (Either remove or resize)
+- [ ] Help Monica get setup with Calendly + put her link on the site
+- [ ] Advanced SEO
 - [x] Add bullet features for maintenance
--   [ ] and training. (what is lite training?)
 - [x] Prettify contact page
 - [x] Do statistics diagram (Figma)
-  - [ ] in French and German (where is the folder? , I'cant find em!)
-- [ ] Go over text with my Mom so she can change (just english)
 - [x] SEO
-- [ ] Ask my mom to get a WAP first aid kit pic, with white background
 
 ### Ignacio
 
-- [ ] Finish links
-- [ ] Move text to i18n
-- [ ] Hide extra course (maybe for future online course)
+- [ ] Make landing services responsive
 - [ ] Unify font size to 3-4 vars
+- [ ] Review Privacy policy and such
+- [x] Finish links
+- [x] Move text to i18n
+- [x] Hide extra course (maybe for future online course)
 
 ## Icons
 

@@ -22,4 +22,3 @@ Our Basic Maintenance Plan is the ultimate solution for organizations that deman
 ## Get Started
 
 Ensure the safety and readiness of your emergency equipment today. Click the "book" button to discuss your needs with a customer support representative and take the first step towards unparalleled preparedness and peace of mind.
-

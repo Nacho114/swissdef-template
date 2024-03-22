@@ -9,7 +9,8 @@
 
 ### Kai
 
-- [ ] Add bullet features for maintenance and training.
+- [x] Add bullet features for maintenance
+-   [ ] and training. (what is lite training?)
 - [x] Prettify contact page
 - [x] Do statistics diagram (Figma)
   - [ ] in French and German (where is the folder? , I'cant find em!)

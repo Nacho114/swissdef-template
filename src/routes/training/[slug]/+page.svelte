@@ -3,9 +3,8 @@
   import type { Training } from "$lib/training";
 
   export let data: Training;
-  let file_name = "/markdown/training/bls-aed";
+  let file_name = `/markdown/training/${data.slug}`;
 
-  console.log(data.slug);
 </script>
 
 <MdInfoPage {file_name} />

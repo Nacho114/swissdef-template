@@ -10,10 +10,11 @@
 ### Kai
 
 - [ ] Add bullet features for maintenance and training.
-- [ ] Prettify contact page
-- [ ] Do statistics diagram (Figma) in French and German
+- [x] Prettify contact page
+- [x] Do statistics diagram (Figma)
+  - [ ] in French and German (where is the folder? , I'cant find em!)
 - [ ] Go over text with my Mom so she can change (just english)
-- [ ] SEO
+- [x] SEO
 - [ ] Ask my mom to get a WAP first aid kit pic, with white background
 
 ### Ignacio

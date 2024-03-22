@@ -32,7 +32,7 @@
     <div class="right">
       <div class="sub-div">
         <h4>
-        {$_("section_footer_quick_links")}
+          {$_("section_footer_quick_links")}
         </h4>
         <a href="/">
           <p>
@@ -53,7 +53,7 @@
 
       <div class="sub-div">
         <h4>
-        {$_("section_footer_support_and_services")}
+          {$_("section_footer_support_and_services")}
         </h4>
         <a href="/maintenance">
           <p>
@@ -74,7 +74,7 @@
 
       <div class="sub-div">
         <h4>
-        {$_("section_footer_contact_us")}
+          {$_("section_footer_contact_us")}
         </h4>
         <div class="contactContainer">
           <CircularButton bgColor="#363939" scale=".8">

@@ -47,7 +47,7 @@
     <div class="learn-more-button">
       <a href="/contact">
         <Button isOutlined={true}>
-      {$_("section_home_services_learn_more_button")}
+          {$_("section_home_services_learn_more_button")}
         </Button>
       </a>
     </div>

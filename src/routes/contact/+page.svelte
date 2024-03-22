@@ -2,7 +2,7 @@
   import Container from "$lib/components/container.svelte";
   import { onMount } from 'svelte';
 
-  // Function to dynamically load the Calendly script
+ 
   function loadCalendlyScript() {
     const script = document.createElement('script');
     script.src = 'https://assets.calendly.com/assets/external/widget.js';
@@ -10,7 +10,7 @@
     document.body.appendChild(script);
   }
   
-  // Load the script when the component mounts
+
   onMount(() => {
     loadCalendlyScript();
   });
@@ -21,10 +21,10 @@
 </Container>
 
 <style>
-  /* You can adjust or add additional styles here */
+  
   .calendly-inline-widget {
     display: flex;
     justify-content: center;
-    /* Ensure the widget is centered within the container */
+   
   }
 </style>

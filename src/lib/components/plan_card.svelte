@@ -32,7 +32,6 @@
   >
 
   <PlanInformation {featuresString} />
-  <PlanInformation {featuresString} />
 </div>
 
 <style>

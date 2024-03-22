@@ -3,11 +3,11 @@
     import Chart from 'chart.js/auto/auto.js';
   
     onMount(() => {
-      // Ensuring this runs only on the client side
+      // Ensures chart code runs only in the browser
       if (typeof window !== 'undefined') {
         const ctx = document.getElementById('scaChart').getContext('2d');
         new Chart(ctx, {
-          type: 'bar', // A simple bar chart to start with
+          type: 'bar',
           data: {
             labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
             datasets: [{
@@ -22,7 +22,7 @@
                 'rgba(255, 159, 64, 0.2)'
               ],
               borderColor: [
-                'rgba(255,99,132,1)',
+                'rgba(255, 99, 132, 1)',
                 'rgba(54, 162, 235, 1)',
                 'rgba(255, 206, 86, 1)',
                 'rgba(75, 192, 192, 1)',
@@ -52,8 +52,14 @@
     .chart-container {
       position: relative;
       margin: auto;
-      height: 40vh;
-      width: 80vw;
+      height: 40vh; /* Adjust height as needed */
+      width: 80vw; /* Adjust width as needed */
+    }
+  
+    /* Ensure the canvas fills the container correctly */
+    canvas {
+      width: 100%;
+      height: 100%;
     }
   </style>
   

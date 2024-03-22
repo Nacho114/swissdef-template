@@ -4,7 +4,6 @@
 
   export let data: Training;
   let file_name = `/markdown/training/${data.slug}`;
-
 </script>
 
 <MdInfoPage {file_name} />

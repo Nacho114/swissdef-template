@@ -20,4 +20,3 @@ The Lite Maintenance Plan is tailored for businesses seeking essential defibrill
 ## Get Started
 
 If the Lite Maintenance Plan sounds like the right fit for your organization, click the "book" button. A customer support representative will be in touch to guide you through the enrollment process, ensuring that your defibrillators are in capable hands.
-

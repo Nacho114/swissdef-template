@@ -16,6 +16,7 @@
 - [x] order button red/green
 - [ ] add about section
 - [ ] change basic to advanced plan (instead of lite/basic)
+- [x] fix favicon
 
 
 ### Kai
@@ -25,7 +26,7 @@
 - [ ] Add bullet features for training
 - [ ] Make statistics chart responsive for mobile (Either remove or resize) (isnt it already ?)
 - [ ] Help Monica get setup with Calendly + put her link on the site
-- [ ] Advanced SEO
+- [x] Advanced SEO
 - [x] Add bullet features for maintenance
 - [x] Prettify contact page
 - [x] Do statistics diagram (Figma)

@@ -1,64 +1,76 @@
-# Privacy Policy for Swiss Defibrillator
+# Privacy Policy
 
-Effective date: 05.04.2024
-
-Welcome to the Swiss Defibrillator website. Your privacy is important to us. This Privacy Policy explains how we collect, use, protect, and handle your personal information when you visit and use http://www.swissdefibrillator.ch/, our products, and services.
+At Swiss Defibrillator, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you visit our website and use our services. By accessing or using our website, you consent to the terms of this Privacy Policy.
 
 ## 1. Information We Collect
 
-### a. Information You Provide to Us
-
-We collect information you provide directly to us when you use our services, including but not limited to:
+We may collect personal information that you voluntarily provide to us when you use our website or services, such as when you place an order, register for an account, subscribe to a newsletter, or fill out a contact form. The personal information we collect may include, but is not limited to:
 
 - Name
-- Contact information (such as email address, telephone number)
-- Shipping and billing addresses
-- Payment information (credit card numbers, expiration dates)
-- Any other information you choose to provide.
+- Email address
+- Postal address
+- Phone number
+- Payment information
+- Other information you choose to provide
 
-### b. Information We Collect Automatically
-
-When you access or use our website, we automatically collect information about you, including:
-
-- Log Information: Details of your visits to our website, including traffic data, location data, logs, and other communication data and the resources that you access and use on the website.
-- Device Information: Information about your computer, mobile device, and Internet connection, including the device's unique device identifier, IP address, operating system, browser type, mobile network information, and the device's telephone number.
+We may also collect non-personal information about your interaction with our website, such as your IP address, browser type, operating system, and referring websites.
 
 ## 2. How We Use Your Information
 
-We use information collected about you to:
+We use the information we collect to provide, maintain, and improve our services, as well as to communicate with you. Specifically, we may use your information to:
 
-- Provide you with the services and information you request.
-- Process transactions and send you related information, including confirmations and invoices.
-- Communicate with you about products, services, offers, promotions, and provide news and information we think will be of interest to you.
-- Monitor and analyze trends, usage, and activities in connection with our services.
+- Process and fulfill your orders
+- Provide customer support
+- Send you important updates and notifications
+- Personalize your experience on our website
+- Analyze trends and gather demographic information for aggregate use
+- Detect, prevent, and address technical issues and fraud
+- Comply with legal obligations
 
-## 3. Sharing of Information
+## 3. Information Sharing and Disclosure
 
-We do not sell, rent, or trade your personal information to third parties. We may share your information with third parties to:
+We do not sell, trade, or otherwise transfer your personal information to outside parties without your consent, except as described in this Privacy Policy. We may share your information with trusted third-party service providers who assist us in operating our website, conducting our business, or servicing you, as long as those parties agree to keep this information confidential.
 
-- Fulfill the purpose for which you provide it.
-- For any other purpose disclosed by us when you provide the information.
-- With your consent.
+We may also disclose your personal information when we believe it is necessary to comply with applicable laws, to respond to legal process, to enforce our site policies, or to protect our or others' rights, property, or safety.
 
-We also may share your information to comply with any court order, law, or legal process, including to respond to any government or regulatory request.
+## 4. Data Security
 
-## 4. Your Choices
+We implement reasonable security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
 
-You have choices regarding the personal information you provide to us:
+## 5. Data Retention
 
-- You can choose not to provide certain information, but this may limit your ability to use certain features of our website.
-- You can opt-out of receiving promotional emails from us by following the instructions in those emails.
+We will retain your personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law.
 
-## 5. Data Security
+## 6. Your Rights Under GDPR
 
-We have implemented measures designed to secure your personal information from accidental loss and from unauthorized access, use, alteration, and disclosure. All information you provide to us is stored on our secure servers behind firewalls.
+If you are a resident of the European Economic Area (EEA), you have certain rights under the General Data Protection Regulation (GDPR), including:
 
-## 6. Changes to Our Privacy Policy
+- The right to access your personal information
+- The right to request correction or erasure of your personal information
+- The right to restrict or object to the processing of your personal information
+- The right to data portability
+- The right to withdraw consent at any time
 
-We may update our Privacy Policy from time to time. If we make material changes, we will notify you by revising the date at the top of the policy and, in some cases, we may provide you with more prominent notice (such as adding a statement to our homepage or sending you a notification).
+To exercise these rights, please contact us using the information provided below.
 
-## 7. Contact Information
+## 7. Children's Privacy
 
-To ask questions or comment about this Privacy Policy and our privacy practices, contact us at: [Your Contact Information].
+Our website and services are not directed to children under the age of 16. We do not knowingly collect personal information from children under 16. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us so that we can delete the information.
 
-This Privacy Policy does not apply to information collected by any third party, including through any application or content (including advertising) that may link to or be accessible from or on the website.
+## 8. Changes to This Privacy Policy
+
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date at the top of the Privacy Policy.
+
+## 9. Contact Us
+
+If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at:
+
+Swiss Defibrillator
+Route de l'Aiglon 5
+1854 Switzerland
++41794412406
+info@swissdefibrillator.ch
+
+By using our website and services, you signify your acceptance of this Privacy Policy. If you do not agree to this Privacy Policy, please do not use our website or services.
+
+Last Updated: March 23, 2024

@@ -68,10 +68,10 @@
   }
 
   .yes-icon {
-    color: #7c67fe;
+    color: rgb(0, 146, 22);
   }
 
   .no-icon {
-    color: #ff4794;
+    color: #ca0000;
   }
 </style>

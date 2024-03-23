@@ -116,7 +116,7 @@
   "section_products_wap_first_aid_kit_about": "The WAP First Aid Kit is a comprehensive emergency response kit containing essential medical supplies for treating minor injuries, cuts, scrapes, and other first aid needs.",
   "section_products_wap_first_aid_kit_features": "Contains items such as bandages, antiseptic wipes, CPR face shield, and gloves. Packaged in a compact, easily accessible container, it's ideal for homes, offices, and vehicles.",
 
-  "maintenance_lite_plan_title": "Lite Plan",
+  "maintenance_lite_plan_title": "Economy Maintenance",
   "maintenance_lite_plan_description": "Simple maintenance plan",
   "maintenance_lite_plan_features": "Routine Check Upon Replacement Due||true\nQualified Technicians||true\nNationwide Service in Switzerland||true\nQuarterly Maintenance Checks||false\nFree Replacement of Used Parts||false\nCustomer Support||false\nDiscount on First Aid Training Courses||false",
   "maintenance_basic_plan_title": "Advanced Plan",
@@ -126,10 +126,10 @@
   "training_toggle_main": "Main courses",
   "training_toggle_extra": "Extra courses",
 
-  "training_lite_plan_title": "Lite training",
-  "training_lite_plan_description": "Simple maintenance plan",
-  "training_lite_plan_features": "Fundamental BLS and AED principles||true\nCPR technique for adults||true\nBasic airway management||true\nEmergency response protocol||true\nIntroduction to first aid||true\nHands-on AED practice||false\nPhysical lessons||false",
-  "training_basic_plan_title": "Advanced training",
-  "training_basic_plan_description": "Essential Lifesaving Skills in a Snap",
-  "training_basic_plan_features": "Fundamental BLS and AED principles||true\nCPR technique for adults||true\nBasic airway management||true\nEmergency response protocol||true\nIntroduction to first aid||true\nHands-on AED practice||false\nPhysical lessons||false"
+  "training_lite_plan_title": "Economy Training",
+"training_lite_plan_description": "Simple maintenance plan",
+"training_lite_plan_features": "Basic adult CPR and AED skills||true\nPersonal safety considerations||true\nRecovery position||true\nHands-on practice time per participant||true\nQualified instructor||true\nAdult mannequins and AED trainers||true\nChild CPR and AED skills||false\nRecognition of serious cardiac conditions||false\nAirway obstruction management||false\nReflection on motivation to assist||false\nChild and infant mannequins||false\nIndividual ventilation aids||false",
+"training_basic_plan_title": "Advanced Training",
+"training_basic_plan_description": "Essential Lifesaving Skills in a Snap",
+"training_basic_plan_features": "Comprehensive adult and child CPR and AED skills||true\nPersonal safety considerations||true\nRecovery position||true\nHands-on practice time per participant||true\nQualified instructor||true\nHigh-performance CPR feedback mannequins||true\nMultiple AED trainers||true\nRecognition of serious cardiac conditions||true\nAirway obstruction management||true\nReflection on motivation to assist||true\nChild and infant mannequins||true\nIndividual ventilation aids||true"
 }

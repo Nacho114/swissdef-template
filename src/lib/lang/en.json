@@ -119,17 +119,17 @@
   "maintenance_lite_plan_title": "Lite Plan",
   "maintenance_lite_plan_description": "Simple maintenance plan",
   "maintenance_lite_plan_features": "Routine Check Upon Replacement Due||true\nQualified Technicians||true\nNationwide Service in Switzerland||true\nQuarterly Maintenance Checks||false\nFree Replacement of Used Parts||false\nCustomer Support||false\nDiscount on First Aid Training Courses||false",
-  "maintenance_basic_plan_title": "Basic Plan",
+  "maintenance_basic_plan_title": "Advanced Plan",
   "maintenance_basic_plan_description": "Essential Lifesaving Skills in a Snap",
   "maintenance_basic_plan_features": "Routine Check Upon Replacement Due||true\nQualified Technicians||true\nNationwide Service in Switzerland||true\nQuarterly Maintenance Checks||true\nFree Replacement of Used Parts||true\nCustomer Support||true\nDiscount on First Aid Training Courses||true",
 
   "training_toggle_main": "Main courses",
   "training_toggle_extra": "Extra courses",
 
-  "training_lite_plan_title": "Lite train",
+  "training_lite_plan_title": "Lite training",
   "training_lite_plan_description": "Simple maintenance plan",
   "training_lite_plan_features": "Fundamental BLS and AED principles||true\nCPR technique for adults||true\nBasic airway management||true\nEmergency response protocol||true\nIntroduction to first aid||true\nHands-on AED practice||false\nPhysical lessons||false",
-  "training_basic_plan_title": "Basic train",
+  "training_basic_plan_title": "Advanced training",
   "training_basic_plan_description": "Essential Lifesaving Skills in a Snap",
   "training_basic_plan_features": "Fundamental BLS and AED principles||true\nCPR technique for adults||true\nBasic airway management||true\nEmergency response protocol||true\nIntroduction to first aid||true\nHands-on AED practice||false\nPhysical lessons||false"
 }

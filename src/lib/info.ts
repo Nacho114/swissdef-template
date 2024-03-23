@@ -1,5 +1,5 @@
 export class ContactInfo {
-  static readonly address = `Route de l'Aiglon \n 1854 - Switzerland`;
+  static readonly address = `Route de l'Aiglon 5 \n 1854 - Switzerland`;
   static readonly phoneNumber = "+41 79 441 24 06";
   static readonly email = "info@swissdefibrillator.ch";
 

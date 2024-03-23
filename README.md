@@ -7,6 +7,12 @@
 
 ## TODO
 
+## NEED HELP
+- [ ] for the main units she wants a long text with all the sections
+https://we.tl/t-5GtvNLaV4F
+- [ ] bug- for producs if you click it the buy window also resizes <img width="1137" alt="image" src="https://github.com/Nacho114/swissdef-template/assets/7343904/5491fafb-482f-41d0-891a-d25a0ed704f0">
+
+
 ### Feedback from ur mom
 - [x] change first aid sticker to a new one
 - [x] make wall mounted aed lighter (it won't get lighter or it will break, too much noise in the original pic but I think it is fine)

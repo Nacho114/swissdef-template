@@ -1,61 +1,76 @@
-# Terms and Conditions
+# Privacy Policy
 
-Welcome to Swiss Defibrillator, your source for Automated External Defibrillators (AEDs), maintenance, and training services. By accessing or using our website and services, you agree to be bound by these Terms and Conditions. Please read them carefully.
+At Swiss Defibrillator, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you visit our website and use our services. By accessing or using our website, you consent to the terms of this Privacy Policy.
 
-## 1. Introduction
+## 1. Information We Collect
 
-These Terms and Conditions govern your use of http://www.swissdefibrillator.ch/ and all associated services. Swiss Defibrillator provides this website, including all information, tools, products, and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here.
+We may collect personal information that you voluntarily provide to us when you use our website or services, such as when you place an order, register for an account, subscribe to a newsletter, or fill out a contact form. The personal information we collect may include, but is not limited to:
 
-By visiting our site and/or purchasing something from us, you engage in our “Service” and agree to be bound by the following terms and conditions (“Terms of Service”, “Terms”), including those additional terms and conditions and policies referenced herein and/or available by hyperlink. These Terms of Service apply to all users of the site.
+- Name
+- Email address
+- Postal address
+- Phone number
+- Payment information
+- Other information you choose to provide
 
-## 2. Use of Our Service
+We may also collect non-personal information about your interaction with our website, such as your IP address, browser type, operating system, and referring websites.
 
-Swiss Defibrillator offers Automated External Defibrillators (AEDs), related maintenance, and training services. The following terms apply to your use of our products and services:
+## 2. How We Use Your Information
 
-- You must be at least 18 years old or have legal parental or guardian consent to use our services.
-- You may not use our products for any illegal or unauthorized purpose.
-- You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Service, use of the Service, or access to the Service without express written permission by us.
+We use the information we collect to provide, maintain, and improve our services, as well as to communicate with you. Specifically, we may use your information to:
 
-## 3. General Conditions
+- Process and fulfill your orders
+- Provide customer support
+- Send you important updates and notifications
+- Personalize your experience on our website
+- Analyze trends and gather demographic information for aggregate use
+- Detect, prevent, and address technical issues and fraud
+- Comply with legal obligations
 
-We reserve the right to refuse service to anyone for any reason at any time. You understand that your content (not including credit card information) may be transferred unencrypted and involve transmissions over various networks; and changes to conform and adapt to technical requirements of connecting networks or devices.
+## 3. Information Sharing and Disclosure
 
-## 4. Accuracy, Completeness, and Timeliness of Information
+We do not sell, trade, or otherwise transfer your personal information to outside parties without your consent, except as described in this Privacy Policy. We may share your information with trusted third-party service providers who assist us in operating our website, conducting our business, or servicing you, as long as those parties agree to keep this information confidential.
 
-We are not responsible if information made available on this site is not accurate, complete, or current. The material on this site is provided for general information only and should not be relied upon or used as the sole basis for making decisions without consulting primary, more accurate, more complete, or more timely sources of information.
+We may also disclose your personal information when we believe it is necessary to comply with applicable laws, to respond to legal process, to enforce our site policies, or to protect our or others' rights, property, or safety.
 
-## 5. Modifications to the Service and Prices
+## 4. Data Security
 
-Prices for our products are subject to change without notice. We reserve the right at any time to modify or discontinue the Service (or any part or content thereof) without notice at any time.
+We implement reasonable security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
 
-## 6. Products or Services (if applicable)
+## 5. Data Retention
 
-Certain products or services may be available exclusively online through the website. These products or services may have limited quantities and are subject to return or exchange only according to our Return Policy.
+We will retain your personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law.
 
-## 7. Accuracy of Billing and Account Information
+## 6. Your Rights Under GDPR
 
-We reserve the right to refuse any order you place with us. We may, in our sole discretion, limit or cancel quantities purchased per person, per household, or per order.
+If you are a resident of the European Economic Area (EEA), you have certain rights under the General Data Protection Regulation (GDPR), including:
 
-## 8. Optional Tools
+- The right to access your personal information
+- The right to request correction or erasure of your personal information
+- The right to restrict or object to the processing of your personal information
+- The right to data portability
+- The right to withdraw consent at any time
 
-We may provide you with access to third-party tools over which we neither monitor nor have any control nor input.
+To exercise these rights, please contact us using the information provided below.
 
-## 9. User Comments, Feedback, and Other Submissions
+## 7. Children's Privacy
 
-If, at our request, you send certain specific submissions (for example, contest entries) or without a request from us you send creative ideas, suggestions, proposals, plans, or other materials, whether online, by email, by postal mail, or otherwise (collectively, 'comments'), you agree that we may, at any time, without restriction, edit, copy, publish, distribute, translate, and otherwise use in any medium any comments that you forward to us.
+Our website and services are not directed to children under the age of 16. We do not knowingly collect personal information from children under 16. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us so that we can delete the information.
 
-## 10. Personal Information
+## 8. Changes to This Privacy Policy
 
-Your submission of personal information through the store is governed by our Privacy Policy.
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date at the top of the Privacy Policy.
 
-## 11. Errors, Inaccuracies, and Omissions
+## 9. Contact Us
 
-Occasionally there may be information on our site or in the Service that contains typographical errors, inaccuracies, or omissions that may relate to product descriptions, pricing, promotions, offers, product shipping charges, transit times, and availability.
+If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at:
 
-## 12. Disclaimer of Warranties; Limitation of Liability
+Swiss Defibrillator
+Route de l'Aiglon 5
+1854 - Switzerland
++41 79 441 24 06
+info@swissdefibrillator.ch
 
-We do not guarantee, represent or warrant that your use of our service will be uninterrupted, timely, secure, or error-free. You agree that from time to time we may remove the service for indefinite periods of time or cancel the service at any time, without notice to you.
+By using our website and services, you signify your acceptance of this Privacy Policy. If you do not agree to this Privacy Policy, please do not use our website or services.
 
-## 13. Indemnification
-
-You agree to indemnify, defend and hold harmless Swiss Defibrillator and our parent, subsidiaries, affiliates, partners, officers, directors, agents, contractors, licensors, service providers, subcontractors, employees, interns, and suppliers, harmless from any claim or demand, including reasonable attorneys’ fees, made by any third-party due to or arising out of your breach of these Terms of Service or the documents they incorporate by reference, or your violation of any law or the rights of a third-party.
+Last Updated: March 23, 2024

@@ -15,17 +15,17 @@
 - [x] make addy accurate and add the 5 to it
 - [x] order button red/green
 - [ ] add about section
-- [ ] change basic to advanced plan (instead of lite/basic)
+- [x] change basic to advanced plan (instead of lite/basic)
 - [x] fix favicon
 
 
 ### Kai
 
-- [ ] Go over text with my Mom so she can change (just english)
+- [x] Go over text with my Mom so she can change (just english) - she got sleepy while doing it and said she trust that i do it well lol tmr she wanted to do frx text tho
 - [x] Ask my mom to get a WAP first aid kit pic, with white background - under:  static/assets/products/wap/wap_first_aid_kit.png
-- [ ] Add bullet features for training
-- [ ] Make statistics chart responsive for mobile (Either remove or resize) (isnt it already ?)
-- [ ] Help Monica get setup with Calendly + put her link on the site
+- [x] Add bullet features for training
+- [ ] Make statistics chart responsive for mobile (Either remove or resize) (isnt it responsive already ?)
+- [ ] Help Monica get setup with Calendly + put her link on the site - she went to bed so can't do it now need email verification
 - [x] Advanced SEO
 - [x] Add bullet features for maintenance
 - [x] Prettify contact page
@@ -36,7 +36,7 @@
 
 - [ ] Make landing services responsive
 - [ ] Unify font size to 3-4 vars
-- [ ] Review Privacy policy and such
+- [x] Review Privacy policy and such - i fixed it 4u xoxo gossip gurl
 - [x] Finish links
 - [x] Move text to i18n
 - [x] Hide extra course (maybe for future online course)

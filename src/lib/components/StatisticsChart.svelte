@@ -66,7 +66,13 @@
         maintainAspectRatio: false,
         plugins: {
           legend: {
-            position: "bottom",
+            position: "top",
+            onHover: function (event, legendItem, legend) {
+              event.native.target.style.cursor = "pointer";
+            },
+            onLeave: function (event, legendItem, legend) {
+              event.native.target.style.cursor = "default";
+            },
           },
         },
       },

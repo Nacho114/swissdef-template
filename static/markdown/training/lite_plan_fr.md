@@ -1,57 +1,55 @@
-# Méthodologie
+# Formation Légère BLS-DEA-SRC Compact (Fournisseur de Base)
 
-**Formation interactive et dynamique** donnée par 1 formatrice d’adultes certifiée FSEA EduQua avec 20 ans d’expérience, 75% exercices pratiques. Comprend:
+## Public cible
+Les cours BLS-DEA-SRC (Basic Life Support - Défibrillateur Externe Automatisé - Conseil Suisse de Réanimation) Compact s'adressent à tous les groupes de population et de professionnels (âge minimum 12 ans) qui n'ont pas d'exigences spécifiques sur le sujet. Ces cours sont conçus pour atteindre le plus grand nombre de participants possible avec une offre de formation qualifiée dans les plus brefs délais.
 
-- Flyers explicatifs et illustrés
-- Test à remplir par chaque participant à la fin de la formation
-- Power Point, Vidéos
-- AED Trainer, HS-1 et FRx HeartStart Philips Défibrillateur, diverses marques des défibrillateurs pour la démo, Brayden Mannequins avec feedback visuel et Laerdal mannequins enfant et bébé
-- Masques, Outil pour la Manoeuvre de Heimlich
-- Trousse de Premiers Secours, Outils d’exercice pour les premiers secours
+## Objectifs 
+Les participants maîtrisent les compétences de base en réanimation pour les adultes. Ils :
 
-**Langues**: Français, Allemand et Anglais.
+- Donnent l'alerte rapidement.
+- Considèrent leur propre sécurité lors de l'assistance.
+- Appliquent les compétences de base en réanimation (compressions thoraciques, ventilation et défibrillation externe automatisée avec un DEA).
 
-## Contrôle des connaissances
+## Contenu
+Les "Énoncés BLS-DEA du SRC" doivent être enseignés dans les cours. Les cours BLS-DEA-SRC Compact comprennent les contenus suivants :
 
-Durant le cours. Exercices pour pouvoir porter secours sûrement et efficacement avec des situations pratiques réalistes.
+- Assistance en assurant sa propre protection.
+- Reconnaissance de l'arrêt cardiaque.
+- Numéros d'urgence nationaux.  
+- Séquence d'action selon l'"Algorithme BLS-DEA-SRC".
+- Formation aux compétences de base pour les adultes : évaluation initiale, compressions thoraciques, ventilation, défibrillation par DEA.
+- Position latérale de sécurité.
 
-## Compris
+## Méthodologie et matériel
+Les cours BLS-DEA-SRC Compact suivent l'un des deux modèles de formation : en présentiel ou par systèmes multimédias d'auto-apprentissage. L'instructeur veille à ce que chaque participant reçoive des instructions et un retour sur la qualité de ses actions pendant les exercices.
 
-- Flyers explicatifs et illustratives
-- L’algorithme 2015 et 2020 de la SRC Swiss Ressuscitation Council
-- 1 masque de poche pour la ventilation par participant
+Les prérequis suivants sont assurés :
 
-## Instructeur certifié par
+- Au moins 30 minutes de formation aux compétences de base par participant sur le modèle de formation (formation pratique).
 
-- L’école de Santé SanPool
-- La SRC Swiss Ressuscitation Council
-- EduQua FSEA Formateur d’Adultes
-- IAS Inter-Association de Sauvetage
+Dans les formats en présentiel :
 
-## Locaux
+- Au moins 1 instructeur BLS-DEA-SRC pour 8 participants (TN).
+- Au moins 1 mannequin adulte pour 2-3 participants.
+- Au moins 1 défibrillateur de formation DEA pour 2-3 participants.
 
-Le lieu du cours est mis à disposition par le client. Ce lieu doit :
+Les mannequins d'entraînement utilisés fournissent un retour visuel comme ici : https://www.youtube.com/watch?v=JVSViqkogSI&t=2s.
 
-- Permettre d'accueillir les participants et le(s) formateur(s)
-- Inclure une place assise par participant et de l’espace pour des exercices pratiques
-- Être disponibles au minimum une heure avant le début du cours pour préparation
+## Durée, prix et certificat
+- Minimum de 1 à 2 heures de temps d'apprentissage.
+- Prix CHF 450.- plus TVA pour un maximum de 12 participants.
 
-## Durée
+### Certificat
+Les participants reçoivent un certificat de cours BLS-DEA-SRC Compact (Fournisseur de Base). Le certificat contient les informations suivantes :
 
-Le cours comprend 3h00 heures de temps d’enseignement sans pauses.
+- Titre : "BLS-DEA-SRC Compact (Fournisseur de Base)".
+- Logo SRC du Complet Cours BLS-DEA-SRC Compact (Fournisseur de Base)
+- Label Q du SRC.
+- Informations personnelles du participant : prénom, nom et date de naissance.
+- Date de délivrance par l'instructeur du cours.
 
-## Prix
+Swiss Defibrillator Sàrl Les cours BLS-DEA-SRC Compact ne sont pas certifiants. La participation est confirmée par écrit par le prestataire de cours si le cours était animé par un instructeur. Si ce cours est intégré dans un événement plus large, la confirmation sera fournie comme suit : "Cet événement comprend un cours certifié BLS-DEA-SRC Compact".
 
-CHF 890.- plus TVA pour max. 12 participants.
+Le certificat est valable 2 ans.
 
-## Certificat
-
-Le participant reçoit une attestation au cours de BLS-AED-SRC contenant:
-
-- Titre: "BLS-AED-SRC et Bases aux Premiers Secours"
-- "Swiss Defibrillator"
-- Données personnelles du participant: prénom, nom, date de naissance
-- Date d’émission du formateur du cours
-- Q-label SRC et EduQua
-
-La durée de validité de l’attestation est de 2 ans.
+Swiss Defibrillator suit la recommandation du SRC de fournir des certificats de cours aux participants ayant des limitations physiques assistant aux cours du SRC. Swiss Defibrillator délivre un certificat mentionnant l'ajout suivant : "Les compétences pratiques du séminaire n'ont pas pu être entièrement formées en raison de limitations physiques".

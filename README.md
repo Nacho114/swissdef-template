@@ -11,7 +11,7 @@
 - [x] change first aid sticker to a new one
 - [x] make wall mounted aed lighter (it won't get lighter or it will break, too much noise in the original pic but I think it is fine)
 - [ ] remove purple and make it black or white
-- [ ] checklist should be green and red not purple
+- [x] checklist should be green and red not purple
 - [ ] make addy accurate and add the 5 to it
 - [ ] order button green, the add button red
 - [ ] add about section

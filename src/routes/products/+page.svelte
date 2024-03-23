@@ -22,7 +22,7 @@
 
 <Container>
   <div class="header">
-    <h1>Products</h1>
+    <h1>{$_("section_general_products")}</h1>
     <div class="toggle-container">
       <ToggleButtons
         button1={defibrillator_button_name}

@@ -25,7 +25,7 @@
   <a href="/contact">
     <div class="button">
       <Button fullWidth={true}>
-        Order
+        {$_("section_general_order")}
         <ChevronRight />
       </Button>
     </div></a

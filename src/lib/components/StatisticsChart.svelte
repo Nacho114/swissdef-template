@@ -133,9 +133,7 @@
 
   <div class="cta-container">
     <p>
-      Don't leave it to chance. Swiss Defibrillator offers a solution that can
-      be the difference between life and death. Equip your space, be it home,
-      office, or car. Invest in life. Invest in an AED.
+      {$_("section_home_statistics_footer")}
     </p>
   </div>
 </div>

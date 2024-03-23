@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { _ } from "svelte-i18n";
   import Button from "$lib/components/button.svelte";
   import ChevronRight from "virtual:icons/gg/chevron-right";
   import Box from "$lib/components/box.svelte";
@@ -22,7 +23,7 @@
         <h1>{title}</h1>
         <div class="price-vat-group">
           <h2 class="price">CHF {price}</h2>
-          <h3 class="vat">VAT Included</h3>
+          <h3 class="vat">{$_("section_products_vat_included")}</h3>
         </div>
       </div>
 
@@ -30,14 +31,14 @@
       <div class="buttons">
         <a href="/contact">
           <Button>
-            Order
+            {$_("section_products_order")}
             <ChevronRight />
           </Button>
         </a>
 
         <a href="/maintenance">
           <Button isBlueColor={true}>
-            Add Maintenance
+            {$_("section_products_add_maintenance")}
             <ChevronRight />
           </Button>
         </a>

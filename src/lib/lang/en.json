@@ -11,6 +11,8 @@
   "section_general_terms_and_conditions": "Terms & Conditions",
   "section_general_privacy_policy": "Privacy Policy",
   "section_general_all_features": "All Features",
+  "section_general_order": "Order",
+  "section_general_add_maintenance": "Add Maintenance",
 
   "section_footer_left_title": "Empowering lives with the most advanced defibrillation technology.",
   "section_footer_quick_links": "Quick Links",
@@ -41,6 +43,12 @@
   "section_home_statistics_footer": "Don't leave it to chance. Swiss Defibrillator offers a solution that can be the difference between life and death. Equip your space, be it home, office, or car. Invest in life. Invest in an AED.",
   "section_home_statistics_chart_y_axis": "Chance of Survival (%)",
   "section_home_statistics_chart_x_axis": "Time (min)",
+
+  "section_products_vat_included": "VAT Included",
+  "section_products_order": "Order",
+  "section_products_add_maintenance": "Add Maintenance",
+  "section_products_description": "Description",
+  "section_products_specification": "Specification",
 
   "section_products_philips_hs1_title": "Philips HS1",
   "section_products_philips_hs1_summary": "Philips HS1 Defibrillator: Portable, user-friendly, life-saving device. Designed for rapid response. Features clear voice prompts, intuitive operation. Ideal for emergencies. Reliable, trusted by professionals worldwide.",

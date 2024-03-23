@@ -10,10 +10,10 @@
 ### Feedback from ur mom
 - [x] change first aid sticker to a new one
 - [x] make wall mounted aed lighter (it won't get lighter or it will break, too much noise in the original pic but I think it is fine)
-- [ ] remove purple and make it black or white
+- [x] remove purple and make it black or white (made it green instead
 - [x] checklist should be green and red not purple
-- [ ] make addy accurate and add the 5 to it
-- [ ] order button green, the add button red
+- [x] make addy accurate and add the 5 to it
+- [x] order button red/green
 - [ ] add about section
 - [ ] change basic to advanced plan (instead of lite/basic)
 

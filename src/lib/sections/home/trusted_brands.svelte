@@ -15,11 +15,10 @@
     />
     <img class="logo" src="/assets/home/clients/cdf-logo.png" alt="CDF Logo" />
     <img
-      class="logo"
+      class="logo logitech"
       src="/assets/home/clients/logitech.png"
       alt="Logitech Logo"
     />
-    <!-- Add other logos similarly -->
   </div>
 </div>
 
@@ -43,12 +42,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 2rem; /* Adjust the space between logos as needed */
     margin-top: 1.4rem; /* Space between the heading and the logos */
   }
 
   .brand-logos img {
     max-height: 60px; /* Set a max height for the logos for consistency. Adjust as needed. */
+  }
+
+  .logo.logitech {
+    max-height: 30px; /* Adjust to make the logo similar in size to others */
   }
 
   @media (max-width: 600px) {

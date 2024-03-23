@@ -17,8 +17,14 @@
 <Container>
   <div class="info">
     <ProductInfo {image_path} {title} {price} {summary} />
-    <InfoListCard title="Description" infoListString={about} />
-    <InfoListCard title="Specification" infoListString={features} />
+    <InfoListCard
+      title={$_("section_products_description")}
+      infoListString={about}
+    />
+    <InfoListCard
+      title={$_("section_products_specification")}
+      infoListString={features}
+    />
   </div>
 </Container>
 

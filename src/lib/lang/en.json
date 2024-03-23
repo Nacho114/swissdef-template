@@ -116,7 +116,7 @@
   "section_products_wap_first_aid_kit_about": "The WAP First Aid Kit is a comprehensive emergency response kit containing essential medical supplies for treating minor injuries, cuts, scrapes, and other first aid needs.",
   "section_products_wap_first_aid_kit_features": "Contains items such as bandages, antiseptic wipes, CPR face shield, and gloves. Packaged in a compact, easily accessible container, it's ideal for homes, offices, and vehicles.",
 
-  "maintenance_lite_plan_title": "Lite Plan",
+  "maintenance_lite_plan_title": "Economy Maintenance",
   "maintenance_lite_plan_description": "Simple maintenance plan",
   "maintenance_lite_plan_features": "Routine Check Upon Replacement Due||true\nQualified Technicians||true\nNationwide Service in Switzerland||true\nQuarterly Maintenance Checks||false\nFree Replacement of Used Parts||false\nCustomer Support||false\nDiscount on First Aid Training Courses||false",
   "maintenance_basic_plan_title": "Advanced Plan",
@@ -126,10 +126,10 @@
   "training_toggle_main": "Main courses",
   "training_toggle_extra": "Extra courses",
 
-  "training_lite_plan_title": "Lite training",
-  "training_lite_plan_description": "Simple maintenance plan",
-  "training_lite_plan_features": "Fundamental BLS and AED principles||true\nCPR technique for adults||true\nBasic airway management||true\nEmergency response protocol||true\nIntroduction to first aid||true\nHands-on AED practice||false\nPhysical lessons||false",
-  "training_basic_plan_title": "Advanced training",
-  "training_basic_plan_description": "Essential Lifesaving Skills in a Snap",
-  "training_basic_plan_features": "Fundamental BLS and AED principles||true\nCPR technique for adults||true\nBasic airway management||true\nEmergency response protocol||true\nIntroduction to first aid||true\nHands-on AED practice||false\nPhysical lessons||false"
+  "training_lite_plan_title": "Economy Training",
+"training_lite_plan_description": "Simple maintenance plan",
+"training_lite_plan_features": "Promptly raise the alarm||true\nConsider own safety while providing assistance||true\nApply basic resuscitation techniques on adult training models||true\nRecovery position in case of unconsciousness||true\nAt least 30 minutes of basic skills training per participant||true\nAt least 1 BLS-AED-SRC instructor per 8 participants||true\nAt least 1 adult mannequin per 2-3 participants||true\nAt least 1 AED training device per 2-3 participants||true\nApply basic resuscitation techniques on child training models||false\nRecognize characteristics of serious cardiac conditions||false\nExplain measures for airway obstruction by a foreign body||false\nReflect on motivation to provide assistance||false\nAt least 1 junior mannequin and one infant mannequin for every 12 participants||false\n1 simple auxiliary ventilation means per participant||false",
+"training_basic_plan_title": "Advanced Training",
+"training_basic_plan_description": "Essential Lifesaving Skills in a Snap",
+"training_basic_plan_features": "Promptly raise the alarm||true\nConsider own safety while providing assistance||true\nApply basic resuscitation techniques on adult training models||true\nRecovery position in case of unconsciousness||true\nAt least 30 minutes of basic skills training per participant||true\nAt least 1 BLS-AED-SRC instructor for every 12 participants||true\nAt least 1 adult mannequin with feedback on high-performance CPR criteria for 2 participants||true\nAt least 3 - 4 AED training devices for every 12 participants||true\nApply basic resuscitation techniques on child training models||true\nRecognize characteristics of serious cardiac conditions||true\nExplain measures for airway obstruction by a foreign body||true\nReflect on motivation to provide assistance||true\nAt least 1 junior mannequin and one infant mannequin for every 12 participants||true\n1 simple auxiliary ventilation means per participant||true"
 }

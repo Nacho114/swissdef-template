@@ -7,7 +7,7 @@
   
   onMount(() => {
     const script = document.createElement('script');
-    script.src = '/cookieconsent-config.js'; 
+    script.src = 'cookieconsent-config.js'; 
     script.type = 'module';
     document.body.appendChild(script);
   });

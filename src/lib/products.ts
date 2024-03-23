@@ -99,7 +99,7 @@ export const accessories: Product[] = [
   },
   {
     slug: "wap_first_aid_kit",
-    img: "philips_hs1",
+    img: "wap/wap_first_aid_kit",
     price: 69,
     type: ProductType.Accessory,
   },

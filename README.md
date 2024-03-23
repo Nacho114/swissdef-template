@@ -7,12 +7,23 @@
 
 ## TODO
 
+### Feedback from ur mom
+- [x] change first aid sticker to a new one
+- [x] make wall mounted aed lighter (it won't get lighter or it will break, too much noise in the original pic but I think it is fine)
+- [ ] remove purple and make it black or white
+- [x] checklist should be green and red not purple
+- [ ] make addy accurate and add the 5 to it
+- [ ] order button green, the add button red
+- [ ] add about section
+- [ ] change basic to advanced plan (instead of lite/basic)
+
+
 ### Kai
 
 - [ ] Go over text with my Mom so she can change (just english)
-- [ ] Ask my mom to get a WAP first aid kit pic, with white background
+- [x] Ask my mom to get a WAP first aid kit pic, with white background - under:  static/assets/products/wap/wap_first_aid_kit.png
 - [ ] Add bullet features for training
-- [ ] Make statistics chart responsive for mobile (Either remove or resize)
+- [ ] Make statistics chart responsive for mobile (Either remove or resize) (isnt it already ?)
 - [ ] Help Monica get setup with Calendly + put her link on the site
 - [ ] Advanced SEO
 - [x] Add bullet features for maintenance

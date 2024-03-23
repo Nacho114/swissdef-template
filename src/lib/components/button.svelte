@@ -56,7 +56,7 @@
   }
 
   .appointment-btn.blue-color:hover {
-    background-color: #4266b2; /* Darker shade for hover state */
+    background-color: #003c03; /* Darker shade for hover state */
   }
 
   /* Styles for outlined version of the button */

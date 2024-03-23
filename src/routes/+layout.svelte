@@ -1,9 +1,21 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
   import "./styles.css";
   import "$lib/i18n.ts";
   import Header from "$lib/sections/layout/header.svelte";
   import Footer from "$lib/sections/layout/footer.svelte";
+  
+  onMount(() => {
+    const script = document.createElement('script');
+    script.src = '/cookieconsent-config.js'; 
+    script.type = 'module';
+    document.body.appendChild(script);
+  });
 </script>
+
+<svelte:head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.0/dist/cookieconsent.css">
+</svelte:head>
 
 <div class="layout">
   <div class="header"><Header /></div>

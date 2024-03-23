@@ -83,71 +83,10 @@
   "section_products_aed_sticker_title": "AED Location Sticker",
   "section_products_aed_sticker_summary": "Ensure that your AED's location is clearly marked with this highly visible sticker. Designed for placement in key locations, it helps to quickly direct responders to the AED, significantly reducing response times in critical situations.",
 
-  "section_products_philips_hs1_about": {
-    "Title": "HS-1 HeartStart Philips Defibrillator",
-    "Introduction": {
-      "SavingLives": [
-        "Survival rate of sudden cardiac arrest in Switzerland is currently below 5%.",
-        "Every minute without defibrillation decreases successful resuscitation chances by about 10%.",
-        "Improved access to defibrillators could save an additional 1,000 lives annually in Switzerland."
-      ]
-    },
-    "Features": {
-      "HeartStartOnSiteDefibrillator": [
-        "Developed by Philips for easy use by anyone.",
-        "Guides users through each step with clear voice instructions.",
-        "Incorporates SMART Analysis and SMART Biphasic technologies for effective energy delivery.",
-        "Features Quick-Shock function for rapid defibrillation.",
-        "Lightweight, portable, and long-lasting battery ensure readiness for use."
-      ],
-      "UserFriendlyAndImmediateAvailability": [
-        "Activated by pulling the green handle, providing step-by-step guidance.",
-        "Designed for challenging conditions with dust and water resistance.",
-        "Operates in various environments and withstands falls.",
-        "SMART pads adapt instructions based on patient age.",
-        "Interchangeable pads for adults and children with separate training pads."
-      ]
-    },
-    "Included": [
-      "Philips Heartstart HS1 (in English, German, French, Italian or any other language)",
-      "Lithium battery (Capacity: approx. 4 years and 200 shocks)",
-      "Electrode set (Durability: approx. 1.5 - 2 years)",
-      "Carrying Case",
-      "WAP Fast Response Kit attached to the AED"
-    ],
-    "Warranty": "8 years Philips Warranty apply when the product is used & maintained in accordance with labeling and instructions for use"
-  },
-  "section_products_philips_hs1_features": {
-    "PhilipsHS1LaymanDefibrillator": [
-      "Highly user-friendly semi-automatic device.",
-      "Clear voice guidance and illustrations for correct electrode placement.",
-      "Comprehensive self-tests ensure device readiness.",
-      "SMART Biphasic and QuickShock technologies ensure safe and effective therapy.",
-      "Lightweight and includes information button and metronome."
-    ],
-    "TechnicalDetails": {
-      "General": [
-        "Waveform: truncated exponential biphasic. Waveform parameters adjusted as a function of each patient’s impedance.",
-        "Therapy: Adult defibrillation peak current: 32A (150J nominal) into a 50 ohm load. Pediatric defibrillation (with optional Infant/Child SMART Pads Cartridge): 19A (50J nominal) into 50 ohm load.",
-        "Voice Instructions: Detailed voice messages guide responder through use of the defibrillator.",
-        "CPR coaching: Instructions for adult & Infant/Child CPR available at user’s option.",
-        "Controls: Green SMART pads cartridge handle, green On/Off button, blue i-button, orange Shock button."
-      ],
-      "Specifications": [
-        "Dimensions: 7 x 19 x 21 cm (HxWxD)",
-        "Weight: 1.5kg",
-        "IP 21: Protection against foreign bodies and dripping water",
-        "Energy setting: 150 Joules, biphasic pulse shape",
-        "Quality seals: CG seal and FDA seal",
-        "Battery Life: approx. 4 years, Electrode Set Durability: approx. 2 years",
-        "Resuscitation Feedback: Audio, metronome",
-        "Manufacturer: Philips",
-        "Semi/Automatic: Semi-automatic",
-        "Display: Not present"
-      ]
-    }
-  }
-  ,
+  "section_products_philips_hs1_about": "The Philips HeartStart HS1 is an easy-to-use, semi-automatic defibrillator designed for use by anyone. It guides users step-by-step with clear voice instructions and can be used on both adults and children without changing pads. The HS1 is highly portable, withstands challenging conditions, and includes helpful features like a metronome and information button. It employs SMART Analysis and Biphasic technologies to deliver safe and effective therapy when needed most.",
+  "section_products_philips_hs1_features": "Long-Lasting Battery: Provides up to 4 years of standby life or 200 shocks. Self-Tests: Conducts comprehensive automatic self-tests to ensure constant readiness. Quick Shock: Able to deliver a shock immediately after CPR, typically in 8 seconds or less. Light & Compact: Weighs only 1.5 kg with dimensions of 7 x 19 x 21 cm (HxWxD). Durable: Resists dust and dripping water (IP21 rating) and withstands 1 meter drops. Pre-connected SMART Pads: Interchangeable adult/child pads last 2 years and adapt instructions accordingly.",
+
+  
   "section_products_philips_frx_about": "The Philips HeartStart FRx Defibrillator is designed for on-the-spot responders to assist in treating sudden cardiac arrest, suitable for various environments.\nRobust design ensures functionality in extreme conditions, including wet and dusty areas.",
   "section_products_philips_frx_features": "Features include step-by-step voice prompts for easy setup, Quick Shock technology for rapid shock delivery post-CPR, and SMART Pads II for use with both adults and children.\nAutomatic self-tests ensure device readiness.\nWeight: 3.5 lbs (1.5 kg) with battery and pads case.\nDimensions: Height: 7.1 inches, Width: 8.9 inches, Depth: 2.4 inches.\nDesigned for durability, withstanding up to 500 kg and drops from 1.22 m.",
 

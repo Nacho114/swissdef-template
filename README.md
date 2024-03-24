@@ -28,7 +28,7 @@ https://we.tl/t-5GtvNLaV4F
 ### Kai
 
 - [x] Go over text with my Mom so she can change (just english) - she got sleepy while doing it and said she trust that i do it well lol tmr she wanted to do frx text tho
-- [ ] Ask my mom to get a WAP first aid kit pic, with white background - under:  static/assets/products/wap/wap_first_aid_kit.png
+- [x] Ask my mom to get a WAP first aid kit pic, with white background - under:  static/assets/products/wap/wap_first_aid_kit.png
 - [x] Add bullet features for training
 - [ ] Make statistics chart responsive for mobile (Either remove or resize) (isnt it responsive already ?)
 - [ ] Help Monica get setup with Calendly + put her link on the site - she went to bed so can't do it now need email verification

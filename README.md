@@ -20,10 +20,11 @@ https://we.tl/t-5GtvNLaV4F
 - [x] checklist should be green and red not purple
 - [x] make addy accurate and add the 5 to it
 - [x] order button red/green
-- [ ] add about section
 - [x] change basic to advanced plan (instead of lite/basic)
 - [x] fix favicon
-
+- [ ] add two more packages for training and remove one for maintanance so there is only one
+- [ ] add about section for the website
+- [ ] change the text and for defibrilator make it LONG and with MD
 
 ### Kai
 

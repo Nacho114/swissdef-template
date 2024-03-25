@@ -23,6 +23,24 @@
   </div>
 </Container>
 
+<Container>
+  <div class="maintenance-cards-container">
+    <h1>{$_("section_additional_maintenance")}</h1>
+    <div class="maintenance-cards-content">
+    
+    </div>
+  </div>
+</Container>
+
+<Container>
+  <div class="maintenance-cards-container">
+    <h1>{$_("section_special_offers")}</h1>
+    <div class="maintenance-cards-content">
+      
+    </div>
+  </div>
+</Container>
+
 <style>
   .maintenance-cards-container {
     display: flex;
@@ -45,7 +63,7 @@
   @media (max-width: 600px) {
     .maintenance-cards-content {
       display: flex;
-      flex-direction: column; /* Stack left and right side on top of each other */
+      flex-direction: column;
       width: 85vw;
     }
   }

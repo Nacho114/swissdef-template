@@ -1,0 +1,125 @@
+<script lang="ts">
+  import { onMount } from "svelte";
+  import { locale } from "svelte-i18n";
+  import SvelteMarkdown from "svelte-markdown";
+  import { fade } from "svelte/transition";
+  import Box from "./box.svelte";
+
+  let source = "";
+  let previousLocale: string | undefined | null = undefined;
+
+  export let file_name: string;
+
+  // Function to load markdown based on the current locale
+  async function loadMarkdown(currentLocale: string | undefined | null) {
+    // Provide a default value for locale if it's undefined or null
+    currentLocale = currentLocale || "en"; // replace 'default' with your default locale
+
+    try {
+      const filePath = `${file_name}_${currentLocale}.md`;
+      const res = await fetch(filePath);
+      source = await res.text();
+    } catch (error) {
+      console.error("Failed to load markdown:", error);
+      source = "Content not found"; // Fallback text
+    }
+  }
+
+  // Reactive statement to reload content when locale changes
+  $: if ($locale !== previousLocale && previousLocale !== undefined) {
+    previousLocale = $locale;
+    loadMarkdown($locale);
+  }
+
+  // Initialize previousLocale and load content on component mount
+  onMount(() => {
+    previousLocale = $locale; // Track the initial locale
+    loadMarkdown($locale); // Load the initial markdown
+  });
+</script>
+
+<div class="outer_container" in:fade={{ duration: 300 }}>
+  <Box>
+    <!-- Conditional rendering with fade transition for the content -->
+    {#if source !== ""}
+      <div class="container" in:fade={{ duration: 300, delay: 300 }}>
+        <SvelteMarkdown {source} />
+      </div>
+    {:else}
+      <!-- Maybe some loading indicator here if you want -->
+    {/if}
+  </Box>
+</div>
+
+<style>
+  .outer_container {
+    width: 100%;
+  }
+  .container {
+    /* Applying styles specifically to markdown content within .container */
+    padding: 1rem;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container :global(h1) {
+    font-family: Oswald-SemiBold;
+    text-align: left;
+    font-size: 2.5em;
+    /* add any other styles for h1 here */
+  }
+
+  .container :global(h2) {
+    font-family: Oswald-SemiBold;
+    text-align: left;
+    color: var(--global-color-primary);
+    font-size: 2em;
+    /* add any other styles for h2 here */
+  }
+
+  .container :global(h3),
+  .container :global(h4),
+  .container :global(h5),
+  .container :global(h6) {
+    /* Adjust font sizes as needed */
+    text-align: left;
+    color: var(--global-color-primary);
+    font-family: Oswald-SemiBold;
+  }
+
+  .container :global(p) {
+    line-height: 1.6;
+    text-align: justify;
+    /* add any other styles for p here */
+  }
+
+  .container :global(ul),
+  .container :global(ol) {
+    padding-left: 20px;
+    /* add any other styles for lists here */
+  }
+
+  .container :global(li) {
+    line-height: 1.6;
+    /* add any other styles for list items here */
+  }
+
+  .container :global(a) {
+    color: var(--global-color-blue);
+    text-decoration: none;
+    /* add any other styles for anchor tags here */
+  }
+
+  .container :global(a:hover) {
+    text-decoration: underline;
+  }
+
+  /* Add additional global styles for other markdown elements as needed */
+
+  @media (max-width: 600px) {
+    .container {
+      width: 85vw;
+    }
+  }
+</style>

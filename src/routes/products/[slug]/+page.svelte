@@ -2,7 +2,7 @@
   import type { Product } from "$lib/products";
   import Container from "$lib/components/container.svelte";
   import ProductInfo from "../product_info.svelte";
-  import InfoListCard from "$lib/components/info_list_card.svelte";
+  import MdProductPage from "$lib/components/md_product_page.svelte";
   import { _ } from "svelte-i18n";
   export let data: Product;
 
@@ -10,21 +10,14 @@
   let price = data.price;
   $: title = $_(`section_products_${data.slug}_title`);
   $: summary = $_(`section_products_${data.slug}_summary`);
-  $: about = $_(`section_products_${data.slug}_about`);
-  $: features = $_(`section_products_${data.slug}_features`);
+
+  let file_name = `/markdown/products/${data.slug}/info`;
 </script>
 
 <Container>
   <div class="info">
     <ProductInfo {image_path} {title} {price} {summary} />
-    <InfoListCard
-      title={$_("section_products_description")}
-      infoListString={about}
-    />
-    <InfoListCard
-      title={$_("section_products_specification")}
-      infoListString={features}
-    />
+    <MdProductPage {file_name} />
   </div>
 </Container>
 

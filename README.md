@@ -8,12 +8,13 @@
 ## TODO
 
 ## NEED HELP
-- [ ] for the main units she wants a long text with all the sections
-https://we.tl/t-5GtvNLaV4F
+
+- [x] for the main units she wants a long text with all the sections
+      https://we.tl/t-5GtvNLaV4F
 - [ ] bug- for producs if you click it the buy window also resizes <img width="1137" alt="image" src="https://github.com/Nacho114/swissdef-template/assets/7343904/5491fafb-482f-41d0-891a-d25a0ed704f0">
 
-
 ### Feedback from ur mom
+
 - [x] change first aid sticker to a new one
 - [x] make wall mounted aed lighter (it won't get lighter or it will break, too much noise in the original pic but I think it is fine)
 - [x] remove purple and make it black or white (made it green instead
@@ -29,7 +30,7 @@ https://we.tl/t-5GtvNLaV4F
 ### Kai
 
 - [x] Go over text with my Mom so she can change (just english) - she got sleepy while doing it and said she trust that i do it well lol tmr she wanted to do frx text tho
-- [x] Ask my mom to get a WAP first aid kit pic, with white background - under:  static/assets/products/wap/wap_first_aid_kit.png
+- [x] Ask my mom to get a WAP first aid kit pic, with white background - under: static/assets/products/wap/wap_first_aid_kit.png
 - [x] Add bullet features for training
 - [x] Make statistics chart responsive for mobile (Either remove or resize) (isnt it responsive already ?)
 - [ ] Help Monica get setup with Calendly + put her link on the site - she doesnt want it and just wants plain mail

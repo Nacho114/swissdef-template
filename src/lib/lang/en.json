@@ -13,12 +13,10 @@
   "section_general_all_features": "All Features",
   "section_general_order": "Order",
   "section_general_add_maintenance": "Add Maintenance",
-
   "section_footer_left_title": "Empowering lives with the most advanced defibrillation technology.",
   "section_footer_quick_links": "Quick Links",
   "section_footer_support_and_services": "Support & Services",
   "section_footer_contact_us": "Contact Us",
-
   "section_home_landing_header_title": "Fight Against Cardiac Arrest",
   "section_home_landing_header_subtitle": "One life-saving device at a time",
   "section_home_landing_header_button": "Book an appointment",
@@ -29,7 +27,6 @@
   "section_home_services_training_summary": "Hands-on sessions to master defibrillator usage.",
   "section_home_services_maintenance_summary": "Regular checks to ensure device reliability.",
   "section_home_services_defibrillators_summary": "Life-saving devices for cardiac emergencies.",
-
   "section_home_statistics_title": "Statistics",
   "section_home_statistics_subtitle": "Sudden Cardiac Arrest (SCA) strikes swiftly, claiming more lives than many cancers. Here's what you should know about SCA in Switzerland",
   "section_home_statistics_info_one_title": "Every Hour:",
@@ -43,13 +40,11 @@
   "section_home_statistics_footer": "Don't leave it to chance. Swiss Defibrillator offers a solution that can be the difference between life and death. Equip your space, be it home, office, or car. Invest in life. Invest in an AED.",
   "section_home_statistics_chart_y_axis": "Chance of Survival (%)",
   "section_home_statistics_chart_x_axis": "Time (min)",
-
   "section_products_vat_included": "VAT Included",
   "section_products_order": "Order",
   "section_products_add_maintenance": "Add Maintenance",
   "section_products_description": "Description",
   "section_products_specification": "Specification",
-
   "section_products_philips_hs1_title": "Philips HS1",
   "section_products_philips_hs1_summary": "Philips HS1 Defibrillator: Portable, user-friendly, life-saving device. Designed for rapid response. Features clear voice prompts, intuitive operation. Ideal for emergencies. Reliable, trusted by professionals worldwide.",
   "section_products_philips_frx_title": "Philips FRx",
@@ -82,55 +77,18 @@
   "section_products_wap_cabinet_summary": "This universal wall-mounted AED cabinet fits a variety of defibrillator models, featuring a clear window for easy identification and quick access during emergencies. Its durable construction protects your AED from dust, debris, and tampering.",
   "section_products_aed_sticker_title": "AED Location Sticker",
   "section_products_aed_sticker_summary": "Ensure that your AED's location is clearly marked with this highly visible sticker. Designed for placement in key locations, it helps to quickly direct responders to the AED, significantly reducing response times in critical situations.",
-
-  "section_products_philips_hs1_about": "The Philips HeartStart HS1 is an easy-to-use, semi-automatic defibrillator designed for use by anyone. It guides users step-by-step with clear voice instructions and can be used on both adults and children without changing pads. The HS1 is highly portable, withstands challenging conditions, and includes helpful features like a metronome and information button. It employs SMART Analysis and Biphasic technologies to deliver safe and effective therapy when needed most.",
-  "section_products_philips_hs1_features": "Long-Lasting Battery: Provides up to 4 years of standby life or 200 shocks. Self-Tests: Conducts comprehensive automatic self-tests to ensure constant readiness. Quick Shock: Able to deliver a shock immediately after CPR, typically in 8 seconds or less. Light & Compact: Weighs only 1.5 kg with dimensions of 7 x 19 x 21 cm (HxWxD). Durable: Resists dust and dripping water (IP21 rating) and withstands 1 meter drops. Pre-connected SMART Pads: Interchangeable adult/child pads last 2 years and adapt instructions accordingly.",
-
-  
-  "section_products_philips_frx_about": "The Philips HeartStart FRx Defibrillator is designed for on-the-spot responders to assist in treating sudden cardiac arrest, suitable for various environments.\nRobust design ensures functionality in extreme conditions, including wet and dusty areas.",
-  "section_products_philips_frx_features": "Features include step-by-step voice prompts for easy setup, Quick Shock technology for rapid shock delivery post-CPR, and SMART Pads II for use with both adults and children.\nAutomatic self-tests ensure device readiness.\nWeight: 3.5 lbs (1.5 kg) with battery and pads case.\nDimensions: Height: 7.1 inches, Width: 8.9 inches, Depth: 2.4 inches.\nDesigned for durability, withstanding up to 500 kg and drops from 1.22 m.",
-
-  "section_products_philips_hs1_electrodes_about": "Philips HeartStart HS1 SMART Pads are designed for use with the HS1 Defibrillator, featuring a simple, cartridge-based system. These pads enable the defibrillator to provide tailored instructions to the rescuer.",
-  "section_products_philips_hs1_electrodes_features": "The SMART Pads recognize when they've been removed from the cartridge and automatically activate the defibrillator to ensure quick response times during an emergency.",
-  "section_products_philips_frx_electrodes_about": "Designed specifically for the Philips HeartStart FRx Defibrillator, FRx SMART Pads II are pre-connected and ready to use, crafted to support rescuers in providing efficient care.",
-  "section_products_philips_frx_electrodes_features": "These versatile pads are suitable for both adults and children, simplifying the rescue process and ensuring the defibrillator is maintenance-friendly with automatic self-tests.",
-  "section_products_philips_hs1_electrodes_child_about": "Specially crafted for young patients, Philips HS1 Pediatric SMART Pads are used with the HS1 defibrillator to adjust the defibrillation therapy for infants and children.",
-  "section_products_philips_hs1_electrodes_child_features": "These pads are equipped with detailed placement instructions and automatically modify the defibrillator's shock output and CPR instructions for pediatric use.",
-  "section_products_philips_frx_electrodes_child_about": "Philips FRx Infant/Child Key is utilized with the FRx Defibrillator to lower the defibrillation therapy for safe use on young patients, ensuring a versatile and responsive solution in emergencies.",
-  "section_products_philips_frx_electrodes_child_features": "By inserting the key, the FRx adjusts its protocols accordingly, making it an essential accessory for situations involving children.",
-  "section_products_philips_hs1_frx_batteries_about": "The long-life battery for Philips HeartStart HS1 and FRx AEDs ensures your defibrillator is always ready for use, with a lifespan that supports the device's regular self-testing and emergency deployments.",
-  "section_products_philips_hs1_frx_batteries_features": "Engineered for reliability, the battery has a four-year warranty and supports the extensive self-test capabilities of the defibrillator.",
-
-  "section_products_aivia_100_about": "The AIVIA 100 is an outdoor AED Cabinet designed to protect defibrillators against the elements and unauthorized use, while making them easily accessible in emergencies.\nIt boasts a robust construction with an audible alarm to deter misuse, and its clear polycarbonate door allows for quick identification of the AED inside.",
-  "section_products_aivia_100_features": "Constructed with a red ABS plastic chassis and a clear anti-UV polycarbonate cover, making the cabinet extremely lightweight and durable.\nThe clear cover allows for easy inspection of the AED inside without opening the door.\nFeatures a visual and audible alarm system, with the alarm being triggered by removing the AED.\nA luminosity sensor activates flashing white LEDs in low ambient light conditions.\nPowered by 4 'D' cell (LR20) batteries (included).\nWeight: 3.50 kg.\nDimensions: Length: 38.74 cm, Height: 42.23 cm, Depth: 20.16 cm.",
-  "section_products_aivia_200_about": "Expanding on the features of the AIVIA 100, the AIVIA 200 is both an indoor and outdoor AED Cabinet with heating, ensuring the AED is operational even in the coldest conditions.\nThis cabinet includes all the protective features of the AIVIA 100, with added temperature regulation to safeguard the defibrillator in extreme weather.",
-  "section_products_aivia_200_features": "Shares the durable construction and security features of the AIVIA 100, including the robust ABS chassis and clear polycarbonate cover.\nIncorporates temperature regulation for operational efficiency in extreme weather conditions.\nRetains the visual and audible alarm system to deter unauthorized access.\nEquipped with heating to maintain optimal conditions for the AED inside.\nThe specifications regarding weight and dimensions might vary and should be verified with the manufacturer or distributor.",
-
-  "section_products_philips_hs1_plexiglas_about": "The Philips HS1 Plexiglas Wall Mount is a simple, elegant solution for storing the Philips HeartStart HS1 Defibrillator, ensuring it is visible and accessible in case of an emergency.",
-  "section_products_philips_hs1_plexiglas_features": "Its clear design not only protects the AED from dust and damage but also allows for its status indicator to be seen at a glance.",
-  "section_products_wap_cabinet_about": "Designed to store various models of AEDs, the Wall-Mounted AED Cabinet is an essential accessory for keeping your emergency response equipment safe and ready to use.",
-  "section_products_wap_cabinet_features": "This cabinet features a sturdy construction with visibility through a clear window, ensuring that the AED is protected yet easily accessible.",
-  "section_products_philips_fast_response_kit_about": "The Philips Fast Response Kit contains tools and supplies for use in conjunction with a Philips AED during the initial moments of a cardiac emergency, enhancing the efficiency of the response.",
-  "section_products_philips_fast_response_kit_features": "Includes a range of first aid items such as a CPR mask, gloves, scissors, a razor, a gauze pad, and a wipe. Designed to assist in the preparation of the patient before defibrillation and CPR, ensuring that the responder has the necessary tools for a quick and efficient emergency response.",
-  "section_products_aed_sticker_about": "The AED Sticker is designed to clearly mark the location of an Automated External Defibrillator (AED) within a facility. This is crucial for ensuring quick access during cardiac emergencies.",
-  "section_products_aed_sticker_features": "High visibility design with universal AED symbol, suitable for placement on walls, doors, or anywhere the AED is stored. Made with durable materials to withstand various indoor environments.",
-  "section_products_wap_first_aid_kit_about": "The WAP First Aid Kit is a comprehensive emergency response kit containing essential medical supplies for treating minor injuries, cuts, scrapes, and other first aid needs.",
-  "section_products_wap_first_aid_kit_features": "Contains items such as bandages, antiseptic wipes, CPR face shield, and gloves. Packaged in a compact, easily accessible container, it's ideal for homes, offices, and vehicles.",
-
   "maintenance_lite_plan_title": "Economy Maintenance",
   "maintenance_lite_plan_description": "Simple maintenance plan",
   "maintenance_lite_plan_features": "Routine Check Upon Replacement Due||true\nQualified Technicians||true\nNationwide Service in Switzerland||true\nQuarterly Maintenance Checks||false\nFree Replacement of Used Parts||false\nCustomer Support||false\nDiscount on First Aid Training Courses||false",
   "maintenance_basic_plan_title": "Advanced Plan",
   "maintenance_basic_plan_description": "Essential Lifesaving Skills in a Snap",
   "maintenance_basic_plan_features": "Routine Check Upon Replacement Due||true\nQualified Technicians||true\nNationwide Service in Switzerland||true\nQuarterly Maintenance Checks||true\nFree Replacement of Used Parts||true\nCustomer Support||true\nDiscount on First Aid Training Courses||true",
-
   "training_toggle_main": "Main courses",
   "training_toggle_extra": "Extra courses",
-
   "training_lite_plan_title": "Economy Training",
-"training_lite_plan_description": "Simple maintenance plan",
-"training_lite_plan_features": "Basic adult CPR and AED skills||true\nPersonal safety considerations||true\nRecovery position||true\nHands-on practice time per participant||true\nQualified instructor||true\nAdult mannequins and AED trainers||true\nChild CPR and AED skills||false\nRecognition of serious cardiac conditions||false\nAirway obstruction management||false\nReflection on motivation to assist||false\nChild and infant mannequins||false\nIndividual ventilation aids||false",
-"training_basic_plan_title": "Advanced Training",
-"training_basic_plan_description": "Essential Lifesaving Skills in a Snap",
-"training_basic_plan_features": "Comprehensive adult and child CPR and AED skills||true\nPersonal safety considerations||true\nRecovery position||true\nHands-on practice time per participant||true\nQualified instructor||true\nHigh-performance CPR feedback mannequins||true\nMultiple AED trainers||true\nRecognition of serious cardiac conditions||true\nAirway obstruction management||true\nReflection on motivation to assist||true\nChild and infant mannequins||true\nIndividual ventilation aids||true"
+  "training_lite_plan_description": "Simple maintenance plan",
+  "training_lite_plan_features": "Basic adult CPR and AED skills||true\nPersonal safety considerations||true\nRecovery position||true\nHands-on practice time per participant||true\nQualified instructor||true\nAdult mannequins and AED trainers||true\nChild CPR and AED skills||false\nRecognition of serious cardiac conditions||false\nAirway obstruction management||false\nReflection on motivation to assist||false\nChild and infant mannequins||false\nIndividual ventilation aids||false",
+  "training_basic_plan_title": "Advanced Training",
+  "training_basic_plan_description": "Essential Lifesaving Skills in a Snap",
+  "training_basic_plan_features": "Comprehensive adult and child CPR and AED skills||true\nPersonal safety considerations||true\nRecovery position||true\nHands-on practice time per participant||true\nQualified instructor||true\nHigh-performance CPR feedback mannequins||true\nMultiple AED trainers||true\nRecognition of serious cardiac conditions||true\nAirway obstruction management||true\nReflection on motivation to assist||true\nChild and infant mannequins||true\nIndividual ventilation aids||true"
 }

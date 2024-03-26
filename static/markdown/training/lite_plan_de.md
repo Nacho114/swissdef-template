@@ -1,27 +1,31 @@
-# Training Light BLS-AED-SRC Compact (Basic Provider)  
+# Training Light BLS-AED-SRC Compact (Basic Provider)
 
 ## Zielgruppe
-BLS-AED-SRC (Basic Life Support – Automatisierter Externer Defibrillator – Swiss Resuscitation Council) Compact-Kurse richten sich an alle Bevölkerungs- und Berufsgruppen (Mindestalter 12 Jahre), die keine spezifischen Anforderungen zu diesem Thema haben. Diese Kurse sind darauf ausgelegt, so viele Teilnehmer wie möglich mit einem qualifizierten Schulungsangebot in kürzester Zeit zu erreichen.  
+
+BLS-AED-SRC (Basic Life Support – Automatisierter Externer Defibrillator – Swiss Resuscitation Council) Compact-Kurse richten sich an alle Bevölkerungs- und Berufsgruppen (Mindestalter 12 Jahre), die keine spezifischen Anforderungen zu diesem Thema haben. Diese Kurse sind darauf ausgelegt, so viele Teilnehmer wie möglich mit einem qualifizierten Schulungsangebot in kürzester Zeit zu erreichen.
 
 ## Ziele
-Die Teilnehmer beherrschen die Grundfertigkeiten der Reanimation bei Erwachsenen. Sie: 
+
+Die Teilnehmer beherrschen die Grundfertigkeiten der Reanimation bei Erwachsenen. Sie:
 
 - Alarmieren unverzüglich Hilfe.
 - Achten bei der Hilfeleistung auf ihre eigene Sicherheit.
 - Wenden die Grundfertigkeiten der Reanimation an (Herzdruckmassage, Beatmung und Automatische Externe Defibrillation mit einem AED).
 
 ## Inhalt
+
 Die "BLS-AED-Aussagen des SRC" sind in den Kursen zu vermitteln. BLS-AED-SRC Compact-Kurse beinhalten folgende Inhalte:
 
 - Hilfeleistung unter Beachtung des persönlichen Schutzes.
-- Erkennen eines Herzstillstands.  
+- Erkennen eines Herzstillstands.
 - Nationale Notfallnummern.
 - Handlungsabfolge nach dem "BLS-AED-SRC-Algorithmus".
 - Grundfertigkeitentraining bei Erwachsenen: Erstbeurteilung, Herzdruckmassage, Beatmung, AED-Defibrillation.
 - Stabile Seitenlage.
 
 ## Methodik und Material
-BLS-AED-SRC Compact-Kurse folgen einem von zwei Trainingsmodellen: Präsenzunterricht oder multimediale Selbstlernprogramme. Der Instruktor stellt sicher, dass jeder Teilnehmer Anleitung und Feedback zur Qualität seiner Handlungen während der Übungen erhält.  
+
+BLS-AED-SRC Compact-Kurse folgen einem von zwei Trainingsmodellen: Präsenzunterricht oder multimediale Selbstlernprogramme. Der Instruktor stellt sicher, dass jeder Teilnehmer Anleitung und Feedback zur Qualität seiner Handlungen während der Übungen erhält.
 
 Folgende Voraussetzungen werden sichergestellt:
 
@@ -36,13 +40,15 @@ Bei Präsenzunterricht:
 Die verwendeten Trainingsmodelle geben visuelles Feedback, wie hier: https://www.youtube.com/watch?v=JVSViqkogSI&t=2s.
 
 ## Dauer, Preis und Zertifikat
-- Mindestens 1 bis 2 Stunden Lernzeit.  
+
+- Mindestens 1 bis 2 Stunden Lernzeit.
 - Preis CHF 450.- zzgl. MwSt. für maximal 12 Teilnehmer.
 
-### Zertifikat  
+### Zertifikat
+
 Die Teilnehmer erhalten ein BLS-AED-SRC Compact (Basic Provider) Kurszertifikat. Das Zertifikat enthält folgende Angaben:
 
-- Titel: "BLS-AED-SRC Compact (Basic Provider)." 
+- Titel: "BLS-AED-SRC Compact (Basic Provider)."
 - SRC Logo des Complet Cours BLS-AED-SRC Compact (Basic Provider)
 - SRC Q-Label.
 - Persönliche Angaben des Teilnehmers: Vorname, Nachname und Geburtsdatum.

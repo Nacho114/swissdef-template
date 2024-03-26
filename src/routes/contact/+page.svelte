@@ -1,29 +1,16 @@
 <script lang="ts">
   import Container from "$lib/components/container.svelte";
-  import { onMount } from "svelte";
-
-  function loadCalendlyScript() {
-    const script = document.createElement("script");
-    script.src = "https://assets.calendly.com/assets/external/widget.js";
-    script.async = true;
-    document.body.appendChild(script);
-  }
-
-  onMount(() => {
-    loadCalendlyScript();
-  });
+  import ContactInfo from "./contact_info.svelte";
 </script>
 
 <Container>
-  <div
-    class="calendly-inline-widget"
-    data-url="https://calendly.com/devonlp/30min?hide_gdpr_banner=1"
-    style="min-width:320px;height:700px;"
-  ></div>
+  <div class="contact-info">
+    <ContactInfo />
+  </div>
 </Container>
 
 <style>
-  .calendly-inline-widget {
+  .contact-info {
     display: flex;
     justify-content: center;
   }

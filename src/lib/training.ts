@@ -32,5 +32,3 @@ export const trainings: Training[] = [
     maximum_participants: 8,
   },
 ];
-
-export const popularTrainings = trainings;

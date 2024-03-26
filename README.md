@@ -19,8 +19,6 @@ https://we.tl/t-LRuCFya3HO
 
 ### Feedback from ur mom
 
-- [ ] add two more packages for training and remove one for maintanance so there is only one
-- [ ] add about section for the website
 - [x] change first aid sticker to a new one
 - [x] make wall mounted aed lighter (it won't get lighter or it will break, too much noise in the original pic but I think it is fine)
 - [x] remove purple and make it black or white (made it green instead
@@ -45,6 +43,8 @@ https://we.tl/t-LRuCFya3HO
 
 ### Ignacio
 
+- [ ] add two more packages for training and remove one for maintanance so there is only one
+- [ ] add about section for the website
 - [ ] Make landing services responsive
 - [ ] Unify font size to 3-4 vars
 - [x] change the text and for defibrilator make it LONG and with MD

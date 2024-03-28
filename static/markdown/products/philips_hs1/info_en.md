@@ -1,70 +1,85 @@
-# Philips HS-1 HeartStart Defibrillator Overview
+# HS-1 HeartStart OnSite Philips Defibrillator: Everyone Can Save Lives
 
-## Saving Lives
+Having the right equipment and support can mean the difference between life and death. The Philips HeartStart HS1 Defibrillator with Life Guidance provides clear step-by-step instructions, ensuring anyone can confidently take action to save a life. Intuitive guidance and intelligent technologies guarantee accuracy, empowering individuals to act decisively in a cardiac emergency.
 
-- Survival rate of sudden cardiac arrest in Switzerland is currently below 5%.
-- Every minute without defibrillation decreases successful resuscitation chances by about 10%.
-- Improved access to defibrillators could save an additional 1,000 lives annually in Switzerland.
+## **Ready to Act. Ready to Help.**
 
-## HeartStart OnSite Defibrillator Features
+The HS1 Defibrillator is designed for everyone to save lives. Always ready for use, it enables swift and effective treatment of sudden cardiac arrest, the leading cause of heart failure, through rapid defibrillation.
 
-- Developed by Philips for easy use by anyone.
-- Guides users through each step with clear voice instructions.
-- Incorporates SMART Analysis and SMART Biphasic technologies for effective energy delivery.
-- Features Quick-Shock function for rapid defibrillation.
-- Lightweight, portable, and long-lasting battery ensure readiness for use.
+## **Guided Application**
 
-## User-Friendly and Immediate Availability
+Activating the HeartStart HS1 is as simple as pulling the green handle. Life Guidance voice instructions calmly lead you through the entire process, from pad placement to CPR and shock delivery. Feedback is provided on compression rate, depth, and ventilation.
 
-- Activated by pulling the green handle, providing step-by-step guidance.
-- Designed for challenging conditions with dust and water resistance.
-- Operates in various environments and withstands falls.
-- SMART pads adapt instructions based on patient age.
-- Interchangeable pads for adults and children with separate training pads.
+## **Ready for Immediate Use**
 
-## Included
+Your HeartStart HS1 comes fully equipped and ready to use. For personal use, you can start immediately, while commercial use requires setup by authorized personnel on-site.
 
-- Philips Heartstart HS1 (available in English, German, French, Italian, and other languages)
-- Lithium battery (Capacity: approx. 4 years and 200 shocks)
-- Electrode set (Durability: approx. 1.5 - 2 years)
-- Carrying Case
-- WAP Fast Response Kit attached to the AED
+## **Clear and Concise Voice Instructions**
 
-## Warranty
+Even inexperienced rescuers are guided step by step through CPR and defibrillation, ensuring accurate delivery of life-saving measures.
 
-- 8 years Philips Warranty applies when the product is used & maintained in accordance with labeling and instructions for use.
+## **Benefits of an Automated External Defibrillator (AED)**
 
-## Philips HS1 – Layman Defibrillator
+In Switzerland, over 8,000 people die from sudden cardiac arrest annually. Time is critical, and early intervention with CPR and AED use can increase survival rates by up to 75%.
 
-- Highly user-friendly semi-automatic device.
-- Clear voice guidance and illustrations for correct electrode placement.
-- Comprehensive self-tests ensure device readiness.
-- SMART Biphasic and QuickShock technologies ensure safe and effective therapy.
-- Lightweight and includes information button and metronome.
+## **Save Time. Save Lives.**
 
-## Technical Details
+In a sudden cardiac arrest scenario, quick and deliberate action is essential. Equipped with SMART Pads, the HeartStart HS1 ensures that instructions are tailored to the situation, allowing you to stay calm and focused.
 
-- Waveform: truncated exponential biphasic. Parameters adjusted as a function of patient’s impedance.
-- Therapy: Adult defibrillation peak current: 32A (150J nominal) into a 50 ohm load. Pediatric defibrillation (with optional Infant/Child SMART Pads Cartridge): 19A (50J nominal) into 50 ohm load.
-- Protocol: device follows preconfigured settings. Can be customized using HeartStart Even Review or HeartStart Configure software.
-- Voice Instructions: Detailed messages guide responder through defibrillator use.
-- CPR coaching: Instructions for adult & Infant/Child CPR at user’s option.
-- Controls: Green SMART pads cartridge handle, green On/Off button, blue i-button, orange Shock button.
-- Indicators: Ready light; blue i-button, Caution light.
-- Shock Advised: Delivers shock as soon as the device indicates a shock is advised.
-- Operating Altitude: 0 to 15,000 feet.
-- Crush Resistance: 500 pounds.
-- Shock/Drop Abuse: Withstands 1 meter drop to any edge, corner, or surface.
-- Vibration: Meets EN1789 for road ambulance specification in operating and standby states.
-- EMI (Radiated/Immunity): Meets EN55011 and EN61000 standards.
-- Patient Analysis: Evaluates ECG to determine if a rhythm is shockable.
+## **Fast and Reliable Shock Delivery**
 
-## Specifications
+Studies show that delivering a shock promptly after CPR increases survival chances. The Quick Shock feature of the HS1 significantly reduces the time between CPR and shock delivery, typically within 8 seconds.
 
-- Manufacturer: Philips
-- Semi/Automatic: Semi-automatic
-- Display: Not present
-- Quality Seals: CE, FDA
-- Battery Life: Approx. 4 years, Electrode Set Durability: Approx. 2 years
-- Resuscitation Feedback: Audio, metronome
-- Weight: 2.5 kg
+## **Efficient Therapy and Optimized Care**
+
+The HS1 is suitable for all patients and adjusts therapy accordingly. It delivers a shock only when a defibrillable rhythm is detected, preventing unnecessary shocks.
+
+## **Ease of Use**
+
+Designed for individuals without prior experience, the HS1 provides clear instructions and is the most reliable defibrillator on the market, backed by several published studies.
+
+- **Standard Configuration includes:**
+  - Defibrillator
+  - Battery
+  - SMART Pads cartridge for adults (1 set)
+  - Installation and Maintenance Instructions
+  - User Manual
+  - Quick Reference Guide
+  - Date sticker
+  - Carrying Case
+
+## **HeartStart HS1 Defibrillator - Technical Specifications**
+
+- **Waveform:** Biphasic truncated exponential waveform with parameters adjusted based on patient impedance.
+- **Therapy:** Peak current for adult defibrillation: 32 A (150 J nominal, into a 50-ohm load). Peak current for pediatric defibrillation with optional SMART Pads cartridge for infants/children: 19 A (50 J nominal, into a 50-ohm load).
+- **Cycle Time Between Shocks:** Typically under 20 seconds in a shock series.
+- **Quick Shock Function:** Shock delivery typically within 8 seconds after the end of the CPR interval.
+- **Voice Instructions:** Clear and concise voice instructions guide the rescuer through defibrillator use.
+- **CPR Guidance:** Optional instructions available for adult and pediatric CPR.
+- **Shock Delivery:** Through self-adhesive pads applied directly to the patient's skin as depicted in the pad illustrations.
+- **Controls:** Green SMART Pads cartridge handle, green power button, blue i-button, orange shock button.
+- **Indicators:** Ready light, blue i-button, warning light, shock button illuminates when shock is advised.
+
+### **Dimensions and Weight:**
+
+- **Dimensions:** 7 cm x 19 cm x 21 cm (Depth x Height x Width).
+- **Weight:** With battery and SMART Pads cartridge: 1.5 kg (3.3 lbs).
+
+### **Patient Analysis:**
+
+- **Quick Shock Function:** Shock delivery typically within 8 seconds after the end of the CPR interval.
+- **Sensitivity/Specificity:** Compliant with AAMI DF80 guidelines and AHA recommendations for adult defibrillation.
+- **Artifact Detection:** Minimizes the impact of pacemaker artifacts and electrical noise sources on ECG analysis.
+
+### **Battery (M5070A):**
+
+- **Type:** 9 Volt DC, 4.2 Ah, long-life lithium manganese dioxide disposable primary cell.
+- **Capacity:** Minimum of 200 shocks or 4 hours of operating time (EN 60601-2-4:2003).
+- **Install-by Date:** Labeled on the battery, valid for at least 5 years from the manufacturing date.
+- **Standby Life:** Typically four years when the battery is inserted before the install-by date.
+
+### **SMART Pads:**
+
+- **SMART Pads Cartridge for Adults:** Surface area: 137.1 cm².
+- **SMART Pads Cartridge for Children/Infants:** Surface area: 101.6 cm².
+- **Conductive Area:** Each pad has a conductive gel to protect the skin while sending the shock and also serves as a conductor, ensuring efficient delivery of the electrical therapy during defibrillation.

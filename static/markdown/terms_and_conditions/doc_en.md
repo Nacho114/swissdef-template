@@ -93,4 +93,28 @@ Payments should include the relevant invoice numbers for reference.
 - Customers must inspect delivered products immediately and report defects within 3 working days, accurately describing the issues.
 - Swiss Defibrillator is not liable for damages after the 3-day inspection period due to intentional or gross negligence.
 
-These Terms and Conditions govern the relationship between Swiss Defibrillator Sàrl and its customers, ensuring transparency, adherence to obligations, and mutual cooperation. Any deviations require written agreement between the parties.
+These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of Switzerland. Any disputes arising from these Terms and Conditions shall be subject to the exclusive jurisdiction of the courts of Switzerland.
+
+## 15. Changes to Terms of Service
+
+You can review the most current version of the Terms of Service at any time at this page. We reserve the right, at our sole discretion, to update, change or replace any part of these Terms of Service by posting updates and changes to our website. It is your responsibility to check our website periodically for changes.
+
+## 16. Contact Information
+
+Questions about the Terms of Service should be sent to us at info@swissdefibrillator.ch.
+
+By using our website and services, you signify your acceptance of these Terms and Conditions. If you do not agree to these terms, please do not use our website or services.
+=======
+These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of Switzerland. Any disputes arising from these Terms and Conditions shall be subject to the exclusive jurisdiction of the courts of Switzerland.
+
+## 15. Changes to Terms of Service
+
+You can review the most current version of the Terms of Service at any time at this page. We reserve the right, at our sole discretion, to update, change or replace any part of these Terms of Service by posting updates and changes to our website. It is your responsibility to check our website periodically for changes.
+
+## 16. Contact Information
+
+Questions about the Terms of Service should be sent to us at:
+
+`info@swissdefibrillator.ch`.
+
+By using our website and services, you signify your acceptance of these Terms and Conditions. If you do not agree to these terms, please do not use our website or services.

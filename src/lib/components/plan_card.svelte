@@ -76,5 +76,6 @@
   .service-description {
     color: #666;
     margin-bottom: 1rem;
+    min-height: 50px;
   }
 </style>

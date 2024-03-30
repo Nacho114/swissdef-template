@@ -1,3 +1,9 @@
-# AED Sticker
+# AED Sticker Overview
 
-The AED one sided Sticker measures 30 x 20 cm and ensures durability and longevity, allowing optimal visibility with white letters and the AED standard logo. The sign is in a vibrant green matching the RAL 6024 color standard. This color choice adheres to recognized emergency color codes, promoting safety awareness effortlessly.
+## About
+
+- The AED Sticker is designed to clearly mark the location of an Automated External Defibrillator (AED) within a facility. This is crucial for ensuring quick access during cardiac emergencies.
+
+## Features
+
+- High visibility design with universal AED symbol, suitable for placement on walls, doors, or anywhere the AED is stored. Made with durable materials to withstand various indoor environments.

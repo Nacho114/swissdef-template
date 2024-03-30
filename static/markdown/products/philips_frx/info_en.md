@@ -1,45 +1,23 @@
-# FRx HeartStart Philips Defibrillator: Your Lifesaving Companion
+# Philips HeartStart FRx Defibrillator Overview
 
-- Power to Save a Life: Swift and effective assistance for Sudden Cardiac Arrest (SCA), with over half of victims survivable if treated early.
+## About
 
-- Ready to Act. Ready to Go: Intuitive Life Guidance with clear voice prompts and visual icons for CPR coaching and defibrillation.
+- The Philips HeartStart FRx Defibrillator is designed for on-the-spot responders to assist in treating sudden cardiac arrest, suitable for various environments.
+- Robust design ensures functionality in extreme conditions, including wet and dusty areas.
 
-- CPR Assistance and Defibrillation Guidance: Simplified CPR assistance and defibrillation process with adaptive instructions and intelligent sensors.
+## Features
 
-- EMS Hand-off and Readiness: Seamless integration with EMS devices, ensuring readiness with automated self-tests.
+- Step-by-step voice prompts for easy setup.
+- Quick Shock technology enables rapid shock delivery post-CPR.
+- SMART Pads II are designed for use with both adults and children, adjusting instructions based on the patient's size.
+- Automatic self-tests ensure device readiness.
+- Weight: 3.5 lbs (1.5 kg) with battery and pads case.
+- Dimensions: Height: 7.1 inches, Width: 8.9 inches, Depth: 2.4 inches.
+- Designed for durability, the defibrillator withstands up to 500 kg and drops from 1.22 m.
 
-- Ready for Any Environment: **Rugged design for reliability in demanding conditions**, from law enforcement to industrial settings.
+## Specifications
 
-- Personalized Therapy. Enhanced Care: SMART Analysis and SMART Biphasic technologies provide tailored therapy for optimal outcomes.
-
-- Specifications and Compliance: Meets stringent industry standards and guidelines, ensuring effectiveness and reliability.
-
-- Conclusion: The Philips HeartStart FRx defibrillator empowers responders to save lives with advanced features and ease of use.
-
-## **Defibrillator Specifications:**
-
-- HeartStart FRx Ready-Pack Configuration: Includes defibrillator, battery, SMART Pads II (1 set), Setup and Maintenance Guides, Owner's Manual, Quick Reference Guide, date sticker.
-
-- Therapy: Adult peak current of 32 A (150 J) and Pediatric peak current of 19 A (50 J) with optional FRx Infant/Child Key.
-
-- User Interface: Voice coaching and intuitive controls.
-
-- Indicators: Clear visual indicators for guidance.
-
-## **Physical Specifications:**
-
-Compact size and lightweight design for portability.
-
-- Patient Analysis System: Quick Shock capability and artifact detection for accurate analysis.
-
-- Waveform Protocol: Truncated Exponential Biphasic waveform adjusted based on patient impedance.
-
-- Battery (M5070A): Long-life disposable primary cell with minimum 200 shocks or 4 hours of operating time.
-
-- Environmental/ Physical Requirements: Designed to perform in various environments, meeting industry standards.
-
-- Data Recording and Transmission: Infrared transmission for wireless data transfer and management.
-
-- Automated and User-Activated Self-Tests: Daily automatic self-tests and comprehensive battery and pads integrity checks.
-
-- Data Stored: Records first 15 minutes of ECG and entire incident's events and analysis decisions.
+- **Weight**: 3.5 lbs (1.5 kg) including battery and pads case
+- **Dimensions**: 7.1" H x 8.9" W x 2.4" D
+- **Durability**: Withstands up to 500 kg and drops from 1.22 meters
+- **Usage**: Suitable for a variety of environments, including extreme conditions

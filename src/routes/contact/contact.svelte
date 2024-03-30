@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { _ } from "svelte-i18n";
   import CircularButton from "$lib/components/circular_button.svelte";
   import Facebook from "virtual:icons/gg/facebook";
   import Twitter from "virtual:icons/ant-design/twitter-outlined";
@@ -6,12 +7,17 @@
   import Location from "virtual:icons/typcn/location";
   import Phone from "virtual:icons/solar/phone-linear";
   import Email from "virtual:icons/iconamoon/email";
+  import { ContactInfo } from "$lib/info";
 </script>
 
 <div class="contact-info">
   <div class="header">
-    <h1>Contact us</h1>
-    <p class="subtitle">Don't hesitate to contact us</p>
+    <h1>
+      {$_("section_contact_title")}
+    </h1>
+    <p class="subtitle">
+      {$_("section_contact_sub_title")}
+    </p>
   </div>
 
   <div class="sub-div">
@@ -20,7 +26,9 @@
         <Phone />
       </CircularButton>
       <div class="phoneNumber">
-        <p>+41 21 311 25 38</p>
+        <a href="tel:{ContactInfo.getPhoneNumber()}"
+          ><p>{ContactInfo.getPhoneNumber()}</p></a
+        >
       </div>
     </div>
     <div class="contactContainer">
@@ -28,7 +36,9 @@
         <Email />
       </CircularButton>
       <div class="email">
-        <p>info@swissdefibrillator.ch</p>
+        <a href="mailto:{ContactInfo.getEmail()}"
+          ><p>{ContactInfo.getEmail()}</p></a
+        >
       </div>
     </div>
     <div class="contactContainer">
@@ -36,13 +46,15 @@
         <Location />
       </CircularButton>
       <div class="address">
-        <p>Iggy Street <br /> 1000 - Switzerland</p>
+        <p>{ContactInfo.getAddress()}</p>
       </div>
     </div>
   </div>
 
   <div class="closing-text">
-    <p>Talk soon!</p>
+    <p>
+      {$_("section_contact_closing_text")}
+    </p>
   </div>
 
   <div class="icon">
@@ -59,6 +71,13 @@
 </div>
 
 <style>
+  a {
+    display: block; /* Makes the entire area clickable */
+    text-decoration: none; /* Removes underline from links */
+    text-align: left;
+    color: white; /* White text color */
+  }
+
   .contact-info {
     display: inline-block;
     padding: 2vw;

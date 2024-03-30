@@ -6,7 +6,7 @@
   "section_general_products": "Products",
   "section_general_training": "Training",
   "section_general_maintenance": "Maintenance",
-  "section_general_contact": "Contact us",
+  "section_general_contact": "Contact",
   "section_general_warranty_and_returns": "Warranty & Returns",
   "section_general_terms_and_conditions": "Terms & Conditions",
   "section_general_privacy_policy": "Privacy Policy",
@@ -16,7 +16,7 @@
   "section_footer_left_title": "Empowering lives with the most advanced defibrillation technology.",
   "section_footer_quick_links": "Quick Links",
   "section_footer_support_and_services": "Support & Services",
-  "section_footer_contact_us": "Contact Us",
+  "section_footer_contact_us": "Contact",
   "section_home_landing_header_title": "Fight Against Cardiac Arrest",
   "section_home_landing_header_subtitle": "One life-saving device at a time",
   "section_home_landing_header_button": "Book an appointment",
@@ -93,5 +93,8 @@
   "training_recommended_features": "Basic adult CPR and AED skills||true\nPersonal safety considerations||true\nRecovery position||true\nHands-on practice time per participant||true\nQualified instructor||true\nAdult mannequins and AED trainers||true\nChild CPR and AED skills||false\nRecognition of serious cardiac conditions||false\nAirway obstruction management||false\nReflection on motivation to assist||false\nChild and infant mannequins||false\nIndividual ventilation aids||false",
   "training_refresher_title": "Refresher",
   "training_refresher_description": "Essential Lifesaving Skills in a Snap",
-  "training_refresher_features": "Basic adult CPR and AED skills||true\nPersonal safety considerations||true\nRecovery position||true\nHands-on practice time per participant||true\nQualified instructor||true\nAdult mannequins and AED trainers||true\nChild CPR and AED skills||false\nRecognition of serious cardiac conditions||false\nAirway obstruction management||false\nReflection on motivation to assist||false\nChild and infant mannequins||false\nIndividual ventilation aids||false"
+  "training_refresher_features": "Basic adult CPR and AED skills||true\nPersonal safety considerations||true\nRecovery position||true\nHands-on practice time per participant||true\nQualified instructor||true\nAdult mannequins and AED trainers||true\nChild CPR and AED skills||false\nRecognition of serious cardiac conditions||false\nAirway obstruction management||false\nReflection on motivation to assist||false\nChild and infant mannequins||false\nIndividual ventilation aids||false",
+  "section_contact_title": "Contact Us",
+  "section_contact_sub_title": "Don't hesitate to contact us",
+  "section_contact_closing_text": "Talk soon!"
 }

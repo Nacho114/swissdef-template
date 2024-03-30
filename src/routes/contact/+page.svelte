@@ -1,11 +1,11 @@
 <script lang="ts">
   import Container from "$lib/components/container.svelte";
-  import ContactInfo from "./contact_info.svelte";
+  import Contact from "./contact.svelte";
 </script>
 
 <Container>
   <div class="contact-info">
-    <ContactInfo />
+    <Contact />
   </div>
 </Container>
 

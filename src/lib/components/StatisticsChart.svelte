@@ -211,4 +211,42 @@
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
+
+  @media (max-width: 600px) {
+    .statistics-header h1 {
+      font-size: 2.2rem; /* Smaller font size for h1 */
+    }
+
+    .statistics-header p {
+      font-size: 1rem; /* Slightly smaller font size for paragraph */
+      max-width: 90%; /* Increase max-width for better padding */
+    }
+
+    .info-columns {
+      grid-template-columns: 1fr; /* Stack the columns vertically */
+    }
+
+    .info-column:hover {
+      transform: none;
+    }
+
+    .info-column,
+    .cta-container {
+      border-radius: 0px;
+      box-shadow: none;
+    }
+
+    .info-column h3,
+    .info-column p {
+      font-size: 1.2rem; /* Adjust font size for readability on small devices */
+    }
+
+    .chart-container {
+      height: 300px; /* Adjust chart height to fit smaller screens */
+    }
+
+    .cta-container {
+      font-size: 1rem; /* Adjust the call-to-action font size */
+    }
+  }
 </style>

@@ -1,126 +1,129 @@
-# Training Advanced
+# Recommended Training
 
-## Objectives
+## IVR/IAS First Aid Level 1 in everyday life and in road traffic, including BLS-AED-SRC complet (Generic Provider)
 
-Participants apply basic resuscitation (BLS: Basic Life Support) measures in various situations, including automated external defibrillation (AED), for both children and adults, while ensuring their own safety. They:
+### Contents
 
-- Promptly raise the alarm.
-- Consider their own safety while providing assistance.
-- Apply basic resuscitation techniques on adult and child training models, including high-performance CPR, ventilation, and defibrillation using an AED.
-- Recognize typical characteristics of cardiac arrest, myocardial infarction, and stroke, explaining prevention possibilities.
-- Perform correct recovery position in case of unconsciousness.
-- Explain measures to take in case of airway obstruction by a foreign body.
-- Apply BLS measures in concrete scenarios, focusing on target groups.
-- Reflect on their own motivation to provide assistance.
-- Describe how to manage adverse factors during first aid.
-- Are informed about possible integration into the first responder system.
+The IVR/IAS First Aid course aligns with the standards set by the Swiss Resuscitation Council (SRC) and the State Secretariat for Economic Affairs (SECO), covering essential topics such as the "Top Ten Medical Emergencies" outlined in Regulation 3 of the Labour Act, Article 36. Recommended by SECO, this course adheres to the guidelines for first aid provision in companies. The "First Aid Level 1 IVR" training aims to equip participants with fundamental first aid skills, including initial response measures for emergency situations encountered in everyday life and traffic, such as BLS-AED-SRC protocols.
 
-## Training Content
+### Obtaining an Overview
 
-The comprehensive BLS-AED-SRC (Basic Life Support – Automated External Defibrillator – Swiss Resuscitation Council) course aims to deepen and optimally apply basic cardiopulmonary resuscitation (BLS-AED) techniques during cardiac arrest in adults and children in various contexts. It targets healthcare professionals, first responders (firefighters, police officers, workplace first aiders, lifeguards, on-duty Samaritans, etc.), and anyone wishing to maintain their skills in cases of cardiac emergency, myocardial infarction, hypoxic emergency, or stroke (e.g., caregivers of cardiac patients, etc.).
+The participant gains an overview of the event.
 
-The course imparts "BLS-AED principles of the SRC" with the goal of deepening knowledge and applying basic resuscitation measures in specific situations. The course content includes:
+- The participant learns how to recognize an emergency situation (accident / medical problem) and the scope of the event.
+- They determine the number of injured or ill persons.
+- They identify available helpers and assign tasks to them if necessary.
+- They recognize potential and acute hazards at the scene and adjust their behavior accordingly.
 
-- Assisting while ensuring personal protection.
-- Identifying and assessing emergency situations.
-- Transmitting national emergency numbers (and if necessary, local emergency numbers as well).
-- Situation awareness and problem-solving in various emergency situations, including myocardial infarction and stroke.
-- Explanation and discussion of the chain of survival.
-- Recovery position in case of unconsciousness.
-- Measures for airway obstruction by a foreign body.
-- Actions according to the BLS-AED-SRC algorithm.
-- Basic skills training for adults and children: initial assessment, CPR, ventilation, AED defibrillation.
-- Collaboration with non-professional rescuers and professional lifeguards.
-- Teamwork and communication.
-- Handling at least 2 scenarios with different complexities (including at least one scenario with a shockable rhythm and one with a non-shockable rhythm).
-- Motivations for first aid, including favorable and unfavorable influences.
-- Fundamental ethical principles.
-- Legal aspects: liability in case of non-assistance.
-- Mention of participation in the First Responder systems.
-- Open discussion of questions.
+### Alerting
 
-## Methodology and Teaching Materials
+The participant learns how to alert appropriately.
 
-**Interactive and dynamic training:**
+- The participant names the primary emergency numbers in Switzerland.
+- They are informed about other important emergency numbers.
+- The participant is prepared for the questions of the structured interrogation scheme.
+- They receive and follow instructions from the emergency call center.
+- They are informed about the possibility of alerting via emergency call pillars on highways.
+- They are familiar with smartphone-compatible alerting systems.
+- They know the rescue chain (current version IVR).
 
-- Conducted by a certified adult trainer (IAS3, SVEB / FSEA EduQua) with 20 years of experience.
-- Practical approach of 75%.
-- Each participant practices using a defibrillator to ensure effective intervention in emergencies.
-- Explained and illustrated flyers provided.
-- Individual test at the end of the training.
+### Safety, Protection, and Hygiene
 
-**Pedagogical supports:**
+The participant learns to recognize potential hazards for themselves and the affected individuals and takes appropriate protective measures.
 
-- PowerPoint presentations, informative videos.
+- The participant learns to secure an accident scene appropriately, considering the specific hazards of road traffic and acting accordingly.
+- They are familiar with specific behaviors on highways and in road tunnels.
+- They assess other hazards (e.g., falls, collapses, fire, toxic substances, electricity, electric vehicles) and derive measures.
+- They learn to implement suitable protective measures (e.g., disposable gloves, resuscitation mask, etc.) to avoid contact with blood and other bodily fluids.
+- They learn to take appropriate measures to remove affected individuals from life-threatening situations.
+
+### Patient Assessment and Further Measures
+
+The participant learns and practice to perform patient assessment, monitoring, and care according to a simple scheme and takes initial measures to maintain or restore vital functions. They regularly re-evaluate the patient.
+
+a) for measures in case of severe external bleeding
+
+- The participant stops severe external bleeding using compression and bandaging methods.
+
+b) for measures with an unresponsive patient
+
+- The participant applies techniques for removing protective helmets.
+- They apply basic resuscitation measures (BLS) including Automatic External Defibrillation (AED) to adults and children in different situations (BLS-AED-SRC-Complete).
+- They monitor the presence of breathing and take appropriate measures in case of changes.
+- They recognize a seizure and provide adequate care to the patient.
+- If necessary, they apply the recovery position or the NATO position.
+- If necessary, they apply additional measures as with a responsive patient.
+
+c) for measures with a responsive patient
+
+- The participant positions the patient appropriately.
+- He names appropriate measures to take in case of suspected spinal injuries. He recognizes signs of possible internal bleeding.
+- The participant recognizes symptoms of a possible heart attack or stroke and takes necessary actions.
+- He takes appropriate measures for burns and corrosions.
+- The participant mentions techniques and measures for maintaining warmth and weather protection.
+- He understands the importance of providing appropriate patient care and applies suitable measures such as shielding and comforting.
+
+### Stress Management / Motivation to Provide Assistance
+
+Stress Management
+
+The participant learns to identifiy potential stress situations and responds appropriately.
+
+- The participant recognizes stress reactions in emergency situations among involved parties and helpers.
+- He applies the fundamental elements of patient-centered communication in emergency situations.
+- He is informed about contact addresses for psychosocial emergency aid.
+
+Motivation to Provide Assistance
+
+The participant reflects on his motivation to provide assistance. He knows the inhibiting and facilitating factors.
+
+- The participant is aware of his responsibility in emergency situations.
+- He recognizes that every form of assistance is important, no matter how insignificant it may seem.
+- The participant is allowed to set boundaries for himself and understands that nothing unreasonable is demanded of him.
+
+### Rights and Obligations
+
+The participant understands the legal aspects of first aid and the corresponding legal sources.
+
+The participant interprets the legal obligation to provide assistance in relation to reasonableness (SGB Art. 128).
+
+### Information about Further Education and Training Opportunities
+
+The participant is informed about additional educational and course offerings.
+
+- The participant mentions advanced course formats and their corresponding requirements, and is aware of his obligation for continuing education to maintain his certification.
+- Within 24 months from the issuance date of the "First Aid Level 1 IVR" certificate, instead of a "First Aid Level 1 IVR Refresher Course," the subsequent level "First Aid Level 2 IVR Course" can be attended, thus obtaining the "First Aid Level 2 IVR."
+
+### Teaching Material
+
+- Each participant will receive appropriate course documentation, including detailed descriptions of each subject along with illustrations.PowerPoint presentations, informative videos.
 - Demonstrations with AED Trainer defibrillators (the same AED belonging to the client), HS-1 and/or FRx HeartStart Philips, as well as various models.
 - Use of Brayden mannequins https://www.youtube.com/watch?v=JVSViqkogSI&t=2s with visual feedback, and Laerdal mannequins for children and babies.
 - Masks and tools for the Heimlich maneuver.
 - Presentation of first aid kits and exercise tools dedicated to first aid.
 
-## Minimum Framework Conditions
+### Minimum Framework Conditions
 
 - Face-to-face instruction with feedback on the quality of measures taken.
 - Respect for individual learning pace.
 - At least 30 minutes of basic measures training per participant.
-- At least 1 BLS-AED-SRC instructor for every 12 participants.
+- At least 1 BLS-AED-SRC instructor for every 8 participants.
 - At least 1 adult mannequin with feedback on high-performance CPR criteria for 2 participants.
-- At least 3 - 4 AED training devices for every 12 participants.
-- At least 1 junior mannequin and one infant mannequin for every 12 participants.
+- At least 3 - 4 AED training devices for every 8 participants.
+- At least 1 junior mannequin and one infant mannequin for every 8 participants.
 - 1 simple auxiliary ventilation means per participant (e.g., pocket mask).
+- Warning triangle
+- Rescue blanket
+- Gloves
+- Compression and bandaging material
+- Helmet
+- Additional requirements according to the current SRC course guidelines
+- The type and quality of the materials promotes optimal learning.
 
-## Target Audience
+### Target Audience
 
-The full BLS-AED-SRC course is intended for anyone whose profession requires them to have and demonstrate safe BLS skills, such as healthcare professionals or first responders with assistance mandates (firefighters, police officers, workplace first aiders, lifeguards, on-duty Samaritans, etc.), and individuals who want to maintain their ability to act at the highest level during cardiac arrest, myocardial infarction, hypoxic emergency, or stroke (e.g., caregivers of patients with cardiac diseases, etc.).
+These standards are intended for participants from the age of 12 and for individuals who wish to obtain a driver's license.
 
-Languages: French, German, and English.
+### Course Duration and Price
 
-## Knowledge Assessment
-
-- Practical exercises during the course to acquire necessary first aid skills safely and effectively.
-- Feedback focused on the following points:
-  - Activation of the alarm.
-  - Consideration of personal safety and precise identification of hazards.
-  - Correct application of BLS measures, including AED use.
-  - Recognition of characteristics of serious cardiac conditions, hypoxia, and stroke.
-  - Correct execution of the recovery position in case of unconsciousness.
-- Feedback objective: Motivating participants to provide real assistance.
-
-## Included
-
-- Explained and illustrated flyers.
-- The latest SRC Swiss Resuscitation Council algorithm.
-- 1 pocket mask for ventilation per participant.
-
-## Certified Instructor by
-
-- SanPool Health School.
-- SRC Swiss Resuscitation Council.
-- EduQua and SVEB / FSEA Adult Trainer.
-- IAS 3 Inter-Association of Lifesaving.
-
-## Facilities
-
-- The course venue is provided by the client.
-- The venue should accommodate participants and trainer(s), including seating for each participant and space for practical exercises.
-- The premises must be available at least one hour before the start of the course for the instructor to set up.
-
-## Duration
-
-The course comprises 3 hours of teaching time without breaks.
-
-## Price
-
-CHF 890.- plus VAT for a maximum of 12 participants.
-
-## Certificate
-
-Participants receive a BLS-AED-SRC course certificate. The certificate contains the following information:
-
-- Title: "Complete BLS-AED-SRC."
-- SRC Logo of the Complet Cours BLS-AED-SRC Complet (Generic Provider)
-- SRC Q-label.
-- Participant's personal information: first name, last name, and date of birth.
-- Date of issuance by the course instructor.
-- Swiss Defibrillator Sàrl
-
-The certificate is valid for 2 years. Swiss Defibrillator follows the SRC recommendation providing course certificates for participants with physical limitations attending SRC courses. Swiss Defibrillator delivers a certificate stating following addition: "The practical skills of the seminar were not fully trained due to physical limitations."
+The First Aid Level 1 IVR course comprises a minimum of 14 hours of learning. The educational organization is free to extend the duration of the course. The entire course time must be spread over at least 2 days and completed within 6 months. The price of the Course is CHF 3950.- plus VAT for maximum 8 participants.

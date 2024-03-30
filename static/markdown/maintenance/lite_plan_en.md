@@ -1,22 +1,23 @@
-# Lite Maintenance Plan
+# Basic Service Maintenance
 
-The Lite Maintenance Plan is tailored for businesses seeking essential defibrillator maintenance services without the comprehensive coverage of our Basic Plan. This option is perfect for smaller organizations or those with fewer high-risk scenarios, providing a cost-effective solution that still ensures your defibrillator is checked and maintained by professionals.
+Introducing Swiss Defibrillator's Hassle-Free Maintenance Plan:
 
-## Features and Benefits
+- Before the expiration dates of pads and batteries, we kindly inquire if our clients wish to proceed with replacements, allowing us to ship them in advance.
 
-- **Routine Check Upon Replacement Due**: Our maintenance schedule is designed to align with your defibrillator's replacement cycle. This targeted approach ensures that your device is inspected and serviced precisely when needed, maintaining its readiness without unnecessary interventions.
-- **Qualified Technicians**: Every maintenance visit is conducted by our team of highly trained technicians, who specialize in defibrillator maintenance. Their expertise ensures that your device's maintenance is carried out efficiently, with minimal disruption to your daily operations.
-- **Nationwide Service in Switzerland**: Regardless of your location within Switzerland, our technicians are available to provide you with the same high-quality service, ensuring that your defibrillators are maintained to the highest standards.
+- Operating on a pay-as-you-go basis, our clients are billed solely for the services or products they utilize.
 
-## Pricing
+- Opting for our basic service entrusts us with the management of pad and battery expiration dates, eliminating any worries.
 
-- CHF 450 per month, per defibrillator.
-- Opting for this plan means committing to a 24-month term, which guarantees that your defibrillator maintenance needs are met over a significant period. See terms and conditions for additional information.
+- Swiss Defibrillator ensures proactive notifications two weeks before pad and battery expiration, ensuring timely replacements.
 
-## Special Offers
+- Batteries are priced at CHF 229, while pads (HS-1 and FRx) are CHF 97 each.
 
-- Organizations with multiple defibrillators can benefit from our discounted rates, making it even more affordable to ensure all your devices are maintained properly.
+- Clients receive an invoice covering the full price of the battery and/or pads, along with standard Swiss Post shipping costs.
 
-## Get Started
+- Additionally, clients can request an AED report for CHF 30. All prices are subject to 8.1% VAT.
 
-If the Lite Maintenance Plan sounds like the right fit for your organization, click the "book" button. A customer support representative will be in touch to guide you through the enrollment process, ensuring that your defibrillators are in capable hands.
+- Importantly, our basic service maintenance incurs no annual costs, with fees only applicable upon pad and/or battery replacements.
+
+- If the client opts for Swiss Defibrillator to deliver the service, rest assured, it's entirely feasible. Our service intervention fee stands at CHF 90 plus VAT, encompassing all facets of the service, including the technician's travel costs and service time. It's important to note that this fee excludes the cost of pads and/or batteries, which are charged separately.
+
+- This approach guarantees cost-effectiveness and peace of mind for our esteemed clients.

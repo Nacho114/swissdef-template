@@ -1,126 +1,62 @@
-# Training Advanced
+# Lite Training
 
-## Objectives
+## BLS-AED-SRC Compact (Basic Provider)
 
-Participants apply basic resuscitation (BLS: Basic Life Support) measures in various situations, including automated external defibrillation (AED), for both children and adults, while ensuring their own safety. They:
+### **Objectives**
+
+Participants master the basic skills of resuscitation in adults. They:
 
 - Promptly raise the alarm.
 - Consider their own safety while providing assistance.
-- Apply basic resuscitation techniques on adult and child training models, including high-performance CPR, ventilation, and defibrillation using an AED.
-- Recognize typical characteristics of cardiac arrest, myocardial infarction, and stroke, explaining prevention possibilities.
-- Perform correct recovery position in case of unconsciousness.
-- Explain measures to take in case of airway obstruction by a foreign body.
-- Apply BLS measures in concrete scenarios, focusing on target groups.
-- Reflect on their own motivation to provide assistance.
-- Describe how to manage adverse factors during first aid.
-- Are informed about possible integration into the first responder system.
+- Apply the basic skills of resuscitation (chest compressions, ventilation, and Automated External Defibrillation using an AED).
 
-## Training Content
+### **Content**
 
-The comprehensive BLS-AED-SRC (Basic Life Support – Automated External Defibrillator – Swiss Resuscitation Council) course aims to deepen and optimally apply basic cardiopulmonary resuscitation (BLS-AED) techniques during cardiac arrest in adults and children in various contexts. It targets healthcare professionals, first responders (firefighters, police officers, workplace first aiders, lifeguards, on-duty Samaritans, etc.), and anyone wishing to maintain their skills in cases of cardiac emergency, myocardial infarction, hypoxic emergency, or stroke (e.g., caregivers of cardiac patients, etc.).
-
-The course imparts "BLS-AED principles of the SRC" with the goal of deepening knowledge and applying basic resuscitation measures in specific situations. The course content includes:
+The "BLS-AED Statements of the SRC" are to be imparted in the courses. BLS-AED-SRC Compact courses include the following content:
 
 - Assisting while ensuring personal protection.
-- Identifying and assessing emergency situations.
-- Transmitting national emergency numbers (and if necessary, local emergency numbers as well).
-- Situation awareness and problem-solving in various emergency situations, including myocardial infarction and stroke.
-- Explanation and discussion of the chain of survival.
-- Recovery position in case of unconsciousness.
-- Measures for airway obstruction by a foreign body.
-- Actions according to the BLS-AED-SRC algorithm.
-- Basic skills training for adults and children: initial assessment, CPR, ventilation, AED defibrillation.
-- Collaboration with non-professional rescuers and professional lifeguards.
-- Teamwork and communication.
-- Handling at least 2 scenarios with different complexities (including at least one scenario with a shockable rhythm and one with a non-shockable rhythm).
-- Motivations for first aid, including favorable and unfavorable influences.
-- Fundamental ethical principles.
-- Legal aspects: liability in case of non-assistance.
-- Mention of participation in the First Responder systems.
-- Open discussion of questions.
+- Recognizing cardiac arrest.
+- National emergency numbers.
+- Action sequence according to the "BLS-AED-SRC Algorithm".
+- Basic skills training in adults: initial assessment, chest compressions, ventilation, AED defibrillation.
+- Recovery position.
 
-## Methodology and Teaching Materials
+### **Methodology and Material**
 
-**Interactive and dynamic training:**
+BLS-AED-SRC Compact courses follow one of two training models: instructor-led or through multimedia self-learning systems. The instructor ensures that each participant receives instruction and feedback on the quality of their actions during exercises. The following prerequisites is ensured:
 
-- Conducted by a certified adult trainer (IAS3, SVEB / FSEA EduQua) with 20 years of experience.
-- Practical approach of 75%.
-- Each participant practices using a defibrillator to ensure effective intervention in emergencies.
-- Explained and illustrated flyers provided.
-- Individual test at the end of the training.
+- At least 30 minutes of basic skills training per participant on the training model (Hands-On Training). In instructor-led formats:
+- At least 1 BLS-AED-SRC instructor per 8 participants (TN).
+- At least 1 adult mannequin per 2-3 participants.
+- At least 1 AED training device per 2-3 participants.
 
-**Pedagogical supports:**
+The training mannequins used provide visual feedback such as: https://www.youtube.com/watch?v=JVSViqkogSI&t=2s.
 
-- PowerPoint presentations, informative videos.
-- Demonstrations with AED Trainer defibrillators (the same AED belonging to the client), HS-1 and/or FRx HeartStart Philips, as well as various models.
-- Use of Brayden mannequins https://www.youtube.com/watch?v=JVSViqkogSI&t=2s with visual feedback, and Laerdal mannequins for children and babies.
-- Masks and tools for the Heimlich maneuver.
-- Presentation of first aid kits and exercise tools dedicated to first aid.
+### **Target Audience**
 
-## Minimum Framework Conditions
+BLS-AED-SRC (Basic Life Support – Automated External Defibrillator – Swiss Resuscitation Council) Compact courses are aimed at all population and professional groups (minimum age 12 years) who do not have specific requirements on the topic. These courses are designed to reach as many participants as possible with a qualified training offer in the shortest possible time.
 
-- Face-to-face instruction with feedback on the quality of measures taken.
-- Respect for individual learning pace.
-- At least 30 minutes of basic measures training per participant.
-- At least 1 BLS-AED-SRC instructor for every 12 participants.
-- At least 1 adult mannequin with feedback on high-performance CPR criteria for 2 participants.
-- At least 3 - 4 AED training devices for every 12 participants.
-- At least 1 junior mannequin and one infant mannequin for every 12 participants.
-- 1 simple auxiliary ventilation means per participant (e.g., pocket mask).
+### **Duration, Price, and Certificate**
 
-## Target Audience
+Minimum of 1 to 2 hours of learning time.
 
-The full BLS-AED-SRC course is intended for anyone whose profession requires them to have and demonstrate safe BLS skills, such as healthcare professionals or first responders with assistance mandates (firefighters, police officers, workplace first aiders, lifeguards, on-duty Samaritans, etc.), and individuals who want to maintain their ability to act at the highest level during cardiac arrest, myocardial infarction, hypoxic emergency, or stroke (e.g., caregivers of patients with cardiac diseases, etc.).
+#### **Price**
 
-Languages: French, German, and English.
+CHF 450.- plus VAT for a maximum of 8 participants.
 
-## Knowledge Assessment
+#### **Certificate**
 
-- Practical exercises during the course to acquire necessary first aid skills safely and effectively.
-- Feedback focused on the following points:
-  - Activation of the alarm.
-  - Consideration of personal safety and precise identification of hazards.
-  - Correct application of BLS measures, including AED use.
-  - Recognition of characteristics of serious cardiac conditions, hypoxia, and stroke.
-  - Correct execution of the recovery position in case of unconsciousness.
-- Feedback objective: Motivating participants to provide real assistance.
+Participants receive a BLS-AED-SRC Compact (Basic Provider) course certificate. The certificate contains the following information:
 
-## Included
-
-- Explained and illustrated flyers.
-- The latest SRC Swiss Resuscitation Council algorithm.
-- 1 pocket mask for ventilation per participant.
-
-## Certified Instructor by
-
-- SanPool Health School.
-- SRC Swiss Resuscitation Council.
-- EduQua and SVEB / FSEA Adult Trainer.
-- IAS 3 Inter-Association of Lifesaving.
-
-## Facilities
-
-- The course venue is provided by the client.
-- The venue should accommodate participants and trainer(s), including seating for each participant and space for practical exercises.
-- The premises must be available at least one hour before the start of the course for the instructor to set up.
-
-## Duration
-
-The course comprises 3 hours of teaching time without breaks.
-
-## Price
-
-CHF 890.- plus VAT for a maximum of 12 participants.
-
-## Certificate
-
-Participants receive a BLS-AED-SRC course certificate. The certificate contains the following information:
-
-- Title: "Complete BLS-AED-SRC."
-- SRC Logo of the Complet Cours BLS-AED-SRC Complet (Generic Provider)
+- Title: "BLS-AED-SRC Compact (Basic Provider)."
+- SRC Logo of the Complet Cours BLS-AED-SRC Compact (Basic Provider)
 - SRC Q-label.
 - Participant's personal information: first name, last name, and date of birth.
 - Date of issuance by the course instructor.
 - Swiss Defibrillator Sàrl
+
+BLS-AED-SRC Compact courses are non-examination. Participation is confirmed in writing by the course provider if the course was instructor.
+
+If this course is integrated into a larger event, confirmation will be provided as follows: "This course includes a certified BLS-AED-SRC Compact course."
 
 The certificate is valid for 2 years. Swiss Defibrillator follows the SRC recommendation providing course certificates for participants with physical limitations attending SRC courses. Swiss Defibrillator delivers a certificate stating following addition: "The practical skills of the seminar were not fully trained due to physical limitations."

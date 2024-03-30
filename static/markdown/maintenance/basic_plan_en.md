@@ -10,15 +10,15 @@
 
 1.4 In addition to the services mentioned under point 1.3, the maintenance service includes the following services upon the user's request:
 
-   a) Free customer service 24 hours a day, 7 days a week at +41 79 441 24 06.
-   b) Annual verification of the defibrillator(s) operation.
-   c) Maintenance journal of the defibrillator(s) every year is included.
-   d) Reading the electrocardiogram from the defibrillator(s) – if the AED type permits – and sending the electrocardiogram to the hospital or the physician indicated by the user.
-   e) Replacement of adult electrodes per defibrillator at a rate of one pair for adults every 24 months and before the expiration date.
-   f) Replacement of the defibrillator battery at a rate of one battery every 48 months, including battery installation.
-   g) Repair or replacement of the defibrillator(s) as necessary, provided that the device is still under manufacturer warranty.
-   h) Emergency delivery of a replacement defibrillator. The client will receive a loaned defibrillator, and if their defibrillator is no longer under warranty, the client has the right to decide which defibrillator to acquire. During this time (maximum 1 month), the client will have the right to keep the defibrillator loaned by Swiss Defibrillator.
-   i) Annual intervention fees, emergency fees, and travel expenses are included.
+a) Free customer service 24 hours a day, 7 days a week at +41 79 441 24 06.
+b) Annual verification of the defibrillator(s) operation.
+c) Maintenance journal of the defibrillator(s) every year is included.
+d) Reading the electrocardiogram from the defibrillator(s) – if the AED type permits – and sending the electrocardiogram to the hospital or the physician indicated by the user.
+e) Replacement of adult electrodes per defibrillator at a rate of one pair for adults every 24 months and before the expiration date.
+f) Replacement of the defibrillator battery at a rate of one battery every 48 months, including battery installation.
+g) Repair or replacement of the defibrillator(s) as necessary, provided that the device is still under manufacturer warranty.
+h) Emergency delivery of a replacement defibrillator. The client will receive a loaned defibrillator, and if their defibrillator is no longer under warranty, the client has the right to decide which defibrillator to acquire. During this time (maximum 1 month), the client will have the right to keep the defibrillator loaned by Swiss Defibrillator.
+i) Annual intervention fees, emergency fees, and travel expenses are included.
 
 1.5 In cases mentioned under points 1.3 and 1.4 above, the travel of the person responsible for the service provision is included in the maintenance service.
 

@@ -33,10 +33,10 @@ The duration of the First Aid Level 1 IVR Refresher Course is at least 7 learnin
 
 - Recommended First Aid courses certified by IVR/IAS (www.ivr-ias.ch) or First Aid courses with comparable learning and performance objectives.
 
-| Number of employees per location | 1 – 10 | 50  | 100 | 250 | Over 250                             |
-|----------------------------------|--------|-----|-----|-----|--------------------------------------|
-| Number of first aiders           | 1 – 2  | 6   | 8   | 10  | According to the First Aid Concept   |
-| Number of first aid material locations | 1 | Several according to the First Aid Concept |
+| Number of employees per location       | 1 – 10 | 50                                         | 100 | 250 | Over 250                           |
+| -------------------------------------- | ------ | ------------------------------------------ | --- | --- | ---------------------------------- |
+| Number of first aiders                 | 1 – 2  | 6                                          | 8   | 10  | According to the First Aid Concept |
+| Number of first aid material locations | 1      | Several according to the First Aid Concept |
 
 - Link: https://www.seco.admin.ch/seco/de/home/Arbeit/Arbeitsbedingungen/Arbeitsgesetz-und-Verordnungen/Wegleitungen/wegleitung-zur-argv-3.html
 

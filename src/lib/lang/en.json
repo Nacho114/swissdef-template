@@ -82,10 +82,16 @@
   "maintenance_basic_plan_features": "Routine Check Upon Replacement Due||true\nQualified Technicians||true\nNationwide Service in Switzerland||true\nQuarterly Maintenance Checks||true\nFree Replacement of Used Parts||true\nCustomer Support||true\nDiscount on First Aid Training Courses||true",
   "training_toggle_main": "Main courses",
   "training_toggle_extra": "Extra courses",
-  "training_lite_plan_title": "Economy Training",
-  "training_lite_plan_description": "Simple maintenance plan",
-  "training_lite_plan_features": "Basic adult CPR and AED skills||true\nPersonal safety considerations||true\nRecovery position||true\nHands-on practice time per participant||true\nQualified instructor||true\nAdult mannequins and AED trainers||true\nChild CPR and AED skills||false\nRecognition of serious cardiac conditions||false\nAirway obstruction management||false\nReflection on motivation to assist||false\nChild and infant mannequins||false\nIndividual ventilation aids||false",
-  "training_basic_plan_title": "Advanced Training",
-  "training_basic_plan_description": "Essential Lifesaving Skills in a Snap",
-  "training_basic_plan_features": "Comprehensive adult and child CPR and AED skills||true\nPersonal safety considerations||true\nRecovery position||true\nHands-on practice time per participant||true\nQualified instructor||true\nHigh-performance CPR feedback mannequins||true\nMultiple AED trainers||true\nRecognition of serious cardiac conditions||true\nAirway obstruction management||true\nReflection on motivation to assist||true\nChild and infant mannequins||true\nIndividual ventilation aids||true"
+  "training_lite_title": "Lite",
+  "training_lite_description": "Simple maintenance plan",
+  "training_lite_features": "Basic adult CPR and AED skills||true\nPersonal safety considerations||true\nRecovery position||true\nHands-on practice time per participant||true\nQualified instructor||true\nAdult mannequins and AED trainers||true\nChild CPR and AED skills||false\nRecognition of serious cardiac conditions||false\nAirway obstruction management||false\nReflection on motivation to assist||false\nChild and infant mannequins||false\nIndividual ventilation aids||false",
+  "training_basic_title": "Basic",
+  "training_basic_description": "Essential Lifesaving Skills in a Snap",
+  "training_basic_features": "Comprehensive adult and child CPR and AED skills||true\nPersonal safety considerations||true\nRecovery position||true\nHands-on practice time per participant||true\nQualified instructor||true\nHigh-performance CPR feedback mannequins||true\nMultiple AED trainers||true\nRecognition of serious cardiac conditions||true\nAirway obstruction management||true\nReflection on motivation to assist||true\nChild and infant mannequins||true\nIndividual ventilation aids||true",
+  "training_recommended_title": "Recommended",
+  "training_recommended_description": "Simple maintenance plan",
+  "training_recommended_features": "Basic adult CPR and AED skills||true\nPersonal safety considerations||true\nRecovery position||true\nHands-on practice time per participant||true\nQualified instructor||true\nAdult mannequins and AED trainers||true\nChild CPR and AED skills||false\nRecognition of serious cardiac conditions||false\nAirway obstruction management||false\nReflection on motivation to assist||false\nChild and infant mannequins||false\nIndividual ventilation aids||false",
+  "training_refresher_title": "Refresher",
+  "training_refresher_description": "Essential Lifesaving Skills in a Snap",
+  "training_refresher_features": "Basic adult CPR and AED skills||true\nPersonal safety considerations||true\nRecovery position||true\nHands-on practice time per participant||true\nQualified instructor||true\nAdult mannequins and AED trainers||true\nChild CPR and AED skills||false\nRecognition of serious cardiac conditions||false\nAirway obstruction management||false\nReflection on motivation to assist||false\nChild and infant mannequins||false\nIndividual ventilation aids||false"
 }

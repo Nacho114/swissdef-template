@@ -65,9 +65,7 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
 
 If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at:
 
-Swiss Defibrillator
-Route de l'Aiglon 5
-1854 Switzerland
+`info@swissdefibrillator.ch`
 
 By using our website and services, you signify your acceptance of this Privacy Policy. If you do not agree to this Privacy Policy, please do not use our website or services.
 

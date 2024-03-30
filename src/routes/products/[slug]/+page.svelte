@@ -35,5 +35,6 @@
     padding: 3vw;
     padding-left: 7vw;
     padding-right: 7vw;
+    max-width: 1200px;
   }
 </style>

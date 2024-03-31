@@ -1,120 +1,79 @@
 # Terms and Conditions
 
-This document outlines the terms and conditions governing the relationship between Swiss Defibrillator Sàrl and its customers. These terms cover product warranty, maintenance, training, invoicing, and payment procedures, ensuring clarity and mutual understanding.
+Welcome to Swiss Defibrillator, your trusted source for Automated External Defibrillators (AEDs), maintenance, and training services. By accessing or using our website and services, you agree to be bound by these Terms and Conditions. Please read them carefully.
 
-## 1. Product Warranty and Maintenance
+## 1. Introduction
 
-### a) Warranty
+These Terms and Conditions govern your use of http://www.swissdefibrillator.ch/ and all associated services. Swiss Defibrillator provides this website, including all information, tools, products, and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here.
 
-The defibrillator is covered by an 8-year manufacturer's warranty from Philips Health Care, with a delivery time of 1 to 2 weeks. This includes one-time setup offered by Swiss Defibrillator, with the customer responsible for installation. Installation typically involves mounting the AIVIA100 wall mount using four screws on the wall. While installation is usually the responsibility of the client, in cases where the client is unable to perform the installation, Swiss Defibrillator Sàrl can undertake the task. However, in such instances, the client must sign an agreement acknowledging that Swiss Defibrillator cannot be held liable for any damages to their wall. It's important to note that certain walls may contain cables or other elements that could potentially cause damage, and while Swiss Defibrillator will exercise caution, they cannot assume responsibility for such occurrences. Swiss Defibrillator Sàrl, in collaboration with ProCardio BV, serves as the official representative of Philips for the Netherlands, Switzerland, Germany, Austria and the UK, guaranteeing quality and reliability.
+By visiting our site and/or purchasing something from us, you engage in our "Service" and agree to be bound by the following terms and conditions ("Terms of Service", "Terms"), including those additional terms and conditions and policies referenced herein and/or available by hyperlink. These Terms of Service apply to all users of the site.
 
-### b) Maintenance
+## 2. Use of Our Service
 
-Regular maintenance is essential, with electrodes replaced every 2 years and batteries every 4 years. Swiss Defibrillator Sàrl proactively inquires before the expiration dates of pads and batteries to ensure timely replacements. Customers receive proactive notifications before expiration by opting the light Service Maintenance.
+Swiss Defibrillator offers Automated External Defibrillators (AEDs), related maintenance, and training services. The following terms apply to your use of our products and services:
 
-#### i. Full-Service Maintenance
+- You must be at least 18 years old or have legal parental or guardian consent to use our services.
+- You may not use our products for any illegal or unauthorized purpose.
+- You agree not to reproduce, duplicate, copy, sell, resell or exploit any portion of the Service, use of the Service, or access to the Service without express written permission by us.
 
-Those opting for the Full-Service Maintenance Contract can access 24/7 customer service and emergency maintenance within 48 hours, with Swiss Defibrillator covering maintenance, batteries and electrodes replacement and repair costs.
+## 3. General Conditions
 
-Service Commitments:
+We reserve the right to refuse service to anyone for any reason at any time. You understand that your content (not including credit card information) may be transferred unencrypted and involve transmissions over various networks and changes to conform and adapt to technical requirements of connecting networks or devices.
 
-- Swiss Defibrillator provides round-the-clock customer service at +41 79 441 24 06 and physical support to ensure prompt assistance.
-- Intervention occurs within 48 hours of the user's request.
-- Maintenance Service includes Annual Verification, Maintenance, and Journaling.
-- Additional Services include Free 24/7 Customer Service, Annual Verification, Maintenance Journaling, ECG Reading, Electrode and Battery Replacement, Repair or Replacement of Defibrillator, Emergency Delivery of Replacement Unit, and Annual Intervention Fees.
-- Travel expenses for service provision are included.
-- In case of stock shortage, service provision time extends up to 48 hours.
-- Service does not cover damages due to force majeure or misuse.
-- Rates and Payment: Annual maintenance cost per defibrillator is CHF 275.- plus VAT (8.1%), with volume discounts available. For defibrillators in a AIVIA100 wall mount the annual service price is CHF 310.- plus VAT.
-- Other services are invoiced separately.
-- Annual billing occurs in the preceding month of service coverage.
-- Duration: Contract duration is one year, automatically renewed unless terminated with three months' notice.
-- Swiss Defibrillator not responsible for defibrillator malfunctioning.
-- Transfer of Contract: Change of ownership terminates service without reimbursement.
-- Applicable Law and Jurisdiction: Subject to Swiss law.
+## 4. Accuracy, Completeness, and Timeliness of Information
 
-#### ii. Light and Hassle-Free Maintenance Plan
+We strive to provide accurate, complete, and up-to-date information on our website. However, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
 
-- Clients are billed solely for the services or products they use, operating on a pay-as-you-go basis.
-- Opting for Swiss Defibrillator Sàrl's basic service entrusts us with managing pad and battery expiration dates, eliminating worries.
-- Swiss Defibrillator Sàrl ensures proactive notifications two weeks before pad and battery expiration for timely replacements.
-- Batteries are priced at CHF 229, while pads (HS-1 and FRx) are CHF 97 each.
-- Clients receive an invoice covering the full price of the battery and/or pads, along with standard Swiss Post shipping costs.
-- Additionally, clients can request an AED report for CHF 30. All prices are subject to 8.1% VAT.
-- Importantly, Swiss Defibrillator Sàrl's basic service maintenance incurs no annual costs, with fees only applicable upon pad and/or battery replacements.
-- This approach guarantees cost-effectiveness and peace of mind for our esteemed clients.
-- Travelling costs and costs due to going to the client to do the service of the defibrillator will be added to the invoice. The AED reports costs CHF 30; the service CHF 90 and the trajectory will be charged for CHF 150.-
+## 5. Modifications to the Service and Prices
 
-## 2. Training
+Prices for our products are subject to change without notice. We reserve the right at any time to modify or discontinue the Service (or any part or content thereof) without notice at any time.
 
-Training Courses Offered for a Maximum of 12 Participants. The price does not include the VAT:
+## 6. Products or Services
 
-a) BLS-AED-SRC Complet (Generic Provider). Duration: 3 hours. Price: CHF 890.-
+Certain products or services may be available exclusively online through the website. These products or services may have limited quantities and are subject to return or exchange only according to our Return Policy.
 
-b) BLS-AED-SRC Compact (Basic Provider). Duration: 1 hour. Price: CHF 450.-
+## 7. Accuracy of Billing and Account Information
 
-c) IVR/IAS First Aid Level 1 in Everyday Life and Road Traffic. Duration: 14 hours (conducted in 2 days). Price: CHF 3950.- Contents: Aligned with SRC and SECO standards, covering essential topics including Top Ten Medical Emergencies, BLS-AED-SRC protocols, and initial response measures for emergencies in everyday life and traffic. Scheduling: Ideally conducted in two consecutive days within the same week or from Friday to Monday with minimal gap days between training sessions.
+We reserve the right to refuse any order you place with us. We may, in our sole discretion, limit or cancel quantities purchased per person, per household, or per order.
 
-d) Refresher Training for IVR/IAS First Aid Level 1. Duration: 7 hours. Price: CHF 1975.- Contents: Includes a review of BLS-AED-SRC Complete Course and First Aid Level 1 IVR/IAS topics.
+## 8. Third-Party Tools
 
-Training courses adhere to IVR, IAS, and SRC guidelines and standards, ensuring comprehensive compliance with industry regulations.
+We may provide you with access to third-party tools over which we neither monitor nor have any control nor input. You acknowledge and agree that we provide access to such tools "as is" and "as available" without any warranties, representations, or conditions of any kind and without any endorsement.
 
-- Customers must provide suitable venues for training sessions, accommodating participants and instructors. The venue should include chairs for each participant and the instructor, along with a table for instructional materials. Adequate ventilation, preferably through windows, is necessary for maintaining a comfortable environment during CPR exercises. In cases of excessively hot weather, the provision of an AC unit is recommended to ensure optimal conditions for training.
-- Participants are advised to wear suitable attire such as trousers, bermudas, or shorts, facilitating comfortable movement during floor exercises. Attire such as skirts and dresses may hinder participation in certain activities.
-- To promote hydration and comfort during training, it is advisable to have drinking water readily available for participants.
-- In instances where clients are unable to provide suitable training venues, Swiss Defibrillator can arrange rental rooms at the client's expense. This ensures that the training environment meets the necessary requirements for effective instruction.
-- Cancellation or changes to training sessions may result in additional fees based on the notice period. If cancellation occurs one week in advance, the client is liable to pay 50% of the invoice amount, unless the training is postponed. However, if the session is canceled entirely without postponement, the client will be charged the full invoice amount.
+## 9. User Comments, Feedback, and Other Submissions
 
-## 3. Invoicing and Payment
+If, at our request, you send certain specific submissions (for example, contest entries) or without a request from us you send creative ideas, suggestions, proposals, plans, or other materials, whether online, by email, by postal mail, or otherwise (collectively, 'comments'), you agree that we may, at any time, without restriction, edit, copy, publish, distribute, translate, and otherwise use in any medium any comments that you forward to us.
 
-- Payments for products and services are due within 30 days of the invoice date. Any deviations from standard conditions require written agreement.
-- In case of payment delay, Swiss Defibrillator may add a 10% default interest after 10 days.
+## 10. Personal Information and GDPR Compliance
 
-## 4. Bank Transfer Details
+Your submission of personal information through the store is governed by our Privacy Policy. Swiss Defibrillator is committed to protecting your personal data and complying with the General Data Protection Regulation (GDPR). For more information on how we collect, use, and protect your personal data, please refer to our Privacy Policy.
 
-UBS Switzerland AG, Postfacht, 8098 Zurich. IBAN: CH96 0024 3243 1747 7401 Z. Swiftcode: UBSWCHZH80A. Account number: 0243 00174774.01Z. Clearing: 243.
+## 11. Errors, Inaccuracies, and Omissions
 
-Payments should include the relevant invoice numbers for reference.
+Occasionally there may be information on our site or in the Service that contains typographical errors, inaccuracies, or omissions that may relate to product descriptions, pricing, promotions, offers, product shipping charges, transit times, and availability. We reserve the right to correct any errors, inaccuracies, or omissions, and to change or update information or cancel orders if any information in the Service or on any related website is inaccurate at any time without prior notice.
 
-## 5. Late Payment Policy
+## 12. Disclaimer of Warranties; Limitation of Liability
 
-- Customers must settle each invoice within 30 days of receipt, including the invoice number with their transfer.
-- A reminder will be sent for invoices not settled within 30 days, with a 10% increase as a late payment fee.
+We do not guarantee, represent or warrant that your use of our service will be uninterrupted, timely, secure, or error-free. You agree that from time to time we may remove the service for indefinite periods of time or cancel the service at any time, without notice to you.
 
-## 6. Defibrillator Usage and Responsibilities
+To the maximum extent permitted by applicable law, in no event shall Swiss Defibrillator, its affiliates, agents, directors, employees, suppliers, or licensors be liable for any indirect, punitive, incidental, special, consequential, or exemplary damages, including without limitation, damages for loss of profits, goodwill, use, data, or other intangible losses, arising out of or relating to the use of, or inability to use, the service.
 
-- The defibrillator is under an 8-year factory warranty from Philips Health Care, with delivery typically within 2 to 3 weeks, subject to logistical considerations.
-- Updates and resetting of the defibrillator are included in the price, with the customer responsible for on-site installation.
-- Proper adherence to the device manual is crucial; Swiss Defibrillator assumes no liability for misuse.
-- Regular maintenance, including electrode and battery replacement, is necessary.
+## 13. Indemnification
 
-## 7. Inspection and Defect Reporting
+You agree to indemnify, defend and hold harmless Swiss Defibrillator and our parent, subsidiaries, affiliates, partners, officers, directors, agents, contractors, licensors, service providers, subcontractors, employees, interns, and suppliers, harmless from any claim or demand, including reasonable attorneys' fees, made by any third-party due to or arising out of your breach of these Terms of Service or the documents they incorporate by reference, or your violation of any law or the rights of a third-party.
 
-- Customers must inspect delivered products immediately and report defects within 3 working days, accurately describing the issues.
-- Swiss Defibrillator is not liable for damages after the 3-day inspection period due to intentional or gross negligence.
+## 14. Governing Law and Jurisdiction
 
 These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of Switzerland. Any disputes arising from these Terms and Conditions shall be subject to the exclusive jurisdiction of the courts of Switzerland.
 
-## 8. Changes to Terms of Service
+## 15. Changes to Terms of Service
 
 You can review the most current version of the Terms of Service at any time at this page. We reserve the right, at our sole discretion, to update, change or replace any part of these Terms of Service by posting updates and changes to our website. It is your responsibility to check our website periodically for changes.
 
-## 9. Contact Information
-
-Questions about the Terms of Service should be sent to us at info@swissdefibrillator.ch.
-
-# By using our website and services, you signify your acceptance of these Terms and Conditions. If you do not agree to these terms, please do not use our website or services.
-
-These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of Switzerland. Any disputes arising from these Terms and Conditions shall be subject to the exclusive jurisdiction of the courts of Switzerland.
-
-## 10. Changes to Terms of Service
-
-You can review the most current version of the Terms of Service at any time at this page. We reserve the right, at our sole discretion, to update, change or replace any part of these Terms of Service by posting updates and changes to our website. It is your responsibility to check our website periodically for changes.
-
-## 11. Contact Information
+## 16. Contact Information
 
 Questions about the Terms of Service should be sent to us at:
 
-`info@swissdefibrillator.ch`.
+`info@swissdefibrillator.ch`
 
 By using our website and services, you signify your acceptance of these Terms and Conditions. If you do not agree to these terms, please do not use our website or services.

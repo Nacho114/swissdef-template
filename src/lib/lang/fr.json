@@ -38,6 +38,8 @@
   "section_home_statistics_info_four_title": "Impact de l'AED :",
   "section_home_statistics_info_four_subtitle": "L'utilisation d'un Défibrillateur Externe Automatisé dans les premières minutes augmente les taux de survie jusqu'à 90%.",
   "section_home_statistics_footer": "Ne laissez pas la chance décider. Swiss Defibrillator offre une solution qui peut faire la différence entre la vie et la mort. Équipez votre espace, que ce soit à la maison, au bureau ou dans la voiture. Investissez dans la vie. Investissez dans un DEA.",
+  "section_home_statistics_chart_label_with_aed": "Avec DEA",
+  "section_home_statistics_chart_label_without_aed": "Sans DEA",
   "section_home_statistics_chart_y_axis": "Chance de Survie (%)",
   "section_home_statistics_chart_x_axis": "Temps (min)",
   "section_products_vat_included": "TVA Incluse",

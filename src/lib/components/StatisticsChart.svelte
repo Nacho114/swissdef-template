@@ -3,6 +3,10 @@
   import { onMount } from "svelte";
   import Chart from "chart.js/auto";
 
+  //TODO This is not working!
+  $: with_aed_label = $_("section_home_statistics_chart_label_with_aed");
+  $: without_aed_label = $_("section_home_statistics_chart_label_without_aed");
+
   let chart;
 
   onMount(() => {
@@ -13,7 +17,7 @@
         labels: Array.from({ length: 11 }, (_, i) => i),
         datasets: [
           {
-            label: "Without AED",
+            label: with_aed_label,
             data: [100, 88, 76, 65, 55, 45, 38, 30, 25, 20, 15],
             borderColor: "#FF6384",
             borderWidth: 2,
@@ -21,7 +25,7 @@
             tension: 0.4,
           },
           {
-            label: "With AED",
+            label: without_aed_label,
             data: [100, 95, 90, 88, 85, 84, 82, 80, 79, 78, 77],
             borderColor: "#36A2EB",
             backgroundColor: "rgba(54, 162, 235, 0.2)",

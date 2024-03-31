@@ -38,6 +38,8 @@
   "section_home_statistics_info_four_title": "AED Impact:",
   "section_home_statistics_info_four_subtitle": "Using an Automated External Defibrillator within the first few minutes boosts survival rates up to 90%.",
   "section_home_statistics_footer": "Don't leave it to chance. Swiss Defibrillator offers a solution that can be the difference between life and death. Equip your space, be it home, office, or car. Invest in life. Invest in an AED.",
+  "section_home_statistics_chart_label_with_aed": "With AED",
+  "section_home_statistics_chart_label_without_aed": "Without AED",
   "section_home_statistics_chart_y_axis": "Chance of Survival (%)",
   "section_home_statistics_chart_x_axis": "Time (min)",
   "section_products_vat_included": "VAT Included",

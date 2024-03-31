@@ -38,6 +38,8 @@
   "section_home_statistics_info_four_title": "AED-Einsatz:",
   "section_home_statistics_info_four_subtitle": "Der Einsatz eines Automatisierten Externen Defibrillators in den ersten Minuten erhöht die Überlebensrate auf bis zu 90%.",
   "section_home_statistics_footer": "Überlassen Sie es nicht dem Zufall. Swiss Defibrillator bietet eine Lösung, die den Unterschied zwischen Leben und Tod bedeuten kann. Rüsten Sie Ihren Raum aus, sei es zu Hause, im Büro oder im Auto. Investieren Sie in das Leben. Investieren Sie in ein AED.",
+  "section_home_statistics_chart_label_with_aed": "Mit AED",
+  "section_home_statistics_chart_label_without_aed": "Ohne AED",
   "section_home_statistics_chart_y_axis": "Überlebenschance (%)",
   "section_home_statistics_chart_x_axis": "Zeit (min)",
   "section_products_vat_included": "MwSt. inbegriffen",

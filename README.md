@@ -1,5 +1,7 @@
 # Svelte template for Swiss defibrillator
 
+test
+
 ## Deployment link
 
 - [Dev deployment link](https://swissdef-dev.netlify.app/)

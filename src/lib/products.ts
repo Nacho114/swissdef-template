@@ -103,6 +103,27 @@ export const accessories: Product[] = [
         price: 40,
         type: ProductType.Accessory,
     },
+    {
+        slug: "wall_sign",
+        img: "wap/wap_first_aid_kit",
+        price: 32,
+        type: ProductType.Accessory,
+    },
+    {
+        slug: "aivia_sticker",
+        img: "wap/wap_first_aid_kit",
+        price: 45,
+        type: ProductType.Accessory,
+    },
+    {
+        slug: "aivia_200_power_supply",
+        img: "wap/wap_first_aid_kit",
+        price: 79,
+        type: ProductType.Accessory,
+    },
+
+
+
 ];
 
 // Combine defibrillators and accessories into one list

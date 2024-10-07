@@ -45,8 +45,8 @@ export const defibrillators: Product[] = [
         type: ProductType.Accessory,
     },
     {
-        slug: "philips_frx_electrodes_child",
-        img: "pads/philips_frx_child",
+        slug: "philips_frx_child_key",
+        img: "pads/frx_child_key",
         price: 69,
         type: ProductType.Accessory,
     },
@@ -105,19 +105,19 @@ export const accessories: Product[] = [
     },
     {
         slug: "wall_sign",
-        img: "wap/wap_first_aid_kit",
+        img: "sign/wall_sign",
         price: 32,
         type: ProductType.Accessory,
     },
     {
         slug: "aivia_sticker",
-        img: "wap/wap_first_aid_kit",
+        img: "sign/aivia_sticker",
         price: 45,
         type: ProductType.Accessory,
     },
     {
         slug: "aivia_200_power_supply",
-        img: "wap/wap_first_aid_kit",
+        img: "cabinet/aivia_200_power_supply",
         price: 79,
         type: ProductType.Accessory,
     },

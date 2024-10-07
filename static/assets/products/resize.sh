@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Install imagemagick
+nix-shell -p imagemagick
+
 # Base directory to start searching from, "." means the current directory
 base_directory="."
 

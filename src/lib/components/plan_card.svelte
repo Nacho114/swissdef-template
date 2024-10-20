@@ -6,7 +6,7 @@
 
   export let slug: string;
   export let price: number;
-  export let duration: number;
+  export let duration: string;
   export let service_type: string;
 
   $: featuresString = $_(`${service_type}_${slug}_features`);
@@ -20,7 +20,7 @@
 <div class="service-card">
   <h2 class="service-title">{title}</h2>
   <div class="service-price">{price_info}</div>
-  {#if duration !== 0}
+  {#if duration !== "0"}
     <div class="service-duration">{duration_info}</div>
   {/if}
 

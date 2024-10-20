@@ -9,7 +9,11 @@
   <div class="training-cards-container">
     <div class="header">
       <h1>{$_("section_general_training")}</h1>
+      <p>
+        {$_("training_subtitle")}
+      </p>
     </div>
+
     <div class="training-cards-content">
       {#each trainings as training}
         <a href="/training/{training.slug}" class="product-link">
@@ -29,14 +33,14 @@
   .training-cards-container {
     display: flex;
     flex-direction: column;
-    gap: 4vw;
+    gap: 1vw;
     justify-content: center;
   }
 
   .header {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
   }
   .product-link {
     text-decoration: none;
@@ -47,13 +51,6 @@
     grid-column: 1 / 2;
     text-align: left;
   }
-
-  /* For extra button toggle
-  .toggle-container {
-    grid-column: 2 / 3;
-    text-align: center;
-  }
-  */
 
   .training-cards-content {
     display: flex;

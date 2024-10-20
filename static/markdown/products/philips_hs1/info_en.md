@@ -26,7 +26,7 @@
 
 - Philips Heartstart HS-1 (available in English, German, French, Italian, and other languages)
 - Lithium battery (Capacity: approx. 4 years and 200 shocks)
-- Adult Electrode set (Durability: 2 years). Infant Electrode set sold separately. Both ensure reliable performance with clear guidance for emergencies.
+- Adult Electrode set is included, while the Infant Electrode set is sold separately. Both have a durability of 2 years and provide reliable performance with clear guidance during emergencies.
 - Carrying Case
 - WAP Fast Response Kit attached to the AED
 
@@ -61,10 +61,11 @@
 
 ## Specifications
 
-- Manufacturer: Philips
-- Semi/Automatic: Semi-automatic
-- Display: Not present
-- Quality Seals: CE, FDA
-- Battery Life: Approx. 4 years, Electrode Set Durability: Approx. 2 years
-- Resuscitation Feedback: Audio, metronome
+- Manufacturer: Philips  
+- Operation Mode: Semi-automatic  
+- Display: None  
+- Certifications: CE, FDA approved  
+- Battery Life: Approx. 4 years  
+- Electrode Set Durability: Approx. 2 years  
+- Resuscitation Feedback: Audio prompts with metronome guidance  
 - Weight: 2.5 kg

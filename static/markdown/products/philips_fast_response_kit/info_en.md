@@ -6,4 +6,5 @@
 
 ## Features
 
-- Includes a range of first aid items such as a CPR mask, gloves, scissors, a razor, a gauze pad, and a wipe. Designed to assist in the preparation of the patient before defibrillation and CPR, ensuring that the responder has the necessary tools for a quick and efficient emergency response.
+- Philips Fast Response kit: Includes essential first aid items, such as a CPR mask, gloves, safety scissors with a rounded tip to prevent injury, a medical razor, an absorbent towel, and a gauze pad for effective care in emergencies. 
+- Designed to assist in the preparation of the patient before defibrillation and CPR, ensuring that the responder has the necessary tools for a quick and efficient emergency response.

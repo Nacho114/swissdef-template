@@ -15,3 +15,4 @@
 - Specifically designed for the Philips HeartStart HS-1 Defibrillator.
 - Cartridge-based system simplifies preparation for use and activation.
 - Tailored instructions enhance the rescuer's ability to provide prompt and correct aid.
+- Adult Electrode Set: Durability of 2 years. The pads contain a conductive gel that helps them adhere to the skin, ensuring proper conduction of the shock and providing protection to the skin. The gel expires after 2 years, making it essential to replace the pads before their expiration date.

@@ -17,44 +17,44 @@ export const defibrillators: Product[] = [
     {
         slug: "philips_hs1",
         img: "defibrillator/philips_hs1_1",
-        price: 1390,
+        price: 1299,
         type: ProductType.Defibrillator,
     },
     {
         slug: "philips_frx",
         img: "defibrillator/philips_frx_1",
-        price: 1790,
+        price: 1690,
         type: ProductType.Defibrillator,
     },
     {
         slug: "philips_hs1_electrodes",
         img: "pads/philips_hs1",
-        price: 69,
+        price: 97,
         type: ProductType.Accessory,
     },
     {
         slug: "philips_frx_electrodes",
         img: "pads/philips_frx",
-        price: 69,
+        price: 87,
         type: ProductType.Accessory,
     },
     {
         slug: "philips_hs1_electrodes_child",
         img: "pads/philips_hs1_child",
-        price: 69,
+        price: 155,
         type: ProductType.Accessory,
     },
     {
         slug: "philips_frx_child_key",
         img: "pads/frx_child_key",
-        price: 69,
+        price: 155,
         type: ProductType.Accessory,
     },
 
     {
         slug: "philips_hs1_frx_batteries",
         img: "batteries/philips_hs1_frx",
-        price: 69,
+        price: 179,
         type: ProductType.Accessory,
     },
 ];
@@ -115,15 +115,6 @@ export const accessories: Product[] = [
         price: 45,
         type: ProductType.Accessory,
     },
-    {
-        slug: "aivia_200_power_supply",
-        img: "cabinet/aivia_200_power_supply",
-        price: 79,
-        type: ProductType.Accessory,
-    },
-
-
-
 ];
 
 // Combine defibrillators and accessories into one list

@@ -76,13 +76,13 @@ export const accessories: Product[] = [
     {
         slug: "philips_hs1_plexiglas",
         img: "cabinet/philips_hs1_plexiglas",
-        price: 69,
+        price: 95,
         type: ProductType.Accessory,
     },
     {
         slug: "wap_cabinet",
         img: "cabinet/wap",
-        price: 69,
+        price: 95,
         type: ProductType.Accessory,
     },
     {

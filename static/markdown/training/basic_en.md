@@ -100,7 +100,7 @@ Languages: French, German, and English.
 - SanPool Health School.
 - SRC Swiss Resuscitation Council.
 - EduQua and SVEB / FSEA Adult Trainer.
-- IAS 3 Inter-Association of Lifesaving.
+- IAS/IVR 3 Inter-Association of Lifesaving.
 
 ### Facilities
 
@@ -110,7 +110,7 @@ Languages: French, German, and English.
 
 ### Duration
 
-The course comprises 3 hours of teaching time without breaks.
+The course comprises 3-4 hours of teaching time without breaks.
 
 ### Price
 

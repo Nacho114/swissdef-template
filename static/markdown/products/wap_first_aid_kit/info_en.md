@@ -2,7 +2,7 @@
 
 Introducing the "WAP" Fast Response Kit, priced at an affordable CHF 39.
 
-This indispensable kit is equipped with essential tools and supplies for patient care and personal protection. Inside the zippered pouch, you'll find a pair of hypoallergenic nitrile gloves, a convenient pocket breathing mask, paramedic scissors, a chest hair razor, two alcohol pads and an absorbent gaze. Designed for practicality, the kit securely attaches to the carry case handle, ensuring quick access during critical moments. Compact and portable, with dimensions measuring 24 x 14 cm, the Fast Response Kit (Article: WAP-3034G) is your reliable companion for efficient emergency response at an unbeatable price.
+This indispensable kit is equipped with essential tools and supplies for patient care and personal protection. Inside the zippered pouch, you'll find a pair of hypoallergenic nitrile gloves, a convenient pocket breathing mask, paramedic scissors, a chest hair razor, two alcohol pads and an absorbent gaze. Designed for practicality, the kit securely attaches to the carry case handle, ensuring quick access during critical moments. Compact and portable, with dimensions measuring 24 x 14 cm, the Fast Response Kit is your reliable companion for efficient emergency response at an unbeatable price.
 
 ## Components:
 

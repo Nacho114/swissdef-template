@@ -20,7 +20,7 @@
 <div class="service-card">
   <h2 class="service-title">{title}</h2>
   <div class="service-price">{price_info}</div>
-  {#if duration !== "0"}
+  {#if duration !== ""}
     <div class="service-duration">{duration_info}</div>
   {/if}
 

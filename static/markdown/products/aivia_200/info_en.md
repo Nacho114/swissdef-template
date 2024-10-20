@@ -44,4 +44,4 @@
 - Wall mounting points (8.5 mm)
 - Plastic seals
 
-Swiss Defibrillator Sàrl does not install the AIVIA200 unless specifically requested by the client. In such cases, Swiss Defibrillator will arrange for a certified electrician to conduct the installation. The installation of the AIVIA200 must be conducted by a certified electrician. Swiss Defibrillator Sàrl does not undertake the service maintenance of the AIVIA200 as it necessitates the expertise of a certified electrician. The service and safety of the wall cabinet AIVIA200 are the sole responsibility of the client.
+Swiss Defibrillator Sàrl does not install the AIVIA200 unless specifically requested by the client. In such cases, the client will arrange for a certified electrician to conduct the installation. The installation of the AIVIA200 must be conducted by a certified electrician. Swiss Defibrillator Sàrl does not undertake the service maintenance of the AIVIA200 as it necessitates the expertise of a certified electrician. The service and safety of the wall cabinet AIVIA200 are the sole responsibility of the client.

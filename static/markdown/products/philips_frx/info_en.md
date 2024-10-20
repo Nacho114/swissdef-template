@@ -26,6 +26,15 @@
 
 - Indicators: Clear visual indicators for guidance.
 
+## **Included**
+
+- Available in English, German, French, Italian, and other languages
+- Battery: Lithium, with a capacity of approx. 4 years or 200 shocks
+- Adult Electrode Set: Durability of 2 years, providing reliable performance and clear guidance during emergencies
+- Infant Key: Sold separately, no expiration date
+- Carrying Case: Included for easy transport
+- WAP Fast Response Kit: Attached to the AED for quick access in emergencies
+
 ## **Physical Specifications:**
 
 Compact size and lightweight design for portability.

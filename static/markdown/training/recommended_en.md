@@ -126,4 +126,4 @@ These standards are intended for participants from the age of 12 and for individ
 
 ### Course Duration and Price
 
-The First Aid Level 1 IVR course comprises a minimum of 14 hours of learning. The educational organization is free to extend the duration of the course. The entire course time must be spread over at least 2 days and completed within 6 months. The price of the Course is CHF 3950.- plus VAT for maximum 8 participants.
+The First Aid Level 1 IVR course comprises a minimum of 14 hours of learning. The educational organization is free to extend the duration of the course. The entire course time must be spread over at least 2 days and completed within 6 months. For maximum 8 participants.

@@ -1,8 +1,8 @@
-# Philips HeartStart HS1 SMART Pads Overview
+# Philips HeartStart HS-1 SMART Pads Overview
 
 ## About
 
-- Philips HeartStart HS1 SMART Pads are designed for use with the HS1 Defibrillator, featuring a simple, cartridge-based system.
+- Philips HeartStart HS-1 SMART Pads are designed for use with the HS-1 Defibrillator, featuring a simple, cartridge-based system.
 - These pads enable the defibrillator to provide tailored instructions to the rescuer, ensuring effective and efficient use during a cardiac emergency.
 
 ## Features
@@ -12,6 +12,6 @@
 
 ## Usage
 
-- Specifically designed for the Philips HeartStart HS1 Defibrillator.
+- Specifically designed for the Philips HeartStart HS-1 Defibrillator.
 - Cartridge-based system simplifies preparation for use and activation.
 - Tailored instructions enhance the rescuer's ability to provide prompt and correct aid.

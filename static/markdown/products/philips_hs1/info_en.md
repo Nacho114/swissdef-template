@@ -8,7 +8,7 @@
 
 ## HeartStart OnSite Defibrillator Features
 
-- Developed by Philips for easy use by anyone.
+- Developed by Philips for easy use by anyone, any time.
 - Guides users through each step with clear voice instructions.
 - Incorporates SMART Analysis and SMART Biphasic technologies for effective energy delivery.
 - Features Quick-Shock function for rapid defibrillation.
@@ -24,9 +24,9 @@
 
 ## Included
 
-- Philips Heartstart HS1 (available in English, German, French, Italian, and other languages)
+- Philips Heartstart HS-1 (available in English, German, French, Italian, and other languages)
 - Lithium battery (Capacity: approx. 4 years and 200 shocks)
-- Electrode set (Durability: approx. 1.5 - 2 years)
+- Adult Electrode set (Durability: 2 years). Infant Electrode set sold separately. Both ensure reliable performance with clear guidance for emergencies.
 - Carrying Case
 - WAP Fast Response Kit attached to the AED
 
@@ -34,10 +34,10 @@
 
 - 8 years Philips Warranty applies when the product is used & maintained in accordance with labeling and instructions for use.
 
-## Philips HS1 – Layman Defibrillator
+## Philips HS-1 – Layman Defibrillator
 
 - Highly user-friendly semi-automatic device.
-- Clear voice guidance and illustrations for correct electrode placement.
+- The clear voice guidance supports every step of the process, from correct electrode placement to performing compressions and ventilations, offering comprehensive assistance to effectively save a life.
 - Comprehensive self-tests ensure device readiness.
 - SMART Biphasic and QuickShock technologies ensure safe and effective therapy.
 - Lightweight and includes information button and metronome.

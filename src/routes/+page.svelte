@@ -66,7 +66,7 @@
         "itemOffered": [
           {
             "@type": "Product",
-            "name": "Philips HS1 Defibrillator",
+            "name": "Philips HS-1 Defibrillator",
             "description": "Portable, user-friendly, life-saving device. Designed for rapid response."
           },
           {

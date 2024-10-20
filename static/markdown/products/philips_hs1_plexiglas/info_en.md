@@ -1,8 +1,8 @@
-# Philips HS1 Plexiglas Overview
+# Philips HS-1 Plexiglas Overview
 
 ## About
 
-- The Philips HS1 Plexiglas Wall Mount is a simple, elegant solution for storing the Philips HeartStart HS1 Defibrillator, ensuring it is visible and accessible in case of an emergency.
+- The Philips HS-1 Plexiglas Wall Mount is a simple, elegant solution for storing the Philips HeartStart HS-1 Defibrillator, ensuring it is visible and accessible in case of an emergency.
 
 ## Features
 

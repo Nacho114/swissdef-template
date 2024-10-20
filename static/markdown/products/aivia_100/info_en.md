@@ -1,6 +1,6 @@
 # AIVIA 100
 
-**Introducing the AIVIA 100 Wall Cabinet for External Automated Defibrillator (DAE)**
+**Introducing the AIVIA 100 Wall Cabinet for Automated External Defibrillator (AED)**
 
 Experience the perfect blend of durability and lightweight design with the AIVIA 100. Crafted with precision, this cabinet comprises two key components:
 
@@ -15,8 +15,8 @@ At the forefront, discover clear signage featuring the survival chain and three 
 
 ## **AIVIA 100 Features:**
 
-- Day/night lighting of the DAE compartment facilitated by LEDs with automatic brightness adjustment.
-- Access to the DAE safeguarded by durable plastic seals.
+- Day/night lighting of the AED compartment facilitated by LEDs with automatic brightness adjustment.
+- Access to the AED safeguarded by durable plastic seals.
 - Automatic triggering of a visual alarm (flashing red LEDs) upon opening the cover.
 - Optional audible alarm (80 dB) available for added security.
 

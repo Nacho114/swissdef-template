@@ -13,6 +13,8 @@ These materials, widely recognized in the automotive industry, boast exceptional
 
 At the forefront, discover clear signage featuring the survival chain and three explicit pictograms outlining emergency procedures. On the sides, distinct AED (Anglo-Saxon) and DAE (Latin) labels complement the unique defibrillator logo—a heart broken by an electric arc.
 
+RAL6024, Traffic Green, is the official color used for the AIVIA wall mount for defibrillators. This vibrant green ensures high visibility in emergencies and is applied not only to the wall support but also to the sticker, AED sign, and fast response kit from the brand "WAP," making it easily recognizable and accessible in critical moments.
+
 ## **AIVIA 100 Features:**
 
 - Day/night lighting of the AED compartment facilitated by LEDs with automatic brightness adjustment.

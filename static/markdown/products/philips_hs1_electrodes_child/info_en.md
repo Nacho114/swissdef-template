@@ -1,8 +1,8 @@
-# Philips HS1 Pediatric Electrodes Overview
+# Philips HS-1 Pediatric Electrodes Overview
 
 ## About
 
-- Specially crafted for young patients, Philips HS1 Pediatric SMART Pads are used with the HS1 defibrillator to adjust the defibrillation therapy for infants and children.
+- Specially crafted for young patients, Philips HS-1 Pediatric SMART Pads are used with the HS-1 defibrillator to adjust the defibrillation therapy for infants and children.
 
 ## Features
 

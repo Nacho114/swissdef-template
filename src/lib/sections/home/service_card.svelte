@@ -54,7 +54,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     transition: top 0.3s; /* Smooth transition for title position */
     text-transform: uppercase;
   }

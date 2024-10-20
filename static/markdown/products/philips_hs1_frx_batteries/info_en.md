@@ -1,8 +1,8 @@
-# Philips HS1/FRx Batteries Overview
+# Philips HS-1/FRx Batteries Overview
 
 ## About
 
-- The long-life battery for Philips HeartStart HS1 and FRx AEDs ensures your defibrillator is always ready for use, with a lifespan that supports the device's regular self-testing and emergency deployments.
+- The long-life battery for Philips HeartStart HS-1 and FRx AEDs ensures your defibrillator is always ready for use, with a lifespan that supports the device's regular self-testing and emergency deployments.
 
 ## Features
 

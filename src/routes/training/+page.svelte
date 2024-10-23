@@ -53,6 +53,7 @@
   }
 
   .subtitle {
+    text-align: center;
     color: #666;
     margin: 0;
     line-height: 1.5;

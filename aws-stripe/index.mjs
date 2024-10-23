@@ -1,19 +1,14 @@
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+import stripePackage from 'stripe';
 
-exports.handler = async (event) => {
+const stripe = stripePackage(process.env.STRIPE_SECRET_KEY);  // Replace with your Stripe secret key
+
+export const handler = async (event) => {
+
+    // Parse event body for dynamic product details
+    const { items, successUrl, cancelUrl } = JSON.parse(event.body);
+
     try {
-        const { items, successUrl, cancelUrl } = JSON.parse(event.body);
-        // items would be something like:
-        // [
-        //   { id: 'defibrillator', quantity: 1 },
-        //   { id: 'first-aid-kit', quantity: 2 }
-        // ]
-
         const session = await stripe.checkout.sessions.create({
-            payment_method_types: ['card'],
-            shipping_address_collection: {
-                allowed_countries: ['CH'],
-            },
             line_items: [
                 {
                     price_data: {
@@ -46,18 +41,12 @@ exports.handler = async (event) => {
 
         return {
             statusCode: 200,
-            headers: {
-                'Access-Control-Allow-Origin': '*',
-                'Access-Control-Allow-Headers': 'Content-Type'
-            },
-            body: JSON.stringify({
-                sessionId: session.id
-            })
+            body: JSON.stringify({ url: session.url }),
         };
     } catch (error) {
         return {
             statusCode: 500,
-            body: JSON.stringify({ error: error.message })
+            body: JSON.stringify({ error: error.message }),
         };
     }
 };

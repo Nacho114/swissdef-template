@@ -1,8 +1,8 @@
 <script lang="ts">
   import Container from "$lib/components/container.svelte";
-  import PlanCard from "$lib/components/plan_card.svelte";
   import { _ } from "svelte-i18n";
   import { trainings } from "$lib/training";
+  import TrainingPlanCard from "$lib/components/training_plan_card.svelte";
 </script>
 
 <Container>
@@ -17,7 +17,7 @@
     <div class="training-cards-content">
       {#each trainings as training}
         <a href="/training/{training.slug}" class="product-link">
-          <PlanCard
+          <TrainingPlanCard
             service_type={"training"}
             slug={training.slug}
             price={training.price}

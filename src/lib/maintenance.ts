@@ -6,12 +6,13 @@ export interface Maintenance {
 
 export const maintenances: Maintenance[] = [
     {
-        slug: "basic_plan",
-        price: 275,
-    },
-    {
         slug: "remote",
         price: 95,
     },
+    {
+        slug: "basic_plan",
+        price: 275,
+    },
+
 
 ];

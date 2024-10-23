@@ -1,17 +1,13 @@
 <script lang="ts">
   import Container from "$lib/components/container.svelte";
   import Contact from "./contact.svelte";
+  import Whatsapp from "./whatsapp.svelte";
 </script>
 
 <Container>
-  <div class="contact-info">
-    <Contact />
-  </div>
+  <Whatsapp />
+  <Contact />
 </Container>
 
 <style>
-  .contact-info {
-    display: flex;
-    justify-content: center;
-  }
 </style>

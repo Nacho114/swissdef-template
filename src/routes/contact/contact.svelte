@@ -79,7 +79,6 @@
   }
 
   .contact-info {
-    display: inline-block;
     padding: 2vw;
     padding-right: 3vw;
     padding-left: 3vw;

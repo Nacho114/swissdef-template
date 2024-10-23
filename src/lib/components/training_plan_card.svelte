@@ -19,7 +19,12 @@
 
 <div class="service-card">
   <h2 class="service-title">{title}</h2>
-  <div class="service-price">{price_info}</div>
+  <div class="service-price">
+    <div class="service-price">
+      <span class="price-amount">{price_info}</span>
+      <span class="price-unit">per person</span>
+    </div>
+  </div>
   <div class="service-duration">{duration_info}</div>
 
   <p class="service-description">{description}</p>
@@ -63,9 +68,20 @@
   }
 
   .service-price {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .price-amount {
     font-size: 2rem;
     color: black;
-    margin-bottom: 0.5rem;
+  }
+
+  .price-unit {
+    font-size: 1rem; /* This is 1/3 of the price size */
+    color: #666;
   }
 
   .service-duration {
@@ -78,5 +94,26 @@
     color: #666;
     margin-bottom: 1rem;
     min-height: 50px;
+  }
+
+  /* Add media query for smaller screens */
+  @media (max-width: 1200px) {
+    .service-title {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    .service-price {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.25rem; /* Smaller gap when stacked */
+    }
+
+    .price-amount {
+      font-size: 1.3rem; /* Slightly smaller on mobile */
+    }
+
+    .price-unit {
+      font-size: 0.9rem; /* Slightly smaller on mobile */
+    }
   }
 </style>

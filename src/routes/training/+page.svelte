@@ -9,9 +9,11 @@
   <div class="training-cards-container">
     <div class="header">
       <h1>{$_("section_general_training")}</h1>
-      <p>
-        {$_("training_subtitle")}
-      </p>
+      <div class="subtitle-container">
+        <p class="subtitle">
+          {$_("training_subtitle")}
+        </p>
+      </div>
     </div>
 
     <div class="training-cards-content">
@@ -42,6 +44,20 @@
     flex-direction: column;
     align-items: left;
   }
+
+  .subtitle-container {
+    background-color: #f5f5f5;
+    border-radius: 6px;
+    padding: 0.5rem 0.75rem;
+    margin: 1rem 0;
+  }
+
+  .subtitle {
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+  }
+
   .product-link {
     text-decoration: none;
     color: black;

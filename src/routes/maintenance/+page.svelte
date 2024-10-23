@@ -1,8 +1,8 @@
 <script lang="ts">
   import Container from "$lib/components/container.svelte";
-  import PlanCard from "$lib/components/plan_card.svelte";
   import { _ } from "svelte-i18n";
   import { maintenances } from "$lib/maintenance";
+  import MaintenancePlanCard from "$lib/components/maintenance_plan_card.svelte";
 </script>
 
 <Container>
@@ -11,11 +11,10 @@
     <div class="maintenance-cards-content">
       {#each maintenances as m}
         <a href="/maintenance/{m.slug}" class="product-link">
-          <PlanCard
+          <MaintenancePlanCard
             service_type={"maintenance"}
             slug={m.slug}
             price={m.price}
-            duration={m.duration}
           />
         </a>
       {/each}

@@ -4,6 +4,13 @@
   import "$lib/i18n.ts";
   import Header from "$lib/sections/layout/header.svelte";
   import Footer from "$lib/sections/layout/footer.svelte";
+  import Cart from "virtual:icons/lucide/shopping-cart";
+  import { cart } from "../store";
+  import { _ } from "svelte-i18n";
+  import { page } from "$app/stores";
+
+  $: isCartPage = $page.url.pathname === "/cart";
+  $: hasItems = Object.keys($cart).length > 0;
 
   onMount(() => {
     const script = document.createElement("script");
@@ -24,9 +31,16 @@
   <div class="header"><Header /></div>
   <div class="content">
     <slot />
-    <!-- Your page content goes here -->
   </div>
   <div class="footer"><Footer /></div>
+
+  {#if hasItems && !isCartPage}
+    <a href="/cart" class="floating-cart">
+      <Cart width="24" height="24" />
+      <!-- <span class="cart-text">{$_("section_general_checkout")}</span> -->
+      <span class="cart-text">Go to checkout</span>
+    </a>
+  {/if}
 </div>
 
 <style>
@@ -37,7 +51,7 @@
   }
 
   .content {
-    flex: 1; /* Makes this part grow */
+    flex: 1;
   }
 
   .header {
@@ -47,5 +61,48 @@
 
   .footer {
     margin-top: 6vw;
+  }
+
+  .floating-cart {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: var(--global-color-primary);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+    transition:
+      transform 0.2s,
+      box-shadow 0.2s;
+    z-index: 1000;
+  }
+
+  .floating-cart:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .cart-text {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  @media screen and (max-width: 768px) {
+    .floating-cart {
+      bottom: 24px;
+      right: 24px;
+      padding: 10px 20px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .content {
+      padding-bottom: 80px;
+    }
   }
 </style>

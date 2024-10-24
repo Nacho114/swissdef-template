@@ -3,10 +3,8 @@
 
   export let subtotal: number = 0;
   const shippingCost = 4.99;
-  const taxRate = 0.08; // 8% tax rate
 
-  $: tax = subtotal * taxRate;
-  $: total = subtotal + shippingCost + tax;
+  $: total = subtotal + shippingCost;
 
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat("en-US", {
@@ -31,8 +29,7 @@
     </div>
 
     <div class="summary-line">
-      <span>Estimated Tax</span>
-      <span>{formatPrice(tax)}</span>
+      <span>VAT Included</span>
     </div>
 
     <div class="summary-line total">
@@ -41,7 +38,7 @@
     </div>
   </div>
 
-  <Checkout>Checkout</Checkout>
+  <Checkout {shippingCost}>Checkout</Checkout>
 </div>
 
 <style>

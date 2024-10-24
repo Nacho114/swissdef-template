@@ -31,8 +31,23 @@
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             line_items: line_items,
-            shipping_options: {
-              shipping_rate: "shr_standard",
+            shipping_rate_data: {
+              type: "fixed_amount",
+              display_name: "Standard delivery",
+              fixed_amount: {
+                amount: 1100,
+                currency: "chf",
+              },
+              delivery_estimate: {
+                minimum: {
+                  unit: "business_day",
+                  value: 3,
+                },
+                maximum: {
+                  unit: "business_day",
+                  value: 12,
+                },
+              },
             },
             successUrl: "http://google.com/",
             cancelUrl: "http://reddit.com/",

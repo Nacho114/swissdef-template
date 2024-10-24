@@ -5,6 +5,10 @@
   import LOGO from "$lib/svg/logo.svelte";
   import Locale from "./locale.svelte";
   import Cart from "virtual:icons/lucide/shopping-cart"; // Clean, minimal cart
+  import { cart } from "../../../store";
+
+  // Reactive variable to check if cart has items
+  $: hasItems = Object.keys($cart).length > 0;
 </script>
 
 <Container>
@@ -30,8 +34,11 @@
 
     <div class="end-section">
       <div class="cart-icon">
-        <a href="/cart">
+        <a href="/cart" class="cart-link">
           <Cart />
+          {#if hasItems}
+            <span class="cart-notification"></span>
+          {/if}
         </a>
       </div>
       <Locale />
@@ -76,6 +83,22 @@
   nav a:hover {
     text-decoration: underline;
     text-decoration-color: var(--global-color-primary);
+  }
+
+  .cart-link {
+    position: relative;
+    display: inline-block;
+  }
+
+  .cart-notification {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    width: 12px;
+    height: 12px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    border: 2px solid white;
   }
 
   .cart-icon {

@@ -12,11 +12,12 @@
   $: summary = $_(`section_products_${data.slug}_summary`);
 
   let file_name = `/markdown/products/${data.slug}/info`;
+  let id = data.id;
 </script>
 
 <Container>
   <div class="info">
-    <ProductInfo {image_path} {title} {price} {summary} />
+    <ProductInfo {id} {image_path} {title} {price} {summary} />
     <MdProductPage {file_name} />
   </div>
 </Container>

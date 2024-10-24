@@ -3,11 +3,14 @@
   import Button from "$lib/components/button.svelte";
   import ChevronRight from "virtual:icons/gg/chevron-right";
   import Box from "$lib/components/box.svelte";
+  import BasketCounter from "./basket_counter.svelte";
 
+  export let id: string;
   export let image_path: string;
   export let title: string;
   export let price: number;
   export let summary: string;
+
 </script>
 
 <div class="container">
@@ -29,13 +32,16 @@
 
       <p class="summary">{summary}</p>
       <div class="buttons">
-        <a href="/contact">
-          <Button>
-            {$_("section_products_order")}
-            <ChevronRight />
-          </Button>
-        </a>
+        <div class="top-buttons">
+        <BasketCounter {id} />
 
+          <a href="/cart">
+            <Button>
+              {$_("section_products_order")}
+              <ChevronRight />
+            </Button>
+          </a>
+        </div>
         <a href="/maintenance">
           <Button isBlueColor={true}>
             {$_("section_products_add_maintenance")}
@@ -116,6 +122,12 @@
 
   .buttons {
     display: flex;
+    justify-content: space-between;
+  }
+
+  .top-buttons {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
   }
 

@@ -1,59 +1,69 @@
 <script lang="ts">
-  let line_items = [
-    {
-      price_data: {
-        currency: "chf",
-        product_data: {
-          name: "Defibrillator",
-          description: "Medical grade defibrillator",
-        },
-        unit_amount: 129999, // $1,999.99
-      },
-      quantity: 2,
-    },
-    {
-      price_data: {
-        currency: "chf",
-        product_data: {
-          name: "First Aid Kit",
-          description: "Complete first aid kit",
-        },
-        unit_amount: 4199, // $49.99
-      },
-      quantity: 1,
-    },
-  ];
+  import { cart, addToCart } from "../../store"; // Import the cart store
+  import CartItem from "./cart_item.svelte"; // Import the CartItem component
+  import { getProductById } from "$lib/products"; // Import the product data function
+  import { get } from "svelte/store"; // Import get to fetch the store value
+  import Container from "$lib/components/container.svelte";
+  import CartSummary from "./cart_summary.svelte";
+  import { _ } from "svelte-i18n";
 
-  async function handleCheckout() {
-    try {
-      const response = await fetch(
-        "https://abssv4qftudjnbx7d2okcwrefi0ycmfi.lambda-url.eu-north-1.on.aws/",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            line_items: line_items,
-            successUrl: "http://google.com/",
-            cancelUrl: "http://reddit.com/",
-          }),
-        },
-      );
+  addToCart("philips_hs1", 2);
+  addToCart("philips_frx", 1);
 
-      const { url } = await response.json(); // Extract 'url' instead of sessionId
-      window.location.href = url; // Redirect to Stripe checkout
-    } catch (err) {
-      console.error("Checkout error", err);
+  let cartItems: any = [];
+
+  // Fetch the cart contents and corresponding products
+  $: {
+    const currentCart = get(cart); // Get the current cart once
+    cartItems = [];
+
+    for (const [id, quantity] of Object.entries(currentCart)) {
+      const product = getProductById(id);
+      if (product) {
+        let id = product.id;
+        let slug = product.slug;
+        let img = product.img;
+        let price = product.price;
+        cartItems.push({ id, slug, img, price, quantity });
+      }
     }
   }
+  let subtotal = 2;
 </script>
 
-<div>
-  <h2>Cart</h2>
-  {#each line_items as item, index}
-    <div>
-      Item {index + 1}: {item.price_data.product_data.name} - {item.quantity}
-    </div>
-  {/each}
+<Container>
+  <h1>Your Cart</h1>
 
-  <button on:click={handleCheckout}> Checkout </button>
-</div>
+  <div class="cart-container">
+    <div class="cart-items">
+      {#each cartItems as item}
+        <CartItem {...item} />
+      {/each}
+    </div>
+
+    <CartSummary {subtotal} />
+  </div>
+</Container>
+
+<style>
+  .cart-container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+
+  .cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  @media (max-width: 768px) {
+    .cart-container {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

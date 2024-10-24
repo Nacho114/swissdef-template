@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { cart, removeFromCart, addToCart } from "../../store"; // Import the cart store
+
   export let id: string;
   export let slug: string;
   export let img: string;
@@ -12,21 +14,26 @@
   }
 
   const handleIncrement = () => {
-    // Handle increment
+    addToCart(id, quantity + 1);
   };
 
   const handleDecrement = () => {
     // Handle decrement
+    if (quantity == 1) {
+      removeFromCart(id);
+    }
+    addToCart(id, quantity - 1);
   };
 
   const handleRemove = () => {
-    // Handle remove item
+    removeFromCart(id);
+    console.log($cart);
   };
 
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat("en-US", {
       style: "currency",
-      currency: "USD",
+      currency: "CHF",
     }).format(price);
   };
 </script>
@@ -43,7 +50,7 @@
     <button
       class="quantity-btn"
       on:click={handleDecrement}
-      disabled={quantity <= 1}
+      disabled={quantity <= 0}
     >
       -
     </button>

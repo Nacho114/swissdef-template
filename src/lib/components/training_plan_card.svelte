@@ -14,7 +14,7 @@
   $: title = $_(`${service_type}_${slug}_title`);
   $: description = $_(`${service_type}_${slug}_description`);
 
-  let price_info = `${formatPrice(price)}`;
+  let price_info = `${formatPrice(price, false)}`;
   let duration_info = `${duration}h`;
 </script>
 

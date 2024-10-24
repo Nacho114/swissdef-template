@@ -1,68 +1,67 @@
 <script lang="ts">
-  import { cart, removeFromCart, addToCart } from "../../store"; // Import the cart store
-
+  import { removeFromCart, addToCart } from "../../store";
   export let id: string;
   export let slug: string;
   export let img: string;
   export let price: number;
   export let quantity: number;
   import { _ } from "svelte-i18n";
-
+  import { formatPrice } from "$lib/math";
   let title: string;
   $: {
     title = $_(`section_products_${slug}_title`);
   }
-
   const handleIncrement = () => {
     addToCart(id, quantity + 1);
   };
-
   const handleDecrement = () => {
-    // Handle decrement
     if (quantity == 1) {
       removeFromCart(id);
     }
     addToCart(id, quantity - 1);
   };
-
   const handleRemove = () => {
     removeFromCart(id);
-    console.log($cart);
   };
 
-  const formatPrice = (price: number) => {
-    return new Intl.NumberFormat("en-US", {
-      style: "currency",
-      currency: "CHF",
-    }).format(price);
-  };
+  function shortenText(text: string, n: number): string {
+    if (text.length <= n) {
+      return text;
+    }
+    return text.slice(0, n) + "...";
+  }
 </script>
 
 <div class="cart-item">
-  <img src={`/assets/products/${img}_s.jpg`} alt={slug} class="product-image" />
-
-  <div class="item-info">
-    <h2>{title}</h2>
-    <div class="price">{formatPrice(price)}</div>
+  <div class="product-details">
+    <img
+      src={`/assets/products/${img}_s.jpg`}
+      alt={slug}
+      class="product-image"
+    />
+    <div class="item-info">
+      <h2>{shortenText(title, 16)}</h2>
+      <div class="price">{formatPrice(price)}</div>
+    </div>
   </div>
 
-  <div class="quantity-controls">
-    <button
-      class="quantity-btn"
-      on:click={handleDecrement}
-      disabled={quantity <= 0}
-    >
-      -
-    </button>
-    <span class="quantity">{quantity}</span>
-    <button class="quantity-btn" on:click={handleIncrement}> + </button>
+  <div class="controls-group">
+    <div class="quantity-controls">
+      <button
+        class="quantity-btn"
+        on:click={handleDecrement}
+        disabled={quantity <= 0}
+      >
+        -
+      </button>
+      <span class="quantity">{quantity}</span>
+      <button class="quantity-btn" on:click={handleIncrement}> + </button>
+    </div>
+    <div class="subtotal">
+      {formatPrice(price * quantity)}
+    </div>
+    <button class="remove-btn" on:click={handleRemove}> × </button>
   </div>
-
-  <div class="subtotal">
-    {formatPrice(price * quantity)}
-  </div>
-
-  <button class="remove-btn" on:click={handleRemove}> × </button>
 </div>
 
 <style>
@@ -72,7 +71,19 @@
     gap: 20px;
     padding: 16px;
     border-bottom: 1px solid #eee;
-    position: relative;
+  }
+
+  .product-details {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .controls-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: auto;
   }
 
   .product-image {
@@ -153,5 +164,51 @@
 
   .remove-btn:hover {
     color: #666;
+  }
+  @media (max-width: 750px) {
+    .cart-item {
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      padding: 8px;
+    }
+
+    .product-details {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .item-info {
+      min-width: 0;
+      text-align: center;
+    }
+
+    .item-info h2 {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    .price {
+      margin-top: 2px;
+    }
+
+    .controls-group {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      /* margin-left: 0; */
+    }
+
+    .quantity-controls {
+      margin: 4px 0;
+    }
+
+    .product-image {
+      width: 60px;
+      height: 60px;
+    }
   }
 </style>

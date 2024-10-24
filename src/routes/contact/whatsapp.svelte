@@ -1,17 +1,18 @@
 <script lang="ts">
   import WhatsApp from "virtual:icons/ri/whatsapp-fill";
+  import { _ } from "svelte-i18n";
 </script>
 
 <div class="whatsapp-banner">
   <div class="whatsapp-content">
     <WhatsApp class="whatsapp-icon" />
     <div class="whatsapp-text">
-      <h2>Quick Support via WhatsApp</h2>
-      <p>Get instant quotes and personalized assistance</p>
+      <h2>{$_("contact_whatsapp_support_title")}</h2>
+      <p>{$_("contact_whatsapp_support_description")}</p>
     </div>
   </div>
-  <a href="https://wa.me/YOUR_PHONE_NUMBER" class="whatsapp-button">
-    Message us
+  <a href="https://wa.me/+41794412406" class="whatsapp-button">
+    {$_("contact_whatsapp_message_button")}
   </a>
 </div>
 

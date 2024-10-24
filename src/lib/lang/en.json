@@ -107,7 +107,18 @@
     "training_refresher_title": "IVR 1 Refresher",
     "training_refresher_description": "First Aid Level 1 IVR / IAS Refresher Course",
     "training_refresher_features": "Basic adult CPR and AED skills||true\nPersonal safety considerations||true\nRecovery position||true\nHands-on practice time per participant||true\nQualified instructor||true\nAdult mannequins and AED trainers||true\nChild CPR and AED skills||true\nRecognition of serious cardiac conditions||true\nAirway obstruction management||true\nReflection on motivation to assist||true\nChild and infant mannequins||true\nIndividual ventilation aids||true",
-    "section_contact_title": "Contact Us",
-    "section_contact_sub_title": "If you have any questions or if you need a quotation, please reach out to us",
-    "section_contact_closing_text": "Talk soon!"
+    "contact_title": "Contact Us",
+    "contact_sub_title": "If you have any questions or if you need a quotation, please reach out to us",
+    "section_contact_closing_text": "Talk soon!",
+    "contact_whatsapp_support_title": "Quick Support via WhatsApp",
+    "contact_whatsapp_support_description": "Get instant quotes and personalized assistance",
+    "contact_whatsapp_message_button": "Message us",
+    "cart_title": "Your Cart",
+    "cart_empty_text": "Looks like you haven’t added anything to your cart yet.",
+    "cart_order_summary": "Order Summary",
+    "cart_subtotal": "Subtotal",
+    "cart_shipping": "Shipping",
+    "cart_vat_included": "VAT Included",
+    "cart_total": "Total",
+    "cart_checkout": "Checkout"
 }

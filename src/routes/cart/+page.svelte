@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { cart, addToCart } from "../../store";
+  import { cart } from "../../store";
   import CartItem from "./cart_item.svelte";
   import { getProductById } from "$lib/products";
   import Container from "$lib/components/container.svelte";
@@ -8,10 +8,6 @@
 
   // Reactive variable to check if cart has items
   $: hasItems = Object.keys($cart).length > 0;
-
-  // Initialize cart with some items (if needed)
-  addToCart("philips_hs1", 2);
-  addToCart("philips_frx", 1);
 
   // Reactive statement to update cart items
   $: cartItems = Object.entries($cart)
@@ -37,7 +33,7 @@
 </script>
 
 <Container>
-  <h1>Your Cart</h1>
+  <h1>{$_("cart_title")}</h1>
 
   {#if hasItems}
     <div class="cart-container">
@@ -50,7 +46,7 @@
     </div>
   {:else}
     <div class="empty-cart-container">
-      <h4>Looks like you haven’t added anything to your cart yet.</h4>
+      <h4>{$_("cart_empty_text")}</h4>
     </div>
   {/if}
 </Container>
@@ -82,6 +78,33 @@
   @media (max-width: 1200px) {
     .cart-container {
       grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .cart-container {
+      grid-template-columns: 1fr;
+      gap: 16px;
+      padding: 16px;
+    }
+
+    .cart-items {
+      gap: 12px; /* Increase space between items for mobile */
+    }
+
+    .empty-cart-container {
+      padding: 1rem;
+      margin: 1.5rem 0;
+    }
+
+    h1 {
+      font-size: 1.5rem; /* Make the title smaller on mobile */
+      text-align: center;
+    }
+
+    h4 {
+      font-size: 1.2rem;
+      text-align: center;
     }
   }
 </style>

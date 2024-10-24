@@ -3,6 +3,7 @@
   import PlanInformation from "./plan_information.svelte";
   import Button from "$lib/components/button.svelte";
   import ChevronRight from "virtual:icons/gg/chevron-right";
+  import { formatPrice } from "$lib/math";
 
   export let slug: string;
   export let price: number;
@@ -13,7 +14,7 @@
   $: title = $_(`${service_type}_${slug}_title`);
   $: description = $_(`${service_type}_${slug}_description`);
 
-  let price_info = `${price} CHF`;
+  let price_info = `${formatPrice(price)}`;
   let duration_info = `${duration}h`;
 </script>
 

@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Checkout from "./checkout.svelte";
+
   export let subtotal: number = 0;
   const shippingCost = 4.99;
   const taxRate = 0.08; // 8% tax rate
@@ -9,12 +11,8 @@
   const formatPrice = (price: number) => {
     return new Intl.NumberFormat("en-US", {
       style: "currency",
-      currency: "USD",
+      currency: "CHF",
     }).format(price);
-  };
-
-  const handleCheckout = () => {
-    // Handle checkout process
   };
 </script>
 
@@ -43,9 +41,7 @@
     </div>
   </div>
 
-  <button class="checkout-btn" on:click={handleCheckout}>
-    Go to Checkout
-  </button>
+  <Checkout>Checkout</Checkout>
 </div>
 
 <style>
@@ -83,23 +79,5 @@
     color: black;
     font-weight: 500;
     font-size: 1.1rem;
-  }
-
-  .checkout-btn {
-    width: 100%;
-    margin-top: 24px;
-    padding: 12px;
-    background: #000;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background-color 0.2s;
-  }
-
-  .checkout-btn:hover {
-    background: #222;
   }
 </style>

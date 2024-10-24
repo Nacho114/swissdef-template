@@ -4,6 +4,7 @@
   import MobileHeader from "./header_mobile.svelte";
   import LOGO from "$lib/svg/logo.svelte";
   import Locale from "./locale.svelte";
+  import Cart from "virtual:icons/lucide/shopping-cart"; // Clean, minimal cart
 </script>
 
 <Container>
@@ -27,7 +28,12 @@
       </a>
     </div>
 
-    <div class="locale">
+    <div class="end-section">
+      <div class="cart-icon">
+        <a href="/cart">
+          <Cart />
+        </a>
+      </div>
       <Locale />
     </div>
   </div>
@@ -72,6 +78,14 @@
     text-decoration-color: var(--global-color-primary);
   }
 
+  .cart-icon {
+    color: #000; /* or whatever color matches your design */
+    display: flex;
+    align-items: center; /* Vertical alignment */
+    width: 30px; /* Or your preferred width */
+    height: 30px; /* Or your preferred height */
+  }
+
   /* Logo styling */
 
   .logo {
@@ -81,8 +95,9 @@
 
   /* Locale menu styling */
 
-  .locale {
+  .end-section {
     display: flex;
+    gap: 1rem;
     justify-content: end;
     margin-top: 10px;
   }

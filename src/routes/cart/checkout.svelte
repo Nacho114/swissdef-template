@@ -2,6 +2,8 @@
   import { cart } from "../../store"; // Import the cart store
   import { getProductById } from "$lib/products";
 
+  export let shippingCost: number;
+
   const stripe_aws_link =
     import.meta.env.MODE === "development"
       ? import.meta.env.VITE_TEST_AWS_STRIPE_LINK // Use test link in development
@@ -38,7 +40,7 @@
             type: "fixed_amount",
             display_name: "Standard delivery",
             fixed_amount: {
-              amount: 1100,
+              amount: shippingCost * 100,
               currency: "chf",
             },
             delivery_estimate: {

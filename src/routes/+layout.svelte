@@ -37,8 +37,7 @@
   {#if hasItems && !isCartPage}
     <a href="/cart" class="floating-cart">
       <Cart width="24" height="24" />
-      <!-- <span class="cart-text">{$_("section_general_checkout")}</span> -->
-      <span class="cart-text">Go to checkout</span>
+      <span class="cart-text">{$_("section_general_checkout")}</span>
     </a>
   {/if}
 </div>

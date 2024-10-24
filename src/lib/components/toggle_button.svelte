@@ -4,8 +4,9 @@
 
   export let button1: string;
   export let button2: string;
+  export let firstSelected: boolean;
 
-  let selected: string = button1; // Initialize selected button with button1
+  let selected: string = firstSelected ? button1 : button2; // Initialize selected button with button1
 
   // Reactive statement to reset the selected button if its name changes
   $: if (selected !== button1 && selected !== button2) {

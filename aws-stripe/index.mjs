@@ -1,4 +1,3 @@
-
 import stripePackage from 'stripe';
 
 // Use this key to use stripe test mode
@@ -23,36 +22,16 @@ export const handler = async (event) => {
     }
 
     // Parse event body for dynamic product details
-    const { items, successUrl, cancelUrl } = JSON.parse(event.body);
+    const { line_items, shipping_rate_data, successUrl, cancelUrl } = JSON.parse(event.body);
 
     try {
         const session = await stripe.checkout.sessions.create({
             shipping_address_collection: {
                 allowed_countries: ['CH'],
             },
-            line_items: [
-                {
-                    price_data: {
-                        currency: 'usd',
-                        product_data: {
-                            name: 'Defibrillator',
-                            description: 'Medical grade defibrillator',
-                        },
-                        unit_amount: 199999, // $1,999.99
-                    },
-                    quantity: 1,
-                },
-                {
-                    price_data: {
-                        currency: 'usd',
-                        product_data: {
-                            name: 'First Aid Kit',
-                            description: 'Complete first aid kit',
-                        },
-                        unit_amount: 4999, // $49.99
-                    },
-                    quantity: 2,
-                },
+            line_items: line_items,
+            shipping_options: [
+                { shipping_rate_data: shipping_rate_data }
             ],
             mode: 'payment',
             success_url: successUrl,

@@ -1,6 +1,9 @@
 # Svelte template for Swiss defibrillator
 
-test
+## dev stuff
+
+- Back-end is used with AWS functions
+- Payment with stripe
 
 ## Deployment link
 
@@ -32,7 +35,7 @@ https://we.tl/t-LRuCFya3HO
 
 ### Kai
 
-- [ ] Redo the contact page, either revert what was before, or better do a better version :p
+- [x] Redo the contact page, either revert what was before, or better do a better version :p
 - [x] Go over text with my Mom so she can change (just english) - she got sleepy while doing it and said she trust that i do it well lol tmr she wanted to do frx text tho
 - [x] Ask my mom to get a WAP first aid kit pic, with white background - under: static/assets/products/wap/wap_first_aid_kit.png
 - [x] Add bullet features for training
@@ -45,10 +48,10 @@ https://we.tl/t-LRuCFya3HO
 
 ### Ignacio
 
-- [ ] add two more packages for training and remove one for maintanance so there is only one
-- [ ] add about section for the website
-- [ ] Make landing services responsive
 - [ ] Unify font size to 3-4 vars
+- [x] add two more packages for training and remove one for maintanance so there is only one
+- [x] add about section for the website
+- [x] Make landing services responsive
 - [x] change the text and for defibrilator make it LONG and with MD
 - [x] for the main units she wants a long text with all the sections
 - [x] Review Privacy policy and such - i fixed it 4u xoxo gossip gurl

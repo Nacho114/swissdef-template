@@ -9,6 +9,16 @@
       ? import.meta.env.VITE_TEST_AWS_STRIPE_LINK // Use test link in development
       : import.meta.env.VITE_AWS_STRIPE_LINK; // Use production link in production
 
+  let success_url =
+    import.meta.env.MODE === "development"
+      ? "http://localhost:5173/success"
+      : "https://www.swissdefibrillator.ch/success";
+
+  let failure_url =
+    import.meta.env.MODE === "development"
+      ? "http://localhost:5173/failure"
+      : "https://www.swissdefibrillator.ch/failure";
+
   $: line_items = Object.entries($cart)
     .map(([id, quantity]) => {
       const product = getProductById(id);
@@ -43,19 +53,9 @@
               amount: shippingCost * 100,
               currency: "chf",
             },
-            delivery_estimate: {
-              minimum: {
-                unit: "business_day",
-                value: 3,
-              },
-              maximum: {
-                unit: "business_day",
-                value: 12,
-              },
-            },
           },
-          successUrl: "http://google.com/",
-          cancelUrl: "http://reddit.com/",
+          successUrl: success_url,
+          cancelUrl: failure_url,
         }),
       });
 

@@ -10,7 +10,6 @@
   export let title: string;
   export let price: number;
   export let summary: string;
-
 </script>
 
 <div class="container">
@@ -33,7 +32,7 @@
       <p class="summary">{summary}</p>
       <div class="buttons">
         <div class="top-buttons">
-        <BasketCounter {id} />
+          <BasketCounter {id} />
 
           <a href="/cart">
             <Button>
@@ -145,11 +144,11 @@
     color: gray;
   }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1400px) {
     .buttons {
       flex-direction: column; /* Adjust if you want buttons side by side or use column for stacked */
       width: 100%; /* Adjust based on content, could also be a percentage */
-      gap: 10px;
+      gap: 1.4rem;
     }
 
     .header {

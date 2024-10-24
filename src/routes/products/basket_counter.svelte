@@ -126,7 +126,8 @@
   .increment-btn {
     background: none;
     border: none;
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: 400;
     cursor: pointer;
     width: 40px;
     text-align: center;

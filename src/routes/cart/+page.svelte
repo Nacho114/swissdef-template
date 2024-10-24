@@ -61,7 +61,7 @@
     gap: 8px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     .cart-container {
       grid-template-columns: 1fr;
     }

@@ -13,10 +13,10 @@
 <div class="contact-info">
   <div class="header">
     <h1>
-      {$_("section_contact_title")}
+      {$_("contact_title")}
     </h1>
     <p class="subtitle">
-      {$_("section_contact_sub_title")}
+      {$_("contact_sub_title")}
     </p>
   </div>
 

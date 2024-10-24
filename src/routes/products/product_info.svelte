@@ -4,6 +4,7 @@
   import ChevronRight from "virtual:icons/gg/chevron-right";
   import Box from "$lib/components/box.svelte";
   import BasketCounter from "./basket_counter.svelte";
+  import { formatPrice } from "$lib/math";
 
   export let id: string;
   export let image_path: string;
@@ -24,7 +25,7 @@
       <div class="header">
         <h1>{title}</h1>
         <div class="price-vat-group">
-          <h2 class="price">CHF {price}</h2>
+          <h2 class="price">{formatPrice(price)}</h2>
           <h3 class="vat">{$_("section_products_vat_included")}</h3>
         </div>
       </div>

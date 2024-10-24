@@ -13,7 +13,7 @@
   $: title = $_(`${service_type}_${slug}_title`);
   $: description = $_(`${service_type}_${slug}_description`);
 
-  let price_info = `${formatPrice(price)}`;
+  let price_info = `${formatPrice(price, false)}`;
 </script>
 
 <div class="service-card">
@@ -65,13 +65,6 @@
     color: black;
     margin-bottom: 0.5rem;
   }
-
-  .service-duration {
-    font-size: 1.2rem;
-    color: #666;
-    margin-bottom: 1rem;
-  }
-
   .service-description {
     color: #666;
     margin-bottom: 1rem;

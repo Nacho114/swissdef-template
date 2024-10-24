@@ -1,9 +1,10 @@
-export const formatPrice = (price: number) => {
+export const formatPrice = (price: number, withDecimals: boolean = true): string => {
     return new Intl.NumberFormat("en-US", {
         style: "currency",
         currency: "CHF",
-        minimumFractionDigits: 0,  // No decimals
-        maximumFractionDigits: 0,  // No decimals
+        minimumFractionDigits: withDecimals ? 2 : 0,  // If withDecimals is true, use 2 decimals
+        maximumFractionDigits: withDecimals ? 2 : 0,  // If withDecimals is false, no decimals
     }).format(price);
 };
+
 

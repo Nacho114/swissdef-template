@@ -93,8 +93,8 @@
 
   @media screen and (max-width: 768px) {
     .floating-cart {
-      bottom: 24px;
-      right: 24px;
+      bottom: 30px;
+      right: 30px;
       padding: 10px 20px;
     }
   }

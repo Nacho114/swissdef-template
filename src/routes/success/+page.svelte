@@ -11,7 +11,7 @@
   <div class="message-container">
     <h2>{$_("payment_successful_subtitle")}</h2>
     <p>{$_("payment_successful_description")}</p>
-    <p>{$_("payment_successful_thank_you")}</p>
+    <p>{$_("payment_successful_email_sent")}</p>
     <a href="/products" class="btn"
       >{$_("payment_successful_continue_shopping")}</a
     >

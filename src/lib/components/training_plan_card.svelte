@@ -23,7 +23,9 @@
   <div class="service-price">
     <div class="service-price">
       <span class="price-amount">{price_info}</span>
-      <span class="price-unit">per person</span>
+      <span class="price-unit">
+        {$_("training_per_person")}
+      </span>
     </div>
   </div>
   <div class="service-duration">{duration_info}</div>
@@ -32,7 +34,7 @@
   <a href="/contact">
     <div class="button">
       <Button fullWidth={true}>
-        {$_("section_general_order")}
+        {$_("section_general_book")}
         <ChevronRight />
       </Button>
     </div></a

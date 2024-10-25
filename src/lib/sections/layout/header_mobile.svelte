@@ -112,7 +112,7 @@
   .hamburger {
     cursor: pointer;
     margin-top: 35px;
-    transform: scale(1.3); /* Scales the element by 150% */
+    transform: scale(1.8); /* Scales the element by 150% */
     color: var(--global-color-gray);
   }
 

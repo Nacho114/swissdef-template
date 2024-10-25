@@ -33,14 +33,7 @@
       <p class="summary">{summary}</p>
       <div class="buttons">
         <div class="top-buttons">
-          <BasketCounter {id} />
-
-          <a href="/cart">
-            <Button>
-              {$_("section_products_order")}
-              <ChevronRight />
-            </Button>
-          </a>
+          <BasketCounter {id} {title} />
         </div>
         <a href="/maintenance">
           <Button isBlueColor={true}>

@@ -46,6 +46,8 @@
     "section_products_vat_included": "VAT Excluded",
     "section_products_order": "Order",
     "section_products_add_maintenance": "Add Maintenance",
+    "section_product_added_to_basket": "added to basket.",
+    "section_product_add_to_cart": "Add to basket", 
     "section_products_description": "Description",
     "section_products_specification": "Specification",
     "section_products_philips_hs1_title": "Philips HS-1",

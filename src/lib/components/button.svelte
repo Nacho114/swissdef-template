@@ -1,12 +1,13 @@
 <script>
   export let isOutlined = false;
-  export let isBlueColor = false; // New prop to toggle blue color
+  export let isBlackColor = false; // New prop to toggle blue color
   export let fullWidth = false; // Add this line for new prop
 </script>
 
 <button
-  class="appointment-btn {isOutlined ? 'outlined' : ''} {isBlueColor
-    ? 'blue-color'
+  on:click
+  class="appointment-btn {isOutlined ? 'outlined' : ''} {isBlackColor
+    ? 'black-color'
     : ''} {fullWidth ? 'full-width' : 'auto-width'}"
 >
   <div class="button-content">
@@ -47,16 +48,17 @@
     outline: none;
   }
 
-  /* Styles for blue-colored version of the button */
-  .appointment-btn.blue-color {
-    background-color: var(--global-color-blue); /* Blue color */
-    border-color: var(
-      --global-color-blue
-    ); /* Corresponding border color if needed */
+  /* Styles for black-colored version of the button */
+  .appointment-btn.black-color {
+    background-color: black; /* Blue color */
+    border-color: black;
+    border: 2px solid black;
   }
 
-  .appointment-btn.blue-color:hover {
-    background-color: #003c03; /* Darker shade for hover state */
+  .appointment-btn.black-color:hover {
+    background-color: white; /* Darker shade for hover state */
+    border: 2px solid black;
+    color: black;
   }
 
   /* Styles for outlined version of the button */

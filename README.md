@@ -23,10 +23,7 @@
 
 - [x] change first aid sticker to a new one
 - [x] make wall mounted aed lighter (it won't get lighter or it will break, too much noise in the original pic but I think it is fine)
-- [x] checklist should be green and red not purple
 - [x] make addy accurate and add the 5 to it
-- [x] order button red/green
-- [x] change basic to advanced plan (instead of lite/basic)
 - [x] fix favicon
 
 ### Kai

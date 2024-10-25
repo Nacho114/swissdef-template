@@ -1,5 +1,10 @@
 # Svelte template for Swiss defibrillator
 
+### Build status
+
+Production status - [![Netlify Status](https://api.netlify.com/api/v1/badges/0d33cc27-a405-420a-94c9-23d30a836304/deploy-status)](https://app.netlify.com/sites/swissdefibrillator/deploys)
+Dev status - [![Netlify Status](https://api.netlify.com/api/v1/badges/09a4faed-2586-4085-a8a1-64236f6041a7/deploy-status)](https://app.netlify.com/sites/swissdef-dev/deploys)
+
 ## dev stuff
 
 - Back-end is used with AWS functions

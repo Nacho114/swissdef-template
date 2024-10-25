@@ -1,7 +1,7 @@
 <script lang="ts">
   import Container from "$lib/components/container.svelte";
-  import Contact from "./contact.svelte";
   import Whatsapp from "./whatsapp.svelte";
+  import Contact from "./contact.svelte";
 </script>
 
 <Container>

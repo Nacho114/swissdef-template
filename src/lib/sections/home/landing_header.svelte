@@ -87,18 +87,56 @@
     font-size: max(1.5vw, 12px); /* Sets a minimum font size of 12px */
   }
 
+  /* Keep existing styles but modify these specific parts */
   @media (max-width: 600px) {
     .landing-header {
-      flex-direction: column; /* Stack items in a column */
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px; /* Add some padding on the sides */
     }
 
     .header-text {
-      /* Hack due to weird behavior of subtitle */
-      width: 55vw;
+      width: 100%; /* Take full width */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .header-text h1 {
+      text-align: center;
+      max-width: 100%;
+    }
+
+    .header-text p {
+      text-align: center;
+      max-width: 90%;
     }
 
     .header-image {
-      width: 50%;
+      width: 80%; /* Increase image width */
+      max-width: 400px; /* Prevent image from getting too large */
+      padding-right: 0; /* Remove padding that was affecting centering */
+      margin: 0 auto; /* Center the image container */
+    }
+
+    .button {
+      justify-content: center; /* Center the button content */
+    }
+  }
+
+  /* Add additional breakpoint for very small screens */
+  @media (max-width: 380px) {
+    .header-text h1 {
+      font-size: 28px; /* Set explicit size for very small screens */
+    }
+
+    .header-text p {
+      font-size: 16px;
+    }
+
+    .header-image {
+      width: 90%; /* Even more width on very small screens */
     }
   }
 </style>

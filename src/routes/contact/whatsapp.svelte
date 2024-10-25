@@ -84,6 +84,7 @@
       gap: 1rem;
       padding: 10%; /* Match contact-info mobile padding */
       margin: 1rem auto; /* Match contact-info mobile margin */
+      border-radius: 0px;
     }
 
     .whatsapp-content {

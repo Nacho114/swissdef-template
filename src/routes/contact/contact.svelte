@@ -133,6 +133,7 @@
       display: block; /* Optional: Change display back to block if needed */
       padding: 10%; /* Adjust padding for smaller screens */
       margin: 1rem auto; /* Adjust margin for smaller screens */
+      border-radius: 0px;
     }
 
     .sub-div {

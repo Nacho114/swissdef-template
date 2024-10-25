@@ -12,6 +12,13 @@
   $: isCartPage = $page.url.pathname === "/cart";
   $: hasItems = Object.keys($cart).length > 0;
 
+  const hreflangs = [
+    { lang: "en", url: "https://www.swissdefibrillator.ch/" },
+    { lang: "fr", url: "https://www.swissdefibrillator.ch/" },
+    { lang: "de", url: "https://www.swissdefibrillator.ch/" },
+    { lang: "it", url: "https://www.swissdefibrillator.ch/" },
+  ];
+
   onMount(() => {
     const script = document.createElement("script");
     script.src = "/cookieconsent-config.js";
@@ -24,6 +31,14 @@
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.0/dist/cookieconsent.css"
+  />
+  {#each hreflangs as { lang, url }}
+    <link rel="alternate" hreflang={lang} href={url} />
+  {/each}
+  <link
+    rel="alternate"
+    hreflang="x-default"
+    href="https://www.swissdefibrillator.ch/"
   />
 </svelte:head>
 

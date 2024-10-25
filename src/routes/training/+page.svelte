@@ -5,6 +5,12 @@
   import TrainingPlanCard from "$lib/components/training_plan_card.svelte";
 </script>
 
+<svelte:head>
+  <title>{$_("meta_title_training")}</title>
+  <meta name="description" content={$_("meta_description_training")} />
+  <meta name="keywords" content={$_("meta_keywords_training")} />
+</svelte:head>
+
 <Container>
   <div class="training-cards-container">
     <div class="header">

@@ -234,13 +234,28 @@
   }
 
   @media (max-width: 600px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
     .popup {
       flex-direction: column;
       gap: 1.5rem;
     }
+
     .popup-text {
       flex: 0;
-      width: 8rem;
+      width: 11.3rem;
+    }
+
+    .popup-text,
+    .popup-button {
+      font-size: 1.1rem;
+    }
+
+    .popup-close {
+      font-size: 1.6rem;
     }
   }
 </style>

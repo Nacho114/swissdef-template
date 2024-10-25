@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { addToCart, cart } from "../../store";
+  import { addToCart } from "../../store";
 
   export let id: string;
   export let quantity: number;

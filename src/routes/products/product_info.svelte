@@ -138,7 +138,7 @@
     color: gray;
   }
 
-  @media (max-width: 1400px) {
+  @media (max-width: 1600px) {
     .buttons {
       flex-direction: column; /* Adjust if you want buttons side by side or use column for stacked */
       width: 100%; /* Adjust based on content, could also be a percentage */

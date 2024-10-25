@@ -10,6 +10,7 @@ export interface Product {
     id: string;
     img: string;
     price: number;
+    shipping_price: number;
     type: ProductType;
 }
 
@@ -18,6 +19,8 @@ export const getProductById = (id: string): Product | undefined => {
     return products.find(product => product.id === id);
 };
 
+export const MAX_SHIPPING_COST = 200;
+
 // Array of defibrillator products with type
 export const defibrillators: Product[] = [
     {
@@ -25,6 +28,7 @@ export const defibrillators: Product[] = [
         id: "philips_hs1",
         img: "defibrillator/philips_hs1_1",
         price: 1299,
+        shipping_price: 20,
         type: ProductType.Defibrillator,
     },
     {
@@ -32,6 +36,7 @@ export const defibrillators: Product[] = [
         id: "philips_frx",
         img: "defibrillator/philips_frx_1",
         price: 1690,
+        shipping_price: 20,
         type: ProductType.Defibrillator,
     },
     {
@@ -39,6 +44,7 @@ export const defibrillators: Product[] = [
         id: "philips_hs1_electrodes",
         img: "pads/philips_hs1",
         price: 97,
+        shipping_price: 10,
         type: ProductType.Accessory,
     },
     {
@@ -46,6 +52,7 @@ export const defibrillators: Product[] = [
         id: "philips_frx_electrodes",
         img: "pads/philips_frx",
         price: 87,
+        shipping_price: 10,
         type: ProductType.Accessory,
     },
     {
@@ -53,6 +60,7 @@ export const defibrillators: Product[] = [
         id: "philips_hs1_electrodes_child",
         img: "pads/philips_hs1_child",
         price: 155,
+        shipping_price: 10,
         type: ProductType.Accessory,
     },
     {
@@ -60,6 +68,7 @@ export const defibrillators: Product[] = [
         id: "philips_frx_child_key",
         img: "pads/frx_child_key",
         price: 155,
+        shipping_price: 10,
         type: ProductType.Accessory,
     },
 
@@ -68,6 +77,7 @@ export const defibrillators: Product[] = [
         id: "philips_hs1_frx_batteries",
         img: "batteries/philips_hs1_frx",
         price: 179,
+        shipping_price: 10,
         type: ProductType.Accessory,
     },
 ];
@@ -79,6 +89,7 @@ export const accessories: Product[] = [
         id: "aivia_100",
         img: "cabinet/aivia_100",
         price: 195,
+        shipping_price: 50,
         type: ProductType.Accessory,
     },
     {
@@ -86,6 +97,7 @@ export const accessories: Product[] = [
         id: "aivia_200",
         img: "cabinet/aivia_200",
         price: 590,
+        shipping_price: 50,
         type: ProductType.Accessory,
     },
     {
@@ -93,6 +105,7 @@ export const accessories: Product[] = [
         id: "philips_hs1_plexiglas",
         img: "cabinet/philips_hs1_plexiglas",
         price: 95,
+        shipping_price: 20,
         type: ProductType.Accessory,
     },
     {
@@ -100,6 +113,7 @@ export const accessories: Product[] = [
         id: "wap_cabinet",
         img: "cabinet/wap",
         price: 95,
+        shipping_price: 20,
         type: ProductType.Accessory,
     },
     {
@@ -107,6 +121,7 @@ export const accessories: Product[] = [
         id: "philips_fast_response_kit",
         img: "aed-accessories/philips_fast_response_kit",
         price: 69,
+        shipping_price: 10,
         type: ProductType.Accessory,
     },
     {
@@ -114,6 +129,7 @@ export const accessories: Product[] = [
         id: "aed_sticker",
         img: "sign/aed_sticker",
         price: 5,
+        shipping_price: 5,
         type: ProductType.Accessory,
     },
     {
@@ -121,6 +137,7 @@ export const accessories: Product[] = [
         id: "wap_first_aid_kit",
         img: "wap/wap_first_aid_kit",
         price: 40,
+        shipping_price: 5,
         type: ProductType.Accessory,
     },
     {
@@ -128,6 +145,7 @@ export const accessories: Product[] = [
         id: "wall_sign",
         img: "sign/wall_sign",
         price: 32,
+        shipping_price: 10,
         type: ProductType.Accessory,
     },
     {
@@ -135,6 +153,7 @@ export const accessories: Product[] = [
         id: "aivia_sticker",
         img: "sign/aivia_sticker",
         price: 45,
+        shipping_price: 5,
         type: ProductType.Accessory,
     },
 ];

@@ -120,5 +120,15 @@
     "cart_shipping": "Shipping",
     "cart_vat_included": "VAT Included",
     "cart_total": "Total",
-    "cart_checkout": "Checkout"
+    "cart_checkout": "Checkout",
+    "payment_failed_title": "Payment Failed",
+    "payment_failed_subtitle": "Oops, something went wrong!",
+    "payment_failed_description": "Unfortunately, your payment could not be processed.",
+    "payment_failed_support": "Please try again or contact support if the issue persists.",
+    "payment_failed_try_again_button": "Try Again",
+    "payment_successful_title": "Payment Successful",
+    "payment_successful_subtitle": "Thank you for your purchase!",
+    "payment_successful_description": "Your payment was processed successfully.",
+    "payment_successful_thank_you": "We hope you enjoy your new products!",
+    "payment_successful_continue_shopping": "Continue Shopping"
 }

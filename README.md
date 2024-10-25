@@ -1,19 +1,19 @@
 # Svelte template for Swiss defibrillator
 
-### Build status
+## Build status
 
-Production status - [![Netlify Status](https://api.netlify.com/api/v1/badges/0d33cc27-a405-420a-94c9-23d30a836304/deploy-status)](https://app.netlify.com/sites/swissdefibrillator/deploys)
-Dev status - [![Netlify Status](https://api.netlify.com/api/v1/badges/09a4faed-2586-4085-a8a1-64236f6041a7/deploy-status)](https://app.netlify.com/sites/swissdef-dev/deploys)
+### [Dev](https://swissdef-dev.netlify.app/)
 
-## dev stuff
+[![Netlify Status](https://api.netlify.com/api/v1/badges/09a4faed-2586-4085-a8a1-64236f6041a7/deploy-status)](https://app.netlify.com/sites/swissdef-dev/deploys)
+
+### [Production](http://swissdefibrillator.com/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0d33cc27-a405-420a-94c9-23d30a836304/deploy-status)](https://app.netlify.com/sites/swissdefibrillator/deploys)
+
+## Tools
 
 - Back-end is used with AWS functions
 - Payment with stripe
-
-## Deployment link
-
-- [Dev deployment link](https://swissdef-dev.netlify.app/)
-- [Kai deployment link](https://poetic-genie-db4436.netlify.app)
 
 ## Stripe
 

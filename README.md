@@ -15,43 +15,6 @@
 - [Checkout object](https://docs.stripe.com/api/checkout/sessions/object)
 - [Stripe dashboard](https://dashboard.stripe.com/)
 
-## TODO
-
-## NEED HELP
-
-### Feedback from ur mom
-
-- [x] change first aid sticker to a new one
-- [x] make wall mounted aed lighter (it won't get lighter or it will break, too much noise in the original pic but I think it is fine)
-- [x] make addy accurate and add the 5 to it
-- [x] fix favicon
-
-### Kai
-
-- [x] Redo the contact page, either revert what was before, or better do a better version :p
-- [x] Go over text with my Mom so she can change (just english) - she got sleepy while doing it and said she trust that i do it well lol tmr she wanted to do frx text tho
-- [x] Ask my mom to get a WAP first aid kit pic, with white background - under: static/assets/products/wap/wap_first_aid_kit.png
-- [x] Add bullet features for training
-- [x] Make statistics chart responsive for mobile (Either remove or resize) (isnt it responsive already ?)
-- [x] Advanced SEO
-- [x] Add bullet features for maintenance
-- [x] Prettify contact page
-- [x] Do statistics diagram (Figma)
-- [x] SEO
-
-### Ignacio
-
-- [ ] Unify font size to 3-4 vars
-- [x] add two more packages for training and remove one for maintanance so there is only one
-- [x] add about section for the website
-- [x] Make landing services responsive
-- [x] change the text and for defibrilator make it LONG and with MD
-- [x] for the main units she wants a long text with all the sections
-- [x] Review Privacy policy and such - i fixed it 4u xoxo gossip gurl
-- [x] Finish links
-- [x] Move text to i18n
-- [x] Hide extra course (maybe for future online course)
-
 ## Icons
 
 Icons can be found [here](http://icon-sets.iconify.design).
@@ -105,3 +68,33 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+## Done
+
+### Kai
+
+- [x] Redo the contact page, either revert what was before, or better do a better version :p
+- [x] Go over text with my Mom so she can change (just english) - she got sleepy while doing it and said she trust that i do it well lol tmr she wanted to do frx text tho
+- [x] Ask my mom to get a WAP first aid kit pic, with white background - under: static/assets/products/wap/wap_first_aid_kit.png
+- [x] Add bullet features for training
+- [x] Make statistics chart responsive for mobile (Either remove or resize) (isnt it responsive already ?)
+- [x] Advanced SEO
+- [x] Add bullet features for maintenance
+- [x] Prettify contact page
+- [x] Do statistics diagram (Figma)
+- [x] SEO
+
+### Ignacio
+
+- [ ] Unify font size to 3-4 vars
+- [x] add two more packages for training and remove one for maintanance so there is only one
+- [x] add about section for the website
+- [x] Make landing services responsive
+- [x] change the text and for defibrilator make it LONG and with MD
+- [x] for the main units she wants a long text with all the sections
+- [x] Review Privacy policy and such - i fixed it 4u xoxo gossip gurl
+- [x] Finish links
+- [x] Move text to i18n
+- [x] Hide extra course (maybe for future online course)
+
+

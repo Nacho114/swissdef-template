@@ -130,5 +130,8 @@
     "payment_successful_subtitle": "Thank you for your purchase!",
     "payment_successful_description": "Your payment was processed successfully.",
     "payment_successful_thank_you": "We hope you enjoy your new products!",
-    "payment_successful_continue_shopping": "Continue Shopping"
+    "payment_successful_continue_shopping": "Continue Shopping",
+    "page_not_found_title": "Page Not Found",
+    "page_not_found_description": "Oops! The page you are looking for doesn't exist.",
+    "page_not_found_home_button": "Go to Home"
 }

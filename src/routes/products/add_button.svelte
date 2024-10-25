@@ -6,7 +6,6 @@
 
   const handleAddToCart = () => {
     addToCart(id, quantity);
-    console.log($cart);
   };
 </script>
 

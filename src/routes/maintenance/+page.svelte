@@ -5,6 +5,12 @@
   import MaintenancePlanCard from "$lib/components/maintenance_plan_card.svelte";
 </script>
 
+<svelte:head>
+  <title>{$_("meta_title_maintenance")}</title>
+  <meta name="description" content={$_("meta_description_maintenance")} />
+  <meta name="keywords" content={$_("meta_keywords_maintenance")} />
+</svelte:head>
+
 <Container>
   <div class="maintenance-cards-container">
     <h1>{$_("section_general_maintenance")}</h1>

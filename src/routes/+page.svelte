@@ -8,17 +8,9 @@
 </script>
 
 <svelte:head>
-  <title
-    >Swissdefibrillator - Leading Defibrillator Provider in Switzerland</title
-  >
-  <meta
-    name="description"
-    content="Swissdefibrillator specializes in providing top-quality defibrillators, first aid training, and maintenance services across Switzerland. Ensure safety in your workplace with our certified equipment and comprehensive training."
-  />
-  <meta
-    name="keywords"
-    content="defibrillator, Switzerland, first aid training, AED, emergency equipment, defibrillator maintenance, heart safety, Swiss defibrillator provider"
-  />
+  <title>{$_("meta_title_home")}</title>
+  <meta name="description" content={$_("meta_description_home")} />
+  <meta name="keywords" content={$_("meta_keywords_home")} />
   <link rel="canonical" href="https://www.swissdefibrillator.com" />
   <meta
     property="og:title"

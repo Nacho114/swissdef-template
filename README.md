@@ -10,23 +10,19 @@
 - [Dev deployment link](https://swissdef-dev.netlify.app/)
 - [Kai deployment link](https://poetic-genie-db4436.netlify.app)
 
+## Stripe
+
+- [Checkout object](https://docs.stripe.com/api/checkout/sessions/object)
+- [Stripe dashboard](https://dashboard.stripe.com/)
+
 ## TODO
 
 ## NEED HELP
-
-      https://we.tl/t-LRuCFya3HO
-
-NEW WEBSITE LINK UPLOADED
-
-https://we.tl/t-LRuCFya3HO
-
-- [ ] bug- for producs if you click it the buy window also resizes <img width="1137" alt="image" src="https://github.com/Nacho114/swissdef-template/assets/7343904/5491fafb-482f-41d0-891a-d25a0ed704f0">
 
 ### Feedback from ur mom
 
 - [x] change first aid sticker to a new one
 - [x] make wall mounted aed lighter (it won't get lighter or it will break, too much noise in the original pic but I think it is fine)
-- [x] remove purple and make it black or white (made it green instead
 - [x] checklist should be green and red not purple
 - [x] make addy accurate and add the 5 to it
 - [x] order button red/green

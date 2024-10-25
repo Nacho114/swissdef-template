@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Button from "$lib/components/button.svelte";
   import { addToCart, cart } from "../../store";
   import { onMount } from "svelte";
   import { _ } from "svelte-i18n";
@@ -80,11 +81,9 @@
     </button>
   </div>
 
-  <button class="appointment-btn" on:click={handleAddToCart}>
-    <div class="button-content">
-      {$_("section_product_add_to_cart")}
-    </div>
-  </button>
+  <Button isBlackColor={true} on:click={handleAddToCart}>
+    {$_("section_product_add_to_cart")}
+  </Button>
 </div>
 
 {#if showPopup}
@@ -146,33 +145,6 @@
     text-align: center;
     font-weight: 500;
     color: black;
-  }
-
-  .appointment-btn {
-    background-color: black;
-    color: white;
-    font-size: 16px;
-    padding: 10px 24px; /* Adjusted padding */
-    border-radius: 25px;
-    border: 2px solid black;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    font-weight: 500;
-    white-space: nowrap;
-    min-width: 140px;
-    height: 45px; /* Set explicit height */
-    box-sizing: border-box;
-  }
-
-  .appointment-btn:hover {
-    background-color: white;
-    color: black;
-  }
-
-  .button-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .popup {
@@ -245,12 +217,6 @@
       margin: 0 24px;
     }
 
-    .appointment-btn {
-      width: 100%;
-      padding: 16px 24px;
-      height: 52px;
-    }
-
     .popup {
       flex-direction: column;
       gap: 1.5rem;
@@ -290,13 +256,6 @@
       margin: 0 4px;
       font-size: 16px;
       min-width: 20px;
-    }
-
-    .appointment-btn {
-      padding: 12px 16px;
-      font-size: 14px;
-      min-width: auto;
-      height: 45px;
     }
   }
 </style>

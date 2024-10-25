@@ -36,7 +36,7 @@
           <BasketCounter {id} {title} />
         </div>
         <a href="/maintenance">
-          <Button isBlueColor={true}>
+          <Button isBlackColor={true}>
             {$_("section_products_add_maintenance")}
             <ChevronRight />
           </Button>

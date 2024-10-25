@@ -3,16 +3,18 @@
   import FlagEn from "virtual:icons/circle-flags/en";
   import FlagDe from "virtual:icons/circle-flags/de";
   import FlagFr from "virtual:icons/circle-flags/fr";
+  import FlagIt from "virtual:icons/circle-flags/it";
   import NavArrowDown from "virtual:icons/iconoir/nav-arrow-down";
 
   // Define a type for the flags object
-  type FlagKeys = "en" | "de" | "fr";
+  type FlagKeys = "en" | "de" | "fr" | "it";
 
   // Create a mapping of locale keys to flag components
   const flags: Record<FlagKeys, any> = {
     en: FlagEn,
     de: FlagDe,
     fr: FlagFr,
+    it: FlagIt,
   };
 
   // Dynamic component to hold the flag of the selected locale

@@ -1,81 +1,83 @@
 :root {
-  --font-size-base: 16px; /* Default font size */
-  /* Padding */
+    --font-size-base: 16px;
+    /* Default font size */
+    /* Padding */
 
-  --main-padding-left: 5vw;
-  --main-padding-right: 5vw;
-  --main-padding-sides-mobile: 20px;
+    --main-padding-left: 5vw;
+    --main-padding-right: 5vw;
+    --main-padding-sides-mobile: 20px;
 
-  --main-mobile-container-width: 85vw;
+    --main-mobile-container-width: 85vw;
 
-  /* Colors */
+    /* Colors */
 
-  --global-color-primary: #c70b15;
-  --global-color-secondary: #f74247;
-  --global-color-light: #f6f7f8;
-  --global-color-gray: #565758;
-  --global-color-gray-light: #737780;
-  --global-color-gray-light-bg: #f5f5f5;
-  --global-color-blue: rgb(0, 146, 22);
+    --global-color-primary: #c70b15;
+    --global-color-secondary: #f74247;
+    --global-color-light: #f6f7f8;
+    --global-color-gray: #565758;
+    --global-color-gray-light: #737780;
+    --global-color-gray-light-bg: #f5f5f5;
+    --global-color-blue: #7C67FE;
 
-  /* Boxes */
+    /* Boxes */
 
-  --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional: adds a shadow for depth */
-  --border-radius: 4px;
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    /* Optional: adds a shadow for depth */
+    --border-radius: 4px;
 
-  /* Font sizes */
-  --global-font-h1: 2.5rem;
-  --global-font-h2: 2rem;
-  --global-font-h3: 1.2rem;
-  --global-font-p: 1rem;
+    /* Font sizes */
+    --global-font-h1: 2.5rem;
+    --global-font-h2: 2rem;
+    --global-font-h3: 1.2rem;
+    --global-font-p: 1rem;
 
-  /* Font sizes mobile */
-  --global-mobile-font-h1: 2rem;
-  --global-mobile-font-h2: 1.3rem;
-  --global-mobile-font-h3: 1.1rem;
-  --global-mobile-font-p: 0.9rem;
+    /* Font sizes mobile */
+    --global-mobile-font-h1: 2rem;
+    --global-mobile-font-h2: 1.3rem;
+    --global-mobile-font-h3: 1.1rem;
+    --global-mobile-font-p: 0.9rem;
 }
 
 @font-face {
-  font-family: "Outfit-Regular";
-  font-style: normal;
-  src: url("/fonts/Outfit-Regular.ttf") format("truetype");
+    font-family: "Outfit-Regular";
+    font-style: normal;
+    src: url("/fonts/Outfit-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Oswald-SemiBold";
-  font-style: normal;
-  src: url("/fonts/Oswald-SemiBold.ttf") format("truetype");
+    font-family: "Oswald-SemiBold";
+    font-style: normal;
+    src: url("/fonts/Oswald-SemiBold.ttf") format("truetype");
 }
 
 body {
-  font-family: Outfit-Regular;
-  font-size: var(--font-size-base);
-  margin: 0;
+    font-family: Outfit-Regular;
+    font-size: var(--font-size-base);
+    margin: 0;
 }
 
 h1 {
-  font-family: Oswald-SemiBold;
-  font-size: 2.5rem;
+    font-family: Oswald-SemiBold;
+    font-size: 2.5rem;
 }
 
 h3 {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 p {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
-  :root {
-    --font-size-base: 14px;
-  }
+    :root {
+        --font-size-base: 14px;
+    }
 
-  h1 {
-    font-size: 2rem;
-  }
+    h1 {
+        font-size: 2rem;
+    }
 
-  /* Adjust other elements as needed */
+    /* Adjust other elements as needed */
 }

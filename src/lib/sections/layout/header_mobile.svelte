@@ -2,6 +2,7 @@
   import { _ } from "svelte-i18n";
   import LOGO from "$lib/svg/logo.svelte";
   import Hamburger from "virtual:icons/pajamas/hamburger";
+  import Cart from "virtual:icons/lucide/shopping-cart"; // Clean, minimal cart
   import Locale from "./locale.svelte";
 
   let menuOpen = false;
@@ -71,6 +72,12 @@
 
       <div class="locale">
         <Locale />
+      </div>
+
+      <div class="cart-icon">
+        <a href="/cart" class="cart-link">
+          <Cart />
+        </a>
       </div>
 
       <div class="menu-bottom-links">
@@ -198,5 +205,18 @@
     text-decoration: none;
     color: white;
     font-size: 12px; /* Smaller font size */
+  }
+
+  .cart-icon {
+    display: flex;
+    justify-content: start;
+    margin-top: 40px; /* Adjust space between the locale and cart */
+  }
+
+  .cart-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--global-color-gray); /* Match your theme */
   }
 </style>

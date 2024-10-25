@@ -10,7 +10,7 @@
       <ServiceCard
         src="/assets/home/training.png"
         summary={$_("section_home_services_training_summary")}
-        alt="Training"
+        alt="{$_('alt_training_session')}}"
         title={$_("section_general_training")}
       /></a
     >
@@ -18,7 +18,7 @@
       <ServiceCard
         src="/assets/home/maintenance.png"
         summary={$_("section_home_services_maintenance_summary")}
-        alt="Maintenance"
+        alt="{$_('alt_maintenance_check')}}"
         title={$_("section_general_maintenance")}
       /></a
     >
@@ -26,7 +26,7 @@
       <ServiceCard
         src="/assets/home/defibrillator.png"
         summary={$_("section_home_services_defibrillators_summary")}
-        alt="Defibrillators"
+        alt="{$_('alt_defibrillator_product')}}"
         title={$_("section_general_defibrillators")}
       /></a
     >

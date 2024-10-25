@@ -20,7 +20,10 @@
       </a>
     </div>
     <div class="header-image">
-      <img src="/assets/home/phillips_hs1_home_l.png" alt="Phillips device" />
+      <img
+        src="/assets/home/phillips_hs1_home_l.png"
+        alt="{$_('alt_philips_hs1')}}"
+      />
     </div>
   </div>
 </Container>

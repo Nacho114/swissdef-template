@@ -4,15 +4,13 @@
   import { _ } from "svelte-i18n";
 
   export let id: string;
-  export let title: string; // Product name to be displayed in the popup
+  export let title: string;
   export let count = 1;
   export let min = 1;
   export let max = 1000;
 
-  // Check the cart on mount and set count accordingly
   onMount(() => {
     const unsubscribe = cart.subscribe((currentCart) => {
-      // If there's an existing quantity in the cart for this id, set count to that
       if (currentCart[id] !== undefined) {
         count = currentCart[id];
       }
@@ -22,11 +20,10 @@
 
   let showPopup = false;
 
-  // Set new quantity in cart when clicking 'Add' button
   const handleAddToCart = (event: MouseEvent) => {
-    addToCart(id, count); // Set the new count as the quantity
+    addToCart(id, count);
     event.stopPropagation();
-    showPopup = true; // Show the popup
+    showPopup = true;
   };
 
   const handleClosePopup = () => {
@@ -45,16 +42,13 @@
     }
   };
 
-  // Close popup if clicking outside of it
   const handleClosePopupGlobal = (event: MouseEvent) => {
     const target = event.target as HTMLElement;
-    // Ensure the popup stays open if clicked inside the popup or buttons
     if (!target.closest(".popup") && showPopup) {
       showPopup = false;
     }
   };
 
-  // Add event listener to detect outside clicks
   onMount(() => {
     document.addEventListener("click", handleClosePopupGlobal);
     return () => {
@@ -64,33 +58,33 @@
 </script>
 
 <div class="container">
-  <button class="appointment-btn outlined">
+  <div class="quantity-controls">
+    <button
+      class="control-btn"
+      on:click={decrement}
+      disabled={count <= min}
+      aria-label="Decrease count"
+    >
+      -
+    </button>
+
+    <span class="counter-display">{count}</span>
+
+    <button
+      class="control-btn"
+      on:click={increment}
+      disabled={count >= max}
+      aria-label="Increase count"
+    >
+      +
+    </button>
+  </div>
+
+  <button class="appointment-btn" on:click={handleAddToCart}>
     <div class="button-content">
-      <button
-        class="decrement-btn"
-        on:click={decrement}
-        disabled={count <= min}
-        aria-label="Decrease count"
-      >
-        -
-      </button>
-
-      <span class="counter-display">{count}</span>
-
-      <button
-        class="increment-btn"
-        on:click={increment}
-        disabled={count >= max}
-        aria-label="Increase count"
-      >
-        +
-      </button>
+      {$_("section_product_add_to_cart")}
     </div>
   </button>
-
-  <button class="simple-btn" on:click={handleAddToCart}
-    >{$_("section_product_add_to_cart")}</button
-  >
 </div>
 
 {#if showPopup}
@@ -98,28 +92,106 @@
     <span class="popup-text"
       >{title} {$_("section_product_added_to_basket")}</span
     >
-    <a href="/cart" class="popup-button">Go to basket</a>
-    <button class="popup-close" on:click={handleClosePopup}>×</button>
+    <div class="popup-buttons">
+      <a href="/cart" class="popup-button">Go to basket</a>
+      <button class="popup-button" on:click={handleClosePopup}>x</button>
+    </div>
   </div>
 {/if}
 
 <style>
+  .container {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px 8px; /* Adjusted to match appointment-btn height */
+    background-color: white;
+    height: 45px; /* Match the total height of appointment-btn */
+    box-sizing: border-box;
+  }
+
+  .control-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    transition: opacity 0.2s;
+    padding: 0;
+  }
+
+  .control-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+
+  .counter-display {
+    margin: 0 8px;
+    font-size: 16px;
+    min-width: 24px;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+  }
+
+  .appointment-btn {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px 24px; /* Adjusted padding */
+    border-radius: 25px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    white-space: nowrap;
+    min-width: 140px;
+    height: 45px; /* Set explicit height */
+    box-sizing: border-box;
+  }
+
+  .appointment-btn:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .button-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .popup {
     position: fixed;
     top: 34%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: #333333;
+    color: white;
     padding: 30px;
-    border: 1px solid #ccc;
+    border: 1px solid #444;
     border-radius: 8px;
     display: flex;
-    align-items: center; /* Ensure all items have the same height */
+    align-items: center;
     gap: 40px;
     z-index: 1000;
     width: 500px;
     justify-content: space-between;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }
 
   .popup-text {
@@ -127,135 +199,104 @@
     text-align: left;
   }
 
-  .popup-button,
-  .popup-close {
-    background-color: black;
+  .popup-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .popup-button {
+    background-color: #444444;
     color: white;
     padding: 10px 20px;
     border-radius: 4px;
     text-decoration: none;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .popup-close {
-    font-size: 1.5rem;
-    cursor: pointer;
-    height: 42px;
-  }
-
-  .container {
-    display: flex;
-    gap: 1rem;
-    flex-direction: row;
-  }
-
-  .simple-btn {
-    background-color: white;
-    color: black;
-    border: 2px solid black;
-    font-size: 16px;
-    padding: 12px 24px;
-    border-radius: 25px;
-    cursor: pointer;
-    transition:
-      background-color 0.3s,
-      color 0.3s;
-    font-weight: 500;
-    white-space: nowrap;
-  }
-
-  .simple-btn:hover {
-    background-color: black;
-    color: white;
-  }
-
-  .simple-btn:focus {
-    outline: none;
-  }
-
-  .appointment-btn {
-    background-color: transparent;
-    color: #000000;
-    font-size: 16px;
-    padding: 12px 24px;
-    border-radius: 25px;
-    border: 2px solid #d45a4d;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    display: inline-block;
-    text-align: center;
-    font-weight: 500;
-    white-space: nowrap;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 7rem;
-  }
-
-  .button-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
-
-  .decrement-btn,
-  .increment-btn {
-    background: none;
     border: none;
-    font-size: 22px;
-    font-weight: 400;
     cursor: pointer;
-    width: 40px;
-    text-align: center;
-    user-select: none;
+    font-size: 1rem;
+    transition: background-color 0.3s;
   }
 
-  .counter-display {
-    margin: 0 10px;
-    font-size: 18px;
-    width: 40px;
-    text-align: center;
-  }
-
-  .decrement-btn:disabled,
-  .increment-btn:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-  }
-
-  .appointment-btn.outlined {
-    border: 2px solid black;
-    padding: 12px;
-    border-radius: 25px;
+  .popup-button:hover {
+    background-color: #555555;
   }
 
   @media (max-width: 600px) {
     .container {
-      display: flex;
       flex-direction: column;
+      width: 100%;
+      gap: 1rem;
+    }
+
+    .quantity-controls {
+      width: 100%;
+      justify-content: space-between;
+      padding: 12px 16px;
+      height: 52px;
+    }
+
+    .control-btn {
+      font-size: 24px;
+      width: 40px;
+      height: 40px;
+    }
+
+    .counter-display {
+      font-size: 18px;
+      margin: 0 24px;
+    }
+
+    .appointment-btn {
+      width: 100%;
+      padding: 16px 24px;
+      height: 52px;
     }
 
     .popup {
       flex-direction: column;
       gap: 1.5rem;
+      width: 90%;
+      padding: 20px;
     }
 
     .popup-text {
       flex: 0;
-      width: 11.3rem;
+      width: 100%;
+      text-align: center;
+    }
+
+    .popup-buttons {
+      width: 100%;
+      justify-content: center;
     }
 
     .popup-text,
     .popup-button {
       font-size: 1.1rem;
     }
+  }
+  @media (max-width: 380px) {
+    .quantity-controls {
+      padding: 8px 4px;
+      height: 45px;
+    }
 
-    .popup-close {
-      font-size: 1.6rem;
+    .control-btn {
+      font-size: 20px;
+      width: 32px;
+      height: 32px;
+    }
+
+    .counter-display {
+      margin: 0 4px;
+      font-size: 16px;
+      min-width: 20px;
+    }
+
+    .appointment-btn {
+      padding: 12px 16px;
+      font-size: 14px;
+      min-width: auto;
+      height: 45px;
     }
   }
 </style>

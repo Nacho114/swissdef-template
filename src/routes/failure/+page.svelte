@@ -1,14 +1,15 @@
 <script>
   import Container from "$lib/components/container.svelte";
+  import { _ } from "svelte-i18n";
 </script>
 
 <Container>
-  <h1>Payment Failed</h1>
+  <h1>{$_("payment_failed_title")}</h1>
   <div class="message-container">
-    <h2>Oops, something went wrong!</h2>
-    <p>Unfortunately, your payment could not be processed.</p>
-    <p>Please try again or contact support if the issue persists.</p>
-    <a href="/cart" class="btn">Try Again</a>
+    <h2>{$_("payment_failed_subtitle")}</h2>
+    <p>{$_("payment_failed_description")}</p>
+    <p>{$_("payment_failed_support")}</p>
+    <a href="/cart" class="btn">{$_("payment_failed_try_again_button")}</a>
   </div>
 </Container>
 

@@ -1,17 +1,20 @@
 <script>
   import Container from "$lib/components/container.svelte";
+  import { _ } from "svelte-i18n";
   import { clearCart } from "../../store";
 
   clearCart();
 </script>
 
 <Container>
-  <h1>Payment Successful</h1>
+  <h1>{$_("payment_successful_title")}</h1>
   <div class="message-container">
-    <h2>Thank you for your purchase!</h2>
-    <p>Your payment was processed successfully.</p>
-    <p>We hope you enjoy your new products!</p>
-    <a href="/products" class="btn">Continue Shopping</a>
+    <h2>{$_("payment_successful_subtitle")}</h2>
+    <p>{$_("payment_successful_description")}</p>
+    <p>{$_("payment_successful_thank_you")}</p>
+    <a href="/products" class="btn"
+      >{$_("payment_successful_continue_shopping")}</a
+    >
   </div>
 </Container>
 

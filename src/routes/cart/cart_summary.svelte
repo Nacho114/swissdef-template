@@ -3,8 +3,8 @@
   import Checkout from "./checkout.svelte";
   import { formatPrice } from "$lib/math";
 
-  export let subtotal: number = 0;
-  const shippingCost = 4.99;
+  export let subtotal: number;
+  export let shippingCost: number;
 
   $: total = subtotal + shippingCost;
 </script>
@@ -23,7 +23,7 @@
       <span>{formatPrice(shippingCost)}</span>
     </div>
 
-    <div class="summary-line">
+    <div class="vat-line">
       <span>{$_("cart_vat_included")}</span>
     </div>
 
@@ -62,6 +62,13 @@
     justify-content: space-between;
     color: #666;
     font-size: 0.95rem;
+  }
+
+  .vat-line {
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+    font-size: 0.75rem;
   }
 
   .total {

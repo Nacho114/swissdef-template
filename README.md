@@ -12,7 +12,7 @@
 
 ## Tools
 
-- Back-end is used with AWS functions
+- Back-end is used with AWS functions (with onsen account)
 - Payment with stripe
 
 ## Stripe

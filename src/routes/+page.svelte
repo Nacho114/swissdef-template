@@ -79,21 +79,105 @@
   </script>
 </svelte:head>
 
-<LandingHeader />
-<TrustedBrands />
-
-<div class="services">
-  <Container>
-    <Services />
-  </Container>
+<!-- Noise Filter -->
+<div class="noise-container">
+  <svg class="noise-svg">
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch"/>
+    </filter>
+    <rect width="100%" height="100%" filter="url(#noise)"/>
+  </svg>
 </div>
 
-<Container>
-  <StatisticsChart />
-</Container>
+<!-- Background Blur Elements -->
+<div class="blur-element blur-blue" />
+<div class="blur-element blur-purple" />
+
+<main class="landing-page">
+  <LandingHeader />
+  
+  <section class="trusted-brands-section">
+    <Container>
+      <TrustedBrands />
+    </Container>
+  </section>
+
+  <section class="services-section">
+    <Container>
+      <Services />
+    </Container>
+  </section>
+
+  <section class="statistics-section">
+    <Container>
+      <StatisticsChart />
+    </Container>
+  </section>
+</main>
 
 <style>
-  .services {
-    padding-top: 3vw;
+  :global(body) {
+    background: #ffffff;
+    color: #1a1a1a;
+    min-height: 100vh;
+  }
+
+  .landing-page {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Remove noise effect */
+  .noise-container {
+    display: none;
+  }
+
+  /* Subtle background magicccxxx */
+  .blur-element {
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    filter: blur(150px);
+    opacity: 0.04;
+    pointer-events: none;
+  }
+
+  .blur-blue {
+    top: -10%;
+    right: -10%;
+    background: #007AFF;
+  }
+
+  .blur-purple {
+    bottom: -10%;
+    left: -10%;
+    background: #5856D6;
+  }
+
+  /* Section styling */
+  section {
+    padding: 6rem 0;
+    position: relative;
+    background: #ffffff;
+  }
+
+  .trusted-brands-section {
+    background: #f5f5f7;
+  }
+
+  .services-section {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .statistics-section {
+    background: #f5f5f7;
+  }
+
+  @media (max-width: 768px) {
+    section {
+      padding: 3rem 0;
+    }
   }
 </style>

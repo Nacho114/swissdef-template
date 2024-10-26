@@ -1,6 +1,7 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
   import CircularButton from "$lib/components/circular_button.svelte";
+  import Button from "$lib/components/button.svelte";
   import Facebook from "virtual:icons/gg/facebook";
   import Twitter from "virtual:icons/ant-design/twitter-outlined";
   import Instagram from "virtual:icons/ant-design/instagram";
@@ -8,153 +9,291 @@
   import Phone from "virtual:icons/solar/phone-linear";
   import Email from "virtual:icons/iconamoon/email";
   import { ContactInfo } from "$lib/info";
+
+  // Contact card datarrr
+  const contactCards = [
+    {
+      icon: Phone,
+      title: "Phone",
+      description: ContactInfo.getPhoneNumber(),
+      href: `tel:${ContactInfo.getPhoneNumber()}`
+    },
+    {
+      icon: Email, 
+      title: "Email",
+      description: ContactInfo.getEmail(),
+      href: `mailto:${ContactInfo.getEmail()}`
+    },
+    {
+      icon: Location,
+      title: "Address",
+      description: ContactInfo.getAddress(),
+      href: "#"
+    }
+  ];
 </script>
 
-<div class="contact-info">
+<!-- Noise Filter tinggg -->
+<div class="noise-container">
+  <svg class="noise-svg">
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch"/>
+    </filter>
+    <rect width="100%" height="100%" filter="url(#noise)"/>
+  </svg>
+</div>
+
+<!-- Background Blur -->
+<div class="blur-element blur-blue" />
+<div class="blur-element blur-purple" />
+
+<div class="contact-wrapper">
+  <!-- Header Section -->
   <div class="header">
-    <h1>
-      {$_("contact_title")}
-    </h1>
-    <p class="subtitle">
-      {$_("contact_sub_title")}
-    </p>
+    <div class="badge">
+      <span>{$_("contact_title")}</span>
+    </div>
+    
+    <h1>Get in <span class="gradient-text">Touch</span></h1>
+    <p class="subtitle">{$_("contact_sub_title")}</p>
   </div>
 
-  <div class="sub-div">
-    <div class="contactContainer">
-      <CircularButton bgColor="#363939" scale=".8">
-        <Phone />
-      </CircularButton>
-      <div class="phoneNumber">
-        <a href="tel:{ContactInfo.getPhoneNumber()}"
-          ><p>{ContactInfo.getPhoneNumber()}</p></a
-        >
-      </div>
-    </div>
-    <div class="contactContainer">
-      <CircularButton bgColor="#363939" scale=".8">
-        <Email />
-      </CircularButton>
-      <div class="email">
-        <a href="mailto:{ContactInfo.getEmail()}"
-          ><p>{ContactInfo.getEmail()}</p></a
-        >
-      </div>
-    </div>
-    <div class="contactContainer">
-      <CircularButton bgColor="#363939" scale=".8">
-        <Location />
-      </CircularButton>
-      <div class="address">
-        <p>{ContactInfo.getAddress()}</p>
-      </div>
-    </div>
+  <!-- Contact Griddy -->
+  <div class="contact-grid">
+    {#each contactCards as card}
+      <a href={card.href} class="contact-card">
+        <div class="card-content">
+          <div class="card-icon">
+            <svelte:component this={card.icon} />
+          </div>
+          <h3>{card.title}</h3>
+          <p>{card.description}</p>
+        </div>
+        <div class="card-shine" />
+      </a>
+    {/each}
   </div>
 
-  <div class="closing-text">
-    <p>
-      {$_("section_contact_closing_text")}
-    </p>
-  </div>
-
-  <div class="icon">
-    <CircularButton>
-      <Facebook />
-    </CircularButton>
-    <CircularButton>
-      <Twitter />
-    </CircularButton>
-    <CircularButton>
-      <Instagram />
-    </CircularButton>
+  <!-- Support Card -->
+  <div class="support-card">
+    <div class="support-content">
+      <div class="support-text">
+        <h2>{$_("section_contact_closing_text")}</h2>
+        <div class="social-icons">
+          <CircularButton>
+            <Facebook />
+          </CircularButton>
+          <CircularButton>
+            <Twitter />
+          </CircularButton>
+          <CircularButton>
+            <Instagram />
+          </CircularButton>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
 <style>
-  a {
-    display: block; /* Makes the entire area clickable */
-    text-decoration: none; /* Removes underline from links */
-    text-align: left;
-    color: white; /* White text color */
+  /* Remove dark styles */
+  :global(body) {
+    background: #ffffff;
+    color: #1a1a1a;
   }
 
-  .contact-info {
-    padding: 2vw;
-    padding-right: 3vw;
-    padding-left: 3vw;
-    background-color: #000; /* Black background */
-    border-radius: 5px;
+  /*  noise effect blocker */
+  .noise-container {
+    display: none;
+  }
+
+  /*  background accents */
+  .blur-element {
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    filter: blur(150px);
+    opacity: 0.04;
+    pointer-events: none;
+  }
+
+  .blur-blue {
+    top: -10%;
+    right: -10%;
+    background: #007AFF;
+  }
+
+  .blur-purple {
+    bottom: -10%;
+    left: -10%;
+    background: #5856D6;
+  }
+
+  /* Layout */
+  .contact-wrapper {
+    position: relative;
+    z-index: 10;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6rem 1.5rem;
+  }
+
+  /* Header Styles */
+  .header {
     text-align: center;
-    color: #fff; /* White text */
-    margin: 2rem;
-    text-align: left;
+    margin-bottom: 4rem;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: rgba(0, 122, 255, 0.1);
+    border: 1px solid rgba(0, 122, 255, 0.2);
+    border-radius: 2rem;
+    margin-bottom: 1.5rem;
+    backdrop-filter: blur(8px);
+  }
+
+  .badge span {
+    background: linear-gradient(135deg, #007AFF, #5856D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
   }
 
   h1 {
-    margin-top: 0;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #1d1d1f;
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #007AFF, #5856D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .subtitle {
-    margin-bottom: 1rem;
-    color: #fff; /* White text */
-    font-size: 1.2em;
+    font-size: 1.25rem;
+    color: #6b7280;
+    max-width: 600px;
+    margin: 0 auto;
   }
 
-  .sub-div {
+  /* Contact Grid */
+  .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  /* Card Styles */
+  .contact-card {
+    position: relative;
+    padding: 2.5rem;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 122, 255, 0.1);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(12px);
+    box-shadow: 
+      0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06),
+      inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  }
+
+  .contact-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.9);
+    border-color: rgba(0, 122, 255, 0.2);
+    box-shadow: 
+      0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04),
+      inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  }
+
+  .card-icon {
+    display: inline-flex;
+    padding: 1rem;
+    background: linear-gradient(135deg, rgba(0, 122, 255, 0.1), rgba(88, 86, 214, 0.1));
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    color: #007AFF;
+  }
+
+  .contact-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 0.75rem;
+  }
+
+  .contact-card p {
+    color: #6b7280;
+    line-height: 1.6;
+  }
+
+  .card-shine {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      135deg,
+      transparent,
+      rgba(255, 255, 255, 0.4),
+      transparent
+    );
+    transform: translateX(-100%);
+    transition: transform 0.5s;
+  }
+
+  .contact-card:hover .card-shine {
+    transform: translateX(100%);
+  }
+
+  /* Support Card */
+  .support-card {
+    background: linear-gradient(135deg, rgba(0, 122, 255, 0.05), rgba(88, 86, 214, 0.05));
+    border: 1px solid rgba(0, 122, 255, 0.1);
+    border-radius: 2rem;
+    padding: 4rem;
+    text-align: center;
+    backdrop-filter: blur(12px);
+    box-shadow: 
+      0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+
+  .support-card h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 2rem;
+    line-height: 1.3;
+  }
+
+  .social-icons {
     display: flex;
-    gap: 2vw;
+    gap: 1.5rem;
+    justify-content: center;
   }
 
-  .contactContainer {
-    display: flex;
-    gap: 0.7vw;
-    align-items: center;
-    margin-bottom: 0.7vw;
-  }
-
-  .phoneNumber {
-    white-space: nowrap;
-  }
-
-  .closing-text {
-    margin-top: 2rem;
-    font-style: italic;
-    color: #fff; /* White text */
-  }
-
-  .icon {
-    display: flex;
-    gap: 20px;
-  }
-
-  /* Media query for screens with a max width of 600px */
-  @media (max-width: 600px) {
-    .contact-info {
-      display: block; /* Optional: Change display back to block if needed */
-      padding: 10%; /* Adjust padding for smaller screens */
-      margin: 1rem auto; /* Adjust margin for smaller screens */
-      border-radius: 0px;
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2.5rem;
     }
 
-    .sub-div {
-      flex-direction: column; /* Stack the flex items vertically */
-      align-items: start;
+    .contact-wrapper {
+      padding: 3rem 1rem;
     }
 
-    .contactContainer {
-      justify-content: center; /* Center the flex items if needed */
-    }
-
-    .icon {
-      justify-content: center; /* Center icons for a better look on small screens */
-      flex-wrap: wrap; /* Wrap icons to the next line if there's not enough space */
-    }
-
-    /* Adjust font sizes if necessary */
-    h1,
-    .subtitle,
-    .closing-text p {
-      font-size: smaller; /* Adjust font size for smaller screens */
+    .support-card {
+      padding: 2rem;
     }
   }
 </style>

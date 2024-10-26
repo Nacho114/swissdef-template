@@ -3,7 +3,6 @@
   import { onMount } from "svelte";
   import Chart from "chart.js/auto";
 
-  //TODO This is not working!
   $: with_aed_label = $_("section_home_statistics_chart_label_with_aed");
   $: without_aed_label = $_("section_home_statistics_chart_label_without_aed");
 
@@ -18,21 +17,22 @@
         datasets: [
           {
             label: with_aed_label,
-            data: [100, 88, 76, 65, 55, 45, 38, 30, 25, 20, 15],
-            borderColor: "#FF6384",
-            borderWidth: 2,
-            fill: false,
+            data: [100, 95, 90, 88, 85, 84, 82, 80, 79, 78, 77],
+            borderColor: "#2563EB", // Darker blue
+            backgroundColor: "rgba(37, 99, 235, 0.1)",
+            borderWidth: 3,
+            fill: true,
             tension: 0.4,
           },
           {
             label: without_aed_label,
-            data: [100, 95, 90, 88, 85, 84, 82, 80, 79, 78, 77],
-            borderColor: "#36A2EB",
-            backgroundColor: "rgba(54, 162, 235, 0.2)",
-            borderWidth: 2,
+            data: [100, 88, 76, 65, 55, 45, 38, 30, 25, 20, 15],
+            borderColor: "#DC2626", // Darker red
+            backgroundColor: "rgba(220, 38, 38, 0.1)",
+            borderWidth: 3,
             fill: true,
             tension: 0.4,
-          },
+          }
         ],
       },
       options: {
@@ -41,15 +41,19 @@
             beginAtZero: true,
             max: 100,
             grid: {
-              display: false,
+              color: "rgba(0, 0, 0, 0.1)",
             },
             ticks: {
-              color: "#9E9E9E",
+              color: "#4a5568",
             },
             title: {
               display: true,
               text: $_("section_home_statistics_chart_y_axis"),
-              color: "#9E9E9E",
+              color: "#1a1a1a",
+              font: {
+                size: 14,
+                weight: '500'
+              }
             },
           },
           x: {
@@ -57,12 +61,16 @@
               display: false,
             },
             ticks: {
-              color: "#9E9E9E",
+              color: "#4a5568",
             },
             title: {
               display: true,
               text: $_("section_home_statistics_chart_x_axis"),
-              color: "#9E9E9E",
+              color: "#1a1a1a",
+              font: {
+                size: 14,
+                weight: '500'
+              }
             },
           },
         },
@@ -71,186 +79,197 @@
         plugins: {
           legend: {
             position: "top",
-            onHover: function (event, legendItem, legend) {
-              event.native.target.style.cursor = "pointer";
-            },
-            onLeave: function (event, legendItem, legend) {
-              event.native.target.style.cursor = "default";
-            },
+            align: "center",
+            labels: {
+              usePointStyle: true,
+              padding: 20,
+              color: "#1a1a1a",
+              font: {
+                family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+                size: 13,
+                weight: '500'
+              }
+            }
           },
         },
       },
     });
   });
-  // Hack to suppress unused var
-  console.log(chart);
 </script>
 
-<div class="statistics-layout">
+<div class="statistics-section">
   <div class="statistics-header">
-    <h1>
-      {$_("section_home_statistics_title")}
-    </h1>
-    <p>
-      {$_("section_home_statistics_subtitle")}
-    </p>
+    <span class="badge">Statistics</span>
+    <h2>{$_("section_home_statistics_title")}</h2>
+    <p class="subtitle">{$_("section_home_statistics_subtitle")}</p>
   </div>
 
   <div class="chart-container">
-    <canvas id="statisticsChart"></canvas>
+    <canvas id="statisticsChart" />
   </div>
 
-  <div class="info-columns">
-    <div class="info-column">
-      <h3>
-        {$_("section_home_statistics_info_one_title")}
-      </h3>
-      <p>
-        {$_("section_home_statistics_info_one_subtitle")}
-      </p>
+  <div class="info-grid">
+    <div class="info-card">
+      <span class="info-number">1</span>
+      <h3>{$_("section_home_statistics_info_one_title")}</h3>
+      <p>{$_("section_home_statistics_info_one_subtitle")}</p>
     </div>
-    <div class="info-column">
-      <h3>
-        {$_("section_home_statistics_info_two_title")}
-      </h3>
-      <p>
-        {$_("section_home_statistics_info_two_subtitle")}
-      </p>
+    <div class="info-card">
+      <span class="info-number">3</span>
+      <h3>{$_("section_home_statistics_info_two_title")}</h3>
+      <p>{$_("section_home_statistics_info_two_subtitle")}</p>
     </div>
-    <div class="info-column">
-      <h3>
-        {$_("section_home_statistics_info_three_title")}
-      </h3>
-      <p>
-        {$_("section_home_statistics_info_three_subtitle")}
-      </p>
+    <div class="info-card">
+      <span class="info-number">7</span>
+      <h3>{$_("section_home_statistics_info_three_title")}</h3>
+      <p>{$_("section_home_statistics_info_three_subtitle")}</p>
     </div>
-    <div class="info-column">
-      <h3>
-        {$_("section_home_statistics_info_four_title")}
-      </h3>
-      <p>
-        {$_("section_home_statistics_info_four_subtitle")}
-      </p>
+    <div class="info-card">
+      <span class="info-number">90</span>
+      <h3>{$_("section_home_statistics_info_four_title")}</h3>
+      <p>{$_("section_home_statistics_info_four_subtitle")}</p>
     </div>
   </div>
 
-  <div class="cta-container">
-    <p>
-      {$_("section_home_statistics_footer")}
-    </p>
+  <div class="cta-section">
+    <p>{$_("section_home_statistics_footer")}</p>
   </div>
 </div>
 
 <style>
-  .statistics-layout {
+  .statistics-section {
     max-width: 1200px;
-    margin: auto;
-    font-family: "Poppins", sans-serif;
-    color: #333;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   }
 
   .statistics-header {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
   }
 
-  .statistics-header h1 {
-    color: #222;
-    font-size: 2.8rem;
-    margin-bottom: 1rem;
+  .badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: rgba(0, 122, 255, 0.1);
+    color: #007AFF;
+    border-radius: 2rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
   }
 
-  .statistics-header p {
-    color: #555;
-    font-size: 1.1rem;
-    max-width: 80%;
-    margin: auto;
+  .statistics-header h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+    background: linear-gradient(135deg, #1a1a1a 0%, #4a4a4a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.2;
+    color: #1a1a1a;
+  }
+
+  .subtitle {
+    font-size: 1.125rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
   }
 
   .chart-container {
-    position: relative;
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
     height: 400px;
-    margin-bottom: 3rem;
+    margin: 3rem 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   }
 
-  .info-columns {
+  .info-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin-top: 3rem;
+    gap: 2rem;
+    margin: 4rem 0;
   }
 
-  .info-column {
-    padding: 1.5rem;
-    background-color: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  .info-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease;
+    color: #1a1a1a;
   }
 
-  .info-column:hover {
-    transform: translateY(-10px);
+  .info-card:hover {
+    transform: translateY(-5px);
   }
 
-  .info-column h3 {
-    font-size: 1.4rem;
-    color: #222;
+  .info-number {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #007AFF;
     margin-bottom: 1rem;
-    min-height: 2.5em; /* To top align <p> info */
   }
 
-  .info-column p {
-    font-size: 1.1rem;
-    color: #555;
+  .info-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0 0 1rem;
+    color: #1a1a1a;
   }
 
-  .cta-container {
-    background-color: #d45a4d;
-    color: white;
+  .info-card p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .cta-section {
     text-align: center;
-    padding: 1.5rem;
-    margin-top: 3rem;
-    font-size: 1.1rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 4rem;
+    padding: 3rem;
+    background: linear-gradient(135deg, rgba(0, 122, 255, 0.05) 0%, rgba(0, 122, 255, 0.1) 100%);
+    border-radius: 1rem;
   }
 
-  @media (max-width: 600px) {
-    .statistics-header h1 {
-      font-size: 2.2rem; /* Smaller font size for h1 */
+  .cta-section p {
+    font-size: 1.125rem;
+    color: #1a1a1a;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 768px) {
+    .statistics-section {
+      padding: 2rem 1rem;
     }
 
-    .statistics-header p {
-      font-size: 1rem; /* Slightly smaller font size for paragraph */
-      max-width: 90%; /* Increase max-width for better padding */
-    }
-
-    .info-columns {
-      grid-template-columns: 1fr; /* Stack the columns vertically */
-    }
-
-    .info-column:hover {
-      transform: none;
-    }
-
-    .info-column,
-    .cta-container {
-      border-radius: 0px;
-      box-shadow: none;
-    }
-
-    .info-column h3,
-    .info-column p {
-      font-size: 1.2rem; /* Adjust font size for readability on small devices */
+    .statistics-header h2 {
+      font-size: 2rem;
     }
 
     .chart-container {
-      height: 300px; /* Adjust chart height to fit smaller screens */
+      height: 300px;
+      padding: 1rem;
     }
 
-    .cta-container {
-      font-size: 1rem; /* Adjust the call-to-action font size */
+    .info-grid {
+      gap: 1rem;
+    }
+
+    .info-card {
+      padding: 1.5rem;
+    }
+
+    .cta-section {
+      padding: 2rem 1rem;
     }
   }
 </style>

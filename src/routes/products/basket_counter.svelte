@@ -92,7 +92,9 @@
       >{title} {$_("section_product_added_to_basket")}</span
     >
     <div class="popup-buttons">
-      <a href="/cart" class="popup-button">Go to basket</a>
+      <a href="/cart" class="popup-button"
+        >{$_("section_product_go_to_checkout")}</a
+      >
       <button class="popup-button" on:click={handleClosePopup}>x</button>
     </div>
   </div>

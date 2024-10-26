@@ -38,11 +38,11 @@
   });
 </script>
 
-<div class="outer_container" in:fade={{ duration: 300 }}>
+<div class="outer_container" in:fade={{ duration: 110 }}>
   <Box>
     <!-- Conditional rendering with fade transition for the content -->
     {#if source !== ""}
-      <div class="container" in:fade={{ duration: 300, delay: 300 }}>
+      <div class="container" in:fade={{ duration: 110, delay: 110 }}>
         <SvelteMarkdown {source} />
       </div>
     {:else}

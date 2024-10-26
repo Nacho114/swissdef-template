@@ -23,14 +23,14 @@
   <div class="service-price">
     <div class="service-price">
       <span class="price-amount">{price_info}</span>
-      <span class="price-unit">
-        {$_("training_per_person")}
-      </span>
+      <span class="price-subtitle"> per session </span>
     </div>
   </div>
-  <div class="service-duration">{duration_info}</div>
 
-  <p class="service-description">{description}</p>
+  <div class="number-of-participants">
+    {$_("training_number_of_participants")}
+  </div>
+
   <a href="/contact">
     <div class="button">
       <Button fullWidth={true}>
@@ -39,6 +39,14 @@
       </Button>
     </div></a
   >
+
+  <div class="details">
+    <div class="service-duration">
+      {$_("training_session_duration")}
+      {duration_info}
+    </div>
+    <p class="service-description">{description}</p>
+  </div>
 
   <PlanInformation {featuresString} />
 </div>
@@ -82,21 +90,23 @@
     color: black;
   }
 
-  .price-unit {
-    font-size: 1rem; /* This is 1/3 of the price size */
-    color: #666;
+  .details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
   }
 
   .service-duration {
-    font-size: 1.2rem;
+    color: #666;
+  }
+
+  .number-of-participants {
     color: #666;
     margin-bottom: 1rem;
   }
 
   .service-description {
     color: #666;
-    margin-bottom: 1rem;
-    min-height: 50px;
   }
 
   /* Add media query for smaller screens */
@@ -115,7 +125,7 @@
       font-size: 1.3rem; /* Slightly smaller on mobile */
     }
 
-    .price-unit {
+    .price-subtitle {
       font-size: 0.9rem; /* Slightly smaller on mobile */
     }
   }

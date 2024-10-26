@@ -23,7 +23,9 @@
   <div class="service-price">
     <div class="service-price">
       <span class="price-amount">{price_info}</span>
-      <span class="price-subtitle"> per session </span>
+      <span class="price-subtitle">
+        {$_("training_per_session")}
+      </span>
     </div>
   </div>
 

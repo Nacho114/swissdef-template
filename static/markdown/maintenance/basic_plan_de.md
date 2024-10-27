@@ -1,24 +1,34 @@
-# Basic-Wartungsplan
+# Wartungsdienst
 
-Unser Basic-Wartungsplan ist die ultimative Lösung für Organisationen, die das höchste Niveau an Bereitschaft von ihren Defibrillatoreinheiten fordern. Mit diesem Plan kaufen Sie nicht nur einen Wartungsdienst; Sie investieren in die Zuverlässigkeit und Effektivität Ihrer Notfallreaktionsfähigkeiten. Dieser Plan ist ideal für Orte mit hohem Verkehrsaufkommen wie Einkaufszentren, Schulen und große Büros, wo die rechtzeitige Verwendung eines voll funktionsfähigen Defibrillators den Unterschied zwischen Leben und Tod bedeuten kann.
+Swiss Defibrillator bietet umfassende Wartungslösungen, um sicherzustellen, dass Ihre Defibrillatoren sicher und zuverlässig arbeiten. Unser Full-Service-Wartungsplan ist ideal für Organisationen, die sich Sorgenfreiheit wünschen, mit Rund-um-die-Uhr-Kundensupport und jährlichen Wartungsbesuchen.
 
-## Merkmale und Vorteile
+Full-Service-Wartung
 
-- **Vierteljährliche Wartungsprüfungen**: Unsere Expertentechniker führen alle drei Monate umfassende Prüfungen durch. Dieser regelmäßige Zeitplan stellt sicher, dass Ihre Defibrillatoren immer in Spitzenzustand sind, Batterien geladen und Pads innerhalb ihres Verwendungsdatums sind, wodurch jegliche Zweifel an ihrer Funktionalität in einem Notfall ausgeräumt werden.
-- **Kostenloser Ersatz von verwendeten Teilen**: Nach einem lebensrettenden Einsatz ist es entscheidend, dass Ihr Defibrillator schnell wieder in einen voll betriebsfähigen Zustand versetzt wird. Wir garantieren einen kostenlosen und umgehenden Ersatz aller verwendeten Teile, um sicherzustellen, dass Ihr Gerät so schnell wie möglich wieder einsatzbereit ist.
-- **Kundensupport**: Gewinnen Sie Seelenfrieden mit Zugang zu unserem engagierten Kundensupport-Team. Ob Sie Fragen zu Ihrem Gerät haben, Unterstützung benötigen oder Notfallhilfe benötigen, wir sind für Sie da.
-- **Rabatt auf Erste-Hilfe-Schulungskurse**: Verbessern Sie die Einsatzbereitschaft Ihres Teams mit unseren Erste-Hilfe-Schulungskursen, die exklusiv für Basic-Plan-Abonnenten zu ermäßigten Preisen angeboten werden. Diese Kurse können Ihr Personal mit dem Wissen und den Fähigkeiten ausstatten, um während Notfällen selbstbewusst zu handeln.
-- **Bundesweiter Service in der Schweiz**: Unser Netzwerk qualifizierter Techniker erstreckt sich über die gesamte Schweiz und gewährleistet einen zeitnahen und effizienten Service, egal wo Sie sich befinden.
+24/7 Support und Schnelle Reaktion  
+Swiss Defibrillator bietet einen 24/7-Kundensupport unter 079 441 24 06 und stellt sicher, dass jederzeit sofortige Hilfe verfügbar ist. Vor-Ort-Einsätze sind innerhalb von 48 Stunden nach Anfrage möglich.
 
-## Preise
+Jährliche Wartung und Inspektionen  
+Jährlich führen wir eine vollständige Inspektion, Wartungsprüfung und Dokumentation durch, um die Leistung des Defibrillators und die Einhaltung der Swissmedic-Richtlinien zu gewährleisten. Swissmedic empfiehlt die SN EN 62353-Normen für die dauerhafte Sicherheit und Leistung von elektromedizinischen Geräten. Diese Schweizer Norm schreibt visuelle Inspektionen, Funktionsprüfungen und spezifische Tests an Geräten wie Defibrillatoren vor und stellt sicher, dass sie während ihrer gesamten Lebensdauer den Sicherheitsanforderungen entsprechen.
 
-- CHF 890 pro Monat, pro Defibrillator.
-- Eine Verpflichtung zu einem Mindestvertrag von 24 Monaten stellt sicher, dass Sie kontinuierlichen, ununterbrochenen Service erhalten. Weitere Details finden Sie in den Allgemeinen Geschäftsbedingungen.
+Inklusive Leistungen:  
+- Austausch der Erwachsenenelektroden alle 24 Monate (im Jahresbeitrag enthalten)  
+- Batteriewechsel alle 48 Monate (im Jahresbeitrag enthalten), inklusive Installation  
+- Datenübertragung des Elektrokardiogramms an ein angegebenes Krankenhaus oder einen Arzt, falls kompatibel mit dem Gerätetyp  
+- Notfalllieferung eines Leihdefibrillators, falls Ihr Gerät repariert werden muss (bis zu einem Monat)
 
-## Spezialangebote
+Jährlicher AED-Bericht  
+Nach jeder jährlichen Wartung erhält der Kunde einen detaillierten AED-Bericht, der Folgendes umfasst:  
+- Das Wartungsdatum  
+- Verfallsdaten der Batterie und der Elektroden  
+- Das nächste geplante Wartungsdatum  
+So haben Sie alle notwendigen Informationen, um Ihr Gerät konform und einsatzbereit zu halten.
 
-- Profitieren Sie von erheblichen Rabatten, wenn Sie mehrere Defibrillatoren in unseren Plan einschreiben, was es für größere Einrichtungen kosteneffektiv macht, ihre Notfallreaktionsfähigkeiten aufrechtzuerhalten.
+Ausschlüsse:  
+Bitte beachten Sie, dass Vorfälle, die nicht mit der regulären Wartung zusammenhängen, wie z. B. Feuer, Erdbeben, Diebstahl oder andere außergewöhnliche Ereignisse, nicht in diesem Plan enthalten sind.
 
-## Loslegen
+Praktische Tarife und Zahlungspläne  
+Unser Full-Service-Wartungsplan kostet CHF 275 pro Jahr (CHF 310 mit AIVIA100 Wandhalterung) zuzüglich MwSt., mit einem Rabatt im ersten Jahr und zusätzlichen Ermäßigungen für Kunden mit mehreren Defibrillatoren. Diese Gebühr beinhaltet den Austausch einer Batterie alle 4 Jahre und eines Elektroden-Sets alle 2 Jahre, für eine sorgenfreie Wartung.
 
-Sichern Sie noch heute die Sicherheit und Einsatzbereitschaft Ihrer Notfallausrüstung. Klicken Sie auf den Button „buchen“, um Ihre Bedürfnisse mit einem Kundenbetreuer zu besprechen und den ersten Schritt zu unübertroffener Vorbereitung und Seelenfrieden zu gehen.
+Für Kunden, die eine grundlegende Abdeckung wünschen, bietet unser Basiswartungsplan flexible Wartungsdienste, einschließlich proaktiver Benachrichtigungen zwei Wochen vor Ablauf der Elektroden oder Batterien und Ersatz bei Bedarf. Dieser Plan berechnet nur Ersatzteile und eventuelle Serviceeingriffe und stellt so eine budgetfreundliche Wartung sicher.
+
+Swiss Defibrillator verpflichtet sich zu Swissmedic-Standards und regulatorischer Konformität und bietet eine zuverlässige Wartung, die die strengen Qualitäts- und Sicherheitsstandards für elektromedizinische Geräte in der Schweiz erfüllt.

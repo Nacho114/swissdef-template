@@ -1,72 +1,72 @@
-# Privacy Policy
+# Datenschutzerklärung
 
-At Swiss Defibrillator, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you visit our website and use our services. By accessing or using our website, you consent to the terms of this Privacy Policy.
+Bei Swiss Defibrillator sind wir dem Schutz Ihrer Privatsphäre und der Sicherheit Ihrer persönlichen Daten verpflichtet. Diese Datenschutzerklärung erläutert, wie wir Ihre Daten sammeln, verwenden, offenlegen und schützen, wenn Sie unsere Website besuchen und unsere Dienstleistungen in Anspruch nehmen. Durch den Zugriff auf unsere Website oder deren Nutzung stimmen Sie den Bedingungen dieser Datenschutzerklärung zu.
 
-## 1. Information We Collect
+## 1. Informationen, die wir sammeln
 
-We may collect personal information that you voluntarily provide to us when you use our website or services, such as when you place an order, register for an account, subscribe to a newsletter, or fill out a contact form. The personal information we collect may include, but is not limited to:
+Wir können persönliche Informationen erfassen, die Sie uns freiwillig zur Verfügung stellen, wenn Sie unsere Website oder Dienste nutzen, zum Beispiel wenn Sie eine Bestellung aufgeben, ein Konto registrieren, sich für einen Newsletter anmelden oder ein Kontaktformular ausfüllen. Die persönlichen Informationen, die wir sammeln, können unter anderem umfassen:
 
 - Name
-- Email address
-- Postal address
-- Phone number
-- Payment information
-- Other information you choose to provide
+- E-Mail-Adresse
+- Postanschrift
+- Telefonnummer
+- Zahlungsinformationen
+- Weitere Informationen, die Sie bereitstellen
 
-We may also collect non-personal information about your interaction with our website, such as your IP address, browser type, operating system, and referring websites.
+Wir können auch nicht-personenbezogene Informationen über Ihre Interaktion mit unserer Website sammeln, wie Ihre IP-Adresse, den Browsertyp, das Betriebssystem und verweisende Websites.
 
-## 2. How We Use Your Information
+## 2. Wie wir Ihre Informationen verwenden
 
-We use the information we collect to provide, maintain, and improve our services, as well as to communicate with you. Specifically, we may use your information to:
+Wir verwenden die von uns gesammelten Informationen, um unsere Dienstleistungen bereitzustellen, zu pflegen und zu verbessern sowie um mit Ihnen zu kommunizieren. Insbesondere können wir Ihre Informationen verwenden, um:
 
-- Process and fulfill your orders
-- Provide customer support
-- Send you important updates and notifications
-- Personalize your experience on our website
-- Analyze trends and gather demographic information for aggregate use
-- Detect, prevent, and address technical issues and fraud
-- Comply with legal obligations
+- Ihre Bestellungen zu verarbeiten und auszuführen
+- Kundensupport bereitzustellen
+- Ihnen wichtige Updates und Benachrichtigungen zu senden
+- Ihre Erfahrung auf unserer Website zu personalisieren
+- Trends zu analysieren und demografische Informationen für aggregierte Zwecke zu sammeln
+- Technische Probleme und Betrug zu erkennen, zu verhindern und zu beheben
+- Gesetzliche Verpflichtungen zu erfüllen
 
-## 3. Information Sharing and Disclosure
+## 3. Informationsweitergabe und Offenlegung
 
-We do not sell, trade, or otherwise transfer your personal information to outside parties without your consent, except as described in this Privacy Policy. We may share your information with trusted third-party service providers who assist us in operating our website, conducting our business, or servicing you, as long as those parties agree to keep this information confidential.
+Wir verkaufen, handeln oder übertragen Ihre persönlichen Daten nicht an Dritte, ohne Ihre Zustimmung, außer wie in dieser Datenschutzerklärung beschrieben. Wir können Ihre Informationen an vertrauenswürdige Drittanbieter weitergeben, die uns beim Betrieb unserer Website, bei der Durchführung unserer Geschäftstätigkeiten oder bei der Betreuung unterstützen, solange diese Parteien zustimmen, diese Informationen vertraulich zu behandeln.
 
-We may also disclose your personal information when we believe it is necessary to comply with applicable laws, to respond to legal process, to enforce our site policies, or to protect our or others' rights, property, or safety.
+Wir können Ihre persönlichen Daten auch offenlegen, wenn wir der Meinung sind, dass dies notwendig ist, um geltendem Recht zu entsprechen, auf rechtliche Verfahren zu reagieren, unsere Website-Richtlinien durchzusetzen oder unsere oder die Rechte, das Eigentum oder die Sicherheit anderer zu schützen.
 
-## 4. Data Security
+## 4. Datensicherheit
 
-We implement reasonable security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
+Wir setzen angemessene Sicherheitsmaßnahmen ein, um Ihre persönlichen Daten vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung zu schützen. Allerdings ist keine Übertragungsmethode über das Internet oder elektronische Speicherung 100 % sicher, und wir können keine absolute Sicherheit garantieren.
 
-## 5. Data Retention
+## 5. Datenspeicherung
 
-We will retain your personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law.
+Wir werden Ihre persönlichen Daten so lange aufbewahren, wie es zur Erfüllung der in dieser Datenschutzerklärung genannten Zwecke erforderlich ist, es sei denn, eine längere Aufbewahrungsfrist ist gesetzlich vorgeschrieben oder erlaubt.
 
-## 6. Your Rights Under GDPR
+## 6. Ihre Rechte nach der DSGVO
 
-If you are a resident of the European Economic Area (EEA), you have certain rights under the General Data Protection Regulation (GDPR), including:
+Wenn Sie im Europäischen Wirtschaftsraum (EWR) ansässig sind, haben Sie bestimmte Rechte nach der Datenschutz-Grundverordnung (DSGVO), darunter:
 
-- The right to access your personal information
-- The right to request correction or erasure of your personal information
-- The right to restrict or object to the processing of your personal information
-- The right to data portability
-- The right to withdraw consent at any time
+- Das Recht auf Zugriff auf Ihre persönlichen Daten
+- Das Recht, die Berichtigung oder Löschung Ihrer persönlichen Daten zu verlangen
+- Das Recht, die Verarbeitung Ihrer persönlichen Daten einzuschränken oder abzulehnen
+- Das Recht auf Datenübertragbarkeit
+- Das Recht, Ihre Einwilligung jederzeit zu widerrufen
 
-To exercise these rights, please contact us using the information provided below.
+Um diese Rechte auszuüben, kontaktieren Sie uns bitte unter den unten angegebenen Informationen.
 
-## 7. Children's Privacy
+## 7. Datenschutz für Kinder
 
-Our website and services are not directed to children under the age of 16. We do not knowingly collect personal information from children under 16. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us so that we can delete the information.
+Unsere Website und Dienstleistungen richten sich nicht an Kinder unter 16 Jahren. Wir sammeln wissentlich keine persönlichen Daten von Kindern unter 16 Jahren. Wenn Sie ein Elternteil oder Erziehungsberechtigter sind und glauben, dass Ihr Kind uns persönliche Daten zur Verfügung gestellt hat, kontaktieren Sie uns bitte, damit wir die Daten löschen können.
 
-## 8. Changes to This Privacy Policy
+## 8. Änderungen dieser Datenschutzerklärung
 
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date at the top of the Privacy Policy.
+Wir können unsere Datenschutzerklärung von Zeit zu Zeit aktualisieren. Wir werden Sie über Änderungen informieren, indem wir die neue Datenschutzerklärung auf dieser Seite veröffentlichen und das Datum "Zuletzt aktualisiert" oben in der Datenschutzerklärung anpassen.
 
-## 9. Contact Us
+## 9. Kontaktieren Sie uns
 
-If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at:
+Wenn Sie Fragen oder Bedenken zu dieser Datenschutzerklärung oder unseren Datenschutzpraktiken haben, kontaktieren Sie uns bitte unter:
 
 `info@swissdefibrillator.ch`
 
-By using our website and services, you signify your acceptance of this Privacy Policy. If you do not agree to this Privacy Policy, please do not use our website or services.
+Durch die Nutzung unserer Website und Dienstleistungen akzeptieren Sie diese Datenschutzerklärung. Wenn Sie dieser Datenschutzerklärung nicht zustimmen, nutzen Sie bitte unsere Website oder Dienstleistungen nicht.
 
-Last Updated: March 23, 2024
+Zuletzt aktualisiert: 27. Oktober 2024

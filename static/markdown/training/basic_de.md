@@ -1,128 +1,88 @@
-# Training Advanced
+# Basistraining
 
-## Ziele
+## BLS-AED-SRC Complet (Generic Provider)
 
-Die Teilnehmer wenden Maßnahmen der Basisreanimation (BLS: Basic Life Support) in verschiedenen Situationen an, einschließlich der automatischen externen Defibrillation (AED), sowohl für Kinder als auch für Erwachsene, und achten dabei auf ihre eigene Sicherheit. Sie:
+### Ziele
 
-- Alarmieren unverzüglich Hilfe.
-- Achten bei der Hilfeleistung auf ihre eigene Sicherheit.
-- Wenden Basisreanimationstechniken an Erwachsenen- und Kindermodellen an, einschließlich hochleistungsfähiger Herzdruckmassage, Beatmung und Defibrillation mit einem AED.
-- Erkennen typische Merkmale von Herzstillstand, Herzinfarkt und Schlaganfall und erklären Möglichkeiten zur Prävention.
-- Führen die korrekte Seitenlage bei Bewusstlosigkeit aus.
-- Erklären Maßnahmen bei Verlegung der Atemwege durch einen Fremdkörper.
-- Wenden BLS-Maßnahmen in konkreten Szenarien an, die auf Zielgruppen ausgerichtet sind.
+Die Teilnehmer wenden grundlegende Wiederbelebungsmaßnahmen (BLS: Basic Life Support) in verschiedenen Situationen an, einschließlich der Nutzung eines automatisierten externen Defibrillators (AED), sowohl bei Kindern als auch Erwachsenen, und achten dabei auf ihre eigene Sicherheit. Sie:
+
+- Alarmieren umgehend.
+- Berücksichtigen ihre eigene Sicherheit bei der Hilfeleistung.
+- Wenden grundlegende Wiederbelebungstechniken an Erwachsenen- und Kinder-Trainingsmodellen an, einschließlich Hochleistungs-CPR, Beatmung und Defibrillation mit einem AED.
+- Erkennen typische Merkmale von Herzstillstand, Herzinfarkt und Schlaganfall und erklären Präventionsmöglichkeiten.
+- Legen bewusstlose Personen korrekt in die stabile Seitenlage.
+- Erklären Maßnahmen bei einer Fremdkörperverlegung der Atemwege.
+- Wenden BLS-Maßnahmen in konkreten Szenarien an, die auf die Zielgruppen ausgerichtet sind.
 - Reflektieren ihre eigene Motivation zur Hilfeleistung.
-- Beschreiben, wie ungünstige Faktoren bei der Ersten Hilfe bewältigt werden können.
-- Werden über eine mögliche Integration in das Ersthelfer-System informiert.
+- Beschreiben, wie widrige Faktoren während der Ersten Hilfe gehandhabt werden.
+- Sind informiert über eine mögliche Integration ins First-Responder-System.
 
-## Trainingsinhalt
+### Schulungsinhalt
 
-Der umfassende BLS-AED-SRC-Kurs (Basic Life Support - Automatisierter Externer Defibrillator - Swiss Resuscitation Council) zielt darauf ab, Techniken der Basisreanimation (BLS-AED) bei Herzstillstand bei Erwachsenen und Kindern in verschiedenen Kontexten zu vertiefen und optimal anzuwenden. Er richtet sich an Angehörige der Gesundheitsberufe, Ersthelfer (Feuerwehrleute, Polizisten, Ersthelfer am Arbeitsplatz, Rettungsschwimmer, diensthabende Samariter usw.) und alle, die ihre Fähigkeiten in Fällen von Herznotfall, Herzinfarkt, Sauerstoffmangel oder Schlaganfall aufrechterhalten möchten (z. B. Betreuer von Herzkranken usw.).
+Der umfassende BLS-AED-SRC-Kurs (Basic Life Support – Automatisierter Externer Defibrillator – Swiss Resuscitation Council) zielt darauf ab, die Grundkenntnisse der kardiopulmonalen Wiederbelebung (BLS-AED) während eines Herzstillstands bei Erwachsenen und Kindern in verschiedenen Kontexten zu vertiefen und optimal anzuwenden. Er richtet sich an Gesundheitsfachleute, Ersthelfer (Feuerwehrleute, Polizisten, betriebliche Ersthelfer, Rettungsschwimmer, diensthabende Samariter usw.) und alle, die ihre Fähigkeiten in Fällen eines Herznotfalls, Herzinfarkts, Sauerstoffnotfalls oder Schlaganfalls aufrechterhalten möchten (z. B. Betreuer von Herzpatienten usw.).
 
-Der Kurs vermittelt die "BLS-AED-Grundsätze des SRC" mit dem Ziel, das Wissen zu vertiefen und Basisreanimationsmaßnahmen in spezifischen Situationen anzuwenden. Die Kursunterlagen beinhalten:
+Der Kurs vermittelt die "BLS-AED-Grundsätze des SRC" mit dem Ziel, das Wissen zu vertiefen und grundlegende Wiederbelebungsmaßnahmen in spezifischen Situationen anzuwenden.
 
-- Hilfeleistung unter Beachtung des persönlichen Schutzes.
-- Identifizieren und Beurteilen von Notfallsituationen.
-- Übermittlung der nationalen Notfallnummern (und ggf. auch lokaler Notfallnummern).
-- Situationsbewusstsein und Problemlösung in verschiedenen Notfallsituationen, einschließlich Herzinfarkt und Schlaganfall.
-- Erklärung und Diskussion der Überlebenskette.
-- Stabile Seitenlage bei Bewusstlosigkeit.
-- Maßnahmen bei Verlegung der Atemwege durch einen Fremdkörper.
-- Handeln nach dem BLS-AED-SRC-Algorithmus.
-- Basistraining für Erwachsene und Kinder: Erstbeurteilung, Herzdruckmassage, Beatmung, AED-Defibrillation.
-- Zusammenarbeit mit nicht-professionellen Ersthelfern und professionellen Rettungsschwimmern.
-- Teamarbeit und Kommunikation.
-- Bearbeitung von mindestens 2 Szenarien mit unterschiedlichen Komplexitäten (mindestens ein Szenario mit defibrillierbar
-  em Rhythmus und eines mit nicht defibrillierbar
-  em Rhythmus).
-- Motivationen für Erste Hilfe, einschließlich förderlicher und hinderlicher Einflüsse.
-- Grundlegende ethische Prinzipien.
-- Rechtliche Aspekte: Haftung bei Unterlassung der Hilfeleistung.
-- Erwähnung der Teilnahme an den Ersthelfer-Systemen.
-- Offene Diskussion von Fragen.
+### Schulungsmethoden und Materialien
 
-## Methodik und Lehrmaterialien
+Interaktives und dynamisches Training:
 
-**Interaktives und dynamisches Training:**
+- Geleitet von einem zertifizierten Erwachsenenbildner (IAS3, SVEB/FSEA EduQua) mit über 10 Jahren Erfahrung.
+- Praktischer Ansatz mit 75% Praxisanteil.
+- Jeder Teilnehmer übt die Anwendung eines Defibrillators, um eine effektive Intervention im Notfall sicherzustellen.
+- Erläuterte und illustrierte Flyer werden bereitgestellt.
+- Abschlusstest für jeden Teilnehmer.
 
-- Durchgeführt von einer zertifizierten Erwachsenenbildnerin (IAS3, SVEB / FSEA EduQua) mit 20 Jahren Erfahrung.
-- Praktischer Ansatz von 75%.
-- Jeder Teilnehmer übt den Umgang mit einem Defibrillator, um im Notfall effektiv eingreifen zu können.
-- Erläuterte und illustrierte Faltblätter werden bereitgestellt.
-- Individuelle Prüfung am Ende des Trainings.
+### Mindestanforderungen
 
-**Pädagogische Hilfsmittel:**
-
-- PowerPoint-Präsentationen, Informationsvideos.
-- Demonstrationen mit AED-Trainer-Defibrillatoren (der gleiche AED wie beim Kunden), HS-1 und/oder FRx HeartStart Philips sowie verschiedenen Modellen.
-- Verwendung von Brayden-Puppen https://www.youtube.com/watch?v=JVSViqkogSI&t=2s mit visuellem Feedback und Laerdal-Puppen für Kinder und Babys.
-- Masken und Werkzeuge für den Heimlich-Handgriff.
-- Vorstellung von Erste-Hilfe-Kästen und Übungsgeräten für die Erste Hilfe.
-
-## Minimale Rahmenbedingungen
-
-- Präsenzunterricht mit Feedback zur Qualität der durchgeführten Maßnahmen.
-- Respektieren des individuellen Lerntempos.
+- Präsenzunterricht mit Feedback zur Qualität der Maßnahmen.
+- Berücksichtigung des individuellen Lerntempos.
 - Mindestens 30 Minuten Basismaßnahmen-Training pro Teilnehmer.
-- Mindestens 1 BLS-AED-SRC-Instruktor für je 12 Teilnehmer.
-- Mindestens 1 Erwachsenen-Puppe mit Feedback zu Kriterien der hochwertigen Herzdruckmassage für 2 Teilnehmer.
-- Mindestens 3 - 4 AED-Trainingsgeräte für je 12 Teilnehmer.
-- Mindestens 1 Kinder-Puppe und 1 Baby-Puppe für je 12 Teilnehmer.
-- 1 einfaches Hilfsbeatmungsmittel pro Teilnehmer (z.B. Beatmungsmaske).
+- Mindestens 1 BLS-AED-SRC-Ausbilder für je 8 Teilnehmer.
+- Mindestens 1 Erwachsenen-Übungsmodell mit Feedback zu Hochleistungs-CPR-Kriterien für je 2 Teilnehmer.
+- Mindestens 3 - 4 AED-Trainingsgeräte für je 8 Teilnehmer.
+- Mindestens 1 Junior- und ein Baby-Übungsmodell für je 8 Teilnehmer.
 
-## Zielgruppe
+### Zielgruppe
 
-Der vollständige BLS-AED-SRC-Kurs richtet sich an alle, deren Beruf den sicheren Nachweis von BLS-Fähigkeiten erfordert, wie Angehörige der Gesundheitsberufe oder Ersthelfer mit Hilfeleistungsmandat (Feuerwehrleute, Polizisten, Ersthelfer am Arbeitsplatz, Rettungsschwimmer, diensthabende Samariter usw.) sowie Personen, die ihre Handlungsfähigkeit bei Herzstillstand, Herzinfarkt, Sauerstoffmangel oder Schlaganfall auf höchstem Niveau aufrechterhalten möchten (z.B. Betreuer von Herzpatienten usw.).
+Der vollständige BLS-AED-SRC-Kurs richtet sich an alle, deren Beruf erfordert, sichere BLS-Fähigkeiten zu besitzen und nachzuweisen, wie z. B. Gesundheitsfachkräfte oder Ersthelfer mit Unterstützungspflichten (Feuerwehr, Polizei, betriebliche Ersthelfer, Rettungsschwimmer, diensthabende Samariter usw.), und Personen, die ihre Fähigkeit auf höchstem Niveau zu handeln bei Herzstillstand, Herzinfarkt, Sauerstoffnotfall oder Schlaganfall aufrechterhalten möchten (z. B. Betreuer von Patienten mit Herzerkrankungen usw.).
 
-Sprachen: Französisch, Deutsch und Englisch.
+### Wissenstest
 
-## Wissensbewertung
+- Praktische Übungen während des Kurses zum sicheren und effektiven Erwerb der erforderlichen Erste-Hilfe-Fähigkeiten.
+- Feedback zu den folgenden Punkten:
+  - Auslösung des Alarms.
+  - Berücksichtigung der eigenen Sicherheit und präzise Gefahreneinschätzung.
+  - Richtige Anwendung der BLS-Maßnahmen, einschließlich AED-Einsatz.
+  - Erkennen von Merkmalen schwerer Herzleiden, Hypoxie und Schlaganfall.
+  - Richtige Durchführung der stabilen Seitenlage bei Bewusstlosigkeit.
 
-- Praktische Übungen während des Kurses, um die notwendigen Erste-Hilfe-Fähigkeiten sicher und effektiv zu erwerben.
-- Feedback mit Fokus auf folgenden Punkten:
-  - Alarmierung.
-  - Berücksichtigung der persönlichen Sicherheit und präzise Identifizierung von Gefahren.
-  - Korrekte Anwendung von BLS-Maßnahmen, einschließlich AED-Einsatz.
-  - Erkennen von Merkmalen ernster Herz-Kreislauf-Erkrankungen, Sauerstoffmangel und Schlaganfall.
-  - Korrekte Ausführung der stabilen Seitenlage bei Bewusstlosigkeit.
-- Feedback-Ziel: Motivation der Teilnehmer zur tatsächlichen Hilfeleistung.
-
-## Inbegriffen
-
-- Erläuterte und illustrierte Faltblätter.
-- Der aktuellste SRC Swiss Resuscitation Council Algorithmus.
-- 1 Beatmungsmaske pro Teilnehmer.
-
-## Zertifizierter Instruktor durch
+### Zertifizierter Ausbilder durch
 
 - SanPool Health School.
-- SRC Swiss Resuscitation Council.
+- SRC Schweizerischer Rat für Wiederbelebung.
 - EduQua und SVEB / FSEA Erwachsenenbildner.
-- IAS 3 Inter-Association of Lifesaving.
+- IAS/IVR 3 Interverband für Rettungswesen.
 
-## Räumlichkeiten
+### Einrichtungen
 
-- Die Kursräumlichkeiten werden vom Kunden zur Verfügung gestellt.
-- Die Räumlichkeiten sollten Platz für Teilnehmer und Trainer bieten, einschließlich Sitzgelegenheiten für jeden Teilnehmer und Raum für praktische Übungen.
-- Die Räumlichkeiten müssen mindestens eine Stunde vor Kursbeginn für den Aufbau durch den Instruktor verfügbar sein.
+- Der Schulungsort wird vom Kunden bereitgestellt.
+- Der Raum sollte Platz für die Teilnehmer und Trainer bieten, einschließlich Sitzgelegenheiten für jeden Teilnehmer und Platz für praktische Übungen.
+- Die Räumlichkeiten müssen mindestens eine Stunde vor Kursbeginn für den Trainer zur Verfügung stehen.
 
-## Dauer
+### Preis, Dauer und Teilnehmerzahl
 
-Der Kurs umfasst 3 Stunden Unterrichtszeit ohne Pausen.
+Der BLS-AED-SRC Complet (Generic Provider) Kurs ist für eine Gruppe von bis zu 8 Teilnehmern ausgelegt, mit einer Mindestdauer von 3 bis 4 Lernstunden ohne Pausen. Der Gesamtkurspreis beträgt CHF 890.- exkl. MwSt. und gilt für die gesamte Gruppe von 8 Teilnehmern, nicht pro Person berechnet.
 
-## Preis
+### Zertifikat
 
-CHF 890.- zzgl. MwSt. für maximal 12 Teilnehmer.
+Die Teilnehmer erhalten ein BLS-AED-SRC-Kurszertifikat. Das Zertifikat enthält die folgenden Informationen:
 
-## Zertifikat
-
-Die Teilnehmer erhalten ein BLS-AED-SRC-Kurszertifikat. Das Zertifikat enthält folgende Angaben:
-
-- Titel: "Komplett BLS-AED-SRC".
-- SRC Logo des Complet Cours BLS-AED-SRC Complet (Generic Provider)
+- Titel: "BLS-AED-SRC Complet (Generic Provider)"
+- SRC Logo des BLS-AED-SRC-Kurses.
 - SRC Q-Label.
-- Persönliche Angaben des Teilnehmers: Vorname, Nachname und Geburtsdatum.
+- Persönliche Daten des Teilnehmers: Vorname, Nachname und Geburtsdatum.
 - Ausstellungsdatum durch den Kursleiter.
 - Swiss Defibrillator Sàrl
 
-Das Zertifikat ist 2 Jahre gültig. Die Swiss Defibrillator folgt der SRC-Empfehlung, Kurszertifikate für Teilnehmer mit körperlichen Einschränkungen auszustellen, die an SRC-Kursen teilnehmen. Die Swiss Defibrillator stellt ein Zertifikat aus, dem folgender Zusatz hinzugefügt wird: "Die praktischen Fähigkeiten des Seminars konnten aufgrund körperlicher Einschränkungen nicht vollständig geschult werden."
+Das Zertifikat ist 2 Jahre gültig.

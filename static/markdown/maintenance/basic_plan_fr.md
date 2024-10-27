@@ -1,24 +1,34 @@
-# Plan de Maintenance de Base
+# Maintenance du Service
 
-Notre Plan de Maintenance de Base est la solution ultime pour les organisations qui exigent le plus haut niveau de préparation de leurs unités de défibrillateurs. Avec ce plan, vous n'achetez pas seulement un service de maintenance ; vous investissez dans la fiabilité et l'efficacité de vos capacités de réponse d'urgence. Ce plan est idéal pour les environnements à forte fréquentation tels que les centres commerciaux, les écoles et les grands bureaux, où l'utilisation opportune d'un défibrillateur entièrement fonctionnel pourrait faire la différence entre la vie et la mort.
+Swiss Defibrillator propose des solutions de maintenance complètes pour garantir que vos défibrillateurs fonctionnent en toute sécurité et fiabilité. Notre Plan de Maintenance Tout-Compris est idéal pour les organisations souhaitant une tranquillité d'esprit, avec un support client 24/7 et des visites de maintenance annuelles.
 
-## Fonctionnalités et Avantages
+Maintenance Tout-Compris
 
-- **Vérifications Trimestrielles**: Nos techniciens experts effectuent des vérifications complètes tous les trois mois. Ce calendrier régulier garantit que vos défibrillateurs sont toujours en parfait état, que les batteries sont chargées et que les tampons sont dans leur date d'utilisation, éliminant tout doute sur leur fonctionnalité en cas d'urgence.
-- **Remplacement Gratuit des Pièces Utilisées**: Après un événement de sauvetage, il est crucial que votre défibrillateur soit rapidement restauré à son plein état opérationnel. Nous garantissons le remplacement gratuit et rapide de toutes les pièces utilisées, assurant aucun temps d'arrêt pour votre appareil.
-- **Support Client**: Gagnez en tranquillité d'esprit avec l'accès à notre équipe de support client dédiée. Que vous ayez des questions sur votre appareil, besoin d'assistance ou nécessitez un support d'urgence, nous sommes là pour vous.
-- **Réduction sur les Cours de Premiers Secours**: Améliorez la préparation de votre équipe avec nos cours de premiers secours, proposés à des tarifs réduits exclusivement pour les abonnés du Plan de Base. Ces cours peuvent autonomiser votre personnel avec les connaissances et compétences pour agir avec confiance lors des urgences.
-- **Service National en Suisse**: Notre réseau de techniciens qualifiés couvre toute la Suisse, garantissant un service rapide et efficace, quel que soit votre emplacement.
+Support 24/7 et Réponse Rapide  
+Swiss Defibrillator offre un support client 24/7 au 079 441 24 06, garantissant une assistance immédiate à tout moment. Une intervention sur site est disponible dans les 48 heures suivant la demande.
 
-## Tarification
+Maintenance et Inspections Annuelles  
+Chaque année, nous effectuons une inspection complète, un contrôle de maintenance et une documentation pour garantir les performances du défibrillateur et la conformité aux directives de Swissmedic. Swissmedic recommande les normes SN EN 62353 pour la sécurité et les performances continues des dispositifs électromédicaux. Cette norme suisse impose des inspections visuelles, des contrôles fonctionnels et des tests spécifiques sur des équipements comme les défibrillateurs, garantissant qu'ils répondent aux exigences de sécurité tout au long de leur durée de vie.
 
-- CHF 890 par mois, par défibrillateur.
-- Un engagement sur un contrat minimum de 24 mois vous assure un service continu et ininterrompu. Voir les termes et conditions pour plus de détails.
+Ce qui est inclus :  
+- Remplacement des électrodes adultes tous les 24 mois (inclus dans le tarif annuel)  
+- Remplacement de la batterie tous les 48 mois (inclus dans le tarif annuel), y compris l'installation  
+- Transfert des données de l’électrocardiogramme vers un hôpital ou un médecin spécifié si compatible avec le modèle de l'appareil  
+- Livraison d'un défibrillateur de prêt en cas de réparation de votre appareil (jusqu'à un mois)
 
-## Offres Spéciales
+Rapport Annuel DEA  
+Après chaque maintenance annuelle, le client reçoit un rapport détaillé du DEA, comprenant :  
+- La date de service  
+- Les dates d'expiration de la batterie et des électrodes  
+- La date du prochain service programmé  
+Cela garantit que vous disposez de toutes les informations nécessaires pour maintenir votre appareil conforme et prêt à l'emploi.
 
-- Bénéficiez de réductions significatives lors de l'inscription de plusieurs défibrillateurs dans notre plan, rendant économique pour les établissements plus grands de maintenir leurs capacités de réponse d'urgence.
+Exclusions :  
+Veuillez noter que les incidents non liés à la maintenance régulière, tels que les incendies, tremblements de terre, vols ou autres événements extraordinaires, ne sont pas couverts par ce plan.
 
-## Commencez
+Tarifs Pratiques et Options de Paiement  
+Notre Plan de Maintenance Tout-Compris est de 275 CHF par an (310 CHF avec AIVIA100 Support Mural) plus TVA, avec une réduction la première année et des réductions supplémentaires pour les clients possédant plusieurs défibrillateurs. Ce tarif comprend le remplacement d'une batterie tous les 4 ans et un jeu d'électrodes tous les 2 ans, garantissant une maintenance sans souci.
 
-Assurez aujourd'hui la sécurité et la préparation de votre équipement d'urgence. Cliquez sur le bouton "réserver" pour discuter de vos besoins avec un représentant du support client et faire le premier pas vers une préparation et une tranquillité d'esprit inégalées.
+Pour les clients souhaitant une couverture essentielle, notre Plan de Maintenance de Base offre des services de maintenance flexibles, incluant des notifications proactives deux semaines avant l'expiration des électrodes ou des batteries, et des remplacements gérés selon les besoins. Ce plan facture uniquement les articles de remplacement et toute intervention de service, assurant une maintenance économique.
+
+Swiss Defibrillator s'engage à respecter les normes et la réglementation Swissmedic, en offrant une maintenance fiable conforme aux normes rigoureuses de qualité et de sécurité des équipements électromédicaux en Suisse.

@@ -76,4 +76,38 @@ Questions about the Terms of Service should be sent to us at:
 
 `info@swissdefibrillator.ch`
 
+## 17. Agreement Overview
+
+These Terms govern the relationship between Swiss Defibrillator Sàrl and customers, covering product warranty, maintenance, training, invoicing, and payments.
+
+## 18. Product Warranty and Maintenance
+
+Swiss Defibrillator defibrillators are covered by an 8-year warranty from Philips Health Care, with setup assistance provided. Clients are responsible for installation unless otherwise agreed.
+
+Maintenance plans ensure regular checks and compliance with Swissmedic standards. Full-Service and Remote Maintenance options offer proactive support and replacement components. Emergency services are provided within 48 hours, when required. Service does not cover damages from misuse or force majeure.
+
+## 19. Product Returns and Compliance with Swiss Regulations
+
+Swiss Defibrillator complies with Swiss regulations. Products may be returned within **5 working days** of delivery if they are unused, in original condition, and accompanied by the original packaging. Defective products must be reported within **3 working days** of receipt. Shipping costs for returns are the customer’s responsibility unless due to a defect or error on our part. Refunds or exchanges will be processed upon receipt and inspection of the returned product.
+
+## 20. Training
+
+Training is offered for up to 8 participants per session, adhering to IVR/IAS, and SRC standards. Clients are responsible for providing suitable training venues. Cancellation or rescheduling may incur fees depending on notice time.
+
+## 21. Invoicing and Payment
+
+Clients must pay in advance unless otherwise agreed. Payments are due within 30 days. Late payments incur reminders and fees if not paid within the stipulated time.
+
+## 22. Bank Transfer Details
+
+Payments should be made to UBS Switzerland AG, with IBAN: CH96 0024 3243 1747 7401 Z and SWIFT: UBSWCHZH80A, referencing the relevant invoice number.
+
+## 23. Defibrillator Use and Responsibility
+
+Clients must adhere to usage guidelines provided in the device manual. Swiss Defibrillator is not liable for misuse.
+
+## 24. Inspection and Reporting
+
+Clients must inspect products immediately upon delivery and report any defects within 3 working days. Swiss Defibrillator is not liable for unreported defects after this period.
+
 By using our website and services, you signify your acceptance of these Terms and Conditions. If you do not agree to these terms, please do not use our website or services.

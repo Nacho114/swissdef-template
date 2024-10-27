@@ -1,3 +1,3 @@
-# AED Sticker
+# AED-Aufkleber
 
-The AED one sided Sticker measures 30 x 20 cm and ensures durability and longevity, allowing optimal visibility with white letters and the AED standard logo. The sign is in a vibrant green matching the RAL 6024 color standard. This color choice adheres to recognized emergency color codes, promoting safety awareness effortlessly.
+Der einseitige AED-Aufkleber misst 30 x 20 cm und gewährleistet Haltbarkeit und Langlebigkeit, bietet optimale Sichtbarkeit mit weißen Buchstaben und dem standardisierten AED-Logo. Das Schild ist in einem leuchtenden Grün gestaltet, das dem RAL 6024 Farbstandard entspricht. Diese Farbwahl hält sich an anerkannte Notfallfarbcodes und fördert das Sicherheitsbewusstsein mühelos.

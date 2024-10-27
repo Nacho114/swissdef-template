@@ -2,6 +2,10 @@
 
 ## IVR/IAS First Aid Level 1 in everyday life and in road traffic, including BLS-AED-SRC complet (Generic Provider)
 
+### Course Duration and Price
+
+The First Aid Level 1 IVR Course includes a minimum of 14 hours of learning time. The educational institution may extend the course duration if needed, and the course must be completed over at least two days within six months. The course is limited to a maximum of 8 participants, with a total price of CHF 2,940.- excluding VAT, covering the entire group of 8 participants. This is a flat rate for the whole training, so each participant will not be charged individually.
+
 ### Contents
 
 The IVR/IAS First Aid course aligns with the standards set by the Swiss Resuscitation Council (SRC) and the State Secretariat for Economic Affairs (SECO), covering essential topics such as the "Top Ten Medical Emergencies" outlined in Regulation 3 of the Labour Act, Article 36. Recommended by SECO, this course adheres to the guidelines for first aid provision in companies. The "First Aid Level 1 IVR" training aims to equip participants with fundamental first aid skills, including initial response measures for emergency situations encountered in everyday life and traffic, such as BLS-AED-SRC protocols.
@@ -123,7 +127,3 @@ The participant is informed about additional educational and course offerings.
 ### Target Audience
 
 These standards are intended for participants from the age of 12 and for individuals who wish to obtain a driver's license.
-
-### Course Duration and Price
-
-The First Aid Level 1 IVR course comprises a minimum of 14 hours of learning. The educational organization is free to extend the duration of the course. The entire course time must be spread over at least 2 days and completed within 6 months. For maximum 8 participants.

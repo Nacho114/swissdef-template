@@ -1,45 +1,45 @@
-# Warranty and Returns Policy for Swiss Defibrillator
+# Politique de garantie et de retours de Swiss Defibrillator
 
-## Warranty
+## Garantie
 
-### What's Covered
+### Ce qui est couvert
 
-All AED defibrillators sold by Swiss Defibrillator come with a 2-year limited warranty covering defects in materials and workmanship under normal use, subject to the conditions and exclusions set forth in this policy.
+Tous les défibrillateurs AED vendus par Swiss Defibrillator sont couverts par une garantie limitée de 8 ans fournie par le fabricant, Philips, contre les défauts de matériaux et de fabrication dans le cadre d’une utilisation normale, sous réserve des conditions et exclusions énoncées dans cette politique.
 
-### What's Not Covered
+### Ce qui n’est pas couvert
 
-The warranty does not cover:
+La garantie ne couvre pas :
 
-- Normal wear and tear
-- Damage caused by misuse, abuse, or accident
-- Modifications or repairs performed by unauthorized parties
-- Use of non-approved accessories or consumables
-- Damage caused by failure to follow instructions or maintain the device properly
+- L’usure normale
+- Les dommages causés par une mauvaise utilisation, un abus ou un accident
+- Les modifications ou réparations effectuées par des parties non autorisées
+- L’utilisation d’accessoires ou consommables non approuvés
+- Les dommages causés par le non-respect des instructions ou par une maintenance inadéquate du dispositif
 
-### Making a Claim
+### Comment faire une réclamation
 
-To make a warranty claim, please contact our customer service team with your purchase details and a description of the issue. You may be required to provide proof of purchase and return the device for inspection. Shipping costs for warranty claims are the responsibility of the customer.
+Pour faire une réclamation sous garantie, veuillez contacter notre service client avec vos informations d’achat et une description du problème. Vous devrez peut-être fournir une preuve d'achat et retourner l'appareil pour inspection. Les frais de port pour les réclamations sous garantie sont à la charge du client.
 
-### Warranty Limitations
+### Limitations de la garantie
 
-The warranty is the sole and exclusive warranty provided by Swiss Defibrillator. We disclaim all other warranties, express or implied, including any implied warranties of merchantability or fitness for a particular purpose. In no event shall Swiss Defibrillator be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with the use or performance of the device.
+La garantie est la seule garantie exclusive offerte par Swiss Defibrillator. Nous déclinons toutes autres garanties, expresses ou implicites, y compris toute garantie implicite de qualité marchande ou d'aptitude à un usage particulier. Swiss Defibrillator ne saurait en aucun cas être tenu responsable de tout dommage indirect, accessoire, spécial ou consécutif découlant de l'utilisation ou des performances de l'appareil.
 
-## Returns
+## Retours
 
-### Return Policy
+### Politique de retour
 
-You may return your AED defibrillator within 7 days of receipt if it is in new and unused condition, with all original packaging and accessories. The device must not have been registered with emergency services or used in any way.
+Vous pouvez retourner votre défibrillateur AED dans les 7 jours suivant la réception s'il est dans un état neuf et inutilisé, avec tous les emballages et accessoires d'origine. L’appareil ne doit pas avoir été enregistré auprès des services d’urgence ni utilisé de quelque manière que ce soit.
 
-### How to Return
+### Comment retourner
 
-Contact our customer service for a return authorization and instructions on how to ship the product back to us. All returns must be prepaid by the customer. We do not accept returns shipped collect or without a return authorization.
+Contactez notre service client pour obtenir une autorisation de retour et les instructions pour renvoyer le produit. Tous les retours doivent être prépayés par le client. Nous n'acceptons pas les retours envoyés en port dû ou sans autorisation de retour.
 
-### Restocking Fee
+### Frais de restockage
 
-All returns are subject to a 20% restocking fee, which will be deducted from your refund.
+Tous les retours sont soumis à des frais de restockage de 20 %, qui seront déduits de votre remboursement.
 
-### Refunds
+### Remboursements
 
-Upon receipt and inspection of the returned item, we will process your refund, less the restocking fee and any applicable shipping charges. Refunds are issued to the original payment method and may take up to 14 business days to appear on your statement.
+Après réception et inspection de l'article retourné, nous traiterons votre remboursement, moins les frais de restockage et les éventuels frais d'expédition applicables. Les remboursements sont émis sur le mode de paiement original et peuvent prendre jusqu'à 14 jours ouvrables pour apparaître sur votre relevé.
 
-This policy is subject to change. Please visit our website for the most current information. By purchasing from Swiss Defibrillator, you agree to be bound by the terms of this Warranty and Returns Policy.
+Cette politique est susceptible de modification. Veuillez consulter notre site Web pour obtenir les informations les plus récentes. En achetant chez Swiss Defibrillator, vous acceptez les conditions de cette politique de garantie et de retour.

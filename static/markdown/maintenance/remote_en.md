@@ -27,11 +27,15 @@ This report provides all the necessary information to keep your defibrillator co
 Please note that incidents unrelated to regular maintenance, such as fire, earthquake, theft, or other extraordinary events, are not covered by this plan.
 
 ### Affordable Rates and Flexible Payment Options
-Our Remote Maintenance Plan is CHF 225 per year (CHF 260 with AIVIA100 Wallmount) plus VAT. The fee includes one battery replacement every 4 years and one set of pads every 2 years, ensuring cost-effective, worry-free maintenance. A first-year discount is available, along with additional reductions for clients with multiple defibrillators.
 
-For clients needing essential coverage, our **Basic Remote Maintenance Plan** offers flexible services, including proactive notifications two weeks before pads or batteries expire and shipping replacements as needed. This plan charges only for the components and any remote service interventions, providing a budget-friendly option for remote defibrillator maintenance.
+Our Remote Maintenance Plan is available at CHF 50 per year (or CHF 70 with AIVIA100 Wallmount) plus VAT. This fee includes a one-time remote service session to guide you through replacing consumables, such as pads and batteries, ensuring correct installation and functionality.
+
+**Important**: The cost of consumables—including AED pads, AED batteries, and AIVIA 100 batteries—is **not included** in the plan fee and must be purchased separately as needed.
+
+For clients needing essential coverage, our **Basic Remote Maintenance Plan** offers flexible services, including proactive notifications two weeks before pads or batteries expire and remote service assistance for replacements when required. This basic plan charges only for remote guidance sessions and consumable components, providing a budget-friendly option for maintaining your defibrillator remotely.
 
 ### Swiss Quality and Compliance
 Swiss Defibrillator remains committed to Swissmedic standards and regulatory compliance, providing dependable maintenance through video-assisted guidance. Our Remote Maintenance Plan ensures rigorous quality and safety standards for your electromedical equipment, wherever you are in Switzerland.
 
 Let us support your defibrillator’s upkeep from afar, ensuring its readiness without compromising on safety or convenience.
+

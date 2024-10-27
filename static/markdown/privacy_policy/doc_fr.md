@@ -1,72 +1,72 @@
-# Privacy Policy
+# Politique de Confidentialité
 
-At Swiss Defibrillator, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you visit our website and use our services. By accessing or using our website, you consent to the terms of this Privacy Policy.
+Chez Swiss Defibrillator, nous nous engageons à protéger votre vie privée et à garantir la sécurité de vos informations personnelles. Cette Politique de Confidentialité décrit comment nous collectons, utilisons, divulguons et protégeons vos données lorsque vous visitez notre site Web et utilisez nos services. En accédant à notre site Web ou en l’utilisant, vous consentez aux termes de cette Politique de Confidentialité.
 
-## 1. Information We Collect
+## 1. Informations que Nous Collectons
 
-We may collect personal information that you voluntarily provide to us when you use our website or services, such as when you place an order, register for an account, subscribe to a newsletter, or fill out a contact form. The personal information we collect may include, but is not limited to:
+Nous pouvons collecter des informations personnelles que vous nous fournissez volontairement lorsque vous utilisez notre site Web ou nos services, par exemple lorsque vous passez une commande, créez un compte, vous inscrivez à une newsletter ou remplissez un formulaire de contact. Les informations personnelles que nous collectons peuvent inclure, mais sans s'y limiter :
 
-- Name
-- Email address
-- Postal address
-- Phone number
-- Payment information
-- Other information you choose to provide
+- Nom
+- Adresse e-mail
+- Adresse postale
+- Numéro de téléphone
+- Informations de paiement
+- Autres informations que vous choisissez de fournir
 
-We may also collect non-personal information about your interaction with our website, such as your IP address, browser type, operating system, and referring websites.
+Nous pouvons également collecter des informations non personnelles sur votre interaction avec notre site Web, telles que votre adresse IP, le type de navigateur, le système d’exploitation et les sites Web de provenance.
 
-## 2. How We Use Your Information
+## 2. Comment Nous Utilisons Vos Informations
 
-We use the information we collect to provide, maintain, and improve our services, as well as to communicate with you. Specifically, we may use your information to:
+Nous utilisons les informations que nous collectons pour fournir, maintenir et améliorer nos services, ainsi que pour communiquer avec vous. Plus précisément, nous pouvons utiliser vos informations pour :
 
-- Process and fulfill your orders
-- Provide customer support
-- Send you important updates and notifications
-- Personalize your experience on our website
-- Analyze trends and gather demographic information for aggregate use
-- Detect, prevent, and address technical issues and fraud
-- Comply with legal obligations
+- Traiter et exécuter vos commandes
+- Fournir un support client
+- Vous envoyer des mises à jour et notifications importantes
+- Personnaliser votre expérience sur notre site Web
+- Analyser les tendances et recueillir des informations démographiques pour un usage global
+- Détecter, prévenir et résoudre les problèmes techniques et la fraude
+- Respecter les obligations légales
 
-## 3. Information Sharing and Disclosure
+## 3. Partage et Divulgation des Informations
 
-We do not sell, trade, or otherwise transfer your personal information to outside parties without your consent, except as described in this Privacy Policy. We may share your information with trusted third-party service providers who assist us in operating our website, conducting our business, or servicing you, as long as those parties agree to keep this information confidential.
+Nous ne vendons, échangeons ni ne transférons vos informations personnelles à des tiers sans votre consentement, sauf dans les cas décrits dans cette Politique de Confidentialité. Nous pouvons partager vos informations avec des fournisseurs de services tiers de confiance qui nous aident à exploiter notre site Web, à mener nos activités ou à vous servir, à condition que ces parties acceptent de garder ces informations confidentielles.
 
-We may also disclose your personal information when we believe it is necessary to comply with applicable laws, to respond to legal process, to enforce our site policies, or to protect our or others' rights, property, or safety.
+Nous pouvons également divulguer vos informations personnelles lorsque nous estimons que cela est nécessaire pour se conformer aux lois applicables, répondre à une procédure judiciaire, faire respecter nos politiques du site ou protéger nos droits ou la sécurité d'autrui.
 
-## 4. Data Security
+## 4. Sécurité des Données
 
-We implement reasonable security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
+Nous mettons en œuvre des mesures de sécurité raisonnables pour protéger vos informations personnelles contre l'accès, la modification, la divulgation ou la destruction non autorisés. Cependant, aucune méthode de transmission sur Internet ou de stockage électronique n'est 100 % sécurisée, et nous ne pouvons garantir une sécurité absolue.
 
-## 5. Data Retention
+## 5. Conservation des Données
 
-We will retain your personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law.
+Nous conserverons vos informations personnelles aussi longtemps que nécessaire pour atteindre les objectifs décrits dans cette Politique de Confidentialité, sauf si une période de conservation plus longue est requise ou permise par la loi.
 
-## 6. Your Rights Under GDPR
+## 6. Vos Droits en vertu du RGPD
 
-If you are a resident of the European Economic Area (EEA), you have certain rights under the General Data Protection Regulation (GDPR), including:
+Si vous êtes résident de l'Espace Économique Européen (EEE), vous avez certains droits en vertu du Règlement Général sur la Protection des Données (RGPD), notamment :
 
-- The right to access your personal information
-- The right to request correction or erasure of your personal information
-- The right to restrict or object to the processing of your personal information
-- The right to data portability
-- The right to withdraw consent at any time
+- Le droit d'accéder à vos informations personnelles
+- Le droit de demander la correction ou la suppression de vos informations personnelles
+- Le droit de restreindre ou de vous opposer au traitement de vos informations personnelles
+- Le droit à la portabilité des données
+- Le droit de retirer votre consentement à tout moment
 
-To exercise these rights, please contact us using the information provided below.
+Pour exercer ces droits, veuillez nous contacter en utilisant les informations fournies ci-dessous.
 
-## 7. Children's Privacy
+## 7. Confidentialité des Enfants
 
-Our website and services are not directed to children under the age of 16. We do not knowingly collect personal information from children under 16. If you are a parent or guardian and believe that your child has provided us with personal information, please contact us so that we can delete the information.
+Notre site Web et nos services ne s'adressent pas aux enfants de moins de 16 ans. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants de moins de 16 ans. Si vous êtes parent ou tuteur et pensez que votre enfant nous a fourni des informations personnelles, veuillez nous contacter pour que nous puissions supprimer ces informations.
 
-## 8. Changes to This Privacy Policy
+## 8. Modifications de cette Politique de Confidentialité
 
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date at the top of the Privacy Policy.
+Nous pouvons mettre à jour notre Politique de Confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle Politique de Confidentialité sur cette page et en mettant à jour la date de "Dernière mise à jour" en haut de la Politique de Confidentialité.
 
-## 9. Contact Us
+## 9. Contactez-nous
 
-If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at:
+Si vous avez des questions ou des préoccupations concernant cette Politique de Confidentialité ou nos pratiques en matière de confidentialité, veuillez nous contacter à :
 
 `info@swissdefibrillator.ch`
 
-By using our website and services, you signify your acceptance of this Privacy Policy. If you do not agree to this Privacy Policy, please do not use our website or services.
+En utilisant notre site Web et nos services, vous signifiez votre acceptation de cette Politique de Confidentialité. Si vous n'êtes pas d'accord avec cette Politique de Confidentialité, veuillez ne pas utiliser notre site Web ou nos services.
 
-Last Updated: March 23, 2024
+Dernière mise à jour : 27 octobre 2024

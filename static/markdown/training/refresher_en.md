@@ -11,6 +11,7 @@
 
 The same requirements apply for the Refresher Course as for the First Aid Level 1 IVR/IAS Course.
 
-### **Duration**
+### **Duration and Price**
 
-The duration of the First Aid Level 1 IVR Refresher Course is at least 7 learning hours with 8 participants.
+The First Aid Level 1 IVR Refresher Course is designed for a group of up to 8 participants, with a minimum duration of 7 learning hours. The total course price is CHF 1,470.- excluding VAT, covering the entire group of 8 participants, not charged per individual.
+

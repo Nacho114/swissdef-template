@@ -38,11 +38,7 @@ BLS-AED-SRC (Basic Life Support – Automated External Defibrillator – Swiss R
 
 ### **Duration, Price, and Certificate**
 
-Minimum of 1 to 2 hours of learning time.
-
-#### **Price**
-
-CHF 450.- plus VAT for a maximum of 8 participants.
+The BLS-AED-SRC Compact (Basic Provider) Course is designed for a group of up to 8 participants, with a minimum duration of 1 to 2 learning hours. The total course price is CHF 504.- excluding VAT, covering the entire group of 8 participants, not charged per individual. 
 
 #### **Certificate**
 

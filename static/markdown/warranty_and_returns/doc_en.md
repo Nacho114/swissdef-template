@@ -4,7 +4,7 @@
 
 ### What's Covered
 
-All AED defibrillators sold by Swiss Defibrillator come with a 2-year limited warranty covering defects in materials and workmanship under normal use, subject to the conditions and exclusions set forth in this policy.
+All AED defibrillators sold by Swiss Defibrillator come with an 8-year limited warranty provided by the manufacturer, Philips, covering defects in materials and workmanship under normal use, subject to the conditions and exclusions set forth in this policy.
 
 ### What's Not Covered
 

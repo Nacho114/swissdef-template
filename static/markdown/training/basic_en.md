@@ -108,20 +108,16 @@ Languages: French, German, and English.
 - The venue should accommodate participants and trainer(s), including seating for each participant and space for practical exercises.
 - The premises must be available at least one hour before the start of the course for the instructor to set up.
 
-### Duration
+### Price, Duration and Participants
 
-The course comprises 3-4 hours of teaching time without breaks.
-
-### Price
-
-CHF 890.- plus VAT for a maximum of 8 participants
+The BLS-AED-SRC Complet (Generic Provider) Course is designed for a group of up to 8 participants, with a minimum duration of 3 to 4 learning hours without brakes. The total course price is CHF 890.- excluding VAT, covering the entire group of 8 participants, not charged per individual.
 
 ### Certificate
 
 Participants receive a BLS-AED-SRC course certificate. The certificate contains the following information:
 
-- Title: "Complete BLS-AED-SRC."
-- SRC Logo of the Complet Cours BLS-AED-SRC Complet (Generic Provider)
+- Title: "BLS-AED-SRC Complet (Generic Provider)"
+- SRC Logo of the Complet Training BLS-AED-SRC Complet (Generic Provider)
 - SRC Q-label.
 - Participant's personal information: first name, last name, and date of birth.
 - Date of issuance by the course instructor.

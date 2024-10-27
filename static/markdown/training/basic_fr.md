@@ -1,126 +1,86 @@
-# Formation Avancée
+# Formation de base
 
-## Objectifs
+## BLS-AED-SRC Complet (Generic Provider)
 
-Les participants appliquent les mesures de réanimation de base (BLS : Basic Life Support) dans diverses situations, y compris la défibrillation externe automatisée (DEA), pour les adultes et les enfants, tout en assurant leur propre sécurité. Ils :
+### Objectifs
 
-- Donnent l'alerte rapidement.
-- Considèrent leur propre sécurité lors de l'assistance.
-- Appliquent les techniques de réanimation de base sur des modèles d'entraînement pour adultes et enfants, y compris les RCP de haute performance, la ventilation et la défibrillation à l'aide d'un DEA.
-- Reconnaissent les caractéristiques typiques de l'arrêt cardiaque, de l'infarctus du myocarde et de l'accident vasculaire cérébral, en expliquant les possibilités de prévention.
-- Effectuent la position latérale de sécurité correcte en cas d'inconscience.
-- Expliquent les mesures à prendre en cas d'obstruction des voies respiratoires par un corps étranger.
-- Appliquent les mesures de RCP dans des scénarios concrets, en se concentrant sur les groupes cibles.
-- Réfléchissent sur leur propre motivation à apporter une assistance.
+Les participants appliquent les mesures de réanimation de base (BLS : Basic Life Support) dans diverses situations, y compris la défibrillation automatisée externe (DAE), pour les enfants et les adultes, tout en veillant à leur propre sécurité. Ils :
+
+- Alertent rapidement.
+- Prennent en compte leur propre sécurité lors de l'assistance.
+- Appliquent des techniques de réanimation de base sur des mannequins d'adultes et d'enfants, y compris la RCP à haute performance, la ventilation et la défibrillation avec un DAE.
+- Reconnaissent les caractéristiques typiques de l'arrêt cardiaque, de l'infarctus du myocarde et de l'AVC et expliquent les possibilités de prévention.
+- Placent correctement une personne inconsciente en position latérale de sécurité.
+- Expliquent les mesures à prendre en cas d'obstruction des voies aériennes par un corps étranger.
+- Appliquent des mesures de BLS dans des scénarios concrets, en fonction des groupes cibles.
+- Réfléchissent à leur propre motivation pour apporter une aide.
 - Décrivent comment gérer les facteurs défavorables lors des premiers secours.
-- Sont informés d'une éventuelle intégration dans le système de premiers intervenants.
+- Sont informés de la possibilité d'intégration dans le système de premiers intervenants.
 
-## Contenu de la formation
+### Contenu de la formation
 
-La formation complète BLS-DEA-SRC (Basic Life Support - Défibrillateur Externe Automatisé - Conseil Suisse de Réanimation) vise à approfondir et à appliquer de manière optimale les techniques de réanimation cardio-pulmonaire de base (BLS-DEA) en cas d'arrêt cardiaque chez les adultes et les enfants dans divers contextes. Elle s'adresse aux professionnels de la santé, aux premiers intervenants (pompiers, policiers, secouristes en milieu de travail, sauveteurs, samaritains de service, etc.) et à toute personne souhaitant maintenir ses compétences en cas d'urgence cardiaque, d'infarctus du myocarde, d'urgence hypoxique ou d'accident vasculaire cérébral (par exemple, les aidants de patients cardiaques, etc.).
+Le cours BLS-AED-SRC complet (Basic Life Support – Défibrillateur Externe Automatisé – Conseil Suisse pour la Réanimation) vise à approfondir et à appliquer de manière optimale les techniques de réanimation cardiorespiratoire de base (BLS-AED) lors d'un arrêt cardiaque chez les adultes et les enfants dans divers contextes. Il s'adresse aux professionnels de santé, aux premiers intervenants (pompiers, policiers, secouristes d'entreprise, sauveteurs, Samaritains de service, etc.) et à toute personne souhaitant maintenir ses compétences en cas d'urgence cardiaque, d'infarctus du myocarde, d'urgence hypoxique ou d'AVC (ex : soignants de patients cardiaques, etc.).
 
-La formation transmet les "principes BLS-DEA du SRC" dans le but d'approfondir les connaissances et d'appliquer les mesures de réanimation de base dans des situations spécifiques. Le contenu de la formation comprend :
+### Méthodologie et Matériel pédagogique
 
-- L'assistance en assurant sa propre protection.
-- L'identification et l'évaluation des situations d'urgence.
-- La transmission des numéros d'urgence nationaux (et si nécessaire, des numéros d'urgence locaux également).
-- La prise de conscience de la situation et la résolution de problèmes dans diverses situations d'urgence, y compris l'infarctus du myocarde et l'accident vasculaire cérébral.
-- L'explication et la discussion de la chaîne de survie.
-- La position latérale de sécurité en cas d'inconscience.
-- Les mesures à prendre en cas d'obstruction des voies respiratoires par un corps étranger.
-- Les actions selon l'algorithme BLS-DEA-SRC.
-- La formation aux compétences de base pour les adultes et les enfants : évaluation initiale, RCP, ventilation, défibrillation par DEA.
-- La collaboration avec les secouristes non professionnels et les sauveteurs professionnels.
-- Le travail d'équipe et la communication.
-- La gestion d'au moins 2 scénarios de complexités différentes (dont au moins un scénario avec un rythme chocable et un avec un rythme non chocable).
-- Les motivations pour les premiers secours, y compris les influences favorables et défavorables.
-- Les principes éthiques fondamentaux.
-- Les aspects juridiques : la responsabilité en cas de non-assistance.
-- La mention de la participation aux systèmes de premiers intervenants.
-- Une discussion ouverte sur les questions.
+Formation interactive et dynamique :
 
-## Méthodologie et supports pédagogiques
-
-**Formation interactive et dynamique :**
-
-- Animée par un formateur certifié pour adultes (IAS3, SVEB / FSEA EduQua) avec 20 ans d'expérience.
+- Animée par un formateur d'adultes certifié (IAS3, SVEB / FSEA EduQua) avec plus de 10 ans d'expérience.
 - Approche pratique à 75 %.
-- Chaque participant s'entraîne à l'utilisation d'un défibrillateur pour garantir une intervention efficace en cas d'urgence.
-- Des dépliants explicatifs et illustrés sont fournis.
-- Test individuel à la fin de la formation.
+- Chaque participant s'exerce à l'utilisation d'un défibrillateur pour garantir une intervention efficace en cas d'urgence.
+- Des flyers expliqués et illustrés sont fournis.
+- Test individuel en fin de formation.
 
-**Supports pédagogiques :**
+### Conditions minimales
 
-- Présentations PowerPoint, vidéos informatives.
-- Démonstrations avec des défibrillateurs de formation DEA (le même DEA appartenant au client), HS-1 et/ou FRx HeartStart Philips, ainsi que divers modèles.
-- Utilisation de mannequins Brayden https://www.youtube.com/watch?v=JVSViqkogSI&t=2s avec un retour visuel, et de mannequins Laerdal pour enfants et bébés.
-- Masques et outils pour la manœuvre de Heimlich.
-- Présentation de trousses de premiers secours et d'outils d'exercice dédiés aux premiers secours.
-
-## Conditions cadres minimales
-
-- Enseignement en présentiel avec un retour sur la qualité des mesures prises.
+- Formation en présentiel avec retour d'information sur la qualité des mesures prises.
 - Respect du rythme d'apprentissage individuel.
 - Au moins 30 minutes de formation aux mesures de base par participant.
-- Au moins 1 instructeur BLS-DEA-SRC pour 12 participants.
-- Au moins 1 mannequin adulte avec un retour sur les critères de RCP de haute performance pour 2 participants.
-- Au moins 3 à 4 dispositifs de formation DEA pour 12 participants.
-- Au moins 1 mannequin junior et 1 mannequin de bébé pour 12 participants.
-- 1 moyen de ventilation auxiliaire simple par participant (par exemple, un masque de poche).
+- Au moins 1 instructeur BLS-AED-SRC pour 8 participants.
+- Au moins 1 mannequin adulte avec retour d'information sur les critères de RCP haute performance pour 2 participants.
+- Au moins 3 - 4 appareils de formation DAE pour chaque groupe de 8 participants.
+- Au moins 1 mannequin junior et un mannequin bébé pour 8 participants.
 
-## Public cible
+### Public cible
 
-La formation complète BLS-DEA-SRC s'adresse à toute personne dont la profession exige qu'elle possède et démontre des compétences en RCP de base en toute sécurité, comme les professionnels de la santé ou les premiers intervenants ayant des mandats d'assistance (pompiers, policiers, secouristes en milieu de travail, sauveteurs, samaritains de service, etc.), ainsi qu'aux personnes qui souhaitent maintenir leur capacité à agir au plus haut niveau en cas d'arrêt cardiaque, d'infarctus du myocarde, d'urgence hypoxique ou d'accident vasculaire cérébral (par exemple, les aidants de patients souffrant de maladies cardiaques, etc.).
+Le cours complet BLS-AED-SRC s'adresse à toute personne dont le métier exige qu'elle possède et démontre des compétences en BLS, comme les professionnels de la santé ou les premiers intervenants avec des mandats d'assistance (pompiers, policiers, secouristes d'entreprise, sauveteurs, Samaritains de service, etc.), ainsi qu'aux personnes qui souhaitent maintenir leur capacité à agir au plus haut niveau lors d'un arrêt cardiaque, d'un infarctus, d'une urgence hypoxique ou d'un AVC (ex : soignants de patients atteints de maladies cardiaques, etc.).
 
-Langues : français, allemand et anglais.
+### Évaluation des connaissances
 
-## Évaluation des connaissances
-
-- Exercices pratiques pendant la formation pour acquérir les compétences nécessaires en matière de premiers secours de manière sûre et efficace.
-- Retour d'information axé sur les points suivants :
-  - Déclenchement de l'alerte.
+- Exercices pratiques au cours de la formation pour acquérir les compétences nécessaires en premiers secours de manière sûre et efficace.
+- Retour d'information sur les points suivants :
+  - Activation de l'alarme.
   - Prise en compte de la sécurité personnelle et identification précise des dangers.
-  - Application correcte des mesures de RCP, y compris l'utilisation du DEA.
-  - Reconnaissance des caractéristiques des affections cardiaques graves, de l'hypoxie et de l'accident vasculaire cérébral.
+  - Application correcte des mesures BLS, y compris l'utilisation du DAE.
+  - Reconnaissance des caractéristiques des conditions cardiaques graves, de l'hypoxie et de l'AVC.
   - Exécution correcte de la position latérale de sécurité en cas d'inconscience.
-- Objectif du retour d'information : Motiver les participants à apporter une assistance réelle.
 
-## Inclus
-
-- Dépliants explicatifs et illustrés.
-- Le dernier algorithme du Conseil Suisse de Réanimation.
-- 1 masque de poche pour la ventilation par participant.
-
-## Instructeur certifié par
+### Formateur certifié par
 
 - SanPool Health School.
-- Conseil Suisse de Réanimation (SRC).
-- EduQua et SVEB / FSEA Formateur pour adultes.
-- IAS 3 Inter-Association de Sauvetage.
+- SRC Conseil Suisse pour la Réanimation.
+- EduQua et SVEB / FSEA Formateur d'adultes.
+- IAS/IVR 3 Inter-Association de Sauvetage.
 
-## Infrastructures
+### Installations
 
-- Les locaux pour la formation sont fournis par le client.
-- Les locaux doivent pouvoir accueillir les participants et le(s) formateur(s), avec des sièges pour chaque participant et un espace pour les exercices pratiques.
-- Les locaux doivent être disponibles au moins une heure avant le début de la formation pour permettre au formateur de s'installer.
+- Le lieu de formation est fourni par le client.
+- Le lieu doit accueillir les participants et les formateurs, y compris des sièges pour chaque participant et de l'espace pour les exercices pratiques.
+- Les locaux doivent être disponibles au moins une heure avant le début de la formation pour l'installation de l'instructeur.
 
-## Durée
+### Prix, Durée et Nombre de Participants
 
-La formation comprend 3 heures d'enseignement sans pause.
+Le cours BLS-AED-SRC Complet (Fournisseur générique) est conçu pour un groupe de jusqu'à 8 participants, avec une durée minimale de 3 à 4 heures d'apprentissage sans pauses. Le prix total du cours est de CHF 890.- hors TVA, couvrant l'ensemble du groupe de 8 participants et n'est pas facturé par personne.
 
-## Prix
+### Certificat
 
-CHF 890.- plus TVA pour un maximum de 12 participants.
+Les participants reçoivent un certificat de cours BLS-AED-SRC. Le certificat contient les informations suivantes :
 
-## Certificat
-
-Les participants reçoivent un certificat de formation BLS-DEA-SRC. Le certificat contient les informations suivantes :
-
-- Titre : "BLS-DEA-SRC Complet".
-- Logo SRC du Complet Cours BLS-DEA-SRC Complet (Fournisseur générique)
-- Label Q du SRC.
+- Titre : "BLS-AED-SRC Complet (Generic Provider)."
+- Logo SRC du cours complet BLS-AED-SRC.
+- Q-label SRC.
 - Informations personnelles du participant : prénom, nom et date de naissance.
-- Date de délivrance par le formateur.
+- Date d'émission par l'instructeur du cours.
 - Swiss Defibrillator Sàrl
 
-Le certificat est valable 2 ans. Swiss Defibrillator suit la recommandation du SRC de fournir des certificats de formation aux participants ayant des limitations physiques lors des formations du SRC. Swiss Defibrillator délivre un certificat mentionnant l'ajout suivant : "Les compétences pratiques du séminaire n'ont pas pu être entièrement formées en raison de limitations physiques."
+Le certificat est valable pour 2 ans.

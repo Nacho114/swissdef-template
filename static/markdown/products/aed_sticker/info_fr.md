@@ -1,3 +1,3 @@
-# AED Sticker
+# Autocollant DEA
 
-The AED one sided Sticker measures 30 x 20 cm and ensures durability and longevity, allowing optimal visibility with white letters and the AED standard logo. The sign is in a vibrant green matching the RAL 6024 color standard. This color choice adheres to recognized emergency color codes, promoting safety awareness effortlessly.
+L'autocollant DEA unilatéral mesure 30 x 20 cm et garantit durabilité et longévité, offrant une visibilité optimale avec des lettres blanches et le logo standard du DEA. Le panneau est d'un vert vif correspondant à la norme de couleur RAL 6024. Ce choix de couleur respecte les codes de couleur d'urgence reconnus, favorisant ainsi la sensibilisation à la sécurité en toute simplicité.

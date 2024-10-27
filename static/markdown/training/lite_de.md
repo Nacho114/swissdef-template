@@ -1,61 +1,58 @@
-# Training Light BLS-AED-SRC Compact (Basic Provider)
+# Lite Training
 
-## Zielgruppe
+## BLS-AED-SRC Compact (Basic Provider)
 
-BLS-AED-SRC (Basic Life Support – Automatisierter Externer Defibrillator – Swiss Resuscitation Council) Compact-Kurse richten sich an alle Bevölkerungs- und Berufsgruppen (Mindestalter 12 Jahre), die keine spezifischen Anforderungen zu diesem Thema haben. Diese Kurse sind darauf ausgelegt, so viele Teilnehmer wie möglich mit einem qualifizierten Schulungsangebot in kürzester Zeit zu erreichen.
+### **Ziele**
 
-## Ziele
+Die Teilnehmer beherrschen die Grundfertigkeiten der Wiederbelebung bei Erwachsenen. Sie:
 
-Die Teilnehmer beherrschen die Grundfertigkeiten der Reanimation bei Erwachsenen. Sie:
+- Alarmieren umgehend.
+- Berücksichtigen ihre eigene Sicherheit bei der Hilfeleistung.
+- Wenden die Grundfertigkeiten der Wiederbelebung an (Brustkompressionen, Beatmung und Automatisierte Externe Defibrillation mittels AED).
 
-- Alarmieren unverzüglich Hilfe.
-- Achten bei der Hilfeleistung auf ihre eigene Sicherheit.
-- Wenden die Grundfertigkeiten der Reanimation an (Herzdruckmassage, Beatmung und Automatische Externe Defibrillation mit einem AED).
+### **Inhalt**
 
-## Inhalt
-
-Die "BLS-AED-Aussagen des SRC" sind in den Kursen zu vermitteln. BLS-AED-SRC Compact-Kurse beinhalten folgende Inhalte:
+Die „BLS-AED-Erklärungen des SRC“ sollen in den Kursen vermittelt werden. Die BLS-AED-SRC Kompaktkurse beinhalten folgenden Inhalt:
 
 - Hilfeleistung unter Beachtung des persönlichen Schutzes.
 - Erkennen eines Herzstillstands.
-- Nationale Notfallnummern.
-- Handlungsabfolge nach dem "BLS-AED-SRC-Algorithmus".
-- Grundfertigkeitentraining bei Erwachsenen: Erstbeurteilung, Herzdruckmassage, Beatmung, AED-Defibrillation.
+- Nationale Notrufnummern.
+- Handlungsablauf gemäß dem „BLS-AED-SRC-Algorithmus“.
+- Grundfertigkeitstraining bei Erwachsenen: Erstbeurteilung, Brustkompressionen, Beatmung, AED-Defibrillation.
 - Stabile Seitenlage.
 
-## Methodik und Material
+### **Methodik und Material**
 
-BLS-AED-SRC Compact-Kurse folgen einem von zwei Trainingsmodellen: Präsenzunterricht oder multimediale Selbstlernprogramme. Der Instruktor stellt sicher, dass jeder Teilnehmer Anleitung und Feedback zur Qualität seiner Handlungen während der Übungen erhält.
+BLS-AED-SRC Kompaktkurse folgen einem der beiden Trainingsmodelle: lehrergeleitet oder über multimediale Selbstlernsysteme. Der Kursleiter stellt sicher, dass jeder Teilnehmer Anleitung und Feedback zur Qualität seiner Maßnahmen während der Übungen erhält. Folgende Voraussetzungen sind gewährleistet:
 
-Folgende Voraussetzungen werden sichergestellt:
-
-- Mindestens 30 Minuten Grundfertigkeitentraining pro Teilnehmer am Trainingsmodell (Hands-On Training).
-
-Bei Präsenzunterricht:
-
-- Mindestens 1 BLS-AED-SRC-Instruktor pro 8 Teilnehmer (TN).
+- Mindestens 30 Minuten Training der Grundfertigkeiten pro Teilnehmer am Trainingsmodell (Hands-On-Training). In lehrergeleiteten Formaten:
+- Mindestens 1 BLS-AED-SRC-Ausbilder pro 8 Teilnehmer.
 - Mindestens 1 Erwachsenen-Trainingsmodell pro 2-3 Teilnehmer.
 - Mindestens 1 AED-Trainingsgerät pro 2-3 Teilnehmer.
 
-Die verwendeten Trainingsmodelle geben visuelles Feedback, wie hier: https://www.youtube.com/watch?v=JVSViqkogSI&t=2s.
+Die verwendeten Trainingsmodelle bieten visuelles Feedback wie hier: https://www.youtube.com/watch?v=JVSViqkogSI&t=2s.
 
-## Dauer, Preis und Zertifikat
+### **Zielgruppe**
 
-- Mindestens 1 bis 2 Stunden Lernzeit.
-- Preis CHF 450.- zzgl. MwSt. für maximal 12 Teilnehmer.
+Die BLS-AED-SRC Kompaktkurse richten sich an alle Bevölkerungs- und Berufsgruppen (Mindestalter 12 Jahre), die keine spezifischen Anforderungen an das Thema haben. Diese Kurse sollen möglichst viele Teilnehmer mit einem qualifizierten Schulungsangebot in kürzester Zeit erreichen.
 
-### Zertifikat
+### **Dauer, Preis und Teilnehmerzal**
 
-Die Teilnehmer erhalten ein BLS-AED-SRC Compact (Basic Provider) Kurszertifikat. Das Zertifikat enthält folgende Angaben:
+Der BLS-AED-SRC Compact (Basic Provider) Kurs ist für eine Gruppe von bis zu 8 Teilnehmern ausgelegt, mit einer Mindestdauer von 1 bis 2 Lernstunden. Der Gesamtkurspreis beträgt CHF 504.- exkl. MwSt. und gilt für die gesamte Gruppe von 8 Teilnehmern, nicht pro Person berechnet.
 
-- Titel: "BLS-AED-SRC Compact (Basic Provider)."
-- SRC Logo des Complet Cours BLS-AED-SRC Compact (Basic Provider)
+#### **Zertifikat**
+
+Die Teilnehmer erhalten ein BLS-AED-SRC Kompaktkurszertifikat (Basic Provider). Das Zertifikat enthält folgende Informationen:
+
+- Titel: „BLS-AED-SRC Compakt (Basic Provider)“.
+- SRC-Logo des BLS-AED-SRC Kompaktkurszertifikats (Basic Provider).
 - SRC Q-Label.
-- Persönliche Angaben des Teilnehmers: Vorname, Nachname und Geburtsdatum.
+- Persönliche Informationen des Teilnehmers: Vorname, Nachname und Geburtsdatum.
 - Ausstellungsdatum durch den Kursleiter.
+- Swiss Defibrillator Sàrl
 
-Swiss Defibrillator Sàrl BLS-AED-SRC Compact-Kurse sind nicht geprüft. Die Teilnahme wird schriftlich vom Kursanbieter bestätigt, wenn der Kurs vom Instruktor geleitet wurde. Wird dieser Kurs in eine größere Veranstaltung integriert, erfolgt die Bestätigung wie folgt: "Diese Veranstaltung beinhaltet einen zertifizierten BLS-AED-SRC Compact-Kurs."
+Die BLS-AED-SRC Kompaktkurse sind ohne Prüfung. Die Teilnahme wird schriftlich vom Kursanbieter bestätigt, wenn der Kurs lehrergeleitet war.
 
-Das Zertifikat ist 2 Jahre gültig.
+Falls dieser Kurs in eine größere Veranstaltung integriert ist, wird die Bestätigung wie folgt ausgestellt: „Dieser Kurs beinhaltet einen zertifizierten BLS-AED-SRC Kompaktkurs.“
 
-Die Swiss Defibrillator folgt der SRC-Empfehlung, Kurszertifikate für Teilnehmer mit körperlichen Einschränkungen auszustellen, die an SRC-Kursen teilnehmen. Die Swiss Defibrillator stellt ein Zertifikat aus, dem folgender Zusatz hinzugefügt wird: "Die praktischen Fähigkeiten des Seminars konnten aufgrund körperlicher Einschränkungen nicht vollständig geschult werden."
+Das Zertifikat ist 2 Jahre gültig. Swiss Defibrillator folgt der SRC-Empfehlung und stellt Kurszertifikate für Teilnehmer mit körperlichen Einschränkungen bei SRC-Kursen aus. Swiss Defibrillator stellt ein Zertifikat mit folgendem Zusatz aus: „Die praktischen Fertigkeiten des Seminars wurden aufgrund körperlicher Einschränkungen nicht vollständig trainiert.“

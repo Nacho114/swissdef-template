@@ -85,7 +85,7 @@
 
   .header {
     margin-top: 6px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .footer {

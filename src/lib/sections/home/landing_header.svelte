@@ -42,7 +42,7 @@
           alt={$_('alt_philips_hs1')}
           class="product-image"
         />
-        <div class="image-backdrop" />
+        <div class="image-backdrop"></div>
       </div>
     </div>
   </div>
@@ -51,14 +51,16 @@
 <style>
   .landing-header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 4rem;
-    padding: 6rem 0;
+    padding: 1rem 0;
     align-items: center;
   }
 
   .header-content {
     max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .badge {
@@ -67,7 +69,7 @@
     background: rgba(96, 165, 250, 0.1);
     border: 1px solid rgba(96, 165, 250, 0.2);
     border-radius: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .badge span {
@@ -98,7 +100,9 @@
 
   .cta-group {
     display: flex;
+    flex-wrap: wrap;
     gap: 1.5rem;
+    justify-content: center;
     align-items: center;
   }
 
@@ -122,73 +126,43 @@
   }
 
   .header-image {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .image-container {
     position: relative;
     width: 100%;
-    padding-bottom: 100%;
+    max-width: 600px;
+    margin: 0 auto;
   }
 
   .product-image {
-    position: absolute;
+    display: block;
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: contain;
     z-index: 2;
   }
 
   .image-backdrop {
     position: absolute;
-    inset: 10%;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
     background: radial-gradient(circle at center, rgba(96, 165, 250, 0.1), transparent);
     filter: blur(40px);
-    z-index: 1;
+    z-index: -1;
   }
 
-  @media (max-width: 1024px) {
-    .landing-header {
-      grid-template-columns: 1fr;
-      text-align: center;
-      padding: 3rem 0;
-    }
-
-    .header-content {
-      margin: 0 auto;
-    }
-
-    h1 {
-      font-size: 3rem;
-    }
-
-    .cta-group {
-      justify-content: center;
-    }
-
-    .image-container {
-      padding-bottom: 75%;
-      max-width: 500px;
-      margin: 0 auto;
-    }
+  /* Adjust typography for smaller screens */
+  h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
   }
 
-  @media (max-width: 640px) {
-    h1 {
-      font-size: 2.5rem;
-    }
-
-    .subtitle {
-      font-size: 1.125rem;
-    }
-
-    .cta-group {
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    .secondary-cta {
-      margin-top: 0.5rem;
-    }
+  .subtitle {
+    font-size: clamp(1rem, 2vw, 1.25rem);
   }
 </style>

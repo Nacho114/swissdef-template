@@ -19,9 +19,6 @@
   <div class="training-section">
     <!-- Header -->
     <div class="header">
-      <div class="badge">
-        <span>{$_("section_general_training")}</span>
-      </div>
       <h1>Professional <span class="gradient-text">First Aid Training</span></h1>
       <p class="subtitle">Expert-led training sessions to prepare your team for emergency situations</p>
     </div>
@@ -65,16 +62,12 @@
     <!-- Training Cards Grid -->
     <div class="training-grid">
       {#each trainings as training}
-        <a href="/training/{training.slug}" class="training-card-link">
-          <div class="training-card">
-            <TrainingPlanCard
-              service_type={"training"}
-              slug={training.slug}
-              price={training.price}
-              duration={training.duration}
-            />
-          </div>
-        </a>
+        <TrainingPlanCard
+          service_type={"training"}
+          slug={training.slug}
+          price={training.price}
+          duration={training.duration}
+        />
       {/each}
     </div>
   </div>
@@ -90,23 +83,6 @@
   .header {
     text-align: center;
     margin-bottom: 4rem;
-  }
-
-  .badge {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background: rgba(0, 122, 255, 0.1);
-    border: 1px solid rgba(0, 122, 255, 0.2);
-    border-radius: 2rem;
-    margin-bottom: 1.5rem;
-    backdrop-filter: blur(8px);
-  }
-
-  .badge span {
-    background: linear-gradient(135deg, #007AFF, #5856D6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 500;
   }
 
   h1 {
@@ -226,58 +202,15 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 2rem;
-  }
-
-  .training-card-link {
-    text-decoration: none;
-    color: inherit;
-  }
-
-  .training-card {
-    height: 100%;
-    transition: all 0.3s ease;
-    background: white;
-    border-radius: 1.5rem;
-    border: 1px solid #e5e7eb;
-    overflow: hidden;
-  }
-
-  .training-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 
-      0 20px 25px -5px rgba(0, 0, 0, 0.1),
-      0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  }
-
-  @media (max-width: 1024px) {
-    .features {
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }
+    width: 100%;
+    padding: 1rem;
   }
 
   @media (max-width: 768px) {
-    .training-section {
-      padding: 4rem 0;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-    }
-
-    .subtitle {
-      font-size: 1.125rem;
-    }
-
-    .info-banner {
-      flex-direction: column;
-      text-align: center;
-      padding: 1.5rem;
-    }
-
     .training-grid {
       grid-template-columns: 1fr;
       gap: 1.5rem;
+      padding: 0.5rem;
     }
   }
 </style>

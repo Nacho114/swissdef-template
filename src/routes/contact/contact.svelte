@@ -8,6 +8,7 @@
   import Location from "virtual:icons/typcn/location";
   import Phone from "virtual:icons/solar/phone-linear";
   import Email from "virtual:icons/iconamoon/email";
+  import WhatsApp from "virtual:icons/ri/whatsapp-fill";
   import { ContactInfo } from "$lib/info";
 
   // Contact card datarrr
@@ -50,10 +51,6 @@
 <div class="contact-wrapper">
   <!-- Header Section -->
   <div class="header">
-    <div class="badge">
-      <span>{$_("contact_title")}</span>
-    </div>
-    
     <h1>Get in <span class="gradient-text">Touch</span></h1>
     <p class="subtitle">{$_("contact_sub_title")}</p>
   </div>
@@ -78,18 +75,16 @@
   <div class="support-card">
     <div class="support-content">
       <div class="support-text">
-        <h2>{$_("section_contact_closing_text")}</h2>
-        <div class="social-icons">
-          <CircularButton>
-            <Facebook />
-          </CircularButton>
-          <CircularButton>
-            <Twitter />
-          </CircularButton>
-          <CircularButton>
-            <Instagram />
-          </CircularButton>
+        <div class="whatsapp-content">
+          <WhatsApp class="whatsapp-icon" />
+          <div>
+            <h2>{$_("contact_whatsapp_support_title")}</h2>
+            <p class="whatsapp-description">{$_("contact_whatsapp_support_description")}</p>
+          </div>
         </div>
+        <a href="https://wa.me/+41794412406" class="whatsapp-button">
+          {$_("contact_whatsapp_message_button")}
+        </a>
       </div>
     </div>
   </div>
@@ -143,23 +138,6 @@
   .header {
     text-align: center;
     margin-bottom: 4rem;
-  }
-
-  .badge {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background: rgba(0, 122, 255, 0.1);
-    border: 1px solid rgba(0, 122, 255, 0.2);
-    border-radius: 2rem;
-    margin-bottom: 1.5rem;
-    backdrop-filter: blur(8px);
-  }
-
-  .badge span {
-    background: linear-gradient(135deg, #007AFF, #5856D6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 500;
   }
 
   h1 {
@@ -257,8 +235,8 @@
 
   /* Support Card */
   .support-card {
-    background: linear-gradient(135deg, rgba(0, 122, 255, 0.05), rgba(88, 86, 214, 0.05));
-    border: 1px solid rgba(0, 122, 255, 0.1);
+    background: linear-gradient(135deg, rgba(37, 211, 102, 0.05), rgba(37, 211, 102, 0.1));
+    border: 1px solid rgba(37, 211, 102, 0.2);
     border-radius: 2rem;
     padding: 4rem;
     text-align: center;
@@ -268,18 +246,61 @@
       0 2px 4px -1px rgba(0, 0, 0, 0.06);
   }
 
+  .whatsapp-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .whatsapp-icon {
+    color: #25d366;
+    width: 48px;
+    height: 48px;
+  }
+
   .support-card h2 {
     font-size: 2rem;
     font-weight: 600;
     color: #1d1d1f;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     line-height: 1.3;
+    text-align: left;
+  }
+
+  .whatsapp-description {
+    color: #6b7280;
+    text-align: left;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+
+  .whatsapp-button {
+    display: inline-block;
+    background-color: #25d366;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 2rem 0;
+    transition: all 0.3s ease;
+  }
+
+  .whatsapp-button:hover {
+    transform: translateY(-2px);
+    background-color: #20bc5a;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.2);
   }
 
   .social-icons {
     display: flex;
     gap: 1.5rem;
     justify-content: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(37, 211, 102, 0.2);
   }
 
   /* Responsive adjustments */
@@ -294,6 +315,22 @@
 
     .support-card {
       padding: 2rem;
+    }
+
+    .whatsapp-content {
+      flex-direction: column;
+      gap: 1rem;
+      text-align: center;
+    }
+
+    .support-card h2,
+    .whatsapp-description {
+      text-align: center;
+    }
+
+    .whatsapp-button {
+      width: 100%;
+      text-align: center;
     }
   }
 </style>

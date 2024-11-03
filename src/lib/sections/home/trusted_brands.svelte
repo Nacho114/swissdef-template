@@ -37,7 +37,7 @@
 <style>
   .trusted-brands-section {
     background: #f5f5f7;
-    padding: 4rem 0;
+    padding: 2rem 0;
     text-align: center;
     overflow: hidden;
   }
@@ -46,7 +46,7 @@
     font-weight: 500;
     color: #1d1d1f;
     font-size: 1.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
     opacity: 0.8;
   }
 
@@ -82,7 +82,7 @@
     display: flex;
     gap: 4rem;
     animation: scroll 30s linear infinite;
-    width: fit-content;
+    width: max-content;
   }
 
   .logo-wrapper {
@@ -93,7 +93,7 @@
   }
 
   .logo {
-    height: 60px;
+    height: 45px;
     width: auto;
     opacity: 0.6;
     transition: opacity 0.3s ease;
@@ -106,7 +106,7 @@
   }
 
   .logo.logitech {
-    height: 30px;
+    height: 25px;
   }
 
   @keyframes scroll {
@@ -114,7 +114,7 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-50%);
+      transform: translateX(calc(-50% - 2rem));
     }
   }
 
@@ -125,12 +125,12 @@
 
   @media (max-width: 768px) {
     .trusted-brands-section {
-      padding: 3rem 0;
+      padding: 1.5rem 0;
     }
 
     h2 {
       font-size: 1.25rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
 
     .logos-track {
@@ -138,11 +138,11 @@
     }
 
     .logo {
-      height: 40px;
+      height: 35px;
     }
 
     .logo.logitech {
-      height: 20px;
+      height: 18px;
     }
   }
 </style>

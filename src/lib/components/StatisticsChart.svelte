@@ -99,7 +99,6 @@
 
 <div class="statistics-section">
   <div class="statistics-header">
-    <span class="badge">Statistics</span>
     <h2>{$_("section_home_statistics_title")}</h2>
     <p class="subtitle">{$_("section_home_statistics_subtitle")}</p>
   </div>
@@ -147,17 +146,6 @@
   .statistics-header {
     text-align: center;
     margin-bottom: 4rem;
-  }
-
-  .badge {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background: rgba(0, 122, 255, 0.1);
-    color: #007AFF;
-    border-radius: 2rem;
-    font-size: 0.875rem;
-    font-weight: 500;
-    margin-bottom: 1.5rem;
   }
 
   .statistics-header h2 {

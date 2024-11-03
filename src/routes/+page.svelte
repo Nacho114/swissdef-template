@@ -157,7 +157,7 @@
 
   /* Section styling */
   section {
-    padding: 6rem 0;
+    padding: 4rem 0; /* Reduced from 6rem to 4rem */
     position: relative;
     background: #ffffff;
   }
@@ -177,7 +177,7 @@
 
   @media (max-width: 768px) {
     section {
-      padding: 3rem 0;
+      padding: 2rem 0; /* Reduced from 3rem to 2rem */
     }
   }
 </style>

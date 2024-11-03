@@ -18,50 +18,46 @@
   let duration_info = `${duration}h`;
 </script>
 
-<div class="service-card">
+<a href="/contact" class="service-card">
   <h2 class="service-title">{title}</h2>
   <div class="service-price">
-    <div class="service-price">
-      <span class="price-amount">{price_info}</span>
-      <span class="price-unit">
-        {$_("training_per_person")}
-      </span>
-    </div>
+    <span class="price-amount">{price_info}</span>
+    <span class="price-unit">
+      {$_("training_per_person")}
+    </span>
   </div>
   <div class="service-duration">{duration_info}</div>
 
   <p class="service-description">{description}</p>
-  <a href="/contact">
-    <div class="button">
-      <Button fullWidth={true}>
-        {$_("section_general_book")}
-        <ChevronRight />
-      </Button>
-    </div></a
-  >
+  <div class="button">
+    <Button fullWidth={true}>
+      {$_("section_general_book")}
+      <ChevronRight />
+    </Button>
+  </div>
 
   <PlanInformation {featuresString} />
-</div>
+</a>
 
 <style>
   .service-card {
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional: adds a shadow for depth */
     padding: 2rem;
     max-width: 400px;
-    cursor: pointer; /* Changes cursor to hand pointer on hover */
-    transition:
-      box-shadow 0.3s,
-      transform 0.3s; /* Smooth transition for shadow and transform */
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: all 0.3s ease;
   }
 
   .service-card:hover {
-    /* Add a more defined shadow on hover */
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
-
-    /* Move the card slightly to the top left */
-    transform: translate(-5px, -5px);
+    transform: translateY(-5px);
+    box-shadow: 
+      0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
   .service-title {
@@ -83,7 +79,7 @@
   }
 
   .price-unit {
-    font-size: 1rem; /* This is 1/3 of the price size */
+    font-size: 1rem;
     color: #666;
   }
 
@@ -99,24 +95,22 @@
     min-height: 50px;
   }
 
-  /* Add media query for smaller screens */
   @media (max-width: 1200px) {
     .service-title {
       font-size: 1.2rem;
-      margin-bottom: 0.5rem;
     }
     .service-price {
       flex-direction: column;
       align-items: flex-start;
-      gap: 0.25rem; /* Smaller gap when stacked */
+      gap: 0.25rem;
     }
 
     .price-amount {
-      font-size: 1.3rem; /* Slightly smaller on mobile */
+      font-size: 1.3rem;
     }
 
     .price-unit {
-      font-size: 0.9rem; /* Slightly smaller on mobile */
+      font-size: 0.9rem;
     }
   }
 </style>

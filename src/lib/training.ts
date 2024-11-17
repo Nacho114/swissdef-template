@@ -9,7 +9,7 @@ export interface Training {
 export const trainings: Training[] = [
     {
         slug: "lite",
-        price: 504,
+        price: 445,
         duration: "1.5",
         maximum_participants: 8,
     },
@@ -21,13 +21,13 @@ export const trainings: Training[] = [
     },
     {
         slug: "recommended",
-        price: 2940,
+        price: 3320,
         duration: "14",
         maximum_participants: 8,
     },
     {
         slug: "refresher",
-        price: 1470,
+        price: 1660,
         duration: "7",
         maximum_participants: 8,
     },

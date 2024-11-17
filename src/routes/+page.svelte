@@ -28,6 +28,7 @@
   />
   <link rel="icon" href="/favicon.ico" sizes="any" type="image/ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-adsense-account" content="ca-pub-6623481991173522" />
 
   <script type="application/ld+json">
     {

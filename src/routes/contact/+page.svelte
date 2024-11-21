@@ -1,6 +1,5 @@
 <script lang="ts">
   import Container from "$lib/components/container.svelte";
-  import Whatsapp from "./whatsapp.svelte";
   import Contact from "./contact.svelte";
   import { _ } from "svelte-i18n";
 </script>
@@ -12,7 +11,6 @@
 </svelte:head>
 
 <Container>
-  <Whatsapp />
   <Contact />
 </Container>
 

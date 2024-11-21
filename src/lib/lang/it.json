@@ -45,6 +45,8 @@
     "section_home_statistics_chart_label_without_aed": "Senza AED",
     "section_home_statistics_chart_y_axis": "Probabilità di Sopravvivenza (%)",
     "section_home_statistics_chart_x_axis": "Tempo (min)",
+    "section_home_statistics_chart_critical_zone": "Zona Critica: Primi 3 Minuti",
+    "section_home_statistics_chart_survival_rate": "Tasso di Sopravvivenza",
     "-----------------------PRODUCTS----------------------------": "--------------------------------------------------------------------------------------------------------------------------------------------------------------",
     "section_products_vat_included": "IVA Esclusa",
     "section_products_order": "Ordina",
@@ -171,5 +173,17 @@
     "alt_philips_hs1": "Defibrillatore Philips HS-1, AED",
     "alt_training_session": "Partecipanti che praticano l'uso di RCP e AED in una sessione di formazione BLS, guidati da istruttori certificati.",
     "alt_maintenance_check": "Tecnico che esegue un controllo di manutenzione su un defibrillatore per garantire la sua prontezza per le emergenze.",
-    "alt_defibrillator_product": "Primo piano di un defibrillatore portatile, progettato per una risposta rapida nelle emergenze cardiache."
+    "alt_defibrillator_product": "Primo piano di un defibrillatore portatile, progettato per una risposta rapida nelle emergenze cardiache.",
+    "training_page_title": "Formazione",
+    "training_page_title_highlight": "Primo Soccorso Professionale",
+    "training_page_subtitle": "Sessioni di formazione guidate da esperti per preparare il tuo team alle situazioni di emergenza",
+    "training_feature_small_groups_title": "Piccoli Gruppi",
+    "training_feature_small_groups_description": "Massima attenzione e pratica diretta",
+    "training_feature_schedule_title": "Orario Flessibile",
+    "training_feature_schedule_description": "Sessioni di formazione adattate al tuo programma",
+    "training_feature_certification_title": "Certificazione",
+    "training_feature_certification_description": "Certificazione svizzera ufficiale al completamento",
+    "training_compliance_title": "Conformità Svizzera",
+    "contact_page_title": "Mettiti in",
+    "contact_page_title_highlight": "Contatto"
 }

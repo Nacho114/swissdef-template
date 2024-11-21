@@ -97,4 +97,34 @@
   .services {
     padding-top: 3vw;
   }
+
+  :global(body) {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .content {
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+
+  :global(img) {
+    max-width: 100%;
+    height: auto;
+  }
+
+  :global(*) {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
 </style>

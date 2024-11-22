@@ -45,6 +45,8 @@
     "section_home_statistics_chart_label_without_aed": "Sans DAE",
     "section_home_statistics_chart_y_axis": "Chance de Survie (%)",
     "section_home_statistics_chart_x_axis": "Temps (min)",
+    "section_home_statistics_chart_critical_zone": "Zone Critique : 3 Premières Minutes",
+    "section_home_statistics_chart_survival_rate": "Taux de Survie",
     "-----------------------PRODUCTS----------------------------": "--------------------------------------------------------------------------------------------------------------------------------------------------------------",
     "section_products_vat_included": "TVA Exclue",
     "section_products_order": "Commander",
@@ -171,5 +173,21 @@
     "alt_philips_hs1": "Défibrillateur Philips HS-1, DAE",
     "alt_training_session": "Participants s'entraînant au massage cardiaque (CPR) et à l'utilisation d'un DAE lors d'une session de formation BLS, guidés par des instructeurs certifiés.",
     "alt_maintenance_check": "Technicien effectuant un contrôle de maintenance sur un défibrillateur pour garantir sa disponibilité en cas d'urgence.",
-    "alt_defibrillator_product": "Gros plan sur un défibrillateur portable, conçu pour une intervention rapide en cas d'urgence cardiaque."
+    "alt_defibrillator_product": "Gros plan sur un défibrillateur portable, conçu pour une intervention rapide en cas d'urgence cardiaque.",
+    "training_page_title": "Formation",
+    "training_page_title_highlight": "Premiers Secours Professionnelle",
+    "training_page_subtitle": "Sessions de formation dirigées par des experts pour préparer votre équipe aux situations d'urgence",
+    
+    "training_feature_small_groups_title": "Petits Groupes",
+    "training_feature_small_groups_description": "Attention maximale et pratique directe",
+    
+    "training_feature_schedule_title": "Horaire Flexible",
+    "training_feature_schedule_description": "Sessions de formation adaptées à votre emploi du temps",
+    
+    "training_feature_certification_title": "Certification",
+    "training_feature_certification_description": "Certification suisse officielle à l'achèvement",
+    
+    "training_compliance_title": "Conformité Suisse",
+    "contact_page_title": "Entrez en",
+    "contact_page_title_highlight": "Contact"
 }

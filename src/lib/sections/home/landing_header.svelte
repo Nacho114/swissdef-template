@@ -7,139 +7,196 @@
 
 <Container>
   <div class="landing-header">
-    <div class="header-text">
-      <h1>{$_("section_home_landing_header_title")}</h1>
+    <div class="header-content">
+      <div class="badge">
+        <span>{$_("Swiss Defibrillator")}</span>
+      </div>
+      
+      <h1>
+        <span class="gradient-text">{$_("section_home_landing_header_title")}</span>
+      </h1>
+      
       <p class="subtitle">{$_("section_home_landing_header_subtitle")}</p>
-      <a href="/contact">
-        <Button fullWidth={false}>
-          <div class="button">
-            {$_("section_home_landing_header_button")}
-            <ChevronRight />
-          </div>
-        </Button>
-      </a>
+      
+      <div class="cta-group">
+        <a href="/contact" class="primary-cta">
+          <Button fullWidth={false}>
+            <div class="button-content">
+              {$_("section_home_landing_header_button")}
+              <ChevronRight />
+            </div>
+          </Button>
+        </a>
+        
+        <a href="/products" class="secondary-cta">
+          {$_("section_general_products")}
+          <ChevronRight />
+        </a>
+      </div>
     </div>
+
     <div class="header-image">
-      <img
-        src="/assets/home/phillips_hs1_home_l.png"
-        alt="{$_('alt_philips_hs1')}}"
-      />
+      <div class="image-container">
+        <img
+          src="/assets/home/phillips_hs1_home_l.png"
+          alt={$_('alt_philips_hs1')}
+          class="product-image"
+        />
+        <div class="image-backdrop"></div>
+      </div>
     </div>
   </div>
 </Container>
 
 <style>
-  /* Flex layout for header */
   .landing-header {
-    padding-bottom: 30px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 4rem;
+    padding: 4rem 0;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 1rem; /* Margin between text and image */
   }
 
-  /* Text styling inside header */
-  .landing-header h1 {
-    font-size: max(
-      4vw,
-      var(--global-mobile-font-h1)
-    ); /* Sets a minimum font size of 24px */
-    max-width: 90%;
-    margin-bottom: 20px;
+  .header-content {
+    max-width: 600px;
+    margin: 0 auto;
   }
 
-  .landing-header p {
-    font-weight: 50;
-    font-size: max(
-      1.5vw,
-      var(--global-mobile-font-p)
-    ); /* Sets a minimum font size of 24px */
-    margin-bottom: 20px;
+  .badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: rgba(96, 165, 250, 0.1);
+    border: 1px solid rgba(96, 165, 250, 0.2);
+    border-radius: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .badge span {
+    background: linear-gradient(135deg, #60A5FA, #8B5CF6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+  }
+
+  h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #1a1a1a 0%, #4a5568 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .subtitle {
-    color: Var(--global-color-gray-light);
-    box-sizing: border-box;
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    color: #4a5568;
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+    max-width: 90%;
   }
 
-  /* Text container */
-  .header-text {
-    text-align: left;
-    line-height: 1.1;
-    width: 33vw;
+  .cta-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
   }
 
-  /* Image container */
-  .header-image {
-    padding-right: 20px;
-    width: 36vw;
-    max-width: 50%;
-  }
-
-  .header-image img {
-    width: 100%;
-    height: auto;
-  }
-
-  /* Button styling */
-  .button {
+  .button-content {
     display: flex;
     align-items: center;
-    width: auto;
-    gap: 6px;
-    font-size: max(1.5vw, 12px); /* Sets a minimum font size of 12px */
+    gap: 0.5rem;
   }
 
-  /* Keep existing styles but modify these specific parts */
-  @media (max-width: 600px) {
+  .secondary-cta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #4a5568;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+
+  .secondary-cta:hover {
+    color: #1a1a1a;
+  }
+
+  .header-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .product-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    z-index: 2;
+    transition: transform 0.3s ease;
+  }
+
+  .image-container:hover .product-image {
+    transform: translateY(-5px);
+  }
+
+  .image-backdrop {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    background: radial-gradient(circle at center, rgba(96, 165, 250, 0.1), transparent);
+    filter: blur(40px);
+    z-index: -1;
+  }
+
+  @media (max-width: 768px) {
     .landing-header {
-      flex-direction: column;
-      align-items: center;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      padding: 2rem 0;
       text-align: center;
-      padding: 0 20px; /* Add some padding on the sides */
     }
 
-    .header-text {
-      width: 100%; /* Take full width */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    .header-content {
+      padding: 0 1rem;
     }
 
-    .header-text h1 {
-      text-align: center;
-      max-width: 100%;
+    .subtitle {
+      margin-left: auto;
+      margin-right: auto;
     }
 
-    .header-text p {
-      text-align: center;
-      max-width: 90%;
+    .cta-group {
+      justify-content: center;
     }
 
-    .header-image {
-      width: 80%; /* Increase image width */
-      max-width: 400px; /* Prevent image from getting too large */
-      padding-right: 0; /* Remove padding that was affecting centering */
-      margin: 0 auto; /* Center the image container */
-    }
-
-    .button {
-      justify-content: center; /* Center the button content */
+    .image-container {
+      max-width: 400px;
+      padding: 0 1rem;
     }
   }
 
-  /* Add additional breakpoint for very small screens */
-  @media (max-width: 380px) {
-    .header-text h1 {
-      font-size: 28px; /* Set explicit size for very small screens */
+  @media (max-width: 480px) {
+    .cta-group {
+      flex-direction: column;
+      gap: 1rem;
     }
 
-    .header-text p {
-      font-size: 16px;
-    }
-
-    .header-image {
-      width: 90%; /* Even more width on very small screens */
+    .secondary-cta {
+      justify-content: center;
     }
   }
 </style>

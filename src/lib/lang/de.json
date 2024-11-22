@@ -45,6 +45,8 @@
     "section_home_statistics_chart_label_without_aed": "Ohne AED",
     "section_home_statistics_chart_y_axis": "Überlebenschance (%)",
     "section_home_statistics_chart_x_axis": "Zeit (min)",
+    "section_home_statistics_chart_critical_zone": "Kritische Zone: Erste 3 Minuten",
+    "section_home_statistics_chart_survival_rate": "Überlebensrate",
     "-----------------------PRODUCTS----------------------------": "--------------------------------------------------------------------------------------------------------------------------------------------------------------",
     "section_products_vat_included": "MwSt. ausgeschlossen",
     "section_products_order": "Bestellen",
@@ -171,5 +173,17 @@
     "alt_philips_hs1": "Philips HS-1 Defibrillator, AED",
     "alt_training_session": "Teilnehmer, die unter Anleitung zertifizierter Ausbilder CPR und die Verwendung eines AED in einer BLS-Schulungssitzung üben.",
     "alt_maintenance_check": "Techniker führt eine Routinewartung an einem Defibrillator durch, um sicherzustellen, dass er einsatzbereit ist.",
-    "alt_defibrillator_product": "Nahaufnahme eines tragbaren Defibrillators, der für eine schnelle Reaktion bei Herznotfällen entwickelt wurde."
+    "alt_defibrillator_product": "Nahaufnahme eines tragbaren Defibrillators, der für eine schnelle Reaktion bei Herznotfällen entwickelt wurde.",
+    "training_page_title": "Professionelle",
+    "training_page_title_highlight": "Erste-Hilfe-Ausbildung",
+    "training_page_subtitle": "Expertengeleite Schulungen zur Vorbereitung Ihres Teams auf Notfallsituationen",
+    "training_feature_small_groups_title": "Kleine Gruppen",
+    "training_feature_small_groups_description": "Maximale Aufmerksamkeit und praktische Übungen",
+    "training_feature_schedule_title": "Flexibler Zeitplan",
+    "training_feature_schedule_description": "Schulungen, die sich Ihrem Zeitplan anpassen",
+    "training_feature_certification_title": "Zertifizierung",
+    "training_feature_certification_description": "Offizielle Schweizer Zertifizierung nach Abschluss",
+    "training_compliance_title": "Schweizer Konformität",
+    "contact_page_title": "Nehmen Sie",
+    "contact_page_title_highlight": "Kontakt auf"
 }

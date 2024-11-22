@@ -25,6 +25,8 @@
     script.type = "module";
     document.body.appendChild(script);
   });
+
+  console.log("Environment Mode:", process.env.NODE_ENV);
 </script>
 
 <svelte:head>
@@ -41,27 +43,29 @@
     href="https://www.swissdefibrillator.ch/"
   />
 
-  <!-- Google tag (gtag.js) -->
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-SGMP530N48"
-  ></script>
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=AW-935906638"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
+  {#if process.env.NODE_ENV === "production"}
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-SGMP530N48"
+    ></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-935906638"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    // Configuring both Google tags
-    gtag("config", "G-SGMP530N48");
-    gtag("config", "AW-935906638");
-  </script>
-</svelte:head>
+      // Configuring both Google tags
+      gtag("config", "G-SGMP530N48");
+      gtag("config", "AW-935906638");
+    </script>
+  {/if}</svelte:head
+>
 
 <div class="layout">
   <div class="header"><Header /></div>

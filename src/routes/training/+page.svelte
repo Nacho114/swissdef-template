@@ -3,6 +3,10 @@
   import { _ } from "svelte-i18n";
   import { trainings } from "$lib/training";
   import TrainingPlanCard from "$lib/components/training_plan_card.svelte";
+  import Shield from "virtual:icons/heroicons/shield-check";
+  import Users from "virtual:icons/heroicons/users-solid";
+  import Clock from "virtual:icons/heroicons/clock-solid";
+  import Certificate from "virtual:icons/heroicons/document-check";
 </script>
 
 <svelte:head>
@@ -12,109 +16,260 @@
 </svelte:head>
 
 <Container>
-  <div class="training-cards-container">
+  <div class="training-section">
+    <!-- Header -->
     <div class="header">
-      <h1>{$_("section_general_training")}</h1>
-      <div class="subtitle-container">
-        <p class="subtitle">
-          {$_("training_subtitle")}
-        </p>
+      <h1>{$_("training_page_title")} <span class="gradient-text">{$_("training_page_title_highlight")}</span></h1>
+      <p class="subtitle">{$_("training_page_subtitle")}</p>
+    </div>
+
+    <div class="features">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <Users />
+        </div>
+        <h3>{$_("training_feature_small_groups_title")}</h3>
+        <p>{$_("training_feature_small_groups_description")}</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <Clock />
+        </div>
+        <h3>{$_("training_feature_schedule_title")}</h3>
+        <p>{$_("training_feature_schedule_description")}</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">
+          <Certificate />
+        </div>
+        <h3>{$_("training_feature_certification_title")}</h3>
+        <p>{$_("training_feature_certification_description")}</p>
       </div>
     </div>
 
-    <div class="training-cards-content">
+    <!-- Info -->
+    <div class="info-banner">
+      <div class="info-icon">
+        <Shield />
+      </div>
+      <div class="info-content">
+        <h4>{$_("training_compliance_title")}</h4>
+        <p>{$_("training_subtitle")}</p>
+      </div>
+    </div>
+
+    <!-- Training Card -->
+    <div class="training-grid">
       {#each trainings as training}
-        <a href="/training/{training.slug}" class="product-link">
-          <div class="training-plan-container">
-            <TrainingPlanCard
-              service_type={"training"}
-              slug={training.slug}
-              price={training.price}
-              duration={training.duration}
-            />
-          </div>
-        </a>
+        <TrainingPlanCard
+          service_type={"training"}
+          slug={training.slug}
+          price={training.price}
+          duration={training.duration}
+        />
       {/each}
     </div>
   </div>
 </Container>
 
 <style>
-  .training-cards-container {
-    display: flex;
-    flex-direction: column;
-    gap: 1vw;
-    justify-content: center;
+  .training-section {
+    padding: 6rem 0;
+    background: linear-gradient(to bottom, #ffffff, #f8fafc);
   }
 
   .header {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-  }
-
-  .subtitle-container {
-    background-color: #f5f5f5;
-    border-radius: 6px;
-    padding: 0.5rem 0.75rem;
-    margin: 1rem 0;
-  }
-
-  .subtitle {
     text-align: center;
-    color: #666;
-    margin: 0;
-    line-height: 1.5;
-  }
-
-  .product-link {
-    text-decoration: none;
-    color: black;
-  }
-
-  .training-cards-content {
-    display: flex;
-    justify-content: center;
-    gap: 3vw;
-    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
-  }
-
-  .product-link {
-    flex: 1 1 30%; /* Ensures all links take up 30% of the width, but remain flexible */
-    max-width: 300px; /* Optional: To limit the maximum size */
-    min-width: 250px; /* Ensure a minimum width for consistency */
-    display: flex;
-    align-items: stretch; /* Ensures the card stretches to fill the available space */
-  }
-
-  .training-plan-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%; /* Make the card fill the full height of its container */
-    padding: 1rem; /* Optional: Ensure some padding around the card */
-    box-sizing: border-box; /* Ensures padding doesn't break layout */
+    margin-bottom: 4rem;
   }
 
   h1 {
-    grid-column: 1 / 2;
-    text-align: left;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin: 0 0 1rem;
+    line-height: 1.2;
   }
 
-  @media (max-width: 600px) {
-    .header {
-      display: flex;
-      flex-direction: column; /* Stack left and right side on top of each other */
-      width: 85vw;
+  .gradient-text {
+    background: linear-gradient(135deg, #007AFF, #5856D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+    color: #6b7280;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .feature-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid #e5e7eb;
+  }
+
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  }
+
+  .feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    background: linear-gradient(135deg, rgba(0, 122, 255, 0.1), rgba(88, 86, 214, 0.1));
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    color: #007AFF;
+  }
+
+  .feature-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem;
+    color: #1d1d1f;
+  }
+
+  .feature-card p {
+    font-size: 1rem;
+    color: #6b7280;
+    margin: 0;
+  }
+
+  .info-banner {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background: white;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    transition: all 0.3s ease;
+    border: 1px solid #e5e7eb;
+  }
+
+  .info-banner:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  }
+
+  .info-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    background: linear-gradient(135deg, rgba(0, 122, 255, 0.1), rgba(88, 86, 214, 0.1));
+    border-radius: 1rem;
+    color: #007AFF;
+    flex-shrink: 0;
+  }
+
+  .info-content h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin: 0 0 0.5rem;
+  }
+
+  .info-content p {
+    font-size: 1rem;
+    color: #6b7280;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .training-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    padding: 1rem;
+    justify-items: center;
+  }
+
+  @media (min-width: 1400px) {
+    .training-grid {
+      grid-template-columns: repeat(3, 1fr);
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 1200px) and (min-width: 769px) {
+    .training-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .training-section {
+      padding: 3rem 0;
     }
 
-    .training-cards-content {
-      display: flex;
-      flex-direction: column; /* Stack left and right side on top of each other */
-      width: 85vw;
+    h1 {
+      font-size: 2.5rem;
     }
-    .training-cards-container {
-      gap: 8vw;
+
+    .features {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .info-banner {
+      flex-direction: column;
+      text-align: center;
+      padding: 1.5rem;
+    }
+
+    .training-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      padding: 0;
+      width: 100%;
+      max-width: var(--main-mobile-container-width);
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .header {
+      margin-bottom: 2rem;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+    }
+
+    .feature-card,
+    .info-banner {
+      border-radius: 1rem;
+      padding: 1.5rem;
+    }
+
+    .training-grid {
+      padding: 0;
+      width: var(--main-mobile-container-width);
+      gap: 2rem;
+    }
+
+    .training-section {
+      padding: 2rem 1rem;
     }
   }
 </style>

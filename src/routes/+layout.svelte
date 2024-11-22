@@ -46,6 +46,10 @@
     async
     src="https://www.googletagmanager.com/gtag/js?id=G-SGMP530N48"
   ></script>
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=AW-935906638"
+  ></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -53,7 +57,9 @@
     }
     gtag("js", new Date());
 
+    // Configuring both Google tags
     gtag("config", "G-SGMP530N48");
+    gtag("config", "AW-935906638");
   </script>
 </svelte:head>
 

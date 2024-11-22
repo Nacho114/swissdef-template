@@ -9,8 +9,8 @@
     { src: "/assets/home/clients/logitech.png", alt: "Logitech Logo", class: "logitech" }
   ];
 
-  // logo duplicatooorr
-  const allLogos = [...logos, ...logos];
+  // logo loopy
+  const allLogos = [...logos, ...logos, ...logos];
 </script>
 
 <div class="trusted-brands-section">
@@ -83,6 +83,11 @@
     gap: 4rem;
     animation: scroll 30s linear infinite;
     width: max-content;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    will-change: transform;
+    padding-right: 4rem;
   }
 
   .logo-wrapper {
@@ -90,14 +95,19 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    min-width: 150px;
   }
 
   .logo {
     height: 45px;
     width: auto;
     opacity: 0.6;
-    transition: opacity 0.3s ease;
+    transition: all 0.3s ease;
     filter: grayscale(100%);
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    will-change: opacity, filter;
   }
 
   .logo:hover {
@@ -114,7 +124,7 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(calc(-50% - 2rem));
+      transform: translateX(calc(-33.33% - 2rem));
     }
   }
 

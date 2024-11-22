@@ -45,6 +45,8 @@
     "section_home_statistics_chart_label_without_aed": "Without AED",
     "section_home_statistics_chart_y_axis": "Chance of Survival (%)",
     "section_home_statistics_chart_x_axis": "Time (min)",
+    "section_home_statistics_chart_critical_zone": "Critical Zone: First 3 Minutes",
+    "section_home_statistics_chart_survival_rate": "Survival Rate",
     "-----------------------PRODUCTS----------------------------": "--------------------------------------------------------------------------------------------------------------------------------------------------------------",
     "section_products_vat_included": "VAT Excluded",
     "section_products_order": "Order",
@@ -171,5 +173,17 @@
     "alt_philips_hs1": "Philips HS-1 defibrillator, AED",
     "alt_training_session": "Participants practicing CPR and AED use in a BLS training session, guided by certified instructors.",
     "alt_maintenance_check": "Technician performing routine maintenance on a defibrillator to ensure it's ready for emergencies.",
-    "alt_defibrillator_product": "Close-up of a portable defibrillator, designed for quick response in cardiac emergencies."
+    "alt_defibrillator_product": "Close-up of a portable defibrillator, designed for quick response in cardiac emergencies.",
+    "training_page_title": "Professional",
+    "training_page_title_highlight": "First Aid Training",
+    "training_page_subtitle": "Expert-led training sessions to prepare your team for emergency situations",
+    "training_feature_small_groups_title": "Small Groups",
+    "training_feature_small_groups_description": "Maximum attention and hands-on practice",
+    "training_feature_schedule_title": "Flexible Schedule",
+    "training_feature_schedule_description": "Training sessions that fit your timeline",
+    "training_feature_certification_title": "Certification",
+    "training_feature_certification_description": "Official Swiss certification upon completion",
+    "training_compliance_title": "Swiss Compliance",
+    "contact_page_title": "Get in",
+    "contact_page_title_highlight": "Touch"
 }

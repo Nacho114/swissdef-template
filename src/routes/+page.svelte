@@ -11,7 +11,7 @@
   <title>{$_("meta_title_home")}</title>
   <meta name="description" content={$_("meta_description_home")} />
   <meta name="keywords" content={$_("meta_keywords_home")} />
-  <link rel="canonical" href="https://www.swissdefibrillator.com" />
+  <link rel="canonical" href="https://www.swissdefibrillator.ch" />
   <meta
     property="og:title"
     content="Swissdefibrillator - Your Partner for Heart Safety"
@@ -20,7 +20,7 @@
     property="og:description"
     content="Offering a range of defibrillators and first aid training services to equip companies in Switzerland for heart safety."
   />
-  <meta property="og:url" content="https://www.swissdefibrillator.com" />
+  <meta property="og:url" content="https://www.swissdefibrillator.ch" />
   <meta property="og:type" content="website" />
   <meta
     property="og:image"
@@ -96,5 +96,35 @@
 <style>
   .services {
     padding-top: 3vw;
+  }
+
+  :global(body) {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .content {
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+
+  :global(img) {
+    max-width: 100%;
+    height: auto;
+  }
+
+  :global(*) {
+    box-sizing: border-box;
+    max-width: 100%;
   }
 </style>

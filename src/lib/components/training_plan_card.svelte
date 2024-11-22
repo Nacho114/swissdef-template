@@ -18,60 +18,46 @@
   let duration_info = `${duration}h`;
 </script>
 
-<div class="service-card">
+<a href="/contact" class="service-card">
   <h2 class="service-title">{title}</h2>
   <div class="service-price">
-    <div class="service-price">
-      <span class="price-amount">{price_info}</span>
-      <span class="price-subtitle">
-        {$_("training_per_session")}
-      </span>
-    </div>
+    <span class="price-amount">{price_info}</span>
+    <span class="price-unit">
+      {$_("training_per_session")}
+    </span>
   </div>
+  <div class="service-duration">{duration_info}</div>
 
-  <div class="number-of-participants">
-    {$_("training_number_of_participants")}
-  </div>
-
-  <a href="/contact">
-    <div class="button">
-      <Button fullWidth={true}>
-        {$_("section_general_book")}
-        <ChevronRight />
-      </Button>
-    </div></a
-  >
-
-  <div class="details">
-    <div class="service-duration">
-      {$_("training_session_duration")}
-      {duration_info}
-    </div>
-    <p class="service-description">{description}</p>
+  <p class="service-description">{description}</p>
+  <div class="button">
+    <Button fullWidth={true}>
+      {$_("section_general_book")}
+      <ChevronRight />
+    </Button>
   </div>
 
   <PlanInformation {featuresString} />
-</div>
+</a>
 
 <style>
   .service-card {
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional: adds a shadow for depth */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     padding: 2rem;
-    max-width: 400px;
-    cursor: pointer; /* Changes cursor to hand pointer on hover */
-    transition:
-      box-shadow 0.3s,
-      transform 0.3s; /* Smooth transition for shadow and transform */
+    width: 100%;
+    max-width: 350px;
+    transition: box-shadow 0.3s, transform 0.3s;
+    text-decoration: none;
+    display: block;
+    color: inherit;
   }
 
   .service-card:hover {
-    /* Add a more defined shadow on hover */
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
-
-    /* Move the card slightly to the top left */
-    transform: translate(-5px, -5px);
+    transform: translateY(-5px);
+    box-shadow: 
+      0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
 
   .service-title {
@@ -92,43 +78,44 @@
     color: black;
   }
 
-  .details {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-  }
-
-  .service-duration {
+  .price-unit {
+    font-size: 1rem;
     color: #666;
   }
 
-  .number-of-participants {
+  .service-duration {
+    font-size: 1.2rem;
     color: #666;
     margin-bottom: 1rem;
   }
 
   .service-description {
     color: #666;
+    margin-bottom: 1rem;
+    min-height: 50px;
   }
 
-  /* Add media query for smaller screens */
-  @media (max-width: 1200px) {
+  @media (max-width: 768px) {
+    .service-card {
+      width: 100%;
+      max-width: none;
+      padding: 1.5rem;
+      min-height: auto;
+    }
+
     .service-title {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       margin-bottom: 0.5rem;
     }
+
     .service-price {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 0.25rem; /* Smaller gap when stacked */
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
     }
 
-    .price-amount {
-      font-size: 1.3rem; /* Slightly smaller on mobile */
-    }
-
-    .price-subtitle {
-      font-size: 0.9rem; /* Slightly smaller on mobile */
+    .service-description {
+      font-size: 1rem;
+      margin-bottom: 1rem;
     }
   }
 </style>

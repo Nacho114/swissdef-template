@@ -61,8 +61,7 @@
       gtag("js", new Date());
 
       // Configuring both Google tags
-      gtag("config", "G-SGMP530N48");
-      gtag("config", "AW-935906638");
+      gtag("config", "G-KG05X2V4BY");
     </script>
   {/if}</svelte:head
 >

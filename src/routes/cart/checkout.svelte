@@ -1,23 +1,21 @@
 <script lang="ts">
   import { cart } from "../../store"; // Import the cart store
   import { getProductById } from "$lib/products";
+  import { dev } from "$app/environment"; // `dev` is `true` in development and `false` in production.
 
   export let shippingCost: number;
 
-  const stripe_aws_link =
-    import.meta.env.MODE === "development"
-      ? import.meta.env.VITE_TEST_AWS_STRIPE_LINK // Use test link in development
-      : import.meta.env.VITE_AWS_STRIPE_LINK; // Use production link in production
+  const stripe_aws_link = dev
+    ? import.meta.env.VITE_TEST_AWS_STRIPE_LINK // Use test link in development
+    : import.meta.env.VITE_AWS_STRIPE_LINK; // Use production link in production
 
-  let success_url =
-    import.meta.env.MODE === "development"
-      ? "http://localhost:5173/success"
-      : "https://www.swissdefibrillator.ch/success";
+  let success_url = dev
+    ? "http://localhost:5173/success"
+    : "https://www.swissdefibrillator.ch/success";
 
-  let failure_url =
-    import.meta.env.MODE === "development"
-      ? "http://localhost:5173/failure"
-      : "https://www.swissdefibrillator.ch/failure";
+  let failure_url = dev
+    ? "http://localhost:5173/failure"
+    : "https://www.swissdefibrillator.ch/failure";
 
   $: line_items = Object.entries($cart)
     .map(([id, quantity]) => {

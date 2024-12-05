@@ -8,6 +8,7 @@
   import { cart } from "../store";
   import { _ } from "svelte-i18n";
   import { page } from "$app/stores";
+  import { dev } from "$app/environment"; // `dev` is `true` in development and `false` in production.
 
   $: isCartPage = $page.url.pathname === "/cart";
   $: hasItems = Object.keys($cart).length > 0;
@@ -25,8 +26,6 @@
     script.type = "module";
     document.body.appendChild(script);
   });
-
-  console.log("Environment Mode:", process.env.NODE_ENV);
 </script>
 
 <svelte:head>
@@ -43,7 +42,7 @@
     href="https://www.swissdefibrillator.ch/"
   />
 
-  {#if process.env.NODE_ENV === "production"}
+  {#if dev}
     <!-- Google tag (gtag.js) -->
     <script
       async

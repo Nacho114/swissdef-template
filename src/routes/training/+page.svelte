@@ -19,7 +19,10 @@
   <div class="training-section">
     <!-- Header -->
     <div class="header">
-      <h1>{$_("training_page_title")} <span class="gradient-text">{$_("training_page_title_highlight")}</span></h1>
+      <h1>
+        {$_("training_page_title")}
+        <span class="gradient-text">{$_("training_page_title_highlight")}</span>
+      </h1>
       <p class="subtitle">{$_("training_page_subtitle")}</p>
     </div>
 
@@ -61,18 +64,23 @@
     <!-- Training Card -->
     <div class="training-grid">
       {#each trainings as training}
-        <TrainingPlanCard
-          service_type={"training"}
-          slug={training.slug}
-          price={training.price}
-          duration={training.duration}
-        />
+        <a href="/training/{training.slug}" class="product-link">
+          <TrainingPlanCard
+            service_type={"training"}
+            slug={training.slug}
+            price={training.price}
+            duration={training.duration}
+          />
+        </a>
       {/each}
     </div>
   </div>
 </Container>
 
 <style>
+  .product-link {
+    text-decoration: none;
+  }
   .training-section {
     padding: 6rem 0;
     background: linear-gradient(to bottom, #ffffff, #f8fafc);
@@ -92,7 +100,7 @@
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, #007AFF, #5856D6);
+    background: linear-gradient(135deg, #007aff, #5856d6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -131,10 +139,14 @@
     justify-content: center;
     width: 3rem;
     height: 3rem;
-    background: linear-gradient(135deg, rgba(0, 122, 255, 0.1), rgba(88, 86, 214, 0.1));
+    background: linear-gradient(
+      135deg,
+      rgba(0, 122, 255, 0.1),
+      rgba(88, 86, 214, 0.1)
+    );
     border-radius: 1rem;
     margin-bottom: 1rem;
-    color: #007AFF;
+    color: #007aff;
   }
 
   .feature-card h3 {
@@ -173,9 +185,13 @@
     justify-content: center;
     width: 3rem;
     height: 3rem;
-    background: linear-gradient(135deg, rgba(0, 122, 255, 0.1), rgba(88, 86, 214, 0.1));
+    background: linear-gradient(
+      135deg,
+      rgba(0, 122, 255, 0.1),
+      rgba(88, 86, 214, 0.1)
+    );
     border-radius: 1rem;
-    color: #007AFF;
+    color: #007aff;
     flex-shrink: 0;
   }
 

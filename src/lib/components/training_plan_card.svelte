@@ -18,7 +18,7 @@
   let duration_info = `${duration}h`;
 </script>
 
-<a href="/contact" class="service-card">
+<div class="service-card">
   <h2 class="service-title">{title}</h2>
   <div class="service-price">
     <span class="price-amount">{price_info}</span>
@@ -30,14 +30,16 @@
 
   <p class="service-description">{description}</p>
   <div class="button">
-    <Button fullWidth={true}>
-      {$_("section_general_book")}
-      <ChevronRight />
-    </Button>
+    <a href="/contact">
+      <Button fullWidth={true}>
+        {$_("section_general_book")}
+        <ChevronRight />
+      </Button>
+    </a>
   </div>
 
   <PlanInformation {featuresString} />
-</a>
+</div>
 
 <style>
   .service-card {
@@ -47,7 +49,9 @@
     padding: 2rem;
     width: 100%;
     max-width: 350px;
-    transition: box-shadow 0.3s, transform 0.3s;
+    transition:
+      box-shadow 0.3s,
+      transform 0.3s;
     text-decoration: none;
     display: block;
     color: inherit;
@@ -55,7 +59,7 @@
 
   .service-card:hover {
     transform: translateY(-5px);
-    box-shadow: 
+    box-shadow:
       0 20px 25px -5px rgba(0, 0, 0, 0.1),
       0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }

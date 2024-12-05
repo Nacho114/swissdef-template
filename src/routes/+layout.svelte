@@ -47,10 +47,6 @@
     <!-- Google tag (gtag.js) -->
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-SGMP530N48"
-    ></script>
-    <script
-      async
       src="https://www.googletagmanager.com/gtag/js?id=AW-935906638"
     ></script>
     <script>
@@ -60,8 +56,7 @@
       }
       gtag("js", new Date());
 
-      // Configuring both Google tags
-      gtag("config", "G-KG05X2V4BY");
+      gtag("config", "AW-935906638");
     </script>
   {/if}</svelte:head
 >

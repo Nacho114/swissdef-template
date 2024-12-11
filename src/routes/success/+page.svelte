@@ -30,12 +30,12 @@
 
   const value = subtotal === undefined ? 100 : subtotal;
   if (!dev) {
-    gtag("event", "conversion", {
-      send_to: "AW-935906638/_Ew5CJacouoZEM6ao74D",
-      value: subtotal,
-      currency: "CHF",
-      transaction_id: "",
-    });
+    // gtag("event", "conversion", {
+    //   send_to: "AW-935906638/_Ew5CJacouoZEM6ao74D",
+    //   value: subtotal,
+    //   currency: "CHF",
+    //   transaction_id: "",
+    // });
   } else {
     console.log(value);
   }

@@ -28,6 +28,7 @@
     return sum + item?.price * item?.quantity;
   }, 0);
 
+  const value = subtotal === undefined ? 100 : subtotal;
   if (!dev) {
     gtag("event", "conversion", {
       send_to: "AW-935906638/_Ew5CJacouoZEM6ao74D",
@@ -36,7 +37,7 @@
       transaction_id: "",
     });
   } else {
-    console.log(subtotal);
+    console.log(value);
   }
 
   clearCart();

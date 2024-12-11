@@ -1,10 +1,10 @@
-<script>
+<script lang="ts">
+  import { onMount } from "svelte";
   import Container from "$lib/components/container.svelte";
   import { _ } from "svelte-i18n";
   import { clearCart } from "../../store";
   import { cart } from "../../store";
   import { getProductById } from "$lib/products";
-  import { dev } from "$app/environment";
 
   $: cartItems = Object.entries($cart)
     .map(([id, quantity]) => {
@@ -29,18 +29,17 @@
   }, 0);
 
   const value = subtotal === undefined ? 100 : subtotal;
-  if (!dev) {
+  // Trigger Google Tag Event on Component Mount (after data is ready)
+  onMount(() => {
+    // Trigger conversion event when the page is mounted
     gtag("event", "conversion", {
       send_to: "AW-935906638/_Ew5CJacouoZEM6ao74D",
-      value: subtotal,
+      value: value, // Use the correct subtotal value
       currency: "CHF",
-      transaction_id: "",
+      transaction_id: "transaction_id_placeholder",
     });
-  } else {
-    console.log(value);
-  }
-
-  clearCart();
+    clearCart();
+  });
 </script>
 
 <Container>

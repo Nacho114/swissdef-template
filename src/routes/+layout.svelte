@@ -42,7 +42,7 @@
     href="https://www.swissdefibrillator.ch/"
   />
 
-  {#if dev}
+  {#if !dev}
     <!-- Google tag (gtag.js) -->
     <script
       async

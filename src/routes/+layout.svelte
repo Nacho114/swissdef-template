@@ -42,23 +42,21 @@
     href="https://www.swissdefibrillator.ch/"
   />
 
-  {#if !dev}
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=AW-935906638"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=AW-935906638"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-      gtag("config", "AW-935906638");
-    </script>
-  {/if}</svelte:head
->
+    gtag("config", "AW-935906638");
+  </script>
+</svelte:head>
 
 <div class="layout">
   <div class="header"><Header /></div>

@@ -31,6 +31,7 @@
   const value = subtotal === undefined ? 100 : subtotal;
   // Trigger Google Tag Event on Component Mount (after data is ready)
   onMount(() => {
+    console.log(`Sending gtag, value = ${value}`);
     // Trigger conversion event when the page is mounted
     gtag("event", "conversion", {
       send_to: "AW-935906638/_Ew5CJacouoZEM6ao74D",

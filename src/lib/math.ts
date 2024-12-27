@@ -1,4 +1,4 @@
-export const formatPrice = (price: number, withDecimals: boolean = true): string => {
+export const formatPrice = (price: number, withDecimals = true): string => {
     return new Intl.NumberFormat("en-US", {
         style: "currency",
         currency: "CHF",

@@ -8,7 +8,6 @@
   import { cart } from "../store";
   import { _ } from "svelte-i18n";
   import { page } from "$app/stores";
-  import { dev } from "$app/environment"; // `dev` is `true` in development and `false` in production.
 
   $: isCartPage = $page.url.pathname === "/cart";
   $: hasItems = Object.keys($cart).length > 0;

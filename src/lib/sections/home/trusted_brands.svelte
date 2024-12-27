@@ -1,12 +1,15 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
-  import { onMount } from "svelte";
 
   const logos = [
     { src: "/assets/home/clients/ibis.png", alt: "Ibis Logo" },
     { src: "/assets/home/clients/novotel.png", alt: "Novotel Logo" },
     { src: "/assets/home/clients/cdf-logo.png", alt: "CDF Logo" },
-    { src: "/assets/home/clients/logitech.png", alt: "Logitech Logo", class: "logitech" }
+    {
+      src: "/assets/home/clients/logitech.png",
+      alt: "Logitech Logo",
+      class: "logitech",
+    },
   ];
 
   // logo loopy
@@ -17,13 +20,13 @@
   <h2>
     {$_("section_home_trusted_brands_title")}
   </h2>
-  
+
   <div class="logos-container">
     <div class="logos-track">
       {#each allLogos as logo}
         <div class="logo-wrapper">
           <img
-            class={`logo ${logo.class || ''}`}
+            class={`logo ${logo.class || ""}`}
             src={logo.src}
             alt={logo.alt}
             loading="lazy"

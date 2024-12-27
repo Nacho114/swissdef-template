@@ -19,6 +19,13 @@
     document.head.appendChild(script);
   });
 
+  function gtag_report_conversion() {
+    console.log("Hey");
+    gtag("event", "conversion", {
+      send_to: "AW-935906638/2pRNCM7l8vwZEM6ao74D",
+    });
+  }
+
   // Contact card datarrr
   const contactCards = [
     {
@@ -70,7 +77,11 @@
   <!-- Contact Griddy -->
   <div class="contact-grid">
     {#each contactCards as card}
-      <a href={card.href} class="contact-card">
+      <a
+        href={card.href}
+        class="contact-card"
+        on:click={gtag_report_conversion}
+      >
         <div class="card-content">
           <div class="card-icon">
             <svelte:component this={card.icon} />
@@ -96,7 +107,11 @@
             </p>
           </div>
         </div>
-        <a href="https://wa.me/+41794412406" class="whatsapp-button">
+        <a
+          href="https://wa.me/+41794412406"
+          class="whatsapp-button"
+          on:click={gtag_report_conversion}
+        >
           {$_("contact_whatsapp_message_button")}
         </a>
       </div>
@@ -412,4 +427,3 @@
     }
   }
 </style>
-

@@ -287,12 +287,6 @@
     margin-bottom: 2rem;
   }
 
-  .whatsapp-icon {
-    color: #25d366;
-    width: 48px;
-    height: 48px;
-  }
-
   .support-card h2 {
     font-size: 2rem;
     font-weight: 600;
@@ -327,15 +321,6 @@
     transform: translateY(-2px);
     background-color: #20bc5a;
     box-shadow: 0 4px 12px rgba(37, 211, 102, 0.2);
-  }
-
-  .social-icons {
-    display: flex;
-    gap: 1.5rem;
-    justify-content: center;
-    margin-top: 2rem;
-    padding-top: 2rem;
-    border-top: 1px solid rgba(37, 211, 102, 0.2);
   }
 
   @media (max-width: 768px) {
@@ -384,11 +369,6 @@
       gap: 1rem;
       text-align: center;
       margin-bottom: 1.5rem;
-    }
-
-    .whatsapp-icon {
-      width: 36px;
-      height: 36px;
     }
 
     .support-card h2 {

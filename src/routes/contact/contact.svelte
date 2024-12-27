@@ -1,15 +1,23 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
-  import CircularButton from "$lib/components/circular_button.svelte";
-  import Button from "$lib/components/button.svelte";
-  import Facebook from "virtual:icons/gg/facebook";
-  import Twitter from "virtual:icons/ant-design/twitter-outlined";
-  import Instagram from "virtual:icons/ant-design/instagram";
   import Location from "virtual:icons/typcn/location";
   import Phone from "virtual:icons/solar/phone-linear";
   import Email from "virtual:icons/iconamoon/email";
   import WhatsApp from "virtual:icons/ri/whatsapp-fill";
   import { ContactInfo } from "$lib/info";
+
+  import { onMount } from "svelte";
+
+  onMount(() => {
+    const script = document.createElement("script");
+    // TODO: Hard coded number
+    script.innerHTML = `
+      gtag('config', 'AW-935906638/0ZkSCM_C8fwZEM6ao74D', {
+        'phone_conversion_number': '0 79 441 24 06'
+      });
+    `;
+    document.head.appendChild(script);
+  });
 
   // Contact card datarrr
   const contactCards = [
@@ -17,28 +25,34 @@
       icon: Phone,
       title: "Phone",
       description: ContactInfo.getPhoneNumber(),
-      href: `tel:${ContactInfo.getPhoneNumber()}`
+      href: `tel:${ContactInfo.getPhoneNumber()}`,
     },
     {
-      icon: Email, 
+      icon: Email,
       title: "Email",
       description: ContactInfo.getEmail(),
-      href: `mailto:${ContactInfo.getEmail()}`
+      href: `mailto:${ContactInfo.getEmail()}`,
     },
     {
       icon: Location,
       title: "Address",
       description: ContactInfo.getAddress(),
-      href: "#"
-    }
+      href: "#",
+    },
   ];
 </script>
+
 <div class="noise-container">
   <svg class="noise-svg">
     <filter id="noise">
-      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch"/>
+      <feTurbulence
+        type="fractalNoise"
+        baseFrequency="0.8"
+        numOctaves="4"
+        stitchTiles="stitch"
+      />
     </filter>
-    <rect width="100%" height="100%" filter="url(#noise)"/>
+    <rect width="100%" height="100%" filter="url(#noise)" />
   </svg>
 </div>
 <div class="blur-element blur-blue" />
@@ -46,7 +60,10 @@
 
 <div class="contact-wrapper">
   <div class="header">
-    <h1>{$_("contact_page_title")} <span class="gradient-text">{$_("contact_page_title_highlight")}</span></h1>
+    <h1>
+      {$_("contact_page_title")}
+      <span class="gradient-text">{$_("contact_page_title_highlight")}</span>
+    </h1>
     <p class="subtitle">{$_("contact_sub_title")}</p>
   </div>
 
@@ -74,7 +91,9 @@
           <WhatsApp class="whatsapp-icon" />
           <div>
             <h2>{$_("contact_whatsapp_support_title")}</h2>
-            <p class="whatsapp-description">{$_("contact_whatsapp_support_description")}</p>
+            <p class="whatsapp-description">
+              {$_("contact_whatsapp_support_description")}
+            </p>
           </div>
         </div>
         <a href="https://wa.me/+41794412406" class="whatsapp-button">
@@ -107,13 +126,13 @@
   .blur-blue {
     top: -10%;
     right: -10%;
-    background: #007AFF;
+    background: #007aff;
   }
 
   .blur-purple {
     bottom: -10%;
     left: -10%;
-    background: #5856D6;
+    background: #5856d6;
   }
 
   .contact-wrapper {
@@ -137,7 +156,7 @@
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, #007AFF, #5856D6);
+    background: linear-gradient(135deg, #007aff, #5856d6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -156,7 +175,6 @@
     margin-bottom: 4rem;
   }
 
-
   .contact-card {
     position: relative;
     padding: 2.5rem;
@@ -167,7 +185,7 @@
     text-decoration: none;
     transition: all 0.3s ease;
     backdrop-filter: blur(12px);
-    box-shadow: 
+    box-shadow:
       0 4px 6px -1px rgba(0, 0, 0, 0.1),
       0 2px 4px -1px rgba(0, 0, 0, 0.06),
       inset 0 1px 0 rgba(255, 255, 255, 0.6);
@@ -177,7 +195,7 @@
     transform: translateY(-5px);
     background: rgba(255, 255, 255, 0.9);
     border-color: rgba(0, 122, 255, 0.2);
-    box-shadow: 
+    box-shadow:
       0 20px 25px -5px rgba(0, 0, 0, 0.1),
       0 10px 10px -5px rgba(0, 0, 0, 0.04),
       inset 0 1px 0 rgba(255, 255, 255, 0.8);
@@ -186,10 +204,14 @@
   .card-icon {
     display: inline-flex;
     padding: 1rem;
-    background: linear-gradient(135deg, rgba(0, 122, 255, 0.1), rgba(88, 86, 214, 0.1));
+    background: linear-gradient(
+      135deg,
+      rgba(0, 122, 255, 0.1),
+      rgba(88, 86, 214, 0.1)
+    );
     border-radius: 1rem;
     margin-bottom: 1.5rem;
-    color: #007AFF;
+    color: #007aff;
   }
 
   .contact-card h3 {
@@ -222,13 +244,17 @@
   }
 
   .support-card {
-    background: linear-gradient(135deg, rgba(37, 211, 102, 0.05), rgba(37, 211, 102, 0.1));
+    background: linear-gradient(
+      135deg,
+      rgba(37, 211, 102, 0.05),
+      rgba(37, 211, 102, 0.1)
+    );
     border: 1px solid rgba(37, 211, 102, 0.2);
     border-radius: 2rem;
     padding: 4rem;
     text-align: center;
     backdrop-filter: blur(12px);
-    box-shadow: 
+    box-shadow:
       0 4px 6px -1px rgba(0, 0, 0, 0.1),
       0 2px 4px -1px rgba(0, 0, 0, 0.06);
     overflow: hidden;
@@ -386,3 +412,4 @@
     }
   }
 </style>
+

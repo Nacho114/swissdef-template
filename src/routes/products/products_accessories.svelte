@@ -3,7 +3,7 @@
   import ToggleButtons from "$lib/components/toggle_button.svelte";
   import ProductCard from "./product_card.svelte";
   import { _ } from "svelte-i18n";
-  import { defibrillators, accessories } from "$lib/products";
+  import { defibrillators } from "$lib/products";
   import { goto } from "$app/navigation";
 
   export let toggled_products = defibrillators; // default to defibrillators

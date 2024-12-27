@@ -37,8 +37,26 @@
     })
     .filter((item) => item !== null);
 
+  // Auxiliary function to report the conversion event
+  function gtagReportConversion() {
+    const total_cost = Object.entries($cart).reduce(
+      (accumulator, [id, quantity]) => {
+        const product = getProductById(id);
+        return product ? accumulator + product.price * quantity : accumulator;
+      },
+      0,
+    );
+    gtag("event", "conversion", {
+      send_to: "AW-935906638/xTIUCLak3_wZEM6ao74D",
+      value: total_cost + shippingCost,
+      currency: "CHF",
+    });
+  }
+
   async function handleCheckout() {
     try {
+      gtagReportConversion();
+
       const response = await fetch(stripe_aws_link, {
         method: "POST",
         headers: { "Content-Type": "application/json" },

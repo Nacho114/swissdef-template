@@ -27,11 +27,16 @@
   let submitted = false;
 
   function gtag_report_conversion() {
-    gtag("event", "conversion", {
-      send_to: "AW-935906638/fkHTCPnWm_0ZEM6ao74D",
-      value: AVERAGE_PROFIT_PER_LEAD,
-      currency: "CHF",
-    });
+    try {
+      gtag("event", "conversion", {
+        send_to: "AW-935906638/fkHTCPnWm_0ZEM6ao74D",
+        value: AVERAGE_PROFIT_PER_LEAD,
+        currency: "CHF",
+      });
+      console.log("gtag event 'conversion' sent successfully.");
+    } catch (error) {
+      console.error("Error sending gtag event:", error);
+    }
   }
 
   function handleSubmit(event: Event) {

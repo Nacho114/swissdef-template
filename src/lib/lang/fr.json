@@ -177,17 +177,23 @@
     "training_page_title": "Formation",
     "training_page_title_highlight": "Premiers Secours Professionnelle",
     "training_page_subtitle": "Sessions de formation dirigées par des experts pour préparer votre équipe aux situations d'urgence",
-    
     "training_feature_small_groups_title": "Petits Groupes",
     "training_feature_small_groups_description": "Attention maximale et pratique directe",
-    
     "training_feature_schedule_title": "Horaire Flexible",
     "training_feature_schedule_description": "Sessions de formation adaptées à votre emploi du temps",
-    
     "training_feature_certification_title": "Certification",
     "training_feature_certification_description": "Certification suisse officielle à l'achèvement",
-    
     "training_compliance_title": "Conformité Suisse",
     "contact_page_title": "Entrez en",
-    "contact_page_title_highlight": "Contact"
+    "contact_page_title_highlight": "Contact",
+    "-----------------------Form----------------------------": "--------------------------------------------------------------------------------------------------------------------------------------------------------------",
+    "contact_form_title": "Nous Contacter",
+    "contact_form_name_label": "Nom",
+    "contact_form_name_placeholder": "Entrez votre nom",
+    "contact_form_email_label": "Email",
+    "contact_form_email_placeholder": "Entrez votre email",
+    "contact_form_message_label": "Message",
+    "contact_form_message_placeholder": "Entrez votre message",
+    "contact_form_submit_button": "Envoyer",
+    "contact_form_success_message": "Votre message a été envoyé avec succès !"
 }

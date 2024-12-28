@@ -185,5 +185,15 @@
     "training_feature_certification_description": "Official Swiss certification upon completion",
     "training_compliance_title": "Swiss Compliance",
     "contact_page_title": "Get in",
-    "contact_page_title_highlight": "Touch"
+    "contact_page_title_highlight": "Touch",
+    "-----------------------Form----------------------------": "--------------------------------------------------------------------------------------------------------------------------------------------------------------",
+    "contact_form_title": "Contact Us",
+    "contact_form_name_label": "Name",
+    "contact_form_name_placeholder": "Enter your name",
+    "contact_form_email_label": "Email",
+    "contact_form_email_placeholder": "Enter your email",
+    "contact_form_message_label": "Message",
+    "contact_form_message_placeholder": "Enter your message",
+    "contact_form_submit_button": "Submit",
+    "contact_form_success_message": "Your message has been sent successfully!"
 }

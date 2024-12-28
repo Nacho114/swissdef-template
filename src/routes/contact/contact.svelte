@@ -5,6 +5,7 @@
   import Email from "virtual:icons/iconamoon/email";
   import WhatsApp from "virtual:icons/ri/whatsapp-fill";
   import { ContactInfo } from "$lib/info";
+  import Form from "./form.svelte";
 
   import { onMount } from "svelte";
 
@@ -73,6 +74,8 @@
     </h1>
     <p class="subtitle">{$_("contact_sub_title")}</p>
   </div>
+
+  <Form />
 
   <!-- Contact Griddy -->
   <div class="contact-grid">

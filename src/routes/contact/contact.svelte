@@ -12,7 +12,7 @@
 
   onMount(() => {
     gtag("config", "AW-935906638/0ZkSCM_C8fwZEM6ao74D", {
-      phone_conversion_number: "0 79 441 24 06",
+      phone_conversion_number: "+41794412406",
       value: AVERAGE_PROFIT_PER_LEAD, // Average prof
       currency: "CHF",
     });

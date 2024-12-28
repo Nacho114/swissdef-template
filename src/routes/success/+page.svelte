@@ -31,14 +31,25 @@
   const value = subtotal === undefined ? 100 : subtotal;
   // Trigger Google Tag Event on Component Mount (after data is ready)
   onMount(() => {
+    console.log("Component mounted");
     console.log(`Sending gtag, value = ${value}`);
-    // Trigger conversion event when the page is mounted
-    gtag("event", "conversion", {
-      send_to: "AW-935906638/_Ew5CJacouoZEM6ao74D",
-      value: value, // Use the correct subtotal value
-      currency: "CHF",
-      transaction_id: "transaction_id_placeholder",
-    });
+
+    if (typeof gtag === "undefined") {
+      console.error("gtag is not defined. Ensure the gtag script is loaded.");
+      return;
+    }
+
+    try {
+      gtag("event", "conversion", {
+        send_to: "AW-935906638/_Ew5CJacouoZEM6ao74D",
+        value: value, // Ensure this value is correct
+        currency: "CHF",
+        transaction_id: "transaction_id_placeholder", // Replace with actual transaction ID
+      });
+      console.log("gtag event sent successfully");
+    } catch (error) {
+      console.error("Error triggering gtag event:", error);
+    }
     clearCart();
   });
 </script>

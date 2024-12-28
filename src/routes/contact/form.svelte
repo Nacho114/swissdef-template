@@ -1,6 +1,7 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
   import { onMount } from "svelte";
+  import { AVERAGE_PROFIT_PER_LEAD } from "$lib/math";
 
   const emailjs_public_key = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
   const emailjs_template_id = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
@@ -28,7 +29,7 @@
   function gtag_report_conversion() {
     gtag("event", "conversion", {
       send_to: "AW-935906638/fkHTCPnWm_0ZEM6ao74D",
-      value: 200.0,
+      value: AVERAGE_PROFIT_PER_LEAD,
       currency: "CHF",
     });
   }

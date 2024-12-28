@@ -7,4 +7,6 @@ export const formatPrice = (price: number, withDecimals = true): string => {
     }).format(price);
 };
 
-
+const AVERAGE_PROFIT_PER_CLIENT = 500
+const CONVERSION_RATE = 0.1
+export const AVERAGE_PROFIT_PER_LEAD = AVERAGE_PROFIT_PER_CLIENT * CONVERSION_RATE

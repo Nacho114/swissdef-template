@@ -5,25 +5,25 @@
   import Email from "virtual:icons/iconamoon/email";
   import WhatsApp from "virtual:icons/ri/whatsapp-fill";
   import { ContactInfo } from "$lib/info";
+  import { AVERAGE_PROFIT_PER_LEAD } from "$lib/math";
   import Form from "./form.svelte";
 
   import { onMount } from "svelte";
 
   onMount(() => {
-    const script = document.createElement("script");
-    // TODO: Hard coded number
-    script.innerHTML = `
-      gtag('config', 'AW-935906638/0ZkSCM_C8fwZEM6ao74D', {
-        'phone_conversion_number': '0 79 441 24 06'
-      });
-    `;
-    document.head.appendChild(script);
+    gtag("config", "AW-935906638/0ZkSCM_C8fwZEM6ao74D", {
+      phone_conversion_number: "0 79 441 24 06",
+      value: AVERAGE_PROFIT_PER_LEAD, // Average prof
+      currency: "CHF",
+    });
   });
 
   function gtag_report_conversion() {
     console.log("Hey");
     gtag("event", "conversion", {
       send_to: "AW-935906638/2pRNCM7l8vwZEM6ao74D",
+      value: AVERAGE_PROFIT_PER_LEAD, // Average prof
+      currency: "CHF",
     });
   }
 

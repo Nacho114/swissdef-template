@@ -33,6 +33,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@rollup/plugin-json": "^6.1.0",
     "@stripe/stripe-js": "^4.9.0",
     "chart.js": "^4.4.2",

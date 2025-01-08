@@ -53,7 +53,7 @@
     }
     gtag("js", new Date());
 
-    gtag("config", "AW-935906638");
+    gtag("config", "AW-935906638", { allow_enhanced_conversions: true });
   </script>
 </svelte:head>
 

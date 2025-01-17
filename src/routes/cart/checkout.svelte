@@ -2,6 +2,7 @@
   import { cart } from "../../store"; // Import the cart store
   import { getProductById } from "$lib/products";
   import { dev } from "$app/environment"; // `dev` is `true` in development and `false` in production.
+  import { with_iva } from "$lib/products";
 
   export let shippingCost: number;
 
@@ -28,7 +29,7 @@
               name: product.id, // Using slug as the product name
               description: `${product.type}`, // Optional: you can customize this description
             },
-            unit_amount: product.price * 100, // Convert CHF to cents for Stripe compatibility (assuming price is in CHF)
+            unit_amount: with_iva(product.price) * 100, // Convert CHF to cents for Stripe compatibility (assuming price is in CHF)
           },
           quantity: quantity,
         };

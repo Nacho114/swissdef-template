@@ -105,7 +105,7 @@ export const accessories: Product[] = [
     id: "aivia_100",
     img: "cabinet/aivia_100",
     price: 195,
-    shipping_price: 50,
+    shipping_price: 20,
     type: ProductType.Accessory,
   },
   {
@@ -113,7 +113,7 @@ export const accessories: Product[] = [
     id: "aivia_200",
     img: "cabinet/aivia_200",
     price: 590,
-    shipping_price: 50,
+    shipping_price: 20,
     type: ProductType.Accessory,
   },
   {
@@ -129,7 +129,7 @@ export const accessories: Product[] = [
     id: "wap_cabinet",
     img: "cabinet/wap",
     price: 95,
-    shipping_price: 20,
+    shipping_price: 10,
     type: ProductType.Accessory,
   },
   {
@@ -145,7 +145,7 @@ export const accessories: Product[] = [
     id: "aed_sticker",
     img: "sign/aed_sticker",
     price: 5,
-    shipping_price: 5,
+    shipping_price: 10,
     type: ProductType.Accessory,
   },
   {
@@ -153,7 +153,7 @@ export const accessories: Product[] = [
     id: "wap_first_aid_kit",
     img: "wap/wap_first_aid_kit",
     price: 40,
-    shipping_price: 5,
+    shipping_price: 10,
     type: ProductType.Accessory,
   },
   {
@@ -169,7 +169,7 @@ export const accessories: Product[] = [
     id: "aivia_sticker",
     img: "sign/aivia_sticker",
     price: 45,
-    shipping_price: 5,
+    shipping_price: 10,
     type: ProductType.Accessory,
   },
 ];

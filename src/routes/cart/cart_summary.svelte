@@ -2,11 +2,12 @@
   import { _ } from "svelte-i18n";
   import Checkout from "./checkout.svelte";
   import { formatPrice } from "$lib/math";
+  import { with_iva, iva_value } from "$lib/products";
 
   export let subtotal: number;
   export let shippingCost: number;
 
-  $: total = subtotal + shippingCost;
+  $: total_with_iva = with_iva(subtotal) + shippingCost;
 </script>
 
 <div class="cart-summary">
@@ -19,17 +20,18 @@
     </div>
 
     <div class="summary-line">
+      <span>VAT</span>
+      <span>{formatPrice(iva_value(subtotal))}</span>
+    </div>
+
+    <div class="summary-line">
       <span>{$_("cart_shipping")}</span>
       <span>{formatPrice(shippingCost)}</span>
     </div>
 
-    <div class="vat-line">
-      <span>{$_("cart_vat_included")}</span>
-    </div>
-
     <div class="summary-line total">
       <span>{$_("cart_total")}</span>
-      <span>{formatPrice(total)}</span>
+      <span>{formatPrice(total_with_iva)}</span>
     </div>
   </div>
 
@@ -62,13 +64,6 @@
     justify-content: space-between;
     color: #666;
     font-size: 0.95rem;
-  }
-
-  .vat-line {
-    display: flex;
-    justify-content: space-between;
-    color: #666;
-    font-size: 0.75rem;
   }
 
   .total {

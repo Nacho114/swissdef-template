@@ -1,6 +1,6 @@
 <script lang="ts">
   import { cart } from "../../store"; // Import the cart store
-  import { getProductById } from "$lib/products";
+  import { format_for_stripe, getProductById } from "$lib/products";
   import { dev } from "$app/environment"; // `dev` is `true` in development and `false` in production.
   import { with_iva } from "$lib/products";
 
@@ -21,6 +21,12 @@
   $: line_items = Object.entries($cart)
     .map(([id, quantity]) => {
       const product = getProductById(id);
+      if (product == undefined) {
+        console.log("product undefined!");
+      }
+      const unit_amount_raw = with_iva(product.price);
+      const unit_amount = format_for_stripe(unit_amount_raw);
+
       if (product) {
         return {
           price_data: {
@@ -29,7 +35,7 @@
               name: product.id, // Using slug as the product name
               description: `${product.type}`, // Optional: you can customize this description
             },
-            unit_amount: with_iva(product.price) * 100, // Convert CHF to cents for Stripe compatibility (assuming price is in CHF)
+            unit_amount: unit_amount, // Convert CHF to cents for Stripe compatibility (assuming price is in CHF)
           },
           quantity: quantity,
         };
@@ -67,7 +73,7 @@
             type: "fixed_amount",
             display_name: "Standard delivery",
             fixed_amount: {
-              amount: shippingCost * 100,
+              amount: format_for_stripe(shippingCost),
               currency: "chf",
             },
           },

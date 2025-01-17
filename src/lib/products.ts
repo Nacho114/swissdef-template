@@ -29,6 +29,14 @@ export const with_iva = (price: number): number => {
   return price + iva_value(price);
 };
 
+export const format_for_stripe = (price: number): number => {
+  // Multiply by 100 and round down to avoid decimals
+  const formattedPrice = Math.floor(price * 100);
+
+  // Return the formatted price
+  return formattedPrice;
+};
+
 // Array of defibrillator products with type
 export const defibrillators: Product[] = [
   {

@@ -8,6 +8,7 @@
   export let slug: string;
   export let price: number;
   export let service_type: string;
+  export let payment_link: string;
 
   $: featuresString = $_(`${service_type}_${slug}_features`);
   $: title = $_(`${service_type}_${slug}_title`);
@@ -21,7 +22,7 @@
   <div class="service-price">{price_info}</div>
 
   <p class="service-description">{description}</p>
-  <a href="/contact">
+  <a href={payment_link}>
     <div class="button">
       <Button fullWidth={true}>
         {$_("section_general_order")}

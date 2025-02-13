@@ -1,7 +1,11 @@
 <script lang="ts">
   import { cart } from "../../store";
   import CartItem from "./cart_item.svelte";
-  import { getProductById, MAX_SHIPPING_COST } from "$lib/products";
+  import {
+    calculateShippingCost,
+    getProductById,
+    MAX_SHIPPING_COST,
+  } from "$lib/products";
   import Container from "$lib/components/container.svelte";
   import CartSummary from "./cart_summary.svelte";
   import { _ } from "svelte-i18n";
@@ -19,7 +23,7 @@
           slug: product.slug,
           img: product.img,
           price: product.price,
-          shipping_price: product.shipping_price,
+          weight: product.weight,
           quantity,
         };
       }
@@ -32,11 +36,10 @@
     return sum + item?.price * item?.quantity;
   }, 0);
 
-  $: shippingCost = Math.min(
+  $: shippingCost = calculateShippingCost(
     cartItems.reduce((sum, item) => {
-      return sum + item?.shipping_price * item?.quantity;
+      return sum + item?.weight * item?.quantity;
     }, 0),
-    MAX_SHIPPING_COST,
   );
 </script>
 

@@ -7,7 +7,8 @@
   export let subtotal: number;
   export let shippingCost: number;
 
-  $: total = with_iva(subtotal) + shippingCost;
+  $: total = with_iva(subtotal + shippingCost);
+  $: vat = iva_value(subtotal + shippingCost);
 </script>
 
 <div class="cart-summary">
@@ -20,13 +21,13 @@
     </div>
 
     <div class="summary-line">
-      <span>VAT</span>
-      <span>{formatPrice(iva_value(subtotal))}</span>
+      <span>{$_("cart_shipping")}</span>
+      <span>{formatPrice(shippingCost)}</span>
     </div>
 
     <div class="summary-line">
-      <span>{$_("cart_shipping")}</span>
-      <span>{formatPrice(shippingCost)}</span>
+      <span>VAT</span>
+      <span>{formatPrice(vat)}</span>
     </div>
 
     <div class="summary-line total">

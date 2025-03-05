@@ -6,7 +6,7 @@
   import { _ } from "svelte-i18n";
   export let data: Product;
 
-  let image_path = `/assets/products/${data.img}.jpg`;
+  let image_path = `/assets/products/${data.img}.webp`;
   let price = data.price;
   $: title = $_(`section_products_${data.slug}_title`);
   $: summary = $_(`section_products_${data.slug}_summary`);

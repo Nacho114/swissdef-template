@@ -35,7 +35,7 @@
 <div class="cart-item">
   <div class="product-details">
     <img
-      src={`/assets/products/${img}_s.jpg`}
+      src={`/assets/products/${img}_s.webp`}
       alt={slug}
       class="product-image"
     />

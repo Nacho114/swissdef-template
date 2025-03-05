@@ -8,7 +8,7 @@
   <div class="card-section">
     <a href="/training">
       <ServiceCard
-        src="/assets/home/training.png"
+        src="/assets/home/training.webp"
         summary={$_("section_home_services_training_summary")}
         alt="{$_('alt_training_session')}}"
         title={$_("section_general_training")}
@@ -16,7 +16,7 @@
     >
     <a href="/maintenance">
       <ServiceCard
-        src="/assets/home/maintenance.png"
+        src="/assets/home/maintenance.webp"
         summary={$_("section_home_services_maintenance_summary")}
         alt="{$_('alt_maintenance_check')}}"
         title={$_("section_general_maintenance")}
@@ -24,7 +24,7 @@
     >
     <a href="/products">
       <ServiceCard
-        src="/assets/home/defibrillator.png"
+        src="/assets/home/defibrillator.webp"
         summary={$_("section_home_services_defibrillators_summary")}
         alt="{$_('alt_defibrillator_product')}}"
         title={$_("section_general_defibrillators")}

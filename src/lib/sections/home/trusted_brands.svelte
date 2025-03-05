@@ -2,11 +2,11 @@
   import { _ } from "svelte-i18n";
 
   const logos = [
-    { src: "/assets/home/clients/ibis.png", alt: "Ibis Logo" },
-    { src: "/assets/home/clients/novotel.png", alt: "Novotel Logo" },
-    { src: "/assets/home/clients/cdf-logo.png", alt: "CDF Logo" },
+    { src: "/assets/home/clients/ibis.webp", alt: "Ibis Logo" },
+    { src: "/assets/home/clients/novotel.webp", alt: "Novotel Logo" },
+    { src: "/assets/home/clients/cdf-logo.webp", alt: "CDF Logo" },
     {
-      src: "/assets/home/clients/logitech.png",
+      src: "/assets/home/clients/logitech.webp",
       alt: "Logitech Logo",
       class: "logitech",
     },

@@ -16,7 +16,7 @@
 <div class="container">
   <Box>
     <div class="product-image">
-      <img src={image_path} alt={title} />
+      <img src={image_path} alt={title} loading="lazy" />
     </div>
   </Box>
 

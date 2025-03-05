@@ -6,7 +6,7 @@
 </script>
 
 <div class="card">
-  <img {src} {alt} />
+  <img {src} {alt} loading="lazy" />
   <h3 class="card-title">{title}</h3>
   <p class="card-summary">{summary}</p>
 </div>

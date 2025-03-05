@@ -27,7 +27,7 @@
 <div class="product-card">
   <div class="product-content">
     <div class="image-container">
-      <img src={imagePath} alt={title} class="product-image" />
+      <img src={imagePath} alt={title} class="product-image" loading="lazy" />
     </div>
     <div class="product-info-container">
       <div class="product-info">

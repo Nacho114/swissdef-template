@@ -40,8 +40,14 @@
     <div class="header-image">
       <div class="image-container">
         <img
-          src="/assets/home/phillips_hs1_home_l.webp"
+          src="/assets/home/phillips_hs1_home_m.webp"
+          srcset="
+    /assets/home/phillips_hs1_home_m.webp 600w,
+    /assets/home/phillips_hs1_home_l.webp 1080w
+  "
+          sizes="(max-width: 600px) 600px, 1080px"
           alt={$_("alt_philips_hs1")}
+          fetchpriority="high"
           class="product-image"
         />
         <div class="image-backdrop"></div>

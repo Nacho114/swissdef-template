@@ -60,12 +60,34 @@
           {
             "@type": "Product",
             "name": "Philips HS-1 Defibrillator",
-            "description": "Portable, user-friendly, life-saving device. Designed for rapid response."
+            "description": "Portable, user-friendly, life-saving device. Designed for rapid response.",
+            "offers": {
+              "@type": "Offer",
+              "url": "https://www.swissdefibrillator.ch/products/philips-hs1-defibrillator",
+              "priceCurrency": "CHF",
+              "price": "1299.00",
+              "availability": "http://schema.org/InStock",
+              "seller": {
+                "@type": "Organization",
+                "name": "Swiss Defibrillator"
+              }
+            }
           },
           {
             "@type": "Product",
             "name": "Philips HeartStart FRx Defibrillator",
-            "description": "Offers intuitive and clear step-by-step voice instructions for emergency use."
+            "description": "Offers intuitive and clear step-by-step voice instructions for emergency use.",
+            "offers": {
+              "@type": "Offer",
+              "url": "https://www.swissdefibrillator.ch/products/philips-heartstart-frx",
+              "priceCurrency": "CHF",
+              "price": "1699.00",
+              "availability": "http://schema.org/InStock",
+              "seller": {
+                "@type": "Organization",
+                "name": "Swiss Defibrillator"
+              }
+            }
           }
         ]
       },

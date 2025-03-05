@@ -11,13 +11,15 @@
       <div class="badge">
         <span>{$_("Swiss Defibrillator")}</span>
       </div>
-      
+
       <h1>
-        <span class="gradient-text">{$_("section_home_landing_header_title")}</span>
+        <span class="gradient-text"
+          >{$_("section_home_landing_header_title")}</span
+        >
       </h1>
-      
+
       <p class="subtitle">{$_("section_home_landing_header_subtitle")}</p>
-      
+
       <div class="cta-group">
         <a href="/contact" class="primary-cta">
           <Button fullWidth={false}>
@@ -27,7 +29,7 @@
             </div>
           </Button>
         </a>
-        
+
         <a href="/products" class="secondary-cta">
           {$_("section_general_products")}
           <ChevronRight />
@@ -38,8 +40,8 @@
     <div class="header-image">
       <div class="image-container">
         <img
-          src="/assets/home/phillips_hs1_home_l.png"
-          alt={$_('alt_philips_hs1')}
+          src="/assets/home/phillips_hs1_home_l.webp"
+          alt={$_("alt_philips_hs1")}
           class="product-image"
         />
         <div class="image-backdrop"></div>
@@ -72,7 +74,7 @@
   }
 
   .badge span {
-    background: linear-gradient(135deg, #60A5FA, #8B5CF6);
+    background: linear-gradient(135deg, #60a5fa, #8b5cf6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 500;
@@ -157,7 +159,11 @@
     left: 10%;
     right: 10%;
     bottom: 10%;
-    background: radial-gradient(circle at center, rgba(96, 165, 250, 0.1), transparent);
+    background: radial-gradient(
+      circle at center,
+      rgba(96, 165, 250, 0.1),
+      transparent
+    );
     filter: blur(40px);
     z-index: -1;
   }

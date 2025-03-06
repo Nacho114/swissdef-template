@@ -46,16 +46,25 @@
     async
     src="https://www.googletagmanager.com/gtag/js?id=AW-935906638"
   ></script>
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-JZL7YMBFEZ"
+  ></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
       dataLayer.push(arguments);
     }
+
     gtag("js", new Date());
 
+    // Google Ads Conversion Tracking
     gtag("config", "AW-935906638", { allow_enhanced_conversions: true });
-  </script>
-</svelte:head>
+
+    // Google Analytics Tracking
+    gtag("config", "G-JZL7YMBFEZ");
+  </script></svelte:head
+>
 
 <div class="layout">
   <div class="header"><Header /></div>

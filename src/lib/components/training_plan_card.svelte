@@ -31,7 +31,7 @@
   <p class="service-description">{description}</p>
   <div class="button">
     <a href="/contact">
-      <Button fullWidth={true}>
+      <Button id="book-training-btn" fullWidth={true}>
         {$_("section_general_book")}
         <ChevronRight />
       </Button>

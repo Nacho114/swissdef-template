@@ -81,7 +81,7 @@
     </button>
   </div>
 
-  <Button isBlackColor={true} on:click={handleAddToCart}>
+  <Button id="add-to-basket-btn" isBlackColor={true} on:click={handleAddToCart}>
     {$_("section_product_add_to_cart")}
   </Button>
 </div>

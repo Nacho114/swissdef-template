@@ -11,18 +11,21 @@
   const contactCards = [
     {
       icon: Phone,
+      id: "phone-btn",
       title: "Phone",
       description: ContactInfo.getPhoneNumber(),
       href: `tel:${ContactInfo.getPhoneNumber()}`,
     },
     {
       icon: Email,
+      id: "email-btn",
       title: "Email",
       description: ContactInfo.getEmail(),
       href: `mailto:${ContactInfo.getEmail()}`,
     },
     {
       icon: Location,
+      id: "phone-btn",
       title: "Address",
       description: ContactInfo.getAddress(),
       href: "#",
@@ -60,7 +63,7 @@
   <!-- Contact Griddy -->
   <div class="contact-grid">
     {#each contactCards as card}
-      <a href={card.href} class="contact-card">
+      <a id={card.id} href={card.href} class="contact-card">
         <div class="card-content">
           <div class="card-icon">
             <svelte:component this={card.icon} />
@@ -86,7 +89,11 @@
             </p>
           </div>
         </div>
-        <a href="https://wa.me/+41794412406" class="whatsapp-button">
+        <a
+          id="whatsapp-btn"
+          href="https://wa.me/+41794412406"
+          class="whatsapp-button"
+        >
           {$_("contact_whatsapp_message_button")}
         </a>
       </div>

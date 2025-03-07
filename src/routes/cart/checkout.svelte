@@ -72,7 +72,9 @@
   }
 </script>
 
-<button class="checkout-btn" on:click={handleCheckout}> <slot /> </button>
+<button id="checkout-btn" class="checkout-btn" on:click={handleCheckout}>
+  <slot />
+</button>
 
 <style>
   .checkout-btn {

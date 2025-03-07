@@ -98,7 +98,7 @@
       />
     </div>
 
-    <button type="submit" class="submit-button">
+    <button id="form-btn" type="submit" class="submit-button">
       {$_("contact_form_submit_button")}
     </button>
 

@@ -2,6 +2,7 @@
   export let isOutlined = false;
   export let isBlackColor = false; // New prop to toggle blue color
   export let fullWidth = false; // Add this line for new prop
+  export let id = "";
 </script>
 
 <button
@@ -10,7 +11,7 @@
     ? 'black-color'
     : ''} {fullWidth ? 'full-width' : 'auto-width'}"
 >
-  <div class="button-content">
+  <div {id} class="button-content">
     <slot />
   </div>
 </button>

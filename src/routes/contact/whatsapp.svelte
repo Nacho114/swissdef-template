@@ -11,7 +11,11 @@
       <p>{$_("contact_whatsapp_support_description")}</p>
     </div>
   </div>
-  <a href="https://wa.me/+41794412406" class="whatsapp-button">
+  <a
+    id="whatsapp-btn"
+    href="https://wa.me/+41794412406"
+    class="whatsapp-button"
+  >
     {$_("contact_whatsapp_message_button")}
   </a>
 </div>

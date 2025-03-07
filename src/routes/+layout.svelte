@@ -44,10 +44,6 @@
   <!-- Google tag (gtag.js) -->
   <script
     async
-    src="https://www.googletagmanager.com/gtag/js?id=AW-935906638"
-  ></script>
-  <script
-    async
     src="https://www.googletagmanager.com/gtag/js?id=G-JZL7YMBFEZ"
   ></script>
   <script>
@@ -58,11 +54,8 @@
 
     gtag("js", new Date());
 
-    // Google Ads Conversion Tracking
-    gtag("config", "AW-935906638", { allow_enhanced_conversions: true });
-
     // Google Analytics Tracking
-    gtag("config", "G-JZL7YMBFEZ");
+    gtag("config", "G-JZL7YMBFEZ", { allow_enhanced_conversions: true });
   </script></svelte:head
 >
 

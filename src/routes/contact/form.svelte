@@ -26,19 +26,6 @@
   let message = "";
   let submitted = false;
 
-  function gtag_report_conversion() {
-    try {
-      gtag("event", "conversion", {
-        send_to: "AW-935906638/fkHTCPnWm_0ZEM6ao74D",
-        value: AVERAGE_PROFIT_PER_LEAD,
-        currency: "CHF",
-      });
-      console.log("gtag event 'conversion' sent successfully.");
-    } catch (error) {
-      console.error("Error sending gtag event:", error);
-    }
-  }
-
   function handleSubmit(event: Event) {
     event.preventDefault();
 
@@ -55,7 +42,6 @@
         () => {
           console.log("SUCCESS!");
           submitted = true;
-          gtag_report_conversion();
         },
         (error) => console.error("FAILED...", error),
       );

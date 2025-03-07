@@ -1,7 +1,7 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
   import { onMount } from "svelte";
-  import { AVERAGE_PROFIT_PER_LEAD } from "$lib/math";
+  import { goto } from "$app/navigation";
 
   const emailjs_public_key = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
   const emailjs_template_id = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
@@ -45,6 +45,8 @@
         },
         (error) => console.error("FAILED...", error),
       );
+
+    goto("contact/form-success");
   }
 </script>
 

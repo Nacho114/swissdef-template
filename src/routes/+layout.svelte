@@ -40,24 +40,7 @@
     hreflang="x-default"
     href="https://www.swissdefibrillator.ch/"
   />
-
-  <!-- Google tag (gtag.js) -->
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-JZL7YMBFEZ"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag("js", new Date());
-
-    // Google Analytics Tracking
-    gtag("config", "G-JZL7YMBFEZ", { allow_enhanced_conversions: true });
-  </script></svelte:head
->
+</svelte:head>
 
 <div class="layout">
   <div class="header"><Header /></div>

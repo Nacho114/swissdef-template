@@ -1,57 +1,9 @@
 <script lang="ts">
-  import { onMount } from "svelte";
   import Container from "$lib/components/container.svelte";
   import { _ } from "svelte-i18n";
   import { clearCart } from "../../store";
-  import { cart } from "../../store";
-  import { getProductById } from "$lib/products";
 
-  $: cartItems = Object.entries($cart)
-    .map(([id, quantity]) => {
-      const product = getProductById(id);
-      if (product) {
-        return {
-          id: product.id,
-          slug: product.slug,
-          img: product.img,
-          price: product.price,
-          shipping_price: product.shipping_price,
-          quantity,
-        };
-      }
-      return null;
-    })
-    .filter((item) => item !== null);
-
-  // Calculate subtotal reactively
-  $: subtotal = cartItems.reduce((sum, item) => {
-    return sum + item?.price * item?.quantity;
-  }, 0);
-
-  const value = subtotal === undefined ? 100 : subtotal;
-  // Trigger Google Tag Event on Component Mount (after data is ready)
-  onMount(() => {
-    console.log("Component mounted");
-    console.log(`Sending gtag, value = ${value}`);
-
-    if (typeof gtag === "undefined") {
-      console.error("gtag is not defined. Ensure the gtag script is loaded.");
-      return;
-    }
-
-    try {
-      gtag("event", "conversion", {
-        send_to: "AW-935906638/_Ew5CJacouoZEM6ao74D",
-        value: value, // Ensure this value is correct
-        currency: "CHF",
-        transaction_id: "transaction_id_placeholder", // Replace with actual transaction ID
-      });
-      console.log("gtag event sent successfully");
-    } catch (error) {
-      console.error("Error triggering gtag event:", error);
-    }
-    clearCart();
-  });
+  clearCart();
 </script>
 
 <Container>

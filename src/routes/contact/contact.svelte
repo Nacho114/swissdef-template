@@ -5,27 +5,7 @@
   import Email from "virtual:icons/iconamoon/email";
   import WhatsApp from "virtual:icons/ri/whatsapp-fill";
   import { ContactInfo } from "$lib/info";
-  import { AVERAGE_PROFIT_PER_LEAD } from "$lib/math";
   import Form from "./form.svelte";
-
-  import { onMount } from "svelte";
-
-  onMount(() => {
-    gtag("config", "AW-935906638/0ZkSCM_C8fwZEM6ao74D", {
-      phone_conversion_number: "+41794412406",
-      value: AVERAGE_PROFIT_PER_LEAD, // Average prof
-      currency: "CHF",
-    });
-  });
-
-  function gtag_report_conversion() {
-    console.log("Hey");
-    gtag("event", "conversion", {
-      send_to: "AW-935906638/2pRNCM7l8vwZEM6ao74D",
-      value: AVERAGE_PROFIT_PER_LEAD, // Average prof
-      currency: "CHF",
-    });
-  }
 
   // Contact card datarrr
   const contactCards = [
@@ -80,11 +60,7 @@
   <!-- Contact Griddy -->
   <div class="contact-grid">
     {#each contactCards as card}
-      <a
-        href={card.href}
-        class="contact-card"
-        on:click={gtag_report_conversion}
-      >
+      <a href={card.href} class="contact-card">
         <div class="card-content">
           <div class="card-icon">
             <svelte:component this={card.icon} />
@@ -110,11 +86,7 @@
             </p>
           </div>
         </div>
-        <a
-          href="https://wa.me/+41794412406"
-          class="whatsapp-button"
-          on:click={gtag_report_conversion}
-        >
+        <a href="https://wa.me/+41794412406" class="whatsapp-button">
           {$_("contact_whatsapp_message_button")}
         </a>
       </div>

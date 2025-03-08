@@ -4,6 +4,7 @@
   import { dev } from "$app/environment"; // `dev` is `true` in development and `false` in production.
   import { with_iva } from "$lib/products";
 
+  export let totalCost: number;
   export let shippingCost: number;
 
   const stripe_aws_link = dev
@@ -59,7 +60,7 @@
               currency: "chf",
             },
           },
-          successUrl: success_url,
+          successUrl: success_url + `?amount=${totalCost}`,
           cancelUrl: failure_url,
         }),
       });

@@ -7,7 +7,7 @@
   export let subtotal: number;
   export let shippingCost: number;
 
-  $: total = with_iva(subtotal + shippingCost);
+  $: totalCost = with_iva(subtotal + shippingCost);
   $: vat = iva_value(subtotal + shippingCost);
 </script>
 
@@ -32,11 +32,14 @@
 
     <div class="summary-line total">
       <span>{$_("cart_total")}</span>
-      <span>{formatPrice(total)}</span>
+      <span>{formatPrice(totalCost)}</span>
     </div>
   </div>
 
-  <Checkout {shippingCost}>{$_("cart_checkout")}</Checkout>
+  <!-- Important!!! Stripe does not add iva to shipping cost -->
+  <Checkout {totalCost} shippingCost={with_iva(shippingCost)}
+    >{$_("cart_checkout")}</Checkout
+  >
 </div>
 
 <style>

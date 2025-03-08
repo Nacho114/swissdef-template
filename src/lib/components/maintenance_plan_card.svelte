@@ -22,9 +22,9 @@
   <div class="service-price">{price_info}</div>
 
   <p class="service-description">{description}</p>
-  <a id="maintenance-btn" href={payment_link}>
+  <a href={payment_link}>
     <div class="button">
-      <Button fullWidth={true}>
+      <Button id="maintenance-btn" fullWidth={true}>
         {$_("section_general_order")}
         <ChevronRight />
       </Button>

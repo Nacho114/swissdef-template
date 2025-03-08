@@ -1,5 +1,9 @@
 # Svelte template for Swiss defibrillator
 
+## NOTES
+
+Lambda functions are in AWS, in Europe (Stockholm)
+
 ## Build status
 
 ## Google ads

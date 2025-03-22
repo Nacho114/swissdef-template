@@ -39,14 +39,6 @@ More images can be found [here](https://mega.nz/folder/tKdHVJ5D#g1wS8E-bZsXK3kLA
 
 ## Developing
 
-### nvim - coc
-
-If running nvim coc install the [syntax highlighting](https://github.com/coc-extensions/coc-svelte)
-
-```
-:CocInstall coc-svelte
-```
-
 ### Install
 
 Install dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:

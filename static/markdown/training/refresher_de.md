@@ -1,4 +1,5 @@
 # Auffrischungskurs
+![SRC Logo](../../assets/home/srclogo.jpeg)
 
 ## First Aid Level 1 IVR/IAS Auffrischungskurs
 

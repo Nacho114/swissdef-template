@@ -1,4 +1,5 @@
 # Corso di aggiornamento
+![SRC Logo](../../assets/home/srclogo.jpeg)
 
 ## Corso di aggiornamento First Aid Level 1 IVR/IAS
 

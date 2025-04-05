@@ -1,4 +1,5 @@
 # Formation de recyclage
+![SRC Logo](../../assets/home/srclogo.jpeg)
 
 ## Formation de recyclage First Aid Level 1 IVR/IAS
 

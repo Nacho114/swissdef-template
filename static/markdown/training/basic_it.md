@@ -1,4 +1,5 @@
 # Formazione di base
+![SRC Logo](../../assets/home/srclogo.jpeg)
 
 ## BLS-AED-SRC Completo (Fornitore generico)
 

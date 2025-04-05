@@ -8,7 +8,7 @@ export interface Maintenance {
 export const maintenances: Maintenance[] = [
   {
     slug: "remote",
-    price: 95,
+    price: 50,
     payment_link: "https://buy.stripe.com/dR6bMMaKecxGcSc9AB",
   },
   {

@@ -1,4 +1,5 @@
 # Empfohlene Schulung
+![SRC Logo](../../assets/home/srclogo.jpeg)
 
 ## IVR/IAS Erste Hilfe Level 1 Schulung
 ### Zertifikat:

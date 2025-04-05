@@ -131,14 +131,15 @@ export const accessories: Product[] = [
     weight: 2.5, // Estimated weight
     type: ProductType.Accessory,
   },
-  {
-    slug: "philips_fast_response_kit",
-    id: "philips_fast_response_kit",
-    img: "aed-accessories/philips_fast_response_kit",
-    price: 69,
-    weight: 0.5, // Estimated weight
-    type: ProductType.Accessory,
-  },
+  // Not selling anymore
+  // {
+  //   slug: "philips_fast_response_kit",
+  //   id: "philips_fast_response_kit",
+  //   img: "aed-accessories/philips_fast_response_kit",
+  //   price: 69,
+  //   weight: 0.5, // Estimated weight
+  //   type: ProductType.Accessory,
+  // },
   {
     slug: "aed_sticker",
     id: "aed_sticker",

@@ -46,7 +46,7 @@
         (error) => console.error("FAILED...", error),
       );
 
-    goto("form-success");
+    goto("contact/form-success");
   }
 </script>
 

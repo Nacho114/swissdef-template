@@ -1,4 +1,5 @@
 # Formazione Raccomandata
+![SRC Logo](../../assets/home/srclogo.jpeg)
 
 ## Formazione IVR/IAS di Primo Soccorso Livello 1
 ### Certificato:

@@ -1,10 +1,10 @@
 <script lang="ts">
   import MdInfoPage from "$lib/components/md_info_page.svelte";
-  import { Maintenance } from "$lib/maintenance";
+  import { locale } from 'svelte-i18n';
 
-  export let data: Maintenance;
+  export let data;
 
-  let file_name = `/markdown/maintenance/${data.slug}`;
+  $: file_name = `/markdown/maintenance/${data.data.slug}_${$locale || 'en'}.md`;
 </script>
 
 <MdInfoPage {file_name} />

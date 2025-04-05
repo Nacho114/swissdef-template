@@ -5,7 +5,7 @@ import { trainings } from "$lib/training";
 export const load: PageLoad = ({ params }) => {
   const p = trainings.find((p) => p.slug === params.slug);
   if (p != undefined) {
-    return p;
+    return { data: p };
   }
 
   throw error(404, "Not found");

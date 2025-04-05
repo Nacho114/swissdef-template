@@ -16,7 +16,7 @@
     currentLocale = currentLocale || "en"; // replace 'default' with your default locale
 
     try {
-      const filePath = file_name;
+      const filePath = `${file_name}_${currentLocale}.md`;
       const res = await fetch(filePath);
       source = await res.text();
     } catch (error) {
@@ -28,9 +28,6 @@
   // Reactive statement to reload content when locale changes
   $: if ($locale !== previousLocale && previousLocale !== undefined) {
     previousLocale = $locale;
-    loadMarkdown($locale);
-  }
-  $: if (file_name) {
     loadMarkdown($locale);
   }
 

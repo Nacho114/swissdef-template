@@ -1,11 +1,12 @@
 <script lang="ts">
   import MdInfoPage from "$lib/components/md_info_page.svelte";
+  import type { Training } from "$lib/training";
   import ChevronRight from "virtual:icons/gg/chevron-right";
-  import { locale } from 'svelte-i18n';
+
   import { _ } from "svelte-i18n";
   import Button from "$lib/components/button.svelte";
-  export let data;
-  $: file_name = `/markdown/training/${data.data.slug}_${$locale || 'en'}.md`;
+  export let data: Training;
+  let file_name = `/markdown/training/${data.slug}`;
 </script>
 
 <div class="book-now-container">

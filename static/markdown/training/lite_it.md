@@ -1,59 +1,27 @@
-# Formazione Leggera
+# Lite Training
+![SRC Logo](../../assets/home/srclogo.jpeg)
 
-## BLS-AED-SRC Compatto (Provider Base)
+## BLS-AED-SRC Compact (Basic Provider)
 
-### **Obiettivi**
+Swiss Defibrillator GmbH è un'istituzione riconosciuta da SRC – [www.resuscitation.ch](https://www.resuscitation.ch).
 
-I partecipanti padroneggiano le competenze di base per la rianimazione negli adulti. Essi:
+### Obiettivi
+- Dare l'allarme, garantire la sicurezza ed eseguire la RCP e l'uso del DAE.
 
-- Attivano prontamente l'allarme.
-- Considerano la propria sicurezza durante l'assistenza.
-- Applicano le competenze di base per la rianimazione (compressioni toraciche, ventilazione e Defibrillazione Esterna Automatizzata tramite un AED).
+### Contenuto
+- Riconoscere l'arresto cardiaco e la reazione d'emergenza.
+- Algoritmo BLS-AED-SRC e rianimazione pratica.
+- Posizione di recupero.
 
-### **Contenuto**
+### Metodologia
+- Guidato da un istruttore o autoapprendimento.
+- Min. 30 minuti di formazione pratica per partecipante.
+- Attrezzatura: 1 istruttore ogni 8 partecipanti, 1 manichino e un trainer DAE ogni 2-3 partecipanti.
 
-I «Principi BLS-AED del SRC» sono impartiti nei corsi. I corsi BLS-AED-SRC Compatto comprendono i seguenti contenuti:
+### Pubblico target
+Per chiunque (12+), non è richiesta alcuna conoscenza preliminare.
 
-- Assistenza con garanzia di protezione personale.
-- Riconoscimento dell'arresto cardiaco.
-- Numeri di emergenza nazionali.
-- Sequenza di azioni secondo l'«Algoritmo BLS-AED-SRC».
-- Formazione sulle competenze di base per gli adulti: valutazione iniziale, compressioni toraciche, ventilazione, defibrillazione con AED.
-- Posizione di sicurezza laterale.
-
-### **Metodologia e Materiale**
-
-I corsi BLS-AED-SRC Compatto seguono uno dei due modelli di formazione: guidato da un istruttore o tramite sistemi multimediali di autoapprendimento. L'istruttore assicura che ogni partecipante riceva istruzioni e feedback sulla qualità delle sue azioni durante gli esercizi. I seguenti prerequisiti sono garantiti:
-
-- Almeno 30 minuti di formazione sulle competenze di base per partecipante sul modello di addestramento (Formazione Pratica). Nei formati guidati da istruttore:
-- Almeno 1 istruttore BLS-AED-SRC ogni 8 partecipanti.
-- Almeno 1 manichino per adulti per ogni 2-3 partecipanti.
-- Almeno 1 dispositivo di addestramento AED per ogni 2-3 partecipanti.
-
-I manichini di addestramento utilizzati forniscono feedback visivo, come mostrato qui: https://www.youtube.com/watch?v=JVSViqkogSI&t=2s.
-
-### **Pubblico di Destinazione**
-
-I corsi BLS-AED-SRC Compatto (Basic Life Support – Defibrillatore Esterno Automatizzato – Consiglio Svizzero di Rianimazione) sono rivolti a tutti i gruppi di popolazione e professionali (età minima 12 anni) che non hanno requisiti specifici sull'argomento. Questi corsi mirano a raggiungere il maggior numero possibile di partecipanti con un'offerta di formazione qualificata nel minor tempo possibile.
-
-### **Durata, Prezzo e Certificato**
-
-Il corso BLS-AED-SRC Compact (Basic Provider) è progettato per un gruppo di massimo 8 partecipanti, con una durata minima di 1-2 ore di apprendimento. Il prezzo totale del corso è di CHF 504.- IVA esclusa, coprendo l'intero gruppo di 8 partecipanti e non è calcolato per singolo individuo.
-
-
-#### **Certificato**
-
-I partecipanti ricevono un certificato di corso BLS-AED-SRC Compact (Basic Provider). Il certificato contiene le seguenti informazioni:
-
-- Titolo: «BLS-AED-SRC Compatto (Provider Base)».
-- Logo SRC del corso BLS-AED-SRC Compatto (Provider Base).
-- Q-label SRC.
-- Informazioni personali del partecipante: nome, cognome e data di nascita.
-- Data di emissione da parte dell'istruttore del corso.
-- Swiss Defibrillator Sàrl
-
-I corsi BLS-AED-SRC Compatto sono senza esame. La partecipazione è confermata per iscritto dal fornitore del corso se il corso era guidato da istruttore.
-
-Se questo corso è integrato in un evento più ampio, la conferma sarà fornita come segue: «Questo corso include un corso BLS-AED-SRC Compatto certificato.»
-
-Il certificato è valido per 2 anni. Swiss Defibrillator segue la raccomandazione SRC, fornendo certificati di corso ai partecipanti con limitazioni fisiche che partecipano ai corsi SRC. Swiss Defibrillator rilascia un certificato con la seguente aggiunta: «Le competenze pratiche del seminario non sono state completamente esercitate a causa di limitazioni fisiche.»
+### Durata, prezzo e certificato
+- 1-2 ore, fino a 8 partecipanti.
+- CHF 445.- (IVA esclusa) per gruppo.
+- Certificato SRC (valido 2 anni).

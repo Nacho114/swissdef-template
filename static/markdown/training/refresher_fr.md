@@ -1,16 +1,26 @@
-# Formation de Rafraîchissement
+# Formation de recyclage
+![SRC Logo](../../assets/home/srclogo.jpeg)
 
-## IVR/IAS Premiers Secours Niveau 1 dans la vie quotidienne et dans le trafic routier, incluant BLS-AED-SRC complet (Fournisseur générique) Cours de Rafraîchissement
+## Formation de recyclage First Aid Level 1 IVR/IAS
 
-### Contenu
+Swiss Defibrillator Sàrl est officiellement reconnu et validé par le Swiss Resuscitation Council (SRC). Nous organisons des formations IAS Level 1 et IAS Level 1 de recyclage en collaboration avec BlueFires, une institution reconnue, validée et répertoriée par IVR-IAS pour l'enseignement de l'IAS 1, l'IAS 2 et l'IAS 3. Nos certifications sont valables deux ans, délivrées par Swiss Defibrillator Sàrl, et reconnues par 144.ch, garantissant une formation de haute qualité et conforme aux normes.
 
-- Cours complet BLS-AED-SRC
-- Révision des thèmes du cours de Premiers Secours Niveau 1 IVR/IAS
+- Langues: Disponible en anglais, français et allemand.
 
-### **Matériel Pédagogique**
+### Contenu du cours:
 
-Les mêmes exigences s'appliquent pour le Cours de Rafraîchissement que pour le Cours de Premiers Secours Niveau 1 IVR/IAS.
+- BLS-AED-SRC Complet (Generic Provider)
+- Revue des sujets de First Aid Level 1 IVR/IAS
+- Matériel pédagogique fourni
 
-### **Durée et Prix**
+> "Le certificat IAS IVR 1 ne doit pas avoir plus de 24 mois.
 
-Le Cours de Rafraîchissement Premiers Secours Niveau 1 IVR est conçu pour un groupe de jusqu'à 8 participants, avec une durée minimale de 7 heures d'apprentissage. Le prix total du cours est de CHF 1'470.- hors TVA, couvrant l'ensemble du groupe de 8 participants, et non par individu.
+### Exigences:
+
+> Les participants doivent être titulaires d'un certificat IVR/IAS Level 1 valide datant de moins de 48 mois."
+
+### Durée &amp; Prix:
+
+- Durée: 7 heures
+- Taille du groupe: Jusqu'à 8 participants
+- Prix: CHF 1'470.- (HT) par groupe

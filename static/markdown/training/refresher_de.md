@@ -1,16 +1,26 @@
 # Auffrischungskurs
+![SRC Logo](../../assets/home/srclogo.jpeg)
 
-## IVR/IAS Erste Hilfe Stufe 1 im Alltag und im Straßenverkehr, einschließlich BLS-AED-SRC Komplett (Generic Provider) Auffrischungskurs
+## First Aid Level 1 IVR/IAS Auffrischungskurs
 
-### Inhalte
+Swiss Defibrillator Sàrl ist offiziell vom Swiss Resuscitation Council (SRC) anerkannt und validiert. Wir führen IAS Level 1 und IAS Level 1 Auffrischungskurse in Zusammenarbeit mit BlueFires durch, einer Institution, die von IVR-IAS für die Lehre von IAS 1, IAS 2 und IAS 3 anerkannt, validiert und gelistet ist. Unsere Zertifizierungen sind zwei Jahre gültig, werden von Swiss Defibrillator Sàrl ausgestellt und von 144.ch anerkannt, was eine qualitativ hochwertige, standardkonforme Ausbildung gewährleistet.
 
-- BLS-AED-SRC Kompletter Kurs
-- Wiederholung der Themen des Erste Hilfe Stufe 1 IVR/IAS Kurses
+- Sprachen: Verfügbar in Englisch, Französisch und Deutsch.
 
-### **Unterrichtsmaterialien**
+### Kursinhalt:
 
-Für den Auffrischungskurs gelten die gleichen Anforderungen wie für den Erste Hilfe Stufe 1 IVR/IAS Kurs.
+- BLS-AED-SRC Komplett (Generic Provider)
+- Wiederholung der Themen des First Aid Level 1 IVR/IAS
+- Lehrmaterialien werden zur Verfügung gestellt
 
-### **Dauer und Preis**
+> "Das IAS IVR 1 Zertifikat darf nicht älter als 24 Monate sein.
 
-Der Erste Hilfe Stufe 1 IVR Auffrischungskurs ist für eine Gruppe von bis zu 8 Teilnehmern ausgelegt und umfasst eine Mindestdauer von 7 Lernstunden. Der Gesamtkurspreis beträgt CHF 1.470.- exkl. MwSt., der Preis gilt für die gesamte Gruppe von 8 Teilnehmern und wird nicht pro Person berechnet.
+### Voraussetzungen:
+
+> Die Teilnehmer müssen ein gültiges IVR/IAS Level 1 Zertifikat besitzen, das nicht älter als 48 Monate ist."
+
+### Dauer &amp; Preis:
+
+- Dauer: 7 Stunden
+- Gruppengröße: Bis zu 8 Teilnehmer
+- Preis: CHF 1'470.- (exkl. MwSt.) pro Gruppe

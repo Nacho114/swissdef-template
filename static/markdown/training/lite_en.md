@@ -14,7 +14,7 @@ Swiss Defibrillator GmbH is an SRC-recognized institution – [www.resuscitation
 - Recovery position.
 
 ### Methodology
-- Instructor-led or self-learning.
+- Instructor-led.
 - Min. 30 min hands-on training per participant.
 - Equipment: 1 instructor per 8 participants, 1 mannequin & AED trainer per 2-3 participants.
 

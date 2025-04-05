@@ -14,7 +14,7 @@ Swiss Defibrillator GmbH ist eine SRC-anerkannte Institution – [www.resuscitat
 - Stabile Seitenlage.
 
 ### Methodik
-- Instruktor geführt oder Selbststudium.
+- Instruktor geführt.
 - Min. 30 Min. praktisches Training pro Teilnehmer.
 - Ausrüstung: 1 Instruktor pro 8 Teilnehmer, 1 Übungspuppe & AED-Trainer pro 2-3 Teilnehmer.
 

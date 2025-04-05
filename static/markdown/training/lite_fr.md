@@ -14,7 +14,7 @@ Swiss Defibrillator GmbH est une institution reconnue par le SRC – [www.resusc
 - Position de récupération.
 
 ### Méthodologie
-- Dirigé par un instructeur ou auto-apprentissage.
+- Dirigé par un instructeur.
 - Min. 30 min de formation pratique par participant.
 - Équipement : 1 instructeur pour 8 participants, 1 mannequin et un entraîneur DEA pour 2 à 3 participants.
 

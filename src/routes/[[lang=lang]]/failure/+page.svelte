@@ -10,7 +10,9 @@
     <h2>{$_("payment_failed_subtitle")}</h2>
     <p>{$_("payment_failed_description")}</p>
     <p>{$_("payment_failed_support")}</p>
-    <a href={$localize("/cart")} class="btn">{$_("payment_failed_try_again_button")}</a>
+    <a href={$localize("/cart")} class="btn"
+      >{$_("payment_failed_try_again_button")}</a
+    >
   </div>
 </Container>
 

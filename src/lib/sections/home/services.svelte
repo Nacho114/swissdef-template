@@ -43,7 +43,8 @@
     <div class="mobile-links">
       <a href={$localize("/products")}>{$_("section_general_products")}</a>
       <a href={$localize("/training")}>{$_("section_general_training")}</a>
-      <a href={$localize("/maintenance")}>{$_("section_general_maintenance")}</a>
+      <a href={$localize("/maintenance")}>{$_("section_general_maintenance")}</a
+      >
     </div>
     <div class="learn-more-button">
       <a href={$localize("/contact")}>

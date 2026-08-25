@@ -28,6 +28,9 @@
   // shareable/crawlable and survives reloads
   const onLangChange = (event: Event) => {
     const lang = (event.currentTarget as HTMLSelectElement).value;
+    // The layout load only sets the locale for prefixed URLs; set it here
+    // too so switching to English (unprefixed) takes effect immediately
+    locale.set(lang);
     goto(withLang(stripLang($page.url.pathname), lang) + $page.url.search);
   };
 </script>

@@ -2,6 +2,7 @@ import type { RequestHandler } from "./$types";
 import { products } from "$lib/products";
 import { trainings } from "$lib/training";
 import { maintenances } from "$lib/maintenance";
+import { LANGS, withLang } from "$lib/nav";
 
 const ORIGIN = "https://www.swissdefibrillator.ch";
 
@@ -17,9 +18,6 @@ const staticPages = [
   "/privacy_policy",
 ];
 
-// English is served unprefixed; the other languages live under /fr, /de, /it
-const langPrefixes = ["", "/fr", "/de", "/it"];
-
 export const GET: RequestHandler = () => {
   const paths = [
     ...staticPages,
@@ -28,8 +26,8 @@ export const GET: RequestHandler = () => {
     ...maintenances.map((m) => `/maintenance/${m.slug}`),
   ];
 
-  const urls = langPrefixes.flatMap((prefix) =>
-    paths.map((p) => `${ORIGIN}${prefix}${p === "/" ? (prefix ? "" : "/") : p}`),
+  const urls = LANGS.flatMap((lang) =>
+    paths.map((p) => ORIGIN + withLang(p, lang)),
   );
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>

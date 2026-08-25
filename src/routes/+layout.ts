@@ -13,6 +13,4 @@ export const load: LayoutLoad = async ({ params }) => {
     locale.set("en");
   }
   await waitLocale();
-
-  return { lang: params.lang ?? "en" };
 };

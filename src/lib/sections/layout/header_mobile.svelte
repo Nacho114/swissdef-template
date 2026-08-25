@@ -46,7 +46,9 @@
       <nav>
         <ul>
           <li>
-            <a href={$localize("/")} on:click={toggleMenu}>{$_("section_general_home")}</a>
+            <a href={$localize("/")} on:click={toggleMenu}
+              >{$_("section_general_home")}</a
+            >
           </li>
           <li>
             <a href={$localize("/products")} on:click={toggleMenu}

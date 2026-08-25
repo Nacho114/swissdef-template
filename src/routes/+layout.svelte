@@ -51,7 +51,11 @@
       href={canonicalOrigin + withLang(pathNoLang, lang)}
     />
   {/each}
-  <link rel="alternate" hreflang="x-default" href={canonicalOrigin + pathNoLang} />
+  <link
+    rel="alternate"
+    hreflang="x-default"
+    href={canonicalOrigin + pathNoLang}
+  />
 </svelte:head>
 
 <div class="layout">

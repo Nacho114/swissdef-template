@@ -1,18 +1,18 @@
 import { derived } from "svelte/store";
 import { page } from "$app/stores";
 
-export const LANGS = ["en", "fr", "de", "it"] as const;
-export type Lang = (typeof LANGS)[number];
-
-export const DEFAULT_LANG: Lang = "en";
-
-const PREFIXED_LANGS: Lang[] = ["fr", "de", "it"];
+// Single source of truth for the site's languages. English is served at the
+// unprefixed URL; the others live under /fr, /de, /it.
+export const LANGS = ["en", "fr", "de", "it"];
+const DEFAULT_LANG = "en";
+export const PREFIXED_LANGS = LANGS.filter((l) => l !== DEFAULT_LANG);
 
 // "/fr/products" -> "/products"; "/fr" -> "/"; "/products" -> "/products"
 export const stripLang = (pathname: string): string => {
   for (const lang of PREFIXED_LANGS) {
     if (pathname === `/${lang}`) return "/";
-    if (pathname.startsWith(`/${lang}/`)) return pathname.slice(lang.length + 1);
+    if (pathname.startsWith(`/${lang}/`))
+      return pathname.slice(lang.length + 1);
   }
   return pathname;
 };

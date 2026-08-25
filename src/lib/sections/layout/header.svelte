@@ -20,7 +20,9 @@
         <li>
           <a href={$localize("/")}>{$_("section_general_home")}</a>
           <a href={$localize("/products")}>{$_("section_general_products")}</a>
-          <a href={$localize("/maintenance")}>{$_("section_general_maintenance")}</a>
+          <a href={$localize("/maintenance")}
+            >{$_("section_general_maintenance")}</a
+          >
           <a href={$localize("/training")}>{$_("section_general_training")}</a>
           <a href={$localize("/contact")}>{$_("section_general_contact")}</a>
         </li>

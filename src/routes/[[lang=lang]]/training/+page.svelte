@@ -8,20 +8,6 @@
   import Users from "virtual:icons/heroicons/users-solid";
   import Clock from "virtual:icons/heroicons/clock-solid";
   import Certificate from "virtual:icons/heroicons/document-check";
-
-  // DEV-ONLY design-variant switcher — remove before merging to main
-  const variantLabels = [
-    "Original",
-    "V1 · Compact head",
-    "V2 · Course cards",
-    "V3 · Both",
-  ];
-  let variant = 0;
-  const prevVariant = () =>
-    (variant = (variant + variantLabels.length - 1) % variantLabels.length);
-  const nextVariant = () => (variant = (variant + 1) % variantLabels.length);
-  $: compactHead = variant === 1 || variant === 3;
-  $: smartCards = variant === 2 || variant === 3;
 </script>
 
 <svelte:head>
@@ -31,9 +17,9 @@
 </svelte:head>
 
 <Container>
-  <div class="training-section" class:compact={compactHead}>
+  <div class="training-section">
     <!-- Header -->
-    <div class="header" class:compact={compactHead}>
+    <div class="header">
       <h1>
         {$_("training_page_title")}
         <span class="gradient-text">{$_("training_page_title_highlight")}</span>
@@ -41,76 +27,39 @@
       <p class="subtitle">{$_("training_page_subtitle")}</p>
     </div>
 
-    {#if compactHead}
-      <!-- V1: slim compliance callout directly under the subtitle -->
-      <div class="callout">
-        <div class="callout-icon"><Shield /></div>
-        <div>
-          <h4>{$_("training_compliance_title")}</h4>
-          <p>{$_("training_subtitle")}</p>
-        </div>
+    <!-- Compliance callout directly under the subtitle -->
+    <div class="callout">
+      <div class="callout-icon"><Shield /></div>
+      <div>
+        <h4>{$_("training_compliance_title")}</h4>
+        <p>{$_("training_subtitle")}</p>
       </div>
+    </div>
 
-      <!-- V1: features as a borderless inline row -->
-      <div class="features-inline">
-        <div class="feature-inline">
-          <div class="feature-icon"><Users /></div>
-          <div>
-            <h3>{$_("training_feature_small_groups_title")}</h3>
-            <p>{$_("training_feature_small_groups_description")}</p>
-          </div>
-        </div>
-        <div class="feature-inline">
-          <div class="feature-icon"><Clock /></div>
-          <div>
-            <h3>{$_("training_feature_schedule_title")}</h3>
-            <p>{$_("training_feature_schedule_description")}</p>
-          </div>
-        </div>
-        <div class="feature-inline">
-          <div class="feature-icon"><Certificate /></div>
-          <div>
-            <h3>{$_("training_feature_certification_title")}</h3>
-            <p>{$_("training_feature_certification_description")}</p>
-          </div>
-        </div>
-      </div>
-    {:else}
-      <div class="features">
-        <div class="feature-card">
-          <div class="feature-icon">
-            <Users />
-          </div>
+    <!-- Features as a borderless inline row -->
+    <div class="features-inline">
+      <div class="feature-inline">
+        <div class="feature-icon"><Users /></div>
+        <div>
           <h3>{$_("training_feature_small_groups_title")}</h3>
           <p>{$_("training_feature_small_groups_description")}</p>
         </div>
-        <div class="feature-card">
-          <div class="feature-icon">
-            <Clock />
-          </div>
+      </div>
+      <div class="feature-inline">
+        <div class="feature-icon"><Clock /></div>
+        <div>
           <h3>{$_("training_feature_schedule_title")}</h3>
           <p>{$_("training_feature_schedule_description")}</p>
         </div>
-        <div class="feature-card">
-          <div class="feature-icon">
-            <Certificate />
-          </div>
+      </div>
+      <div class="feature-inline">
+        <div class="feature-icon"><Certificate /></div>
+        <div>
           <h3>{$_("training_feature_certification_title")}</h3>
           <p>{$_("training_feature_certification_description")}</p>
         </div>
       </div>
-
-      <!-- Info -->
-      <div class="info-banner">
-        <div class="info-icon">
-          <Shield />
-        </div>
-        <div class="info-content">
-          <h4>{$_("training_compliance_title")}</h4>
-          <p>{$_("training_subtitle")}</p>
-        </div>
-      </div>
-    {/if}
+    </div>
 
     <!-- Training Card -->
     <div class="training-grid">
@@ -121,8 +70,8 @@
             slug={training.slug}
             price={training.price}
             duration={training.duration}
-            hideExcluded={smartCards}
-            highlight={smartCards && training.slug === "basic"}
+            hideExcluded={true}
+            highlight={training.slug === "basic"}
           />
         </a>
       {/each}
@@ -130,32 +79,40 @@
   </div>
 </Container>
 
-<!-- DEV-ONLY design-variant switcher — remove before merging to main -->
-<div class="variant-switcher">
-  <button on:click={prevVariant} aria-label="Previous variant">◀</button>
-  <span>{variantLabels[variant]}</span>
-  <button on:click={nextVariant} aria-label="Next variant">▶</button>
-</div>
-
 <style>
   .product-link {
     text-decoration: none;
   }
+
   .training-section {
-    padding: 6rem 0;
+    padding: 3rem 0;
     background: linear-gradient(to bottom, #ffffff, #f8fafc);
   }
 
-  .training-section.compact {
-    padding: 3rem 0;
-  }
-
-  .training-section.compact h1 {
-    font-size: var(--text-2xl);
-  }
-
-  .header.compact {
+  .header {
+    text-align: center;
     margin-bottom: 2rem;
+  }
+
+  h1 {
+    font-size: var(--text-2xl);
+    font-weight: 600;
+    color: var(--color-text);
+    margin: 0 0 1rem;
+    line-height: 1.2;
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #1a1a1a 0%, #4a5568 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .subtitle {
+    font-size: var(--text-md);
+    color: var(--color-text-muted);
+    max-width: 600px;
+    margin: 0 auto;
   }
 
   .callout {
@@ -211,10 +168,15 @@
     text-align: left;
   }
 
-  .feature-inline .feature-icon {
+  .feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 2.5rem;
     height: 2.5rem;
-    margin-bottom: 0;
+    background: var(--global-color-gray-light-bg);
+    border-radius: var(--border-radius-lg);
+    color: var(--color-text);
     flex-shrink: 0;
   }
 
@@ -227,153 +189,6 @@
     margin: 0;
     color: var(--color-text-muted);
     font-size: var(--text-sm);
-  }
-
-  /* DEV-ONLY switcher */
-  .variant-switcher {
-    position: fixed;
-    bottom: 24px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    background: var(--color-text);
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: var(--border-radius-pill);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-    z-index: 2000;
-    font-size: var(--text-sm);
-  }
-
-  .variant-switcher button {
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-    font-size: var(--text-base);
-    padding: 0 0.25rem;
-  }
-
-  .variant-switcher span {
-    min-width: 130px;
-    text-align: center;
-  }
-
-  .header {
-    text-align: center;
-    margin-bottom: 4rem;
-  }
-
-  h1 {
-    font-size: var(--text-hero);
-    font-weight: 600;
-    color: var(--color-text);
-    margin: 0 0 1rem;
-    line-height: 1.2;
-  }
-
-  .gradient-text {
-    background: linear-gradient(135deg, #1a1a1a 0%, #4a5568 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .subtitle {
-    font-size: var(--text-md);
-    color: var(--color-text-muted);
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
-  .features {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    margin-bottom: 4rem;
-  }
-
-  .feature-card {
-    background: white;
-    padding: 2rem;
-    border-radius: var(--border-radius-lg);
-    text-align: center;
-    transition: all 0.3s ease;
-    border: 1px solid #e5e7eb;
-  }
-
-  .feature-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-  }
-
-  .feature-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 3rem;
-    height: 3rem;
-    background: var(--global-color-gray-light-bg);
-    border-radius: var(--border-radius-lg);
-    margin-bottom: 1rem;
-    color: var(--color-text);
-  }
-
-  .feature-card h3 {
-    font-size: var(--text-md);
-    font-weight: 600;
-    margin: 0 0 0.5rem;
-    color: var(--color-text);
-  }
-
-  .feature-card p {
-    font-size: var(--text-base);
-    color: var(--color-text-muted);
-    margin: 0;
-  }
-
-  .info-banner {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    background: white;
-    border-radius: var(--border-radius-lg);
-    padding: 2rem;
-    margin-bottom: 4rem;
-    transition: all 0.3s ease;
-    border: 1px solid #e5e7eb;
-  }
-
-  .info-banner:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-  }
-
-  .info-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 3rem;
-    height: 3rem;
-    background: var(--global-color-gray-light-bg);
-    border-radius: var(--border-radius-lg);
-    color: var(--color-text);
-    flex-shrink: 0;
-  }
-
-  .info-content h4 {
-    font-size: var(--text-md);
-    font-weight: 600;
-    color: var(--color-text);
-    margin: 0 0 0.5rem;
-  }
-
-  .info-content p {
-    font-size: var(--text-base);
-    color: var(--color-text-muted);
-    line-height: 1.6;
-    margin: 0;
   }
 
   .training-grid {
@@ -401,23 +216,8 @@
   }
 
   @media (max-width: 768px) {
-    .training-section {
-      padding: 3rem 0;
-    }
-
     h1 {
-      font-size: var(--text-2xl);
-    }
-
-    .features {
-      grid-template-columns: 1fr;
-      gap: 1.5rem;
-    }
-
-    .info-banner {
-      flex-direction: column;
-      text-align: center;
-      padding: 1.5rem;
+      font-size: var(--text-xl);
     }
 
     .training-grid {
@@ -431,18 +231,8 @@
   }
 
   @media (max-width: 480px) {
-    .header {
-      margin-bottom: 2rem;
-    }
-
     .subtitle {
       font-size: var(--text-md);
-    }
-
-    .feature-card,
-    .info-banner {
-      border-radius: var(--border-radius-lg);
-      padding: 1.5rem;
     }
 
     .training-grid {

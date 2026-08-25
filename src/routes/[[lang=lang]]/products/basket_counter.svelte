@@ -7,6 +7,7 @@
 
   export let id: string;
   export let title: string;
+  export let red = false;
   export let count = 1;
   export let min = 1;
   export let max = 1000;
@@ -82,7 +83,7 @@
     </button>
   </div>
 
-  <Button id="add-to-basket-btn" isBlackColor={true} on:click={handleAddToCart}>
+  <Button id="add-to-basket-btn" isBlackColor={!red} on:click={handleAddToCart}>
     {$_("section_product_add_to_cart")}
   </Button>
 </div>

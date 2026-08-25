@@ -12,40 +12,75 @@
   export let title: string;
   export let price: number;
   export let summary: string;
+  export let redCta = false;
+  export let unified = false;
 </script>
 
-<div class="container">
+{#if unified}
   <Box>
-    <div class="product-image">
-      <img src={image_path} alt={title} loading="lazy" />
+    <div class="container unified">
+      <div class="product-image">
+        <img src={image_path} alt={title} loading="lazy" />
+      </div>
+
+      <article class="product-info">
+        <div class="header">
+          <h1>{title}</h1>
+          <div class="price-vat-group">
+            <h2 class="price">{formatPrice(price)}</h2>
+            <h3 class="vat">{$_("section_products_vat_included")}</h3>
+          </div>
+        </div>
+
+        <p class="summary">{summary}</p>
+        <div class="buttons">
+          <div class="top-buttons">
+            <BasketCounter {id} {title} red={redCta} />
+          </div>
+          <a href={$localize("/maintenance")}>
+            <Button id="maintenance-btn-from-products" isBlackColor={true}>
+              {$_("section_products_add_maintenance")}
+              <ChevronRight />
+            </Button>
+          </a>
+        </div>
+      </article>
     </div>
   </Box>
-
-  <Box>
-    <article class="product-info">
-      <div class="header">
-        <h1>{title}</h1>
-        <div class="price-vat-group">
-          <h2 class="price">{formatPrice(price)}</h2>
-          <h3 class="vat">{$_("section_products_vat_included")}</h3>
-        </div>
+{:else}
+  <div class="container">
+    <Box>
+      <div class="product-image">
+        <img src={image_path} alt={title} loading="lazy" />
       </div>
+    </Box>
 
-      <p class="summary">{summary}</p>
-      <div class="buttons">
-        <div class="top-buttons">
-          <BasketCounter {id} {title} />
+    <Box>
+      <article class="product-info">
+        <div class="header">
+          <h1>{title}</h1>
+          <div class="price-vat-group">
+            <h2 class="price">{formatPrice(price)}</h2>
+            <h3 class="vat">{$_("section_products_vat_included")}</h3>
+          </div>
         </div>
-        <a href={$localize("/maintenance")}>
-          <Button id="maintenance-btn-from-products" isBlackColor={true}>
-            {$_("section_products_add_maintenance")}
-            <ChevronRight />
-          </Button>
-        </a>
-      </div>
-    </article>
-  </Box>
-</div>
+
+        <p class="summary">{summary}</p>
+        <div class="buttons">
+          <div class="top-buttons">
+            <BasketCounter {id} {title} red={redCta} />
+          </div>
+          <a href={$localize("/maintenance")}>
+            <Button id="maintenance-btn-from-products" isBlackColor={true}>
+              {$_("section_products_add_maintenance")}
+              <ChevronRight />
+            </Button>
+          </a>
+        </div>
+      </article>
+    </Box>
+  </div>
+{/if}
 
 <style>
   .container {
@@ -53,6 +88,12 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+  }
+
+  .container.unified {
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
   }
 
   .product-info {

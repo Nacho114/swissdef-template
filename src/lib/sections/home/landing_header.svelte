@@ -9,10 +9,6 @@
 <Container>
   <div class="landing-header">
     <div class="header-content">
-      <div class="badge">
-        <span>{$_("Swiss Defibrillator")}</span>
-      </div>
-
       <h1>
         <span class="gradient-text"
           >{$_("section_home_landing_header_title")}</span
@@ -69,22 +65,6 @@
   .header-content {
     max-width: 600px;
     margin: 0 auto;
-  }
-
-  .badge {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background: rgba(96, 165, 250, 0.1);
-    border: 1px solid rgba(96, 165, 250, 0.2);
-    border-radius: var(--border-radius-lg);
-    margin-bottom: 1.5rem;
-  }
-
-  .badge span {
-    background: linear-gradient(135deg, #60a5fa, #8b5cf6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 500;
   }
 
   h1 {

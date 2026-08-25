@@ -2,6 +2,7 @@
   import type { Product } from "$lib/products";
   import Container from "$lib/components/container.svelte";
   import ProductInfo from "../product_info.svelte";
+  import ProductHero from "../product_hero.svelte";
   import MdProductPage from "$lib/components/md_product_page.svelte";
   import { _ } from "svelte-i18n";
   export let data: Product;
@@ -17,9 +18,9 @@
   // DEV-ONLY design-variant switcher — remove before merging to main
   const variantLabels = [
     "Original",
-    "V1 · Red CTA",
-    "V2 · One card",
-    "V3 · Clean details",
+    "A · Shop",
+    "B · Split panel",
+    "C · Focus + bar",
   ];
   let variant = 0;
   const prevVariant = () =>
@@ -53,17 +54,20 @@
 </svelte:head>
 
 <Container>
-  <div class="info" class:plain={variant === 3}>
-    <ProductInfo
-      {id}
-      {image_path}
-      {title}
-      {price}
-      {summary}
-      redCta={variant >= 1}
-      unified={variant >= 2}
-    />
-    <MdProductPage {file_name} clean={variant === 3} />
+  <div class="info" class:plain={variant !== 0}>
+    {#if variant === 0}
+      <ProductInfo {id} {image_path} {title} {price} {summary} />
+    {:else}
+      <ProductHero
+        {id}
+        {image_path}
+        {title}
+        {price}
+        {summary}
+        mode={variant === 1 ? "shop" : variant === 2 ? "split" : "focus"}
+      />
+    {/if}
+    <MdProductPage {file_name} clean={variant !== 0} />
   </div>
 </Container>
 
@@ -77,6 +81,7 @@
 <style>
   .info.plain {
     background-color: white;
+    padding: 0;
   }
 
   /* DEV-ONLY switcher */

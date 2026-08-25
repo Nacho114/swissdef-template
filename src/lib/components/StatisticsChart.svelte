@@ -137,17 +137,40 @@
           tooltip: {
             enabled: false,
           },
+          annotation: {
+            annotations: {
+              criticalWindow: {
+                type: "box",
+                xMin: 3,
+                xMax: 5,
+                yMin: 0,
+                yMax: 100,
+                backgroundColor: "rgba(0, 0, 0, 0.035)",
+                borderWidth: 0,
+                label: {
+                  display: true,
+                  content: $_("statistics_chart_window_label"),
+                  position: { x: "center", y: "start" },
+                  color: "#666",
+                  font: {
+                    family: "Outfit-Regular",
+                    size: 12,
+                  },
+                },
+              },
+            },
+          },
           legend: {
             position: "top",
             align: "center",
             labels: {
               usePointStyle: true,
               padding: 40,
-              boxWidth: 8,
+              boxWidth: 30,
               boxHeight: 8,
               color: "#333",
               font: {
-                family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+                family: "Outfit-Regular",
                 size: 14,
                 weight: "bold"
               }

@@ -123,13 +123,13 @@
   .blur-blue {
     top: -10%;
     right: -10%;
-    background: var(--global-color-primary);
+    background: var(--global-color-gray);
   }
 
   .blur-purple {
     bottom: -10%;
     left: -10%;
-    background: var(--global-color-secondary);
+    background: var(--global-color-gray);
   }
 
   .contact-wrapper {

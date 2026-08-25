@@ -4,11 +4,15 @@
   import { _ } from "svelte-i18n";
 
   export let featuresString: string;
+  export let hideExcluded = false;
 
   let features: Array<{ name: string; included: boolean }> = [];
 
   $: {
     features = parseFeatures(featuresString);
+    if (hideExcluded) {
+      features = features.filter((f) => f.included);
+    }
   }
 
   function parseFeatures(featuresString: string) {

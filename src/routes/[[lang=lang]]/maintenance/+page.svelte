@@ -23,6 +23,7 @@
             slug={m.slug}
             price={m.price}
             payment_link={m.payment_link}
+            highlight={m.slug === "basic_plan"}
           />
         </a>
       {/each}

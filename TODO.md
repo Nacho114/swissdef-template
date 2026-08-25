@@ -29,12 +29,13 @@ follow-ups from that work plus the AI-search (GEO) audit.
       and browser-language auto-detect on those URLs is unchanged.
       Follow-up once merged: resubmit the sitemap in GSC/Bing so the new
       language URLs get crawled.
-- [ ] **FAQ page with FAQPage schema.** Answer-shaped content is what AI
-      engines cite. Candidate questions: "Is an AED mandatory for companies
-      in Switzerland?", "How much does a defibrillator cost?", "How often
-      does an AED need maintenance?", "What training do employees need?"
-- [ ] **Schema for training and maintenance pages** (`Service`/`Course`
-      JSON-LD), mirroring what product pages now have.
+- [x] **FAQ page with FAQPage schema.** Live at `/faq` in all four languages
+      (footer-linked, in the sitemap). Questions chosen from researched Swiss
+      search/AI demand; answers fact-checked against SUVA, Swiss Heart
+      Foundation, SRC, Philips specs and the Ticino 821.355 directives.
+      Worth having Monica review the wording — especially the legal answer.
+- [x] **Schema for training and maintenance pages** (`Course`/`Service`
+      JSON-LD plus title/meta description on detail pages).
 
 ### Housekeeping
 

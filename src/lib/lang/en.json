@@ -194,5 +194,20 @@
     "contact_form_message_label": "Message",
     "contact_form_message_placeholder": "Enter your message",
     "contact_form_submit_button": "Submit",
-    "contact_form_success_message": "Your message has been sent successfully!"
+    "contact_form_success_message": "Your message has been sent successfully!",
+    "section_general_faq": "FAQ",
+    "meta_title_faq": "Defibrillator FAQ for Switzerland | Swiss Defibrillator",
+    "meta_description_faq": "Answers to the most common questions about AEDs in Switzerland: legal obligations, costs in CHF, who may use a defibrillator, maintenance, and choosing between the Philips HS1 and FRx.",
+    "faq_page_title": "Frequently Asked Questions",
+    "faq_page_subtitle": "What Swiss companies ask us about defibrillators, first aid and training.",
+    "faq_q1": "Is a defibrillator (AED) mandatory for companies in Switzerland?",
+    "faq_a1": "No. There is no federal law in Switzerland that obliges companies or public places to install a defibrillator. However, employers have a duty of care for first aid at work, and SUVA recommends an AED for sites with higher risk or many people — for example industry, transport, schools, shops, hotels and events — as part of the company emergency concept. Some cantons go further: in Ticino, every AED must be registered with the emergency services (144) and the owner is responsible for maintenance and training. Keep in mind that an ambulance takes 10–15 minutes on average, while defibrillation works best within the first 3–5 minutes.",
+    "faq_q2": "How much does a defibrillator cost in Switzerland?",
+    "faq_a2": "A defibrillator for lay rescuers typically costs between CHF 1'300 and CHF 2'500 excl. VAT in Switzerland. Our Philips HeartStart HS1 costs CHF 1'299 and the rugged HeartStart FRx CHF 1'690. Running costs stay modest: the electrode pads need replacing about every 2 years and the battery about every 4 years, which works out to roughly CHF 70–120 per year. Over four years, the total cost of ownership for a quality device is around CHF 1'500–2'300 including consumables.",
+    "faq_q3": "Can anyone use an AED, or do I need training — and am I liable if something goes wrong?",
+    "faq_a3": "Yes — anyone may use an AED in Switzerland, without any certificate or authorization. The device guides you with voice instructions, analyses the heart rhythm and only delivers a shock if one is actually needed. Swiss law is on the rescuer's side: Article 128 of the Criminal Code punishes failing to help a person in mortal danger, not imperfect help, and a first aider acting in good faith is not liable for honest mistakes. Training is still strongly recommended — a BLS-AED-SRC course takes about 4 hours and makes responders faster and more confident. In Ticino, AED owners are additionally expected to complete such a course.",
+    "faq_q4": "How often does an AED need to be maintained?",
+    "faq_a4": "Philips HeartStart defibrillators monitor themselves with automatic daily, weekly and monthly self-tests of the electronics, pads and battery. A blinking green Ready light means the device is operational; a chirping sound means it needs attention. As the owner, you should check the Ready light regularly and replace the electrode pads about every 2 years, the battery about every 4 years, and both after every use. The owner is responsible for keeping the device ready for use — in Ticino this is even a formal requirement. Our maintenance plans take care of the checks and timely replacements for you.",
+    "faq_q5": "Philips HeartStart HS1 or FRx — which one should I choose?",
+    "faq_a5": "Both are proven semi-automatic Philips AEDs with the same clear voice guidance and SMART rhythm analysis. The HeartStart HS1 is ideal indoors — offices, practices, shops and homes — and is the easiest device to own. The HeartStart FRx is built for demanding environments: a tougher casing with IP55 dust and water protection, and an infant/child key that adapts the standard pads for children instead of requiring separate paediatric pads. As a rule of thumb: choose the HS1 for offices and indoor spaces, and the FRx for industry, sport, outdoor areas and vehicles. We are happy to advise you on your specific location."
 }

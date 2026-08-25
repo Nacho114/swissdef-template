@@ -72,6 +72,11 @@
             {$_("section_general_warranty_and_returns")}
           </p>
         </a>
+        <a href={$localize("/faq")}>
+          <p>
+            {$_("section_general_faq")}
+          </p>
+        </a>
       </div>
 
       <div class="sub-div">

@@ -8,7 +8,33 @@
   import Button from "$lib/components/button.svelte";
   export let data: Training;
   let file_name = `/markdown/training/${data.slug}`;
+
+  $: title = $_(`training_${data.slug}_title`);
+  $: description = $_(`training_${data.slug}_description`);
+  $: courseJsonLd = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Course",
+    name: title,
+    description,
+    provider: {
+      "@type": "Organization",
+      name: "Swiss Defibrillator",
+      url: "https://www.swissdefibrillator.ch",
+    },
+    offers: {
+      "@type": "Offer",
+      url: `https://www.swissdefibrillator.ch/training/${data.slug}`,
+      price: data.price.toFixed(2),
+      priceCurrency: "CHF",
+    },
+  });
 </script>
+
+<svelte:head>
+  <title>{title} | Swiss Defibrillator</title>
+  <meta name="description" content={description} />
+  {@html `<script type="application/ld+json">${courseJsonLd}${"<"}/script>`}
+</svelte:head>
 
 <div class="book-now-container">
   <a href={$localize("/contact")} class="book-now-link">

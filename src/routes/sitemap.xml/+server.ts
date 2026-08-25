@@ -13,6 +13,7 @@ const staticPages = [
   "/training",
   "/maintenance",
   "/contact",
+  "/faq",
   "/terms_and_conditions",
   "/warranty_and_returns",
   "/privacy_policy",

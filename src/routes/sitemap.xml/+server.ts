@@ -17,6 +17,9 @@ const staticPages = [
   "/privacy_policy",
 ];
 
+// English is served unprefixed; the other languages live under /fr, /de, /it
+const langPrefixes = ["", "/fr", "/de", "/it"];
+
 export const GET: RequestHandler = () => {
   const paths = [
     ...staticPages,
@@ -25,9 +28,13 @@ export const GET: RequestHandler = () => {
     ...maintenances.map((m) => `/maintenance/${m.slug}`),
   ];
 
+  const urls = langPrefixes.flatMap((prefix) =>
+    paths.map((p) => `${ORIGIN}${prefix}${p === "/" ? (prefix ? "" : "/") : p}`),
+  );
+
   const body = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${paths.map((p) => `  <url><loc>${ORIGIN}${p}</loc></url>`).join("\n")}
+${urls.map((u) => `  <url><loc>${u}</loc></url>`).join("\n")}
 </urlset>`;
 
   return new Response(body, {

@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { localize } from "$lib/nav";
   import Container from "$lib/components/container.svelte";
   import Button from "$lib/components/button.svelte";
   import ChevronRight from "virtual:icons/gg/chevron-right";
@@ -21,7 +22,7 @@
       <p class="subtitle">{$_("section_home_landing_header_subtitle")}</p>
 
       <div class="cta-group">
-        <a href="/contact" class="primary-cta">
+        <a href={$localize("/contact")} class="primary-cta">
           <Button fullWidth={false}>
             <div class="button-content">
               {$_("section_home_landing_header_button")}
@@ -30,7 +31,7 @@
           </Button>
         </a>
 
-        <a href="/products" class="secondary-cta">
+        <a href={$localize("/products")} class="secondary-cta">
           {$_("section_general_products")}
           <ChevronRight />
         </a>

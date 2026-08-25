@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { localize } from "$lib/nav";
   import { _ } from "svelte-i18n";
   import PlanInformation from "./plan_information.svelte";
   import Button from "$lib/components/button.svelte";
@@ -30,7 +31,7 @@
 
   <p class="service-description">{description}</p>
   <div class="button">
-    <a href="/contact">
+    <a href={$localize("/contact")}>
       <Button id="book-training-btn" fullWidth={true}>
         {$_("section_general_book")}
         <ChevronRight />

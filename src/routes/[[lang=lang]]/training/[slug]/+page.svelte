@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { localize } from "$lib/nav";
   import MdInfoPage from "$lib/components/md_info_page.svelte";
   import type { Training } from "$lib/training";
   import ChevronRight from "virtual:icons/gg/chevron-right";
@@ -10,7 +11,7 @@
 </script>
 
 <div class="book-now-container">
-  <a href="/contact" class="book-now-link">
+  <a href={$localize("/contact")} class="book-now-link">
     <Button id="book-training-btn" fullWidth={true}>
       {$_("section_general_book")}
       <ChevronRight />

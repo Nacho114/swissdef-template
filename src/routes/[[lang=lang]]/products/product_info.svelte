@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { localize } from "$lib/nav";
   import { _ } from "svelte-i18n";
   import Button from "$lib/components/button.svelte";
   import ChevronRight from "virtual:icons/gg/chevron-right";
@@ -35,7 +36,7 @@
         <div class="top-buttons">
           <BasketCounter {id} {title} />
         </div>
-        <a href="/maintenance">
+        <a href={$localize("/maintenance")}>
           <Button id="maintenance-btn-from-products" isBlackColor={true}>
             {$_("section_products_add_maintenance")}
             <ChevronRight />

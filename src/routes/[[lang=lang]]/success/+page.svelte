@@ -1,7 +1,8 @@
 <script lang="ts">
+  import { localize } from "$lib/nav";
   import Container from "$lib/components/container.svelte";
   import { _ } from "svelte-i18n";
-  import { clearCart } from "../../store";
+  import { clearCart } from "../../../store";
 
   clearCart();
 </script>
@@ -12,7 +13,7 @@
     <h2>{$_("payment_successful_subtitle")}</h2>
     <p>{$_("payment_successful_description")}</p>
     <p>{$_("payment_successful_email_sent")}</p>
-    <a href="/products" class="btn"
+    <a href={$localize("/products")} class="btn"
       >{$_("payment_successful_continue_shopping")}</a
     >
   </div>

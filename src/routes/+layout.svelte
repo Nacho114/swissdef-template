@@ -1,15 +1,16 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import "./styles.css";
-  import "$lib/i18n.ts";
   import Header from "$lib/sections/layout/header.svelte";
   import Footer from "$lib/sections/layout/footer.svelte";
   import Cart from "virtual:icons/lucide/shopping-cart";
   import { cart } from "../store";
   import { _ } from "svelte-i18n";
   import { page } from "$app/stores";
+  import { LANGS, stripLang, withLang, localize } from "$lib/nav";
 
-  $: isCartPage = $page.url.pathname === "/cart";
+  $: pathNoLang = stripLang($page.url.pathname);
+  $: isCartPage = pathNoLang === "/cart";
   $: hasItems = Object.keys($cart).length > 0;
 
   const canonicalOrigin = "https://www.swissdefibrillator.ch";
@@ -24,9 +25,7 @@
     "/maintenance/recommended-success",
     "/maintenance/remote-success",
   ];
-  $: noindex = noindexPaths.includes($page.url.pathname);
-
-  const hreflangLangs = ["en", "fr", "de", "it"];
+  $: noindex = noindexPaths.includes(pathNoLang);
 
   onMount(() => {
     const script = document.createElement("script");
@@ -45,10 +44,14 @@
     <meta name="robots" content="noindex" />
   {/if}
   <link rel="canonical" href={canonicalUrl} />
-  {#each hreflangLangs as lang}
-    <link rel="alternate" hreflang={lang} href={canonicalUrl} />
+  {#each LANGS as lang}
+    <link
+      rel="alternate"
+      hreflang={lang}
+      href={canonicalOrigin + withLang(pathNoLang, lang)}
+    />
   {/each}
-  <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
+  <link rel="alternate" hreflang="x-default" href={canonicalOrigin + pathNoLang} />
 </svelte:head>
 
 <div class="layout">
@@ -59,7 +62,7 @@
   <div class="footer"><Footer /></div>
 
   {#if hasItems && !isCartPage}
-    <a href="/cart" class="floating-cart">
+    <a href={$localize("/cart")} class="floating-cart">
       <Cart width="24" height="24" />
       <span class="cart-text">{$_("section_general_checkout")}</span>
     </a>

@@ -15,6 +15,17 @@
   const canonicalOrigin = "https://www.swissdefibrillator.ch";
   $: canonicalUrl = canonicalOrigin + $page.url.pathname;
 
+  // Checkout/confirmation pages have no search value and should stay unindexed
+  const noindexPaths = [
+    "/cart",
+    "/success",
+    "/failure",
+    "/contact/form-success",
+    "/maintenance/recommended-success",
+    "/maintenance/remote-success",
+  ];
+  $: noindex = noindexPaths.includes($page.url.pathname);
+
   const hreflangLangs = ["en", "fr", "de", "it"];
 
   onMount(() => {
@@ -30,6 +41,9 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.0/dist/cookieconsent.css"
   />
+  {#if noindex}
+    <meta name="robots" content="noindex" />
+  {/if}
   <link rel="canonical" href={canonicalUrl} />
   {#each hreflangLangs as lang}
     <link rel="alternate" hreflang={lang} href={canonicalUrl} />

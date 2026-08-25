@@ -13,7 +13,32 @@
 
   let file_name = `/markdown/products/${data.slug}/info`;
   let id = data.id;
+
+  $: productJsonLd = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: title,
+    description: summary,
+    image: `https://www.swissdefibrillator.ch${image_path}`,
+    offers: {
+      "@type": "Offer",
+      url: `https://www.swissdefibrillator.ch/products/${data.slug}`,
+      priceCurrency: "CHF",
+      price: price.toFixed(2),
+      availability: "https://schema.org/InStock",
+      seller: {
+        "@type": "Organization",
+        name: "Swiss Defibrillator",
+      },
+    },
+  });
 </script>
+
+<svelte:head>
+  <title>{title} | Swiss Defibrillator</title>
+  <meta name="description" content={summary} />
+  {@html `<script type="application/ld+json">${productJsonLd}${"<"}/script>`}
+</svelte:head>
 
 <Container>
   <div class="info">

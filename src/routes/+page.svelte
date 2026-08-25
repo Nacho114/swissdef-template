@@ -31,72 +31,30 @@
 
   <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
-      "@type": "Organization",
-      "name": "Swissdefibrillator",
-      "url": "https://www.swissdefibrillator.com",
-      "logo": "https://www.swissdefibrillator.com/favicon.ico",
-      "contactPoint": [
-        {
-          "@type": "ContactPoint",
-          "telephone": "+41 79 441 24 06",
-          "contactType": "customer service",
-          "email": "info@swissdefibrillator.com",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Route de l'Aiglon",
-            "addressLocality": "Leysin",
-            "postalCode": "1854",
-            "addressCountry": "CH"
-          },
-          "areaServed": "CH",
-          "availableLanguage": ["German", "French", "Italian", "English"]
-        }
-      ],
-      "makesOffer": {
-        "@type": "Offer",
-        "itemOffered": [
-          {
-            "@type": "Product",
-            "name": "Philips HS-1 Defibrillator",
-            "description": "Portable, user-friendly, life-saving device. Designed for rapid response.",
-            "offers": {
-              "@type": "Offer",
-              "url": "https://www.swissdefibrillator.ch/products/philips-hs1-defibrillator",
-              "priceCurrency": "CHF",
-              "price": "1299.00",
-              "availability": "http://schema.org/InStock",
-              "seller": {
-                "@type": "Organization",
-                "name": "Swiss Defibrillator"
-              }
-            }
-          },
-          {
-            "@type": "Product",
-            "name": "Philips HeartStart FRx Defibrillator",
-            "description": "Offers intuitive and clear step-by-step voice instructions for emergency use.",
-            "offers": {
-              "@type": "Offer",
-              "url": "https://www.swissdefibrillator.ch/products/philips-heartstart-frx",
-              "priceCurrency": "CHF",
-              "price": "1699.00",
-              "availability": "http://schema.org/InStock",
-              "seller": {
-                "@type": "Organization",
-                "name": "Swiss Defibrillator"
-              }
-            }
-          }
-        ]
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Swiss Defibrillator",
+      "url": "https://www.swissdefibrillator.ch",
+      "logo": "https://www.swissdefibrillator.ch/assets/logo.svg",
+      "image": "https://www.swissdefibrillator.ch/assets/og-image.jpg",
+      "description": "Swiss supplier of Philips AED defibrillators, accessories, first aid training and AED maintenance services for companies in Switzerland.",
+      "telephone": "+41 79 441 24 06",
+      "email": "info@swissdefibrillator.ch",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Route de l'Aiglon 5",
+        "addressLocality": "Leysin",
+        "postalCode": "1854",
+        "addressCountry": "CH"
       },
-      "offers": {
-        "@type": "Service",
-        "serviceType": [
-          "Maintenance courses for defibrillators",
-          "First aid courses for companies"
-        ]
-      }
+      "areaServed": "CH",
+      "availableLanguage": ["German", "French", "Italian", "English"],
+      "knowsAbout": [
+        "Automated external defibrillators (AED)",
+        "First aid training",
+        "AED maintenance",
+        "Cardiac arrest response"
+      ]
     }
   </script>
 </svelte:head>

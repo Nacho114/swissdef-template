@@ -4,11 +4,15 @@
   import { _ } from "svelte-i18n";
 
   export let featuresString: string;
+  export let hideExcluded = false;
 
   let features: Array<{ name: string; included: boolean }> = [];
 
   $: {
     features = parseFeatures(featuresString);
+    if (hideExcluded) {
+      features = features.filter((f) => f.included);
+    }
   }
 
   function parseFeatures(featuresString: string) {
@@ -45,7 +49,7 @@
   }
 
   .service-features h3 {
-    color: #333;
+    color: var(--color-text);
     margin-bottom: 0.5rem;
   }
 
@@ -57,7 +61,7 @@
   .feature-item {
     display: flex;
     align-items: center;
-    color: #333;
+    color: var(--color-text);
     margin-bottom: 0.5rem;
   }
 

@@ -12,7 +12,7 @@
   import Email from "virtual:icons/iconamoon/email";
 </script>
 
-<Container style="background-color: #040707;">
+<Container style="background-color: var(--color-text);">
   <div class="footer">
     <div class="left">
       <h3>
@@ -206,7 +206,7 @@
 
   .right p {
     color: #b9b9b9;
-    font-size: 12px;
+    font-size: var(--text-sm);
   }
 
   .icon {
@@ -215,7 +215,7 @@
   }
 
   .endContainer {
-    background-color: #040707;
+    background-color: var(--color-text);
   }
 
   .gray-line {

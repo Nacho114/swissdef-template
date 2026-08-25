@@ -18,26 +18,26 @@
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: var(--text-2xl);
     margin-bottom: 1rem;
   }
 
   p {
-    font-size: 1.2rem;
+    font-size: var(--text-md);
     margin-bottom: 2rem;
   }
 
   .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: var(--global-color-primary);
     color: white;
     text-decoration: none;
-    border-radius: 5px;
-    font-size: 1rem;
+    border-radius: var(--border-radius);
+    font-size: var(--text-base);
   }
 
   .btn:hover {
-    background-color: #0056b3;
+    background-color: var(--global-color-primary-dark);
   }
 </style>

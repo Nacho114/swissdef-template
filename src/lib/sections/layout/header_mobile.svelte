@@ -179,12 +179,14 @@
     text-decoration: none; /* Removes underline from links */
     text-align: left;
     color: white; /* White text color */
-    font-size: 20px; /* Adjust font size as needed */
+    font-size: var(--text-md); /* Adjust font size as needed */
     transition: background-color 0.3s; /* Smooth transition for hover effect */
   }
 
   .side-menu a:hover {
-    background-color: #333; /* Slightly darker background on hover */
+    background-color: var(
+      --color-text
+    ); /* Slightly darker background on hover */
   }
 
   .locale {
@@ -207,7 +209,7 @@
     display: block; /* Block-level for full width */
     text-decoration: none;
     color: white;
-    font-size: 12px; /* Smaller font size */
+    font-size: var(--text-sm); /* Smaller font size */
   }
 
   .cart-icon {

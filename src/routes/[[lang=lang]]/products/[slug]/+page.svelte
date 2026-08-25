@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { Product } from "$lib/products";
   import Container from "$lib/components/container.svelte";
-  import ProductInfo from "../product_info.svelte";
+  import ProductHero from "../product_hero.svelte";
   import MdProductPage from "$lib/components/md_product_page.svelte";
   import { _ } from "svelte-i18n";
   export let data: Product;
@@ -42,8 +42,8 @@
 
 <Container>
   <div class="info">
-    <ProductInfo {id} {image_path} {title} {price} {summary} />
-    <MdProductPage {file_name} />
+    <ProductHero {id} {image_path} {title} {price} {summary} ptype={data.type} />
+    <MdProductPage {file_name} clean={true} />
   </div>
 </Container>
 
@@ -54,12 +54,8 @@
     gap: 4vw;
     align-items: center;
     justify-content: center;
-    background-color: Var(
-      --global-color-gray-light-bg
-    ); /* Light gray background */
-    border-radius: Var(--border-radius);
-    padding: 3vw;
-    padding-left: 7vw;
-    padding-right: 7vw;
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 0;
   }
 </style>

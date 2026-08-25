@@ -118,7 +118,7 @@
   }
 
   .cart-text {
-    font-size: 0.9rem;
+    font-size: var(--text-sm);
     font-weight: 500;
   }
 

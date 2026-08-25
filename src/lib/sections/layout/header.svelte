@@ -60,7 +60,7 @@
   a {
     text-decoration: none; /* Remove underline */
     color: inherit; /* Use the default text color */
-    font-size: 14px;
+    font-size: var(--text-sm);
   }
 
   .large-screen {
@@ -99,7 +99,7 @@
     right: -6px;
     width: 12px;
     height: 12px;
-    background-color: #ff0000;
+    background-color: var(--global-color-primary);
     border-radius: 50%;
     border: 2px solid white;
   }

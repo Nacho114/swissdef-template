@@ -44,7 +44,7 @@
     height: 45vw;
     padding: 0.5vw;
     box-shadow: var(--box-shadow); /* Optional: adds a shadow for depth */
-    border-radius: 8px; /* Optional: rounds the corners */
+    border-radius: var(--border-radius); /* Optional: rounds the corners */
     overflow: hidden; /* Ensures the content respects border radius */
     background-color: var(--global-color-light); /* White background */
     display: flex;
@@ -67,7 +67,9 @@
   }
 
   .product-content {
-    border-radius: 8px; /* TODO make this a var to standarize borders */
+    border-radius: var(
+      --border-radius
+    ); /* TODO make this a var to standarize borders */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,7 +95,7 @@
   }
 
   .product-info-container {
-    border-radius: 4px;
+    border-radius: var(--border-radius);
     width: 100%;
     background-color: white;
   }

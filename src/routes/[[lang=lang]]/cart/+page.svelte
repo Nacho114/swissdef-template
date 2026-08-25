@@ -74,7 +74,7 @@
 
   .empty-cart-container {
     background-color: #f5f5f5;
-    border-radius: 6px;
+    border-radius: var(--border-radius);
     padding: 0.5rem 0.75rem;
     margin: 1rem 0;
     text-align: center;
@@ -109,12 +109,12 @@
     }
 
     h1 {
-      font-size: 1.5rem; /* Make the title smaller on mobile */
+      font-size: var(--text-lg); /* Make the title smaller on mobile */
       text-align: center;
     }
 
     h4 {
-      font-size: 1.2rem;
+      font-size: var(--text-md);
       text-align: center;
     }
   }

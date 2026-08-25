@@ -42,7 +42,7 @@
 <style>
   .button-group {
     border: 2px solid black;
-    border-radius: 4px;
+    border-radius: var(--border-radius);
     display: inline-flex;
   }
 
@@ -50,7 +50,7 @@
     margin: 0.2rem;
     padding: 0.5rem;
     border: none;
-    border-radius: 4px;
+    border-radius: var(--border-radius);
     cursor: pointer;
     background-color: white;
     transition: background-color 0.3s;

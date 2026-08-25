@@ -95,7 +95,7 @@
     "section_products_wall_sign_title": "Wandschild",
     "section_products_wall_sign_summary": "Dieses langlebige Metallschild misst 23 x 17 cm und ist für hohe Sichtbarkeit mit zwei Seiten im 90°-Winkel gestaltet. Es verfügt über vier Befestigungslöcher und eine grüne Oberfläche (RAL 6024), die den Notfallfarbcodes für Sicherheit entspricht. Wetterfest, ist es ideal für den Außeneinsatz und gewährleistet eine klare Kennzeichnung von AED-Standorten.",
     "-----------------------MAINTENANCE----------------------------": "--------------------------------------------------------------------------------------------------------------------------------------------------------------",
-    "maintenance_basic_plan_title": "Empfohlen",
+    "maintenance_basic_plan_title": "Vor Ort",
     "maintenance_basic_plan_description": "Halten Sie Ihren Defibrillator auf dem neuesten Stand",
     "maintenance_basic_plan_features": "Regelmäßige Überprüfung bei Fälligkeit||true\nQualifizierte Techniker||true\nLandesweiter Service in der Schweiz||true\nVierteljährliche Wartungskontrollen||true\nKostenloser Ersatz von gebrauchten Teilen||true\nKundensupport||true\nRabatt auf Erste-Hilfe-Kurse||true",
     "maintenance_remote_title": "Remote",
@@ -209,5 +209,10 @@
     "faq_q4": "Wie oft muss ein AED gewartet werden?",
     "faq_a4": "Philips HeartStart Defibrillatoren überwachen sich selbst — mit automatischen täglichen, wöchentlichen und monatlichen Selbsttests von Elektronik, Elektroden und Batterie. Ein blinkendes grünes Ready-Licht bedeutet einsatzbereit; ein Piepton bedeutet Handlungsbedarf. Als Besitzer sollten Sie das Ready-Licht regelmässig prüfen und die Elektroden etwa alle 2 Jahre, die Batterie etwa alle 4 Jahre sowie beides nach jedem Einsatz ersetzen. Der Besitzer ist für die Einsatzbereitschaft des Geräts verantwortlich — im Tessin ist dies sogar formell vorgeschrieben. Unsere Wartungspläne übernehmen die Kontrollen und den rechtzeitigen Ersatz für Sie.",
     "faq_q5": "Philips HeartStart HS1 oder FRx — welcher passt zu mir?",
-    "faq_a5": "Beide sind bewährte halbautomatische Philips-AEDs mit derselben klaren Sprachführung und SMART-Rhythmusanalyse. Der HeartStart HS1 ist ideal für Innenräume — Büros, Praxen, Geschäfte und Zuhause — und das unkomplizierteste Gerät im Besitz. Der HeartStart FRx ist für anspruchsvolle Umgebungen gebaut: robusteres Gehäuse mit IP55-Schutz gegen Staub und Wasser sowie ein Kinderschlüssel, der die Standard-Elektroden für Kinder anpasst — separate Kinderelektroden entfallen. Als Faustregel: HS1 für Büros und Innenräume, FRx für Industrie, Sport, Aussenbereiche und Fahrzeuge. Wir beraten Sie gerne für Ihren Standort."
+    "faq_a5": "Beide sind bewährte halbautomatische Philips-AEDs mit derselben klaren Sprachführung und SMART-Rhythmusanalyse. Der HeartStart HS1 ist ideal für Innenräume — Büros, Praxen, Geschäfte und Zuhause — und das unkomplizierteste Gerät im Besitz. Der HeartStart FRx ist für anspruchsvolle Umgebungen gebaut: robusteres Gehäuse mit IP55-Schutz gegen Staub und Wasser sowie ein Kinderschlüssel, der die Standard-Elektroden für Kinder anpasst — separate Kinderelektroden entfallen. Als Faustregel: HS1 für Büros und Innenräume, FRx für Industrie, Sport, Aussenbereiche und Fahrzeuge. Wir beraten Sie gerne für Ihren Standort.",
+    "statistics_chart_window_label": "Defibrillation am wirksamsten",
+    "training_recommended_tag": "Empfohlen",
+    "contact_phone_title": "Telefon",
+    "contact_email_title": "E-Mail",
+    "contact_address_title": "Adresse"
 }

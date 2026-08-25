@@ -24,29 +24,30 @@
           {
             label: with_aed_label,
             data: [99, 90, 85, 80, 75, 73, 70, 68, 67, 66, 65],
-            borderColor: "#22C55E",
-            backgroundColor: "rgba(34, 197, 94, 0.15)",
-            borderWidth: 2,
-            fill: true,
+            borderColor: "#c70b15",
+            // fill only the gap down to the "without AED" line — the AED benefit
+            backgroundColor: "rgba(199, 11, 21, 0.05)",
+            borderWidth: 3,
+            fill: 1,
             tension: 0.4,
-            pointRadius: 2.5,
-            pointHoverRadius: 3.5,
+            pointRadius: 0,
+            pointHoverRadius: 4,
             pointBackgroundColor: "#FFFFFF",
-            pointBorderColor: "#22C55E",
+            pointBorderColor: "#c70b15",
             pointBorderWidth: 1.5,
           },
           {
             label: without_aed_label,
             data: [99, 70, 45, 25, 15, 10, 7, 5, 3, 2, 1],
-            borderColor: "#DC2626",
-            backgroundColor: "rgba(220, 38, 38, 0.15)",
-            borderWidth: 2,
-            fill: true,
+            borderColor: "#565758",
+            borderWidth: 1.5,
+            borderDash: [6, 4],
+            fill: false,
             tension: 0.4,
-            pointRadius: 2.5,
-            pointHoverRadius: 3.5,
+            pointRadius: 0,
+            pointHoverRadius: 4,
             pointBackgroundColor: "#FFFFFF",
-            pointBorderColor: "#DC2626",
+            pointBorderColor: "#565758",
             pointBorderWidth: 1.5,
           }
         ],
@@ -74,7 +75,7 @@
               color: "rgba(0, 0, 0, 0.1)",
             },
             ticks: {
-              color: "#4a5568",
+              color: "#666",
               font: {
                 size: 14,
                 weight: "bold"
@@ -91,7 +92,7 @@
             title: {
               display: true,
               text: $_("section_home_statistics_chart_y_axis"),
-              color: "#1a1a1a",
+              color: "#333",
               font: {
                 size: 16,
                 weight: "bold"
@@ -111,7 +112,7 @@
               color: "rgba(0, 0, 0, 0.1)",
             },
             ticks: {
-              color: "#4a5568",
+              color: "#666",
               font: {
                 size: 14,
                 weight: "bold"
@@ -121,7 +122,7 @@
             title: {
               display: true,
               text: $_("section_home_statistics_chart_x_axis"),
-              color: "#1a1a1a",
+              color: "#333",
               font: {
                 size: 16,
                 weight: "bold"
@@ -136,17 +137,40 @@
           tooltip: {
             enabled: false,
           },
+          annotation: {
+            annotations: {
+              criticalWindow: {
+                type: "box",
+                xMin: 3,
+                xMax: 5,
+                yMin: 0,
+                yMax: 100,
+                backgroundColor: "rgba(0, 0, 0, 0.035)",
+                borderWidth: 0,
+                label: {
+                  display: true,
+                  content: $_("statistics_chart_window_label"),
+                  position: { x: "center", y: "start" },
+                  color: "#666",
+                  font: {
+                    family: "Outfit-Regular",
+                    size: 12,
+                  },
+                },
+              },
+            },
+          },
           legend: {
             position: "top",
             align: "center",
             labels: {
               usePointStyle: true,
               padding: 40,
-              boxWidth: 8,
+              boxWidth: 30,
               boxHeight: 8,
-              color: "#1a1a1a",
+              color: "#333",
               font: {
-                family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+                family: "Outfit-Regular",
                 size: 14,
                 weight: "bold"
               }
@@ -288,9 +312,9 @@
     justify-content: center;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #2563EB;
-    box-shadow: 0 8px 16px rgba(37, 99, 235, 0.1);
-    border: 2px solid rgba(37, 99, 235, 0.2);
+    color: var(--global-color-primary);
+    box-shadow: 0 8px 16px rgba(199, 11, 21, 0.1);
+    border: 2px solid rgba(199, 11, 21, 0.2);
     z-index: 1;
     transition: transform 0.3s ease;
   }
@@ -328,16 +352,16 @@
   }
 
   .timeline-item.highlight .time-marker {
-    background: #2563EB;
+    background: var(--global-color-primary);
     color: white;
-    border-color: #2563EB;
+    border-color: var(--global-color-primary);
   }
 
   .cta-section {
     margin-top: 5rem;
     text-align: center;
     padding: 3rem;
-    background: linear-gradient(135deg, rgba(37, 99, 235, 0.03) 0%, rgba(37, 99, 235, 0.06) 100%);
+    background: linear-gradient(135deg, rgba(199, 11, 21, 0.03) 0%, rgba(199, 11, 21, 0.06) 100%);
     border-radius: 24px;
   }
 

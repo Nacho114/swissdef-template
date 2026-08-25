@@ -9,6 +9,7 @@
   let previousLocale: string | undefined | null = undefined;
 
   export let file_name: string;
+  export let clean = false;
 
   // Function to load markdown based on the current locale
   async function loadMarkdown(currentLocale: string | undefined | null) {
@@ -39,16 +40,24 @@
 </script>
 
 <div class="outer_container" in:fade={{ duration: 110 }}>
-  <Box>
-    <!-- Conditional rendering with fade transition for the content -->
+  {#if clean}
     {#if source !== ""}
-      <div class="container" in:fade={{ duration: 110, delay: 110 }}>
+      <div class="container clean" in:fade={{ duration: 110, delay: 110 }}>
         <SvelteMarkdown {source} />
       </div>
-    {:else}
-      <!-- Maybe some loading indicator here if you want -->
     {/if}
-  </Box>
+  {:else}
+    <Box>
+      <!-- Conditional rendering with fade transition for the content -->
+      {#if source !== ""}
+        <div class="container" in:fade={{ duration: 110, delay: 110 }}>
+          <SvelteMarkdown {source} />
+        </div>
+      {:else}
+        <!-- Maybe some loading indicator here if you want -->
+      {/if}
+    </Box>
+  {/if}
 </div>
 
 <style>
@@ -66,7 +75,7 @@
   .container :global(h1) {
     font-family: Oswald-SemiBold;
     text-align: left;
-    font-size: 2.5em;
+    font-size: var(--text-2xl);
     /* add any other styles for h1 here */
   }
 
@@ -74,7 +83,7 @@
     font-family: Oswald-SemiBold;
     text-align: left;
     color: var(--global-color-primary);
-    font-size: 2em;
+    font-size: var(--text-xl);
     /* add any other styles for h2 here */
   }
 
@@ -86,6 +95,25 @@
     text-align: left;
     color: var(--global-color-primary);
     font-family: Oswald-SemiBold;
+  }
+
+  /* clean mode: no card, narrower measure, only h2 stays red */
+  .container.clean {
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2rem 1rem;
+  }
+
+  .container.clean :global(h3),
+  .container.clean :global(h4),
+  .container.clean :global(h5),
+  .container.clean :global(h6) {
+    color: var(--color-text);
+  }
+
+  .container.clean :global(p) {
+    text-align: left;
   }
 
   .container :global(p) {
@@ -106,7 +134,7 @@
   }
 
   .container :global(a) {
-    color: var(--global-color-blue);
+    color: var(--global-color-primary);
     text-decoration: none;
     /* add any other styles for anchor tags here */
   }

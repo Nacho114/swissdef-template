@@ -9,10 +9,6 @@
 <Container>
   <div class="landing-header">
     <div class="header-content">
-      <div class="badge">
-        <span>{$_("Swiss Defibrillator")}</span>
-      </div>
-
       <h1>
         <span class="gradient-text"
           >{$_("section_home_landing_header_title")}</span
@@ -71,24 +67,8 @@
     margin: 0 auto;
   }
 
-  .badge {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background: rgba(96, 165, 250, 0.1);
-    border: 1px solid rgba(96, 165, 250, 0.2);
-    border-radius: 2rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .badge span {
-    background: linear-gradient(135deg, #60a5fa, #8b5cf6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 500;
-  }
-
   h1 {
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: var(--text-hero);
     line-height: 1.1;
     margin-bottom: 1.5rem;
   }
@@ -100,8 +80,8 @@
   }
 
   .subtitle {
-    font-size: clamp(1rem, 2vw, 1.25rem);
-    color: #4a5568;
+    font-size: var(--text-md);
+    color: var(--color-text-muted);
     line-height: 1.7;
     margin-bottom: 2.5rem;
     max-width: 90%;
@@ -124,14 +104,14 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: #4a5568;
+    color: var(--color-text-muted);
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
   }
 
   .secondary-cta:hover {
-    color: #1a1a1a;
+    color: var(--color-text);
   }
 
   .header-image {

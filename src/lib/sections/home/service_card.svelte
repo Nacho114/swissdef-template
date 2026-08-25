@@ -54,7 +54,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 1.5rem;
+    font-size: var(--text-lg);
     transition: top 0.3s; /* Smooth transition for title position */
     text-transform: uppercase;
   }
@@ -70,7 +70,7 @@
     left: 50%;
     transform: translateX(-50%) translateY(100%); /* Initially positioned just below the card */
     color: white;
-    font-size: 1.1rem;
+    font-size: var(--text-md);
     opacity: 0;
     transition:
       transform 0.3s,

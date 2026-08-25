@@ -27,38 +27,37 @@
       <p class="subtitle">{$_("training_page_subtitle")}</p>
     </div>
 
-    <div class="features">
-      <div class="feature-card">
-        <div class="feature-icon">
-          <Users />
-        </div>
-        <h3>{$_("training_feature_small_groups_title")}</h3>
-        <p>{$_("training_feature_small_groups_description")}</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">
-          <Clock />
-        </div>
-        <h3>{$_("training_feature_schedule_title")}</h3>
-        <p>{$_("training_feature_schedule_description")}</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">
-          <Certificate />
-        </div>
-        <h3>{$_("training_feature_certification_title")}</h3>
-        <p>{$_("training_feature_certification_description")}</p>
+    <!-- Compliance callout directly under the subtitle -->
+    <div class="callout">
+      <div class="callout-icon"><Shield /></div>
+      <div>
+        <h4>{$_("training_compliance_title")}</h4>
+        <p>{$_("training_subtitle")}</p>
       </div>
     </div>
 
-    <!-- Info -->
-    <div class="info-banner">
-      <div class="info-icon">
-        <Shield />
+    <!-- Features as a borderless inline row -->
+    <div class="features-inline">
+      <div class="feature-inline">
+        <div class="feature-icon"><Users /></div>
+        <div>
+          <h3>{$_("training_feature_small_groups_title")}</h3>
+          <p>{$_("training_feature_small_groups_description")}</p>
+        </div>
       </div>
-      <div class="info-content">
-        <h4>{$_("training_compliance_title")}</h4>
-        <p>{$_("training_subtitle")}</p>
+      <div class="feature-inline">
+        <div class="feature-icon"><Clock /></div>
+        <div>
+          <h3>{$_("training_feature_schedule_title")}</h3>
+          <p>{$_("training_feature_schedule_description")}</p>
+        </div>
+      </div>
+      <div class="feature-inline">
+        <div class="feature-icon"><Certificate /></div>
+        <div>
+          <h3>{$_("training_feature_certification_title")}</h3>
+          <p>{$_("training_feature_certification_description")}</p>
+        </div>
       </div>
     </div>
 
@@ -71,6 +70,8 @@
             slug={training.slug}
             price={training.price}
             duration={training.duration}
+            hideExcluded={true}
+            highlight={training.slug === "basic"}
           />
         </a>
       {/each}
@@ -82,132 +83,112 @@
   .product-link {
     text-decoration: none;
   }
+
   .training-section {
-    padding: 6rem 0;
+    padding: 3rem 0;
     background: linear-gradient(to bottom, #ffffff, #f8fafc);
   }
 
   .header {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   h1 {
-    font-size: 3.5rem;
+    font-size: var(--text-2xl);
     font-weight: 600;
-    color: #1d1d1f;
+    color: var(--color-text);
     margin: 0 0 1rem;
     line-height: 1.2;
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, #007aff, #5856d6);
+    background: linear-gradient(135deg, #1a1a1a 0%, #4a5568 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .subtitle {
-    font-size: 1.25rem;
-    color: #6b7280;
+    font-size: var(--text-md);
+    color: var(--color-text-muted);
     max-width: 600px;
     margin: 0 auto;
   }
 
-  .features {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    margin-bottom: 4rem;
+  .callout {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    width: calc(100% - 2rem);
+    max-width: calc(1400px - 2rem);
+    box-sizing: border-box;
+    margin: 0 auto 2.5rem;
+    padding: 1rem 1.5rem;
+    background: var(--global-color-gray-light-bg);
+    border-left: 4px solid var(--global-color-primary);
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    text-align: left;
   }
 
-  .feature-card {
-    background: white;
-    padding: 2rem;
-    border-radius: 1.5rem;
-    text-align: center;
-    transition: all 0.3s ease;
-    border: 1px solid #e5e7eb;
+  .callout-icon {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--color-text);
+    margin-top: 0.2rem;
   }
 
-  .feature-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  .callout h4 {
+    margin: 0 0 0.25rem;
+    font-size: var(--text-base);
+  }
+
+  .callout p {
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: var(--text-sm);
+  }
+
+  .features-inline {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    width: calc(100% - 2rem);
+    max-width: calc(1400px - 2rem);
+    margin: 0 auto 3rem;
+    flex-wrap: wrap;
+  }
+
+  .feature-inline {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    flex: 1 1 260px;
+    max-width: 360px;
+    text-align: left;
   }
 
   .feature-icon {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 3rem;
-    height: 3rem;
-    background: linear-gradient(
-      135deg,
-      rgba(0, 122, 255, 0.1),
-      rgba(88, 86, 214, 0.1)
-    );
-    border-radius: 1rem;
-    margin-bottom: 1rem;
-    color: #007aff;
-  }
-
-  .feature-card h3 {
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin: 0 0 0.5rem;
-    color: #1d1d1f;
-  }
-
-  .feature-card p {
-    font-size: 1rem;
-    color: #6b7280;
-    margin: 0;
-  }
-
-  .info-banner {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    background: white;
-    border-radius: 1.5rem;
-    padding: 2rem;
-    margin-bottom: 4rem;
-    transition: all 0.3s ease;
-    border: 1px solid #e5e7eb;
-  }
-
-  .info-banner:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
-  }
-
-  .info-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 3rem;
-    height: 3rem;
-    background: linear-gradient(
-      135deg,
-      rgba(0, 122, 255, 0.1),
-      rgba(88, 86, 214, 0.1)
-    );
-    border-radius: 1rem;
-    color: #007aff;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: var(--global-color-gray-light-bg);
+    border-radius: var(--border-radius-lg);
+    color: var(--color-text);
     flex-shrink: 0;
   }
 
-  .info-content h4 {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #1d1d1f;
-    margin: 0 0 0.5rem;
+  .feature-inline h3 {
+    margin: 0 0 0.25rem;
+    font-size: var(--text-base);
   }
 
-  .info-content p {
-    font-size: 1rem;
-    color: #6b7280;
-    line-height: 1.6;
+  .feature-inline p {
     margin: 0;
+    color: var(--color-text-muted);
+    font-size: var(--text-sm);
   }
 
   .training-grid {
@@ -235,23 +216,8 @@
   }
 
   @media (max-width: 768px) {
-    .training-section {
-      padding: 3rem 0;
-    }
-
     h1 {
-      font-size: 2.5rem;
-    }
-
-    .features {
-      grid-template-columns: 1fr;
-      gap: 1.5rem;
-    }
-
-    .info-banner {
-      flex-direction: column;
-      text-align: center;
-      padding: 1.5rem;
+      font-size: var(--text-xl);
     }
 
     .training-grid {
@@ -265,18 +231,8 @@
   }
 
   @media (max-width: 480px) {
-    .header {
-      margin-bottom: 2rem;
-    }
-
     .subtitle {
-      font-size: 1.1rem;
-    }
-
-    .feature-card,
-    .info-banner {
-      border-radius: 1rem;
-      padding: 1.5rem;
+      font-size: var(--text-md);
     }
 
     .training-grid {

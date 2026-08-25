@@ -21,18 +21,18 @@
     text-align: center;
     padding: 40px;
     background-color: #f9f9f9;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     margin: 20px 0;
   }
 
   .btn {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #dc3545;
+    background-color: var(--global-color-primary);
     color: white;
     text-decoration: none;
-    border-radius: 4px;
-    font-size: 1rem;
+    border-radius: var(--border-radius);
+    font-size: var(--text-base);
     margin-top: 20px;
   }
 

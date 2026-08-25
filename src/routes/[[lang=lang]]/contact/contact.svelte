@@ -7,28 +7,39 @@
   import { ContactInfo } from "$lib/info";
   import Form from "./form.svelte";
 
-  // Contact card datarrr
-  const contactCards = [
+  // WhatsApp first — it's the preferred contact channel
+  $: contactCards = [
+    {
+      icon: WhatsApp,
+      id: "whatsapp-btn",
+      title: "WhatsApp",
+      description: $_("contact_whatsapp_message_button"),
+      href: "https://wa.me/+41794412406",
+      whatsapp: true,
+    },
     {
       icon: Phone,
       id: "phone-btn",
-      title: "Phone",
+      title: $_("contact_phone_title"),
       description: ContactInfo.getPhoneNumber(),
       href: `tel:${ContactInfo.getPhoneNumber()}`,
+      whatsapp: false,
     },
     {
       icon: Email,
       id: "email-btn",
-      title: "Email",
+      title: $_("contact_email_title"),
       description: ContactInfo.getEmail(),
       href: `mailto:${ContactInfo.getEmail()}`,
+      whatsapp: false,
     },
     {
       icon: Location,
-      id: "phone-btn",
-      title: "Address",
+      id: "address-btn",
+      title: $_("contact_address_title"),
       description: ContactInfo.getAddress(),
-      href: "#",
+      href: "https://maps.google.com/?q=Route+de+l'Aiglon+5,+1854+Leysin",
+      whatsapp: false,
     },
   ];
 </script>
@@ -58,45 +69,23 @@
     <p class="subtitle">{$_("contact_sub_title")}</p>
   </div>
 
-  <Form />
-
-  <!-- Contact Griddy -->
-  <div class="contact-grid">
-    {#each contactCards as card}
-      <a id={card.id} href={card.href} class="contact-card">
-        <div class="card-content">
-          <div class="card-icon">
+  <!-- Info column left, form right -->
+  <div class="split-layout">
+    <div class="info-column">
+      {#each contactCards as card}
+        <a id={card.id} href={card.href} class="info-inline">
+          <div class="info-chip" class:whatsapp-chip={card.whatsapp}>
             <svelte:component this={card.icon} />
           </div>
-          <h3>{card.title}</h3>
-          <p>{card.description}</p>
-        </div>
-        <div class="card-shine" />
-      </a>
-    {/each}
-  </div>
-
-  <!-- wazuppp section -->
-  <div class="support-card">
-    <div class="support-content">
-      <div class="support-text">
-        <div class="whatsapp-content">
-          <WhatsApp class="whatsapp-icon" />
           <div>
-            <h2>{$_("contact_whatsapp_support_title")}</h2>
-            <p class="whatsapp-description">
-              {$_("contact_whatsapp_support_description")}
-            </p>
+            <h3>{card.title}</h3>
+            <p>{card.description}</p>
           </div>
-        </div>
-        <a
-          id="whatsapp-btn"
-          href="https://wa.me/+41794412406"
-          class="whatsapp-button"
-        >
-          {$_("contact_whatsapp_message_button")}
         </a>
-      </div>
+      {/each}
+    </div>
+    <div class="form-column">
+      <Form />
     </div>
   </div>
 </div>
@@ -104,7 +93,7 @@
 <style>
   :global(body) {
     background: #ffffff;
-    color: #1a1a1a;
+    color: var(--color-text);
   }
   .noise-container {
     display: none;
@@ -123,13 +112,13 @@
   .blur-blue {
     top: -10%;
     right: -10%;
-    background: #007aff;
+    background: var(--global-color-gray);
   }
 
   .blur-purple {
     bottom: -10%;
     left: -10%;
-    background: #5856d6;
+    background: var(--global-color-gray);
   }
 
   .contact-wrapper {
@@ -137,172 +126,107 @@
     z-index: 10;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 6rem 1.5rem;
+    padding: 4rem 1.5rem 0;
   }
 
   .header {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 
   h1 {
-    font-size: 3.5rem;
+    font-size: var(--text-2xl);
     font-weight: 700;
     margin-bottom: 1rem;
-    color: #1d1d1f;
+    color: var(--color-text);
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, #007aff, #5856d6);
+    background: linear-gradient(135deg, #1a1a1a 0%, #4a5568 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .subtitle {
-    font-size: 1.25rem;
-    color: #6b7280;
+    font-size: var(--text-md);
+    color: var(--color-text-muted);
     max-width: 600px;
     margin: 0 auto;
   }
 
-  .contact-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin-bottom: 4rem;
-  }
-
-  .contact-card {
-    position: relative;
-    padding: 2.5rem;
-    background: rgba(255, 255, 255, 0.7);
-    border: 1px solid rgba(0, 122, 255, 0.1);
-    border-radius: 1.5rem;
-    overflow: hidden;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    backdrop-filter: blur(12px);
-    box-shadow:
-      0 4px 6px -1px rgba(0, 0, 0, 0.1),
-      0 2px 4px -1px rgba(0, 0, 0, 0.06),
-      inset 0 1px 0 rgba(255, 255, 255, 0.6);
-  }
-
-  .contact-card:hover {
-    transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.9);
-    border-color: rgba(0, 122, 255, 0.2);
-    box-shadow:
-      0 20px 25px -5px rgba(0, 0, 0, 0.1),
-      0 10px 10px -5px rgba(0, 0, 0, 0.04),
-      inset 0 1px 0 rgba(255, 255, 255, 0.8);
-  }
-
-  .card-icon {
-    display: inline-flex;
-    padding: 1rem;
-    background: linear-gradient(
-      135deg,
-      rgba(0, 122, 255, 0.1),
-      rgba(88, 86, 214, 0.1)
-    );
-    border-radius: 1rem;
-    margin-bottom: 1.5rem;
-    color: #007aff;
-  }
-
-  .contact-card h3 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #1d1d1f;
-    margin-bottom: 0.75rem;
-  }
-
-  .contact-card p {
-    color: #6b7280;
-    line-height: 1.6;
-  }
-
-  .card-shine {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-      135deg,
-      transparent,
-      rgba(255, 255, 255, 0.4),
-      transparent
-    );
-    transform: translateX(-100%);
-    transition: transform 0.5s;
-  }
-
-  .contact-card:hover .card-shine {
-    transform: translateX(100%);
-  }
-
-  .support-card {
-    background: linear-gradient(
-      135deg,
-      rgba(37, 211, 102, 0.05),
-      rgba(37, 211, 102, 0.1)
-    );
-    border: 1px solid rgba(37, 211, 102, 0.2);
-    border-radius: 2rem;
-    padding: 4rem;
-    text-align: center;
-    backdrop-filter: blur(12px);
-    box-shadow:
-      0 4px 6px -1px rgba(0, 0, 0, 0.1),
-      0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    overflow: hidden;
-  }
-
-  .support-content {
-    max-width: 100%;
-  }
-
-  .whatsapp-content {
+  .info-inline {
     display: flex;
-    align-items: center;
-    gap: 2rem;
-    justify-content: center;
-    margin-bottom: 2rem;
-  }
-
-  .support-card h2 {
-    font-size: 2rem;
-    font-weight: 600;
-    color: #1d1d1f;
-    margin-bottom: 0.5rem;
-    line-height: 1.3;
+    gap: 1rem;
+    align-items: flex-start;
     text-align: left;
-  }
-
-  .whatsapp-description {
-    color: #6b7280;
-    text-align: left;
-    font-size: 1.1rem;
-    margin-bottom: 0;
-  }
-
-  .whatsapp-button {
-    display: inline-block;
-    background-color: #25d366;
-    color: white;
-    padding: 1rem 2rem;
-    border-radius: 1rem;
     text-decoration: none;
-    font-weight: 600;
-    margin: 2rem 0;
-    transition: all 0.3s ease;
-    max-width: 100%;
-    box-sizing: border-box;
+    color: inherit;
   }
 
-  .whatsapp-button:hover {
-    transform: translateY(-2px);
-    background-color: #20bc5a;
-    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.2);
+  .info-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: var(--global-color-gray-light-bg);
+    border-radius: var(--border-radius-lg);
+    color: var(--color-text);
+    flex-shrink: 0;
+  }
+
+  .whatsapp-chip {
+    color: #25d366;
+  }
+
+  .info-inline h3 {
+    margin: 0 0 0.25rem;
+    font-size: var(--text-base);
+    color: var(--color-text);
+  }
+
+  .info-inline p {
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: var(--text-sm);
+    white-space: pre-line;
+  }
+
+  .split-layout {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 3rem;
+    align-items: start;
+    width: 100%;
+  }
+
+  .info-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    padding-top: 1rem;
+  }
+
+  .form-column {
+    min-width: 0;
+  }
+
+  @media (max-width: 900px) {
+    .split-layout {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .info-column {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .info-column .info-inline {
+      flex: 1 1 220px;
+      max-width: 320px;
+    }
   }
 
   @media (max-width: 768px) {
@@ -311,81 +235,19 @@
     }
 
     h1 {
-      font-size: 2.25rem;
+      font-size: var(--text-xl);
       margin-bottom: 0.5rem;
     }
 
     .subtitle {
-      font-size: 1rem;
+      font-size: var(--text-base);
       padding: 0 1rem;
-    }
-
-    .contact-grid {
-      grid-template-columns: 1fr;
-      gap: 1rem;
-      padding: 0 0.5rem;
-    }
-
-    .contact-card {
-      padding: 1.5rem;
-    }
-
-    .card-icon {
-      padding: 0.75rem;
-      margin-bottom: 1rem;
-    }
-
-    .contact-card h3 {
-      font-size: 1.25rem;
-      margin-bottom: 0.5rem;
-    }
-
-    .support-card {
-      padding: 1.5rem;
-      margin: 0 0.5rem;
-      width: auto;
-    }
-
-    .whatsapp-content {
-      flex-direction: column;
-      gap: 1rem;
-      text-align: center;
-      margin-bottom: 1.5rem;
-    }
-
-    .support-card h2 {
-      font-size: 1.5rem;
-      text-align: center;
-    }
-
-    .whatsapp-description {
-      text-align: center;
-      font-size: 1rem;
-    }
-
-    .whatsapp-button {
-      padding: 0.875rem 1rem;
-      margin: 1rem auto;
-      display: block;
-      width: calc(100% - 2rem);
     }
   }
 
   @media (max-width: 380px) {
     .contact-wrapper {
       padding: 1.5rem 0.75rem;
-    }
-
-    h1 {
-      font-size: 2rem;
-    }
-
-    .contact-card {
-      padding: 1.25rem;
-    }
-
-    .support-card {
-      padding: 1.25rem;
     }
   }
 </style>

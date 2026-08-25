@@ -95,7 +95,7 @@
     "section_products_wall_sign_title": "Panneau Mural",
     "section_products_wall_sign_summary": "Ce panneau métallique durable mesure 23 x 17 cm et est conçu pour une haute visibilité avec deux côtés inclinés à 90°. Il comporte quatre trous de montage et une finition verte (RAL 6024), conformément aux codes de couleur d'urgence pour la sécurité. Résistant aux intempéries, il est parfait pour une utilisation en extérieur, garantissant une identification claire des emplacements DAE.",
     "-----------------------MAINTENANCE----------------------------": "--------------------------------------------------------------------------------------------------------------------------------------------------------------",
-    "maintenance_basic_plan_title": "Recommandé",
+    "maintenance_basic_plan_title": "Sur place",
     "maintenance_basic_plan_description": "Maintenez votre défibrillateur à jour",
     "maintenance_basic_plan_features": "Vérification de routine à l'échéance||true\nTechniciens qualifiés||true\nService national en Suisse||true\nContrôles de maintenance trimestriels||true\nRemplacement gratuit des pièces usagées||true\nService client||true\nRéduction sur les cours de secourisme||true",
     "maintenance_remote_title": "À distance",
@@ -209,5 +209,10 @@
     "faq_q4": "À quelle fréquence un DAE doit-il être entretenu ?",
     "faq_a4": "Les défibrillateurs Philips HeartStart se surveillent eux-mêmes grâce à des autotests automatiques quotidiens, hebdomadaires et mensuels de l'électronique, des électrodes et de la batterie. Un voyant vert clignotant « Ready » indique que l'appareil est opérationnel ; un signal sonore indique qu'il nécessite une intervention. En tant que propriétaire, vérifiez régulièrement le voyant Ready et remplacez les électrodes environ tous les 2 ans, la batterie environ tous les 4 ans, et les deux après chaque utilisation. Le propriétaire est responsable du maintien en état de fonctionnement de l'appareil — au Tessin, c'est même une exigence formelle. Nos plans de maintenance se chargent pour vous des contrôles et des remplacements à temps.",
     "faq_q5": "Philips HeartStart HS1 ou FRx — lequel choisir ?",
-    "faq_a5": "Les deux sont des DAE semi-automatiques Philips éprouvés, avec le même guidage vocal clair et la même analyse SMART du rythme cardiaque. Le HeartStart HS1 est idéal en intérieur — bureaux, cabinets, commerces et domiciles — et est l'appareil le plus simple à posséder. Le HeartStart FRx est conçu pour les environnements exigeants : boîtier renforcé avec protection IP55 contre la poussière et l'eau, et clé enfant qui adapte les électrodes standard aux enfants, sans électrodes pédiatriques séparées. En règle générale : choisissez le HS1 pour les bureaux et les espaces intérieurs, le FRx pour l'industrie, le sport, l'extérieur et les véhicules. Nous vous conseillons volontiers pour votre site."
+    "faq_a5": "Les deux sont des DAE semi-automatiques Philips éprouvés, avec le même guidage vocal clair et la même analyse SMART du rythme cardiaque. Le HeartStart HS1 est idéal en intérieur — bureaux, cabinets, commerces et domiciles — et est l'appareil le plus simple à posséder. Le HeartStart FRx est conçu pour les environnements exigeants : boîtier renforcé avec protection IP55 contre la poussière et l'eau, et clé enfant qui adapte les électrodes standard aux enfants, sans électrodes pédiatriques séparées. En règle générale : choisissez le HS1 pour les bureaux et les espaces intérieurs, le FRx pour l'industrie, le sport, l'extérieur et les véhicules. Nous vous conseillons volontiers pour votre site.",
+    "statistics_chart_window_label": "Défibrillation la plus efficace",
+    "training_recommended_tag": "Recommandé",
+    "contact_phone_title": "Téléphone",
+    "contact_email_title": "E-mail",
+    "contact_address_title": "Adresse"
 }

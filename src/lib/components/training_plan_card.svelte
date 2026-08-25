@@ -10,6 +10,8 @@
   export let price: number;
   export let duration: string;
   export let service_type: string;
+  export let hideExcluded = false;
+  export let highlight = false;
 
   $: featuresString = $_(`${service_type}_${slug}_features`);
   $: title = $_(`${service_type}_${slug}_title`);
@@ -19,7 +21,10 @@
   let duration_info = `${duration}h`;
 </script>
 
-<div class="service-card">
+<div class="service-card" class:highlight>
+  {#if highlight}
+    <div class="recommended-tag">{$_("training_recommended_tag")}</div>
+  {/if}
   <h2 class="service-title">{title}</h2>
   <div class="service-price">
     <span class="price-amount">{price_info}</span>
@@ -39,13 +44,30 @@
     </a>
   </div>
 
-  <PlanInformation {featuresString} />
+  <PlanInformation {featuresString} {hideExcluded} />
 </div>
 
 <style>
+  .service-card.highlight {
+    border: 2px solid var(--global-color-primary);
+    position: relative;
+  }
+
+  .recommended-tag {
+    position: absolute;
+    top: -0.8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--global-color-primary);
+    color: white;
+    font-size: var(--text-sm);
+    padding: 0.15rem 0.9rem;
+    border-radius: var(--border-radius-pill);
+  }
+
   .service-card {
     background-color: white;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     padding: 2rem;
     box-sizing: border-box;
@@ -68,8 +90,8 @@
   }
 
   .service-title {
-    color: #333;
-    font-size: 1.5rem;
+    color: var(--color-text);
+    font-size: var(--text-lg);
     margin-bottom: 0.5rem;
   }
 
@@ -81,23 +103,23 @@
   }
 
   .price-amount {
-    font-size: 2rem;
+    font-size: var(--text-xl);
     color: black;
   }
 
   .price-unit {
-    font-size: 1rem;
-    color: #666;
+    font-size: var(--text-base);
+    color: var(--color-text-muted);
   }
 
   .service-duration {
-    font-size: 1.2rem;
-    color: #666;
+    font-size: var(--text-md);
+    color: var(--color-text-muted);
     margin-bottom: 1rem;
   }
 
   .service-description {
-    color: #666;
+    color: var(--color-text-muted);
     margin-bottom: 1rem;
     min-height: 50px;
   }
@@ -111,17 +133,17 @@
     }
 
     .service-title {
-      font-size: 1.5rem;
+      font-size: var(--text-lg);
       margin-bottom: 0.5rem;
     }
 
     .service-price {
-      font-size: 2rem;
+      font-size: var(--text-xl);
       margin-bottom: 0.5rem;
     }
 
     .service-description {
-      font-size: 1rem;
+      font-size: var(--text-base);
       margin-bottom: 1rem;
     }
   }

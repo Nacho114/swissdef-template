@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { localize } from "$lib/nav";
   import { _ } from "svelte-i18n";
   import Container from "$lib/components/container.svelte";
   import MobileHeader from "./header_mobile.svelte";
@@ -17,24 +18,26 @@
     <nav>
       <ul>
         <li>
-          <a href="/">{$_("section_general_home")}</a>
-          <a href="/products">{$_("section_general_products")}</a>
-          <a href="/maintenance">{$_("section_general_maintenance")}</a>
-          <a href="/training">{$_("section_general_training")}</a>
-          <a href="/contact">{$_("section_general_contact")}</a>
+          <a href={$localize("/")}>{$_("section_general_home")}</a>
+          <a href={$localize("/products")}>{$_("section_general_products")}</a>
+          <a href={$localize("/maintenance")}
+            >{$_("section_general_maintenance")}</a
+          >
+          <a href={$localize("/training")}>{$_("section_general_training")}</a>
+          <a href={$localize("/contact")}>{$_("section_general_contact")}</a>
         </li>
       </ul>
     </nav>
 
     <div class="logo">
-      <a href="/">
+      <a href={$localize("/")}>
         <LOGO />
       </a>
     </div>
 
     <div class="end-section">
       <div class="cart-icon">
-        <a href="/cart" class="cart-link">
+        <a href={$localize("/cart")} class="cart-link">
           <Cart />
           {#if hasItems}
             <span class="cart-notification"></span>

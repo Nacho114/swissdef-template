@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { localize } from "$lib/nav";
   import Container from "$lib/components/container.svelte";
   import { _ } from "svelte-i18n";
   import { maintenances } from "$lib/maintenance";
@@ -16,7 +17,7 @@
     <h1>{$_("section_general_maintenance")}</h1>
     <div class="maintenance-cards-content">
       {#each maintenances as m}
-        <a href="/maintenance/{m.slug}" class="product-link">
+        <a href={$localize(`/maintenance/${m.slug}`)} class="product-link">
           <MaintenancePlanCard
             service_type={"maintenance"}
             slug={m.slug}

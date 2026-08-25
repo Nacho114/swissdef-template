@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { localize } from "$lib/nav";
   import { _ } from "svelte-i18n";
   import LOGO from "$lib/svg/logo.svelte";
   import Hamburger from "virtual:icons/pajamas/hamburger";
@@ -36,7 +37,7 @@
     <Hamburger />
   </div>
 
-  <a href="/">
+  <a href={$localize("/")}>
     <LOGO />
   </a>
 
@@ -45,25 +46,27 @@
       <nav>
         <ul>
           <li>
-            <a href="/" on:click={toggleMenu}>{$_("section_general_home")}</a>
+            <a href={$localize("/")} on:click={toggleMenu}
+              >{$_("section_general_home")}</a
+            >
           </li>
           <li>
-            <a href="/products" on:click={toggleMenu}
+            <a href={$localize("/products")} on:click={toggleMenu}
               >{$_("section_general_products")}</a
             >
           </li>
           <li>
-            <a href="/maintenance" on:click={toggleMenu}
+            <a href={$localize("/maintenance")} on:click={toggleMenu}
               >{$_("section_general_maintenance")}</a
             >
           </li>
           <li>
-            <a href="/training" on:click={toggleMenu}
+            <a href={$localize("/training")} on:click={toggleMenu}
               >{$_("section_general_training")}</a
             >
           </li>
           <li>
-            <a href="/contact" on:click={toggleMenu}
+            <a href={$localize("/contact")} on:click={toggleMenu}
               >{$_("section_general_contact")}</a
             >
           </li>
@@ -75,16 +78,16 @@
       </div>
 
       <div class="cart-icon">
-        <a href="/cart" class="cart-link">
+        <a href={$localize("/cart")} class="cart-link">
           <Cart />
         </a>
       </div>
 
       <div class="menu-bottom-links">
-        <a href="/contact" on:click={toggleMenu}
+        <a href={$localize("/contact")} on:click={toggleMenu}
           >{$_("section_general_contact")}</a
         >
-        <a href="/warranty_and_returns" on:click={toggleMenu}
+        <a href={$localize("/warranty_and_returns")} on:click={toggleMenu}
           >{$_("section_general_warranty_and_returns")}</a
         >
       </div>

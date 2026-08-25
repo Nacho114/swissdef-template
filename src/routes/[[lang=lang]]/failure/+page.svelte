@@ -1,19 +1,17 @@
-<script lang="ts">
+<script>
+  import { localize } from "$lib/nav";
   import Container from "$lib/components/container.svelte";
   import { _ } from "svelte-i18n";
-  import { clearCart } from "../../store";
-
-  clearCart();
 </script>
 
 <Container>
-  <h1>{$_("payment_successful_title")}</h1>
+  <h1>{$_("payment_failed_title")}</h1>
   <div class="message-container">
-    <h2>{$_("payment_successful_subtitle")}</h2>
-    <p>{$_("payment_successful_description")}</p>
-    <p>{$_("payment_successful_email_sent")}</p>
-    <a href="/products" class="btn"
-      >{$_("payment_successful_continue_shopping")}</a
+    <h2>{$_("payment_failed_subtitle")}</h2>
+    <p>{$_("payment_failed_description")}</p>
+    <p>{$_("payment_failed_support")}</p>
+    <a href={$localize("/cart")} class="btn"
+      >{$_("payment_failed_try_again_button")}</a
     >
   </div>
 </Container>
@@ -30,7 +28,7 @@
   .btn {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #007bff;
+    background-color: #dc3545;
     color: white;
     text-decoration: none;
     border-radius: 4px;
@@ -39,6 +37,6 @@
   }
 
   .btn:hover {
-    background-color: #0056b3;
+    background-color: #c82333;
   }
 </style>

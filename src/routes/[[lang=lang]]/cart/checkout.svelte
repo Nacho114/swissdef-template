@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { cart } from "../../store"; // Import the cart store
+  import { cart } from "../../../store"; // Import the cart store
   import { format_for_stripe, getProductById } from "$lib/products";
   import { dev } from "$app/environment"; // `dev` is `true` in development and `false` in production.
   import { with_iva } from "$lib/products";

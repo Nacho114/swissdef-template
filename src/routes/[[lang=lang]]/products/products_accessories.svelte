@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { localize } from "$lib/nav";
   import Container from "$lib/components/container.svelte";
   import ToggleButtons from "$lib/components/toggle_button.svelte";
   import ProductCard from "./product_card.svelte";
@@ -37,7 +38,7 @@
 
   <div class="product-grid">
     {#each toggled_products as { img, slug }}
-      <a href="/products/{slug}" class="product-link">
+      <a href={$localize(`/products/${slug}`)} class="product-link">
         <ProductCard {slug} imagePath={`/assets/products/${img}_s.webp`} />
       </a>
     {/each}

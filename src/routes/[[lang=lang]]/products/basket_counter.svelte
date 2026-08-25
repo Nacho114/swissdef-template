@@ -1,6 +1,7 @@
 <script lang="ts">
+  import { localize } from "$lib/nav";
   import Button from "$lib/components/button.svelte";
-  import { addToCart, cart } from "../../store";
+  import { addToCart, cart } from "../../../store";
   import { onMount } from "svelte";
   import { _ } from "svelte-i18n";
 
@@ -92,7 +93,7 @@
       >{title} {$_("section_product_added_to_basket")}</span
     >
     <div class="popup-buttons">
-      <a href="/cart" class="popup-button"
+      <a href={$localize("/cart")} class="popup-button"
         >{$_("section_product_go_to_checkout")}</a
       >
       <button class="popup-button" on:click={handleClosePopup}>x</button>

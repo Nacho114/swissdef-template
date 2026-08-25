@@ -1,4 +1,5 @@
 <script>
+  import { localize } from "$lib/nav";
   import { _ } from "svelte-i18n";
   import Button from "$lib/components/button.svelte";
   import ServiceCard from "./service_card.svelte";
@@ -6,7 +7,7 @@
 
 <div class="services-section">
   <div class="card-section">
-    <a href="/training">
+    <a href={$localize("/training")}>
       <ServiceCard
         src="/assets/home/training.webp"
         summary={$_("section_home_services_training_summary")}
@@ -14,7 +15,7 @@
         title={$_("section_general_training")}
       /></a
     >
-    <a href="/maintenance">
+    <a href={$localize("/maintenance")}>
       <ServiceCard
         src="/assets/home/maintenance.webp"
         summary={$_("section_home_services_maintenance_summary")}
@@ -22,7 +23,7 @@
         title={$_("section_general_maintenance")}
       /></a
     >
-    <a href="/products">
+    <a href={$localize("/products")}>
       <ServiceCard
         src="/assets/home/defibrillator.webp"
         summary={$_("section_home_services_defibrillators_summary")}
@@ -40,12 +41,13 @@
       {$_("section_home_services_subtitle")}
     </p>
     <div class="mobile-links">
-      <a href="/products">{$_("section_general_products")}</a>
-      <a href="/training">{$_("section_general_training")}</a>
-      <a href="/maintenance">{$_("section_general_maintenance")}</a>
+      <a href={$localize("/products")}>{$_("section_general_products")}</a>
+      <a href={$localize("/training")}>{$_("section_general_training")}</a>
+      <a href={$localize("/maintenance")}>{$_("section_general_maintenance")}</a
+      >
     </div>
     <div class="learn-more-button">
-      <a href="/contact">
+      <a href={$localize("/contact")}>
         <Button isOutlined={true}>
           {$_("section_home_services_learn_more_button")}
         </Button>

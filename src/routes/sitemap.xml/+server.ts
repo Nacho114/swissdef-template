@@ -2,6 +2,7 @@ import type { RequestHandler } from "./$types";
 import { products } from "$lib/products";
 import { trainings } from "$lib/training";
 import { maintenances } from "$lib/maintenance";
+import { LANGS, withLang } from "$lib/nav";
 
 const ORIGIN = "https://www.swissdefibrillator.ch";
 
@@ -25,9 +26,13 @@ export const GET: RequestHandler = () => {
     ...maintenances.map((m) => `/maintenance/${m.slug}`),
   ];
 
+  const urls = LANGS.flatMap((lang) =>
+    paths.map((p) => ORIGIN + withLang(p, lang)),
+  );
+
   const body = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${paths.map((p) => `  <url><loc>${ORIGIN}${p}</loc></url>`).join("\n")}
+${urls.map((u) => `  <url><loc>${u}</loc></url>`).join("\n")}
 </urlset>`;
 
   return new Response(body, {

@@ -1,5 +1,8 @@
 <script lang="ts">
   import { locale, locales } from "svelte-i18n";
+  import { goto } from "$app/navigation";
+  import { page } from "$app/stores";
+  import { stripLang, withLang } from "$lib/nav";
   import FlagEn from "virtual:icons/circle-flags/en";
   import FlagDe from "virtual:icons/circle-flags/de";
   import FlagFr from "virtual:icons/circle-flags/fr";
@@ -20,6 +23,16 @@
   // Dynamic component to hold the flag of the selected locale
   let FlagComponent: any;
   $: FlagComponent = flags[$locale as FlagKeys]; // use a type assertion
+
+  // Switching language navigates to that language's URL, so the choice is
+  // shareable/crawlable and survives reloads
+  const onLangChange = (event: Event) => {
+    const lang = (event.currentTarget as HTMLSelectElement).value;
+    // The layout load only sets the locale for prefixed URLs; set it here
+    // too so switching to English (unprefixed) takes effect immediately
+    locale.set(lang);
+    goto(withLang(stripLang($page.url.pathname), lang) + $page.url.search);
+  };
 </script>
 
 <div class="select-wrapper">
@@ -28,7 +41,7 @@
       <svelte:component this={FlagComponent} />
     </div>
   {/if}
-  <select bind:value={$locale} class="locale-select">
+  <select value={$locale} on:change={onLangChange} class="locale-select">
     {#each $locales as locale}
       <option value={locale}>{locale.toUpperCase()}</option>
     {/each}

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { cart } from "../../store";
+  import { cart } from "../../../store";
   import CartItem from "./cart_item.svelte";
   import {
     calculateShippingCost,

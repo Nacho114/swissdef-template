@@ -22,11 +22,13 @@ follow-ups from that work plus the AI-search (GEO) audit.
 
 ### Bigger projects (worth discussing first)
 
-- [ ] **Language routes (`/fr`, `/de`, `/it`).** Translations are currently
-      client-side on a single URL, so Google and AI assistants only ever see
-      the English version. Most Swiss customers search in French/German —
-      exposing each language at its own URL (with proper hreflang) is the
-      highest-impact SEO/GEO item available.
+- [x] **Language routes (`/fr`, `/de`, `/it`).** Done on branch `lang-routes`:
+      each language is server-rendered at its own URL with per-language
+      canonical + hreflang, `<html lang>`, localized internal links, and a
+      sitemap covering all variants. English stays at the unprefixed URLs,
+      and browser-language auto-detect on those URLs is unchanged.
+      Follow-up once merged: resubmit the sitemap in GSC/Bing so the new
+      language URLs get crawled.
 - [ ] **FAQ page with FAQPage schema.** Answer-shaped content is what AI
       engines cite. Candidate questions: "Is an AED mandatory for companies
       in Switzerland?", "How much does a defibrillator cost?", "How often

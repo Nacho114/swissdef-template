@@ -1,4 +1,5 @@
 <script>
+  import { localize } from "$lib/nav";
   import { _ } from "svelte-i18n";
   import { ContactInfo } from "$lib/info";
   import Container from "$lib/components/container.svelte";
@@ -35,17 +36,17 @@
         <h4>
           {$_("section_footer_quick_links")}
         </h4>
-        <a href="/">
+        <a href={$localize("/")}>
           <p>
             {$_("section_general_home")}
           </p>
         </a>
-        <a href="/contact">
+        <a href={$localize("/contact")}>
           <p>
             {$_("section_general_contact")}
           </p>
         </a>
-        <a href="/products">
+        <a href={$localize("/products")}>
           <p>
             {$_("section_general_products")}
           </p>
@@ -56,17 +57,17 @@
         <h4>
           {$_("section_footer_support_and_services")}
         </h4>
-        <a href="/maintenance">
+        <a href={$localize("/maintenance")}>
           <p>
             {$_("section_general_maintenance")}
           </p>
         </a>
-        <a href="/training">
+        <a href={$localize("/training")}>
           <p>
             {$_("section_general_training")}
           </p>
         </a>
-        <a href="/warranty_and_returns">
+        <a href={$localize("/warranty_and_returns")}>
           <p>
             {$_("section_general_warranty_and_returns")}
           </p>
@@ -122,12 +123,12 @@
 
   <div class="divider">
     <span>
-      <a href="/terms_and_conditions">
+      <a href={$localize("/terms_and_conditions")}>
         {$_("section_general_terms_and_conditions")}
       </a>
     </span>
     <span>
-      <a href="/privacy_policy">
+      <a href={$localize("/privacy_policy")}>
         {$_("section_general_privacy_policy")}
       </a>
     </span>

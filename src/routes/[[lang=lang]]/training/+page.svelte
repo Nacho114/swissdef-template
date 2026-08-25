@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { localize } from "$lib/nav";
   import Container from "$lib/components/container.svelte";
   import { _ } from "svelte-i18n";
   import { trainings } from "$lib/training";
@@ -64,7 +65,7 @@
     <!-- Training Card -->
     <div class="training-grid">
       {#each trainings as training}
-        <a href="/training/{training.slug}" class="product-link">
+        <a href={$localize(`/training/${training.slug}`)} class="product-link">
           <TrainingPlanCard
             service_type={"training"}
             slug={training.slug}

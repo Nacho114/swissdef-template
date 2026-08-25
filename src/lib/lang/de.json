@@ -211,5 +211,8 @@
     "faq_q5": "Philips HeartStart HS1 oder FRx — welcher passt zu mir?",
     "faq_a5": "Beide sind bewährte halbautomatische Philips-AEDs mit derselben klaren Sprachführung und SMART-Rhythmusanalyse. Der HeartStart HS1 ist ideal für Innenräume — Büros, Praxen, Geschäfte und Zuhause — und das unkomplizierteste Gerät im Besitz. Der HeartStart FRx ist für anspruchsvolle Umgebungen gebaut: robusteres Gehäuse mit IP55-Schutz gegen Staub und Wasser sowie ein Kinderschlüssel, der die Standard-Elektroden für Kinder anpasst — separate Kinderelektroden entfallen. Als Faustregel: HS1 für Büros und Innenräume, FRx für Industrie, Sport, Aussenbereiche und Fahrzeuge. Wir beraten Sie gerne für Ihren Standort.",
     "statistics_chart_window_label": "Defibrillation am wirksamsten",
-    "training_recommended_tag": "Empfohlen"
+    "training_recommended_tag": "Empfohlen",
+    "contact_phone_title": "Telefon",
+    "contact_email_title": "E-Mail",
+    "contact_address_title": "Adresse"
 }

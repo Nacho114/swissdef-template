@@ -8,29 +8,49 @@
   import Form from "./form.svelte";
 
   // Contact card datarrr
-  const contactCards = [
+  $: contactCards = [
     {
       icon: Phone,
       id: "phone-btn",
-      title: "Phone",
+      title: $_("contact_phone_title"),
       description: ContactInfo.getPhoneNumber(),
       href: `tel:${ContactInfo.getPhoneNumber()}`,
     },
     {
       icon: Email,
       id: "email-btn",
-      title: "Email",
+      title: $_("contact_email_title"),
       description: ContactInfo.getEmail(),
       href: `mailto:${ContactInfo.getEmail()}`,
     },
     {
       icon: Location,
-      id: "phone-btn",
-      title: "Address",
+      id: "address-btn",
+      title: $_("contact_address_title"),
       description: ContactInfo.getAddress(),
-      href: "#",
+      href: "https://maps.google.com/?q=Route+de+l'Aiglon+5,+1854+Leysin",
     },
   ];
+
+  $: whatsappCard = {
+    icon: WhatsApp,
+    id: "whatsapp-inline-btn",
+    title: "WhatsApp",
+    description: $_("contact_whatsapp_message_button"),
+    href: "https://wa.me/+41794412406",
+  };
+
+  // DEV-ONLY design-variant switcher — remove before merging to main
+  const variantLabels = [
+    "Original",
+    "V1 · Info on top",
+    "V2 · Split layout",
+    "V3 · All inline",
+  ];
+  let variant = 0;
+  const prevVariant = () =>
+    (variant = (variant + variantLabels.length - 1) % variantLabels.length);
+  const nextVariant = () => (variant = (variant + 1) % variantLabels.length);
 </script>
 
 <div class="noise-container">
@@ -49,7 +69,7 @@
 <div class="blur-element blur-blue" />
 <div class="blur-element blur-purple" />
 
-<div class="contact-wrapper">
+<div class="contact-wrapper" class:compact={variant !== 0}>
   <div class="header">
     <h1>
       {$_("contact_page_title")}
@@ -58,47 +78,137 @@
     <p class="subtitle">{$_("contact_sub_title")}</p>
   </div>
 
-  <Form />
+  {#if variant === 0}
+    <Form />
 
-  <!-- Contact Griddy -->
-  <div class="contact-grid">
-    {#each contactCards as card}
-      <a id={card.id} href={card.href} class="contact-card">
-        <div class="card-content">
-          <div class="card-icon">
-            <svelte:component this={card.icon} />
+    <!-- Contact Griddy -->
+    <div class="contact-grid">
+      {#each contactCards as card}
+        <a id={card.id} href={card.href} class="contact-card">
+          <div class="card-content">
+            <div class="card-icon">
+              <svelte:component this={card.icon} />
+            </div>
+            <h3>{card.title}</h3>
+            <p>{card.description}</p>
           </div>
-          <h3>{card.title}</h3>
-          <p>{card.description}</p>
-        </div>
-        <div class="card-shine" />
-      </a>
-    {/each}
-  </div>
-
-  <!-- wazuppp section -->
-  <div class="support-card">
-    <div class="support-content">
-      <div class="support-text">
-        <div class="whatsapp-content">
-          <WhatsApp class="whatsapp-icon" />
-          <div>
-            <h2>{$_("contact_whatsapp_support_title")}</h2>
-            <p class="whatsapp-description">
-              {$_("contact_whatsapp_support_description")}
-            </p>
-          </div>
-        </div>
-        <a
-          id="whatsapp-btn"
-          href="https://wa.me/+41794412406"
-          class="whatsapp-button"
-        >
-          {$_("contact_whatsapp_message_button")}
+          <div class="card-shine" />
         </a>
+      {/each}
+    </div>
+
+    <!-- wazuppp section -->
+    <div class="support-card">
+      <div class="support-content">
+        <div class="support-text">
+          <div class="whatsapp-content">
+            <WhatsApp class="whatsapp-icon" />
+            <div>
+              <h2>{$_("contact_whatsapp_support_title")}</h2>
+              <p class="whatsapp-description">
+                {$_("contact_whatsapp_support_description")}
+              </p>
+            </div>
+          </div>
+          <a
+            id="whatsapp-btn"
+            href="https://wa.me/+41794412406"
+            class="whatsapp-button"
+          >
+            {$_("contact_whatsapp_message_button")}
+          </a>
+        </div>
       </div>
     </div>
-  </div>
+  {:else if variant === 1}
+    <!-- V1: training-style inline info row above the form -->
+    <div class="info-inline-row">
+      {#each contactCards as card}
+        <a id={card.id} href={card.href} class="info-inline">
+          <div class="info-chip"><svelte:component this={card.icon} /></div>
+          <div>
+            <h3>{card.title}</h3>
+            <p>{card.description}</p>
+          </div>
+        </a>
+      {/each}
+    </div>
+
+    <Form />
+
+    <div class="support-card">
+      <div class="support-content">
+        <div class="support-text">
+          <div class="whatsapp-content">
+            <WhatsApp class="whatsapp-icon" />
+            <div>
+              <h2>{$_("contact_whatsapp_support_title")}</h2>
+              <p class="whatsapp-description">
+                {$_("contact_whatsapp_support_description")}
+              </p>
+            </div>
+          </div>
+          <a
+            id="whatsapp-btn"
+            href="https://wa.me/+41794412406"
+            class="whatsapp-button"
+          >
+            {$_("contact_whatsapp_message_button")}
+          </a>
+        </div>
+      </div>
+    </div>
+  {:else if variant === 2}
+    <!-- V2: info column left, form right -->
+    <div class="split-layout">
+      <div class="info-column">
+        {#each [...contactCards, whatsappCard] as card}
+          <a id={card.id} href={card.href} class="info-inline">
+            <div
+              class="info-chip"
+              class:whatsapp-chip={card.id === "whatsapp-inline-btn"}
+            >
+              <svelte:component this={card.icon} />
+            </div>
+            <div>
+              <h3>{card.title}</h3>
+              <p>{card.description}</p>
+            </div>
+          </a>
+        {/each}
+      </div>
+      <div class="form-column">
+        <Form />
+      </div>
+    </div>
+  {:else}
+    <!-- V3: everything inline on top, no support card -->
+    <div class="info-inline-row">
+      {#each [...contactCards, whatsappCard] as card}
+        <a id={card.id} href={card.href} class="info-inline">
+          <div
+            class="info-chip"
+            class:whatsapp-chip={card.id === "whatsapp-inline-btn"}
+          >
+            <svelte:component this={card.icon} />
+          </div>
+          <div>
+            <h3>{card.title}</h3>
+            <p>{card.description}</p>
+          </div>
+        </a>
+      {/each}
+    </div>
+
+    <Form />
+  {/if}
+</div>
+
+<!-- DEV-ONLY design-variant switcher — remove before merging to main -->
+<div class="variant-switcher">
+  <button on:click={prevVariant} aria-label="Previous variant">◀</button>
+  <span>{variantLabels[variant]}</span>
+  <button on:click={nextVariant} aria-label="Next variant">▶</button>
 </div>
 
 <style>
@@ -383,5 +493,126 @@
     .support-card {
       padding: 1.25rem;
     }
+  }
+  /* --- variant styles --- */
+  .contact-wrapper.compact h1 {
+    font-size: var(--text-2xl);
+  }
+
+  .info-inline-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto 2.5rem;
+  }
+
+  .info-inline {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    flex: 1 1 220px;
+    max-width: 320px;
+    text-align: left;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .info-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: var(--global-color-gray-light-bg);
+    border-radius: var(--border-radius-lg);
+    color: var(--color-text);
+    flex-shrink: 0;
+  }
+
+  .whatsapp-chip {
+    color: #25d366;
+  }
+
+  .info-inline h3 {
+    margin: 0 0 0.25rem;
+    font-size: var(--text-base);
+    color: var(--color-text);
+  }
+
+  .info-inline p {
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: var(--text-sm);
+    white-space: pre-line;
+  }
+
+  .split-layout {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 3rem;
+    align-items: start;
+    width: 100%;
+  }
+
+  .info-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    padding-top: 1rem;
+  }
+
+  .info-column .info-inline {
+    flex: 0 0 auto;
+  }
+
+  .form-column {
+    min-width: 0;
+  }
+
+  @media (max-width: 900px) {
+    .split-layout {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .info-column {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+  }
+
+  /* DEV-ONLY switcher */
+  .variant-switcher {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: var(--color-text);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius-pill);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    z-index: 2000;
+    font-size: var(--text-sm);
+  }
+
+  .variant-switcher button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: var(--text-base);
+    padding: 0 0.25rem;
+  }
+
+  .variant-switcher span {
+    min-width: 130px;
+    text-align: center;
   }
 </style>

@@ -211,5 +211,8 @@
     "faq_q5": "Philips HeartStart HS1 o FRx — quale scegliere?",
     "faq_a5": "Entrambi sono DAE semiautomatici Philips collaudati, con la stessa chiara guida vocale e l'analisi SMART del ritmo. L'HeartStart HS1 è ideale per gli interni — uffici, studi, negozi e abitazioni — ed è l'apparecchio più semplice da gestire. L'HeartStart FRx è costruito per ambienti esigenti: involucro più robusto con protezione IP55 contro polvere e acqua, e una chiave pediatrica che adatta gli elettrodi standard ai bambini, senza elettrodi pediatrici separati. Regola pratica: HS1 per uffici e spazi interni, FRx per industria, sport, esterni e veicoli. La consigliamo volentieri per la sua sede.",
     "statistics_chart_window_label": "Defibrillazione più efficace",
-    "training_recommended_tag": "Consigliato"
+    "training_recommended_tag": "Consigliato",
+    "contact_phone_title": "Telefono",
+    "contact_email_title": "E-mail",
+    "contact_address_title": "Indirizzo"
 }

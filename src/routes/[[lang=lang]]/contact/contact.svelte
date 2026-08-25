@@ -201,14 +201,10 @@
   .card-icon {
     display: inline-flex;
     padding: 1rem;
-    background: linear-gradient(
-      135deg,
-      rgba(0, 0, 0, 0.06),
-      rgba(88, 86, 214, 0.1)
-    );
+    background: var(--global-color-gray-light-bg);
     border-radius: var(--border-radius-lg);
     margin-bottom: 1.5rem;
-    color: var(--global-color-primary);
+    color: var(--color-text);
   }
 
   .contact-card h3 {

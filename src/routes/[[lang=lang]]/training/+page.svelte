@@ -140,14 +140,10 @@
     justify-content: center;
     width: 3rem;
     height: 3rem;
-    background: linear-gradient(
-      135deg,
-      rgba(0, 0, 0, 0.06),
-      rgba(88, 86, 214, 0.1)
-    );
+    background: var(--global-color-gray-light-bg);
     border-radius: var(--border-radius-lg);
     margin-bottom: 1rem;
-    color: var(--global-color-primary);
+    color: var(--color-text);
   }
 
   .feature-card h3 {
@@ -186,13 +182,9 @@
     justify-content: center;
     width: 3rem;
     height: 3rem;
-    background: linear-gradient(
-      135deg,
-      rgba(0, 0, 0, 0.06),
-      rgba(88, 86, 214, 0.1)
-    );
+    background: var(--global-color-gray-light-bg);
     border-radius: var(--border-radius-lg);
-    color: var(--global-color-primary);
+    color: var(--color-text);
     flex-shrink: 0;
   }
 

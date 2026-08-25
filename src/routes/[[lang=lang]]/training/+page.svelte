@@ -162,7 +162,9 @@
     display: flex;
     gap: 1rem;
     align-items: flex-start;
-    max-width: 900px;
+    width: calc(100% - 2rem);
+    max-width: calc(1400px - 2rem);
+    box-sizing: border-box;
     margin: 0 auto 2.5rem;
     padding: 1rem 1.5rem;
     background: var(--global-color-gray-light-bg);
@@ -192,9 +194,11 @@
 
   .features-inline {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 3rem;
-    margin-bottom: 3rem;
+    width: calc(100% - 2rem);
+    max-width: calc(1400px - 2rem);
+    margin: 0 auto 3rem;
     flex-wrap: wrap;
   }
 
@@ -202,7 +206,8 @@
     display: flex;
     gap: 1rem;
     align-items: flex-start;
-    max-width: 280px;
+    flex: 1 1 260px;
+    max-width: 360px;
     text-align: left;
   }
 

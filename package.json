@@ -13,9 +13,8 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.2.195",
-    "@sveltejs/adapter-auto": "^2.1.1",
-    "@sveltejs/adapter-netlify": "^2.0.8",
-    "@sveltejs/kit": "^1.30.4",
+    "@sveltejs/adapter-netlify": "^4.4.2",
+    "@sveltejs/kit": "^2.70.3",
     "@types/gtag.js": "^0.0.20",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
@@ -29,7 +28,8 @@
     "tslib": "^2.6.2",
     "typescript": "^5.4.3",
     "unplugin-icons": "^0.17.4",
-    "vite": "^4.5.2"
+    "vite": "^5.4.19",
+    "@sveltejs/vite-plugin-svelte": "^3.1.2"
   },
   "type": "module",
   "dependencies": {

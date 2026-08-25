@@ -39,8 +39,15 @@ follow-ups from that work plus the AI-search (GEO) audit.
 
 ### Housekeeping
 
-- [ ] **62 dependency vulnerabilities** (14 high) reported by GitHub Dependabot:
-      https://github.com/Nacho114/swissdef-template/security/dependabot
+- [x] **Dependabot vulnerabilities: 62 → ~12 remaining.** Applied all
+      non-breaking audit fixes, cleaned `aws-stripe` to zero, and migrated
+      SvelteKit 1 → 2 (with adapter-netlify 4 + vite 5; removed unused
+      adapter-auto). What remains is dev-tooling-only (vite/esbuild dev
+      server, Windows-centric) or requires the Svelte 4 → 5 migration
+      (theoretical SSR XSS that needs user-generated content the site
+      doesn't have). Revisit when doing the Svelte 5 migration.
+- [ ] **Svelte 4 → 5 migration** (larger project; would clear the remaining
+      svelte/vite/esbuild advisories and unlock current tooling).
 - [ ] `aws-stripe/` and `_redirects` interplay: redirect rules live in root
       `_redirects` (deployed by adapter-netlify); keep it as the single place
       for domain redirects.

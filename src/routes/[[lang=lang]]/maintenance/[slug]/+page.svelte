@@ -1,6 +1,6 @@
 <script lang="ts">
   import MdInfoPage from "$lib/components/md_info_page.svelte";
-  import { Maintenance } from "$lib/maintenance";
+  import type { Maintenance } from "$lib/maintenance";
   import { _ } from "svelte-i18n";
 
   export let data: Maintenance;

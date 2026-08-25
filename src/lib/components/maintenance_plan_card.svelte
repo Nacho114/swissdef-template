@@ -40,6 +40,9 @@
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional: adds a shadow for depth */
     padding: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
     max-width: 400px;
     cursor: pointer; /* Changes cursor to hand pointer on hover */
     transition:

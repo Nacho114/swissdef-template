@@ -126,7 +126,7 @@
     z-index: 10;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 4rem 1.5rem;
+    padding: 4rem 1.5rem 0;
   }
 
   .header {

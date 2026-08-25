@@ -11,7 +11,6 @@
   <title>{$_("meta_title_home")}</title>
   <meta name="description" content={$_("meta_description_home")} />
   <meta name="keywords" content={$_("meta_keywords_home")} />
-  <link rel="canonical" href="https://www.swissdefibrillator.ch" />
   <meta
     property="og:title"
     content="Swissdefibrillator - Your Partner for Heart Safety"
@@ -24,7 +23,7 @@
   <meta property="og:type" content="website" />
   <meta
     property="og:image"
-    content="https://www.swissdefibrillator.com/assets/og-image.jpg"
+    content="https://www.swissdefibrillator.ch/assets/og-image.jpg"
   />
   <link rel="icon" href="/favicon.ico" sizes="any" type="image/ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />

@@ -12,12 +12,10 @@
   $: isCartPage = $page.url.pathname === "/cart";
   $: hasItems = Object.keys($cart).length > 0;
 
-  const hreflangs = [
-    { lang: "en", url: "https://www.swissdefibrillator.ch/" },
-    { lang: "fr", url: "https://www.swissdefibrillator.ch/" },
-    { lang: "de", url: "https://www.swissdefibrillator.ch/" },
-    { lang: "it", url: "https://www.swissdefibrillator.ch/" },
-  ];
+  const canonicalOrigin = "https://www.swissdefibrillator.ch";
+  $: canonicalUrl = canonicalOrigin + $page.url.pathname;
+
+  const hreflangLangs = ["en", "fr", "de", "it"];
 
   onMount(() => {
     const script = document.createElement("script");
@@ -32,14 +30,11 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.0/dist/cookieconsent.css"
   />
-  {#each hreflangs as { lang, url }}
-    <link rel="alternate" hreflang={lang} href={url} />
+  <link rel="canonical" href={canonicalUrl} />
+  {#each hreflangLangs as lang}
+    <link rel="alternate" hreflang={lang} href={canonicalUrl} />
   {/each}
-  <link
-    rel="alternate"
-    hreflang="x-default"
-    href="https://www.swissdefibrillator.ch/"
-  />
+  <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
 </svelte:head>
 
 <div class="layout">

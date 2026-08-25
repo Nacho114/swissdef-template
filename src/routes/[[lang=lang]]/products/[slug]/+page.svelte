@@ -1,7 +1,6 @@
 <script lang="ts">
   import type { Product } from "$lib/products";
   import Container from "$lib/components/container.svelte";
-  import ProductInfo from "../product_info.svelte";
   import ProductHero from "../product_hero.svelte";
   import MdProductPage from "$lib/components/md_product_page.svelte";
   import { _ } from "svelte-i18n";
@@ -17,10 +16,10 @@
 
   // DEV-ONLY design-variant switcher — remove before merging to main
   const variantLabels = [
-    "Original",
     "A · Shop",
-    "B · Split panel",
-    "C · Focus + bar",
+    "A1 · Image stage",
+    "A2 · Refined info",
+    "A3 · + Buy bar",
   ];
   let variant = 0;
   const prevVariant = () =>
@@ -54,20 +53,19 @@
 </svelte:head>
 
 <Container>
-  <div class="info" class:plain={variant !== 0}>
-    {#if variant === 0}
-      <ProductInfo {id} {image_path} {title} {price} {summary} />
-    {:else}
-      <ProductHero
-        {id}
-        {image_path}
-        {title}
-        {price}
-        {summary}
-        mode={variant === 1 ? "shop" : variant === 2 ? "split" : "focus"}
-      />
-    {/if}
-    <MdProductPage {file_name} clean={variant !== 0} />
+  <div class="info plain">
+    <ProductHero
+      {id}
+      {image_path}
+      {title}
+      {price}
+      {summary}
+      ptype={data.type}
+      stage={variant >= 1}
+      refined={variant >= 2}
+      bar={variant === 3}
+    />
+    <MdProductPage {file_name} clean={true} />
   </div>
 </Container>
 

@@ -74,7 +74,7 @@
     padding-right: 24px; /* Space for the icon */
     min-width: 60px;
     cursor: pointer;
-    font-size: 1em;
+    font-size: var(--text-base);
     letter-spacing: 0.1em;
     text-transform: uppercase;
   }

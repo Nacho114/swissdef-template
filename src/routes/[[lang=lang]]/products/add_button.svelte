@@ -18,9 +18,9 @@
     background-color: white;
     color: black;
     border: 2px solid black;
-    font-size: 16px;
+    font-size: var(--text-base);
     padding: 12px 24px;
-    border-radius: 25px;
+    border-radius: var(--border-radius-pill);
     cursor: pointer;
     transition:
       background-color 0.3s,

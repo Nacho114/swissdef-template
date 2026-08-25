@@ -24,22 +24,22 @@
     text-align: center;
     padding: 40px;
     background-color: #f9f9f9;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     margin: 20px 0;
   }
 
   .btn {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #007bff;
+    background-color: var(--global-color-primary);
     color: white;
     text-decoration: none;
-    border-radius: 4px;
-    font-size: 1rem;
+    border-radius: var(--border-radius);
+    font-size: var(--text-base);
     margin-top: 20px;
   }
 
   .btn:hover {
-    background-color: #0056b3;
+    background-color: var(--global-color-primary-dark);
   }
 </style>

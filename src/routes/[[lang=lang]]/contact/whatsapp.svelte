@@ -26,7 +26,7 @@
     background-color: #25d366;
     color: white;
     padding: 2vw 3vw; /* Match contact-info padding */
-    border-radius: 5px; /* Match contact-info border-radius */
+    border-radius: var(--border-radius); /* Match contact-info border-radius */
     margin: 2rem; /* Match contact-info margin */
     display: flex;
     justify-content: space-between;
@@ -42,7 +42,7 @@
 
   .whatsapp-text h2 {
     margin: 0;
-    font-size: 1.25rem;
+    font-size: var(--text-md);
     font-weight: 600;
   }
 
@@ -55,7 +55,7 @@
     background-color: white;
     color: #25d366;
     padding: 0.75rem 1.5rem;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     text-decoration: none;
     font-weight: 600;
     transition: transform 0.2s;

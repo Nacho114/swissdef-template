@@ -59,7 +59,7 @@
     padding-bottom: 1vw;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     width: 85vw;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional: adds a shadow for depth */
   }
@@ -74,7 +74,7 @@
     font-family: Oswald-SemiBold;
     text-align: left;
     color: var(--global-color-primary);
-    font-size: 2.5em;
+    font-size: var(--text-2xl);
     /* add any other styles for h1 here */
   }
 
@@ -82,7 +82,7 @@
     font-family: Oswald-SemiBold;
     text-align: left;
     color: var(--global-color-primary);
-    font-size: 2em;
+    font-size: var(--text-xl);
     /* add any other styles for h2 here */
   }
 
@@ -114,7 +114,7 @@
   }
 
   .container :global(a) {
-    color: var(--global-color-blue);
+    color: var(--global-color-primary);
     text-decoration: none;
     /* add any other styles for anchor tags here */
   }

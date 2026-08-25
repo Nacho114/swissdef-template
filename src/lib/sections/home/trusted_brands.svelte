@@ -47,8 +47,8 @@
 
   h2 {
     font-weight: 500;
-    color: #1d1d1f;
-    font-size: 1.5rem;
+    color: var(--color-text);
+    font-size: var(--text-lg);
     margin-bottom: 1.5rem;
     opacity: 0.8;
   }
@@ -141,7 +141,7 @@
     }
 
     h2 {
-      font-size: 1.25rem;
+      font-size: var(--text-md);
       margin-bottom: 1rem;
     }
 

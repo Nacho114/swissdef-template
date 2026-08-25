@@ -45,7 +45,7 @@
 <style>
   .service-card {
     background-color: white;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     padding: 2rem;
     box-sizing: border-box;
@@ -68,8 +68,8 @@
   }
 
   .service-title {
-    color: #333;
-    font-size: 1.5rem;
+    color: var(--color-text);
+    font-size: var(--text-lg);
     margin-bottom: 0.5rem;
   }
 
@@ -81,23 +81,23 @@
   }
 
   .price-amount {
-    font-size: 2rem;
+    font-size: var(--text-xl);
     color: black;
   }
 
   .price-unit {
-    font-size: 1rem;
-    color: #666;
+    font-size: var(--text-base);
+    color: var(--color-text-muted);
   }
 
   .service-duration {
-    font-size: 1.2rem;
-    color: #666;
+    font-size: var(--text-md);
+    color: var(--color-text-muted);
     margin-bottom: 1rem;
   }
 
   .service-description {
-    color: #666;
+    color: var(--color-text-muted);
     margin-bottom: 1rem;
     min-height: 50px;
   }
@@ -111,17 +111,17 @@
     }
 
     .service-title {
-      font-size: 1.5rem;
+      font-size: var(--text-lg);
       margin-bottom: 0.5rem;
     }
 
     .service-price {
-      font-size: 2rem;
+      font-size: var(--text-xl);
       margin-bottom: 0.5rem;
     }
 
     .service-description {
-      font-size: 1rem;
+      font-size: var(--text-base);
       margin-bottom: 1rem;
     }
   }

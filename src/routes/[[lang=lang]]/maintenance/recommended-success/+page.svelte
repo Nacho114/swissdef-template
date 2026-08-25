@@ -19,7 +19,7 @@
     text-align: center;
     padding: 40px;
     background-color: #f9f9f9;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     margin: 20px 0;
   }
 </style>

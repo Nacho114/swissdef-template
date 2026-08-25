@@ -47,13 +47,13 @@
     width: 320px;
     background: white;
     padding: 24px;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   }
 
   h2 {
     margin: 0 0 20px 0;
-    font-size: 1.25rem;
+    font-size: var(--text-md);
     font-weight: 500;
   }
 
@@ -66,8 +66,8 @@
   .summary-line {
     display: flex;
     justify-content: space-between;
-    color: #666;
-    font-size: 0.95rem;
+    color: var(--color-text-muted);
+    font-size: var(--text-sm);
   }
 
   .total {
@@ -76,19 +76,19 @@
     border-top: 1px solid #eee;
     color: black;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: var(--text-md);
   }
   .cart-summary {
     width: 320px;
     background: white;
     padding: 24px;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   }
 
   h2 {
     margin: 0 0 20px 0;
-    font-size: 1.25rem;
+    font-size: var(--text-md);
     font-weight: 500;
   }
 
@@ -101,8 +101,8 @@
   .summary-line {
     display: flex;
     justify-content: space-between;
-    color: #666;
-    font-size: 0.95rem;
+    color: var(--color-text-muted);
+    font-size: var(--text-sm);
   }
 
   .total {
@@ -111,7 +111,7 @@
     border-top: 1px solid #eee;
     color: black;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: var(--text-md);
   }
 
   @media (max-width: 1000px) {
@@ -126,7 +126,7 @@
 
     h2 {
       margin: 0 0 16px 0;
-      font-size: 1.1rem;
+      font-size: var(--text-md);
       text-align: center;
     }
 

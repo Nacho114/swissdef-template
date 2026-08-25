@@ -66,7 +66,7 @@
   .container :global(h1) {
     font-family: Oswald-SemiBold;
     text-align: left;
-    font-size: 2.5em;
+    font-size: var(--text-2xl);
     /* add any other styles for h1 here */
   }
 
@@ -74,7 +74,7 @@
     font-family: Oswald-SemiBold;
     text-align: left;
     color: var(--global-color-primary);
-    font-size: 2em;
+    font-size: var(--text-xl);
     /* add any other styles for h2 here */
   }
 
@@ -106,7 +106,7 @@
   }
 
   .container :global(a) {
-    color: var(--global-color-blue);
+    color: var(--global-color-primary);
     text-decoration: none;
     /* add any other styles for anchor tags here */
   }

@@ -104,7 +104,7 @@
 <style>
   :global(body) {
     background: #ffffff;
-    color: #1a1a1a;
+    color: var(--color-text);
   }
   .noise-container {
     display: none;
@@ -123,13 +123,13 @@
   .blur-blue {
     top: -10%;
     right: -10%;
-    background: #007aff;
+    background: var(--global-color-primary);
   }
 
   .blur-purple {
     bottom: -10%;
     left: -10%;
-    background: #5856d6;
+    background: var(--global-color-secondary);
   }
 
   .contact-wrapper {
@@ -146,21 +146,21 @@
   }
 
   h1 {
-    font-size: 3.5rem;
+    font-size: var(--text-hero);
     font-weight: 700;
     margin-bottom: 1rem;
-    color: #1d1d1f;
+    color: var(--color-text);
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, #007aff, #5856d6);
+    background: linear-gradient(135deg, #1a1a1a 0%, #4a5568 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .subtitle {
-    font-size: 1.25rem;
-    color: #6b7280;
+    font-size: var(--text-md);
+    color: var(--color-text-muted);
     max-width: 600px;
     margin: 0 auto;
   }
@@ -176,8 +176,8 @@
     position: relative;
     padding: 2.5rem;
     background: rgba(255, 255, 255, 0.7);
-    border: 1px solid rgba(0, 122, 255, 0.1);
-    border-radius: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: var(--border-radius-lg);
     overflow: hidden;
     text-decoration: none;
     transition: all 0.3s ease;
@@ -191,7 +191,7 @@
   .contact-card:hover {
     transform: translateY(-5px);
     background: rgba(255, 255, 255, 0.9);
-    border-color: rgba(0, 122, 255, 0.2);
+    border-color: rgba(0, 0, 0, 0.12);
     box-shadow:
       0 20px 25px -5px rgba(0, 0, 0, 0.1),
       0 10px 10px -5px rgba(0, 0, 0, 0.04),
@@ -203,23 +203,23 @@
     padding: 1rem;
     background: linear-gradient(
       135deg,
-      rgba(0, 122, 255, 0.1),
+      rgba(0, 0, 0, 0.06),
       rgba(88, 86, 214, 0.1)
     );
-    border-radius: 1rem;
+    border-radius: var(--border-radius-lg);
     margin-bottom: 1.5rem;
-    color: #007aff;
+    color: var(--global-color-primary);
   }
 
   .contact-card h3 {
-    font-size: 1.5rem;
+    font-size: var(--text-lg);
     font-weight: 600;
-    color: #1d1d1f;
+    color: var(--color-text);
     margin-bottom: 0.75rem;
   }
 
   .contact-card p {
-    color: #6b7280;
+    color: var(--color-text-muted);
     line-height: 1.6;
   }
 
@@ -247,7 +247,7 @@
       rgba(37, 211, 102, 0.1)
     );
     border: 1px solid rgba(37, 211, 102, 0.2);
-    border-radius: 2rem;
+    border-radius: var(--border-radius-lg);
     padding: 4rem;
     text-align: center;
     backdrop-filter: blur(12px);
@@ -270,18 +270,18 @@
   }
 
   .support-card h2 {
-    font-size: 2rem;
+    font-size: var(--text-xl);
     font-weight: 600;
-    color: #1d1d1f;
+    color: var(--color-text);
     margin-bottom: 0.5rem;
     line-height: 1.3;
     text-align: left;
   }
 
   .whatsapp-description {
-    color: #6b7280;
+    color: var(--color-text-muted);
     text-align: left;
-    font-size: 1.1rem;
+    font-size: var(--text-md);
     margin-bottom: 0;
   }
 
@@ -290,7 +290,7 @@
     background-color: #25d366;
     color: white;
     padding: 1rem 2rem;
-    border-radius: 1rem;
+    border-radius: var(--border-radius-lg);
     text-decoration: none;
     font-weight: 600;
     margin: 2rem 0;
@@ -311,12 +311,12 @@
     }
 
     h1 {
-      font-size: 2.25rem;
+      font-size: var(--text-xl);
       margin-bottom: 0.5rem;
     }
 
     .subtitle {
-      font-size: 1rem;
+      font-size: var(--text-base);
       padding: 0 1rem;
     }
 
@@ -336,7 +336,7 @@
     }
 
     .contact-card h3 {
-      font-size: 1.25rem;
+      font-size: var(--text-md);
       margin-bottom: 0.5rem;
     }
 
@@ -354,13 +354,13 @@
     }
 
     .support-card h2 {
-      font-size: 1.5rem;
+      font-size: var(--text-lg);
       text-align: center;
     }
 
     .whatsapp-description {
       text-align: center;
-      font-size: 1rem;
+      font-size: var(--text-base);
     }
 
     .whatsapp-button {
@@ -377,7 +377,7 @@
     }
 
     h1 {
-      font-size: 2rem;
+      font-size: var(--text-xl);
     }
 
     .contact-card {

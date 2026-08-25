@@ -115,8 +115,8 @@
     margin-bottom: 4rem;
     padding: 2rem;
     background: rgba(255, 255, 255, 0.7);
-    border: 1px solid rgba(0, 122, 255, 0.1);
-    border-radius: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: var(--border-radius-lg);
     backdrop-filter: blur(12px);
     box-shadow:
       0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -125,10 +125,10 @@
   }
 
   .form-title {
-    font-size: 2rem;
+    font-size: var(--text-xl);
     font-weight: 600;
     margin-bottom: 1.5rem;
-    color: #1d1d1f;
+    color: var(--color-text);
     text-align: center;
   }
 
@@ -145,19 +145,19 @@
   }
 
   label {
-    font-size: 1rem;
+    font-size: var(--text-base);
     font-weight: 500;
-    color: #6b7280;
+    color: var(--color-text-muted);
   }
 
   input,
   textarea {
     width: 100%;
     padding: 1rem;
-    border: 1px solid rgba(0, 122, 255, 0.2);
-    border-radius: 1rem;
-    font-size: 1rem;
-    color: #1a1a1a;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: var(--border-radius-lg);
+    font-size: var(--text-base);
+    color: var(--color-text);
     background: rgba(255, 255, 255, 0.7);
     outline: none;
     transition: border-color 0.3s;
@@ -165,21 +165,22 @@
 
   input:focus,
   textarea:focus {
-    border-color: #007aff;
+    border-color: var(--global-color-primary);
   }
 
   textarea {
     resize: none;
     height: 150px;
+    font-family: inherit;
   }
 
   .submit-button {
     padding: 1rem 2rem;
-    background: linear-gradient(135deg, #007aff, #5856d6);
+    background: linear-gradient(135deg, #1a1a1a 0%, #4a5568 100%);
     color: white;
     border: none;
-    border-radius: 1rem;
-    font-size: 1rem;
+    border-radius: var(--border-radius-lg);
+    font-size: var(--text-base);
     font-weight: 600;
     cursor: pointer;
     text-align: center;
@@ -187,13 +188,13 @@
   }
 
   .submit-button:hover {
-    background: linear-gradient(135deg, #005bb5, #3e4abf);
+    background: var(--global-color-primary-dark);
   }
 
   .success-message {
     margin-top: 1rem;
-    font-size: 1rem;
-    color: #007aff;
+    font-size: var(--text-base);
+    color: var(--global-color-primary);
     text-align: center;
   }
 </style>

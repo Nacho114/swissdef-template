@@ -45,7 +45,7 @@
   }
 
   .service-features h3 {
-    color: #333;
+    color: var(--color-text);
     margin-bottom: 0.5rem;
   }
 
@@ -57,7 +57,7 @@
   .feature-item {
     display: flex;
     align-items: center;
-    color: #333;
+    color: var(--color-text);
     margin-bottom: 0.5rem;
   }
 

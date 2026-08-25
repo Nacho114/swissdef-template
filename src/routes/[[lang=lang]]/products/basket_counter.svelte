@@ -113,7 +113,7 @@
     display: flex;
     align-items: center;
     border: 2px solid black;
-    border-radius: 25px;
+    border-radius: var(--border-radius-pill);
     padding: 10px 8px; /* Adjusted to match appointment-btn height */
     background-color: white;
     height: 45px; /* Match the total height of appointment-btn */
@@ -123,7 +123,7 @@
   .control-btn {
     background: none;
     border: none;
-    font-size: 20px;
+    font-size: var(--text-md);
     font-weight: 500;
     cursor: pointer;
     width: 32px;
@@ -143,7 +143,7 @@
 
   .counter-display {
     margin: 0 8px;
-    font-size: 16px;
+    font-size: var(--text-base);
     min-width: 24px;
     text-align: center;
     font-weight: 500;
@@ -159,7 +159,7 @@
     color: white;
     padding: 30px;
     border: 1px solid #444;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     display: flex;
     align-items: center;
     gap: 40px;
@@ -183,11 +183,11 @@
     background-color: #444444;
     color: white;
     padding: 10px 20px;
-    border-radius: 4px;
+    border-radius: var(--border-radius);
     text-decoration: none;
     border: none;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: var(--text-base);
     transition: background-color 0.3s;
   }
 
@@ -210,13 +210,13 @@
     }
 
     .control-btn {
-      font-size: 24px;
+      font-size: var(--text-lg);
       width: 40px;
       height: 40px;
     }
 
     .counter-display {
-      font-size: 18px;
+      font-size: var(--text-md);
       margin: 0 24px;
     }
 
@@ -240,7 +240,7 @@
 
     .popup-text,
     .popup-button {
-      font-size: 1.1rem;
+      font-size: var(--text-md);
     }
   }
   @media (max-width: 380px) {
@@ -250,14 +250,14 @@
     }
 
     .control-btn {
-      font-size: 20px;
+      font-size: var(--text-md);
       width: 32px;
       height: 32px;
     }
 
     .counter-display {
       margin: 0 4px;
-      font-size: 16px;
+      font-size: var(--text-base);
       min-width: 20px;
     }
   }

@@ -101,7 +101,7 @@
 
   .vat {
     color: gray;
-    font-size: smaller; /* Optional: Make VAT text slightly smaller */
+    font-size: var(--text-sm); /* Optional: Make VAT text slightly smaller */
   }
 
   .product-info {
@@ -135,7 +135,7 @@
   }
 
   p {
-    font-size: 1.2rem;
+    font-size: var(--text-md);
     color: gray;
   }
 
@@ -183,7 +183,9 @@
     }
 
     p {
-      font-size: 16px; /* Adjust font size for readability, avoid using vw for text if too small */
+      font-size: var(
+        --text-base
+      ); /* Adjust font size for readability, avoid using vw for text if too small */
       text-align: justify; /* Optional: adjust text alignment for better readability */
     }
   }

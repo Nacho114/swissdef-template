@@ -93,22 +93,22 @@
   }
 
   h1 {
-    font-size: 3.5rem;
+    font-size: var(--text-hero);
     font-weight: 600;
-    color: #1d1d1f;
+    color: var(--color-text);
     margin: 0 0 1rem;
     line-height: 1.2;
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, #007aff, #5856d6);
+    background: linear-gradient(135deg, #1a1a1a 0%, #4a5568 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .subtitle {
-    font-size: 1.25rem;
-    color: #6b7280;
+    font-size: var(--text-md);
+    color: var(--color-text-muted);
     max-width: 600px;
     margin: 0 auto;
   }
@@ -123,7 +123,7 @@
   .feature-card {
     background: white;
     padding: 2rem;
-    border-radius: 1.5rem;
+    border-radius: var(--border-radius-lg);
     text-align: center;
     transition: all 0.3s ease;
     border: 1px solid #e5e7eb;
@@ -142,24 +142,24 @@
     height: 3rem;
     background: linear-gradient(
       135deg,
-      rgba(0, 122, 255, 0.1),
+      rgba(0, 0, 0, 0.06),
       rgba(88, 86, 214, 0.1)
     );
-    border-radius: 1rem;
+    border-radius: var(--border-radius-lg);
     margin-bottom: 1rem;
-    color: #007aff;
+    color: var(--global-color-primary);
   }
 
   .feature-card h3 {
-    font-size: 1.25rem;
+    font-size: var(--text-md);
     font-weight: 600;
     margin: 0 0 0.5rem;
-    color: #1d1d1f;
+    color: var(--color-text);
   }
 
   .feature-card p {
-    font-size: 1rem;
-    color: #6b7280;
+    font-size: var(--text-base);
+    color: var(--color-text-muted);
     margin: 0;
   }
 
@@ -168,7 +168,7 @@
     align-items: center;
     gap: 1.5rem;
     background: white;
-    border-radius: 1.5rem;
+    border-radius: var(--border-radius-lg);
     padding: 2rem;
     margin-bottom: 4rem;
     transition: all 0.3s ease;
@@ -188,24 +188,24 @@
     height: 3rem;
     background: linear-gradient(
       135deg,
-      rgba(0, 122, 255, 0.1),
+      rgba(0, 0, 0, 0.06),
       rgba(88, 86, 214, 0.1)
     );
-    border-radius: 1rem;
-    color: #007aff;
+    border-radius: var(--border-radius-lg);
+    color: var(--global-color-primary);
     flex-shrink: 0;
   }
 
   .info-content h4 {
-    font-size: 1.25rem;
+    font-size: var(--text-md);
     font-weight: 600;
-    color: #1d1d1f;
+    color: var(--color-text);
     margin: 0 0 0.5rem;
   }
 
   .info-content p {
-    font-size: 1rem;
-    color: #6b7280;
+    font-size: var(--text-base);
+    color: var(--color-text-muted);
     line-height: 1.6;
     margin: 0;
   }
@@ -240,7 +240,7 @@
     }
 
     h1 {
-      font-size: 2.5rem;
+      font-size: var(--text-2xl);
     }
 
     .features {
@@ -270,12 +270,12 @@
     }
 
     .subtitle {
-      font-size: 1.1rem;
+      font-size: var(--text-md);
     }
 
     .feature-card,
     .info-banner {
-      border-radius: 1rem;
+      border-radius: var(--border-radius-lg);
       padding: 1.5rem;
     }
 

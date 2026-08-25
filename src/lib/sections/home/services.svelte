@@ -74,8 +74,8 @@
   }
 
   .cta p {
-    font-size: max(1.3vw, 16px);
-    font-weight: 100;
+    font-size: var(--text-base);
+    font-weight: 400;
     color: Var(--global-color-gray-light);
     margin-bottom: 1rem;
   }
@@ -90,9 +90,11 @@
     display: inline-block; /* Display links inline-block for better control */
     margin: 0.5rem; /* Add margin around each link */
     padding: 0.5rem 1rem; /* Padding for clickable area */
-    background-color: #d45a4d; /* A nice shade of red */
+    background-color: var(--global-color-primary); /* A nice shade of red */
     color: white; /* White text color */
-    border-radius: 25px; /* Rounded corners for the links */
+    border-radius: var(
+      --border-radius-pill
+    ); /* Rounded corners for the links */
     text-decoration: none; /* Remove underline from links */
     transition:
       background-color 0.3s,
@@ -101,7 +103,9 @@
 
   .mobile-links a:hover,
   .mobile-links a:focus {
-    background-color: #bf4e44; /* Slightly darker shade on hover/focus */
+    background-color: var(
+      --global-color-primary-dark
+    ); /* Slightly darker shade on hover/focus */
     color: #ffffff; /* Keep text color white on hover/focus */
   }
 

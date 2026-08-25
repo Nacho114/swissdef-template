@@ -63,7 +63,7 @@
   }
 
   .faq-item h2 {
-    font-size: 1.15rem;
+    font-size: var(--text-md);
     margin-bottom: 0.75rem;
   }
 

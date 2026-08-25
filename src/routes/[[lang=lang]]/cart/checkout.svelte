@@ -85,8 +85,8 @@
     background: #000;
     color: white;
     border: none;
-    border-radius: 6px;
-    font-size: 1rem;
+    border-radius: var(--border-radius);
+    font-size: var(--text-base);
     font-weight: 500;
     cursor: pointer;
     transition: background-color 0.2s;

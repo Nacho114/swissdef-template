@@ -90,7 +90,7 @@
     width: 80px;
     height: 80px;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
   }
 
   .item-info {
@@ -100,13 +100,13 @@
 
   .item-info h2 {
     margin: 0 0 4px 0;
-    font-size: 1.1rem;
+    font-size: var(--text-md);
     font-weight: 500;
   }
 
   .price {
-    color: #666;
-    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    font-size: var(--text-sm);
   }
 
   .quantity-controls {
@@ -121,12 +121,12 @@
     height: 28px;
     border: 1px solid #ddd;
     background: white;
-    border-radius: 4px;
+    border-radius: var(--border-radius);
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: var(--text-md);
     transition: all 0.2s;
   }
 
@@ -143,7 +143,7 @@
   .quantity {
     min-width: 20px;
     text-align: center;
-    font-size: 0.95rem;
+    font-size: var(--text-sm);
   }
 
   .subtotal {
@@ -155,7 +155,7 @@
   .remove-btn {
     background: none;
     border: none;
-    font-size: 1.5rem;
+    font-size: var(--text-lg);
     color: #999;
     cursor: pointer;
     padding: 4px 8px;
@@ -163,7 +163,7 @@
   }
 
   .remove-btn:hover {
-    color: #666;
+    color: var(--color-text-muted);
   }
   @media (max-width: 750px) {
     .cart-item {
@@ -187,7 +187,7 @@
 
     .item-info h2 {
       margin: 0;
-      font-size: 1rem;
+      font-size: var(--text-base);
     }
 
     .price {

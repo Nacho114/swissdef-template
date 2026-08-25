@@ -24,29 +24,29 @@
           {
             label: with_aed_label,
             data: [99, 90, 85, 80, 75, 73, 70, 68, 67, 66, 65],
-            borderColor: "#22C55E",
-            backgroundColor: "rgba(34, 197, 94, 0.15)",
+            borderColor: "#c70b15",
+            backgroundColor: "rgba(199, 11, 21, 0.08)",
             borderWidth: 2,
             fill: true,
             tension: 0.4,
             pointRadius: 2.5,
             pointHoverRadius: 3.5,
             pointBackgroundColor: "#FFFFFF",
-            pointBorderColor: "#22C55E",
+            pointBorderColor: "#c70b15",
             pointBorderWidth: 1.5,
           },
           {
             label: without_aed_label,
             data: [99, 70, 45, 25, 15, 10, 7, 5, 3, 2, 1],
-            borderColor: "#DC2626",
-            backgroundColor: "rgba(220, 38, 38, 0.15)",
+            borderColor: "#565758",
+            backgroundColor: "rgba(86, 87, 88, 0.12)",
             borderWidth: 2,
             fill: true,
             tension: 0.4,
             pointRadius: 2.5,
             pointHoverRadius: 3.5,
             pointBackgroundColor: "#FFFFFF",
-            pointBorderColor: "#DC2626",
+            pointBorderColor: "#565758",
             pointBorderWidth: 1.5,
           }
         ],
@@ -74,7 +74,7 @@
               color: "rgba(0, 0, 0, 0.1)",
             },
             ticks: {
-              color: "#4a5568",
+              color: "#666",
               font: {
                 size: 14,
                 weight: "bold"
@@ -91,7 +91,7 @@
             title: {
               display: true,
               text: $_("section_home_statistics_chart_y_axis"),
-              color: "#1a1a1a",
+              color: "#333",
               font: {
                 size: 16,
                 weight: "bold"
@@ -111,7 +111,7 @@
               color: "rgba(0, 0, 0, 0.1)",
             },
             ticks: {
-              color: "#4a5568",
+              color: "#666",
               font: {
                 size: 14,
                 weight: "bold"
@@ -121,7 +121,7 @@
             title: {
               display: true,
               text: $_("section_home_statistics_chart_x_axis"),
-              color: "#1a1a1a",
+              color: "#333",
               font: {
                 size: 16,
                 weight: "bold"
@@ -144,7 +144,7 @@
               padding: 40,
               boxWidth: 8,
               boxHeight: 8,
-              color: "#1a1a1a",
+              color: "#333",
               font: {
                 family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
                 size: 14,
@@ -288,9 +288,9 @@
     justify-content: center;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #2563EB;
-    box-shadow: 0 8px 16px rgba(37, 99, 235, 0.1);
-    border: 2px solid rgba(37, 99, 235, 0.2);
+    color: var(--global-color-primary);
+    box-shadow: 0 8px 16px rgba(199, 11, 21, 0.1);
+    border: 2px solid rgba(199, 11, 21, 0.2);
     z-index: 1;
     transition: transform 0.3s ease;
   }
@@ -328,16 +328,16 @@
   }
 
   .timeline-item.highlight .time-marker {
-    background: #2563EB;
+    background: var(--global-color-primary);
     color: white;
-    border-color: #2563EB;
+    border-color: var(--global-color-primary);
   }
 
   .cta-section {
     margin-top: 5rem;
     text-align: center;
     padding: 3rem;
-    background: linear-gradient(135deg, rgba(37, 99, 235, 0.03) 0%, rgba(37, 99, 235, 0.06) 100%);
+    background: linear-gradient(135deg, rgba(199, 11, 21, 0.03) 0%, rgba(199, 11, 21, 0.06) 100%);
     border-radius: 24px;
   }
 

@@ -39,7 +39,7 @@
 
 <div class="hero">
   <div class="image-panel" class:stage>
-    <img src={image_path} alt={title} loading="lazy" />
+    <img src={image_path} alt={title} />
   </div>
   <div class="info-panel">
     {#if refined && ptype}
@@ -96,14 +96,16 @@
 {/if}
 
 <style>
+  a:focus-visible {
+    outline: 3px solid var(--global-color-primary);
+    outline-offset: 4px;
+  }
   h1 {
     margin: 0;
     font-size: var(--text-2xl);
   }
 
   .eyebrow {
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
     font-size: var(--text-sm);
     color: var(--color-text-muted);
   }
@@ -165,6 +167,7 @@
   .price-group {
     display: flex;
     align-items: baseline;
+    flex-wrap: wrap;
     gap: 0.75rem;
   }
 
@@ -190,7 +193,7 @@
     display: inline-flex;
     align-items: center;
     gap: 0.25rem;
-    color: var(--color-text);
+    color: var(--global-color-primary);
     font-size: var(--text-base);
     text-decoration: none;
     border-bottom: 1px solid currentColor;

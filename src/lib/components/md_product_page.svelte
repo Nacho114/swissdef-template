@@ -43,7 +43,7 @@
   {#if clean}
     {#if source !== ""}
       <div class="container clean" in:fade={{ duration: 110, delay: 110 }}>
-        <SvelteMarkdown {source} />
+        <SvelteMarkdown source={source.replace(/^# /gm, "## ")} />
       </div>
     {/if}
   {:else}
@@ -105,6 +105,7 @@
     padding: 2rem 1rem;
   }
 
+  .container.clean :global(h2),
   .container.clean :global(h3),
   .container.clean :global(h4),
   .container.clean :global(h5),

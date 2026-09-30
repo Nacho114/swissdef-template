@@ -7,6 +7,7 @@
   import { page } from "$app/stores";
   import { getEnquiryCopy } from "$lib/enquiry-copy";
   $: copy = getEnquiryCopy($page.params.lang);
+  $: productEnquiry = $page.url.searchParams.get("service") === "products";
 
   // WhatsApp first — it's the preferred contact channel
   $: contactCards = [
@@ -47,8 +48,8 @@
 
 <div class="contact-wrapper">
   <div class="header">
-    <h1>{copy.title}</h1>
-    <p class="subtitle">{copy.intro}</p>
+    <h1>{productEnquiry ? copy.productTitle : copy.title}</h1>
+    <p class="subtitle">{productEnquiry ? copy.productIntro : copy.intro}</p>
     <nav class="quick-contact" aria-label={copy.formTitle}>
       <a class="enquiry-link" href="#enquiry-form">{copy.formTitle}</a>
       <a href={`tel:${ContactInfo.getPhoneNumber()}`}>{copy.callAction}</a>

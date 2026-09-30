@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { Product } from "$lib/products";
+  import { localize } from "$lib/nav";
   import Container from "$lib/components/container.svelte";
   import ProductHero from "../product_hero.svelte";
   import MdProductPage from "$lib/components/md_product_page.svelte";
@@ -42,20 +43,45 @@
 
 <Container>
   <div class="info">
-    <ProductHero {id} {image_path} {title} {price} {summary} ptype={data.type} />
+    <a class="back" href={$localize("/products")}
+      >{$_("section_general_products")}</a
+    >
+    <ProductHero
+      {id}
+      {image_path}
+      {title}
+      {price}
+      {summary}
+      ptype={data.type}
+      stage={true}
+      refined={true}
+    />
     <MdProductPage {file_name} clean={true} />
   </div>
 </Container>
 
 <style>
   .info {
-    display: flex;
-    flex-direction: column;
-    gap: 4vw;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    border-radius: var(--border-radius);
-    padding: 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0 3rem;
+    box-sizing: border-box;
+    text-align: left;
+  }
+  .back {
+    display: inline-block;
+    color: var(--global-color-primary);
+    text-underline-offset: 4px;
+    padding: 0.5rem 0;
+  }
+  .back:focus-visible {
+    outline: 3px solid var(--global-color-primary);
+    outline-offset: 4px;
+  }
+  @media (max-width: 600px) {
+    .info {
+      padding: 1.5rem 20px 3rem;
+    }
   }
 </style>

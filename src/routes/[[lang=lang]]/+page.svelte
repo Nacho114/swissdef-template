@@ -45,7 +45,13 @@
         "addressCountry": "CH"
       },
       "areaServed": "CH",
-      "availableLanguage": ["German", "French", "English"],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "course enquiries",
+        "telephone": "+41 79 441 24 06",
+        "email": "info@swissdefibrillator.ch",
+        "availableLanguage": ["German", "French", "English"]
+      },
       "knowsAbout": [
         "Automated external defibrillators (AED)",
         "First aid training",

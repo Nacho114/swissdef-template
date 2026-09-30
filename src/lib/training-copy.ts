@@ -10,6 +10,8 @@ interface TrainingCopy {
   description: string;
   intro: string;
   choose: string;
+  instructorTitle: string;
+  instructorBio: string;
   courses: Record<BlsCourse, CourseCopy>;
   hours: string;
   groupPrice: string;
@@ -31,6 +33,9 @@ interface TrainingCopy {
 }
 export const trainingCopy: Record<TrainingLanguage, TrainingCopy> = {
   en: {
+    instructorTitle: "Your instructor, Monica Aleman",
+    instructorBio:
+      "Monica is an experienced BLS-AED-SRC instructor and adult educator. She personally leads the courses, with practical exercises and individual feedback.",
     title: "On-site BLS-AED-SRC training for companies in Switzerland",
     description:
       "BLS-AED-SRC courses at your premises throughout Switzerland. Complet or Compact for up to 8 people per instructor, in English, French or German. Request a quote.",
@@ -115,6 +120,9 @@ export const trainingCopy: Record<TrainingLanguage, TrainingCopy> = {
       "Looking for more extensive first-aid training or a refresher? Explore the additional course options.",
   },
   de: {
+    instructorTitle: "Ihre Kursleiterin, Monica Aleman",
+    instructorBio:
+      "Monica ist eine erfahrene BLS-AED-SRC-Instruktorin und Erwachsenenbildnerin. Sie leitet die Kurse persönlich, mit praktischen Übungen und individuellem Feedback.",
     title: "BLS-AED-SRC Firmenkurse vor Ort in der ganzen Schweiz",
     description:
       "BLS-AED-SRC Kurs für Ihr Unternehmen: Complet oder Compact bei Ihnen vor Ort, bis 8 Personen pro Instruktorin. Deutsch, Französisch oder Englisch. Offerte anfragen.",
@@ -199,6 +207,9 @@ export const trainingCopy: Record<TrainingLanguage, TrainingCopy> = {
       "Sie suchen eine umfangreichere Erste-Hilfe-Ausbildung oder eine Auffrischung? Entdecken Sie unsere weiteren Kursangebote.",
   },
   fr: {
+    instructorTitle: "Votre formatrice, Monica Aleman",
+    instructorBio:
+      "Monica est une instructrice BLS-AED-SRC expérimentée et une formatrice d’adultes. Elle anime personnellement les cours, avec des exercices pratiques et des conseils individuels.",
     title: "Formation BLS-AED-SRC en entreprise, partout en Suisse",
     description:
       "Cours BLS-AED-SRC Complet ou Compact sur votre site en Suisse. Jusqu’à 8 personnes par formatrice, en français, allemand ou anglais. Demandez un devis.",
@@ -283,6 +294,9 @@ export const trainingCopy: Record<TrainingLanguage, TrainingCopy> = {
       "Vous recherchez une formation plus approfondie ou un recyclage ? Découvrez les autres cours proposés.",
   },
   it: {
+    instructorTitle: "La vostra istruttrice, Monica Aleman",
+    instructorBio:
+      "Monica è un’istruttrice BLS-AED-SRC esperta e una formatrice di adulti. Conduce personalmente i corsi, con esercizi pratici e consigli individuali.",
     title: "Corsi BLS-AED-SRC in azienda in tutta la Svizzera",
     description:
       "Corsi BLS-AED-SRC Complet e Compact presso la vostra sede in Svizzera. Fino a 8 persone per istruttrice, in inglese, francese o tedesco. Richiedete un preventivo.",

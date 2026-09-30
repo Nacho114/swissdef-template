@@ -68,6 +68,13 @@
     </div>
   </section>
 
+  {#if !course}
+    <section class="instructor-intro" aria-labelledby="instructor-title">
+      <h2 id="instructor-title">{copy.instructorTitle}</h2>
+      <p>{copy.instructorBio}</p>
+    </section>
+  {/if}
+
   <section class="practical">
     <div>
       <h2>{copy.practicalTitle}</h2>
@@ -232,6 +239,29 @@
   .back {
     display: inline-block;
     margin-bottom: 1.5rem;
+  }
+  .instructor-intro {
+    display: grid;
+    grid-template-columns: minmax(220px, 1fr) 2fr;
+    gap: 1rem 3rem;
+    padding: 1.5rem 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    align-items: start;
+  }
+  .instructor-intro h2 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .instructor-intro p {
+    margin: 0;
+    max-width: 65ch;
+  }
+  @media (max-width: 700px) {
+    .instructor-intro {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
   }
   .practical {
     display: grid;

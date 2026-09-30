@@ -24,6 +24,7 @@
       const product = getProductById(id);
       if (product == undefined) {
         console.log("product undefined!");
+        return null;
       }
       const unit_amount_raw = with_iva(product.price);
       const unit_amount = format_for_stripe(unit_amount_raw);

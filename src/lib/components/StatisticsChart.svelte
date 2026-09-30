@@ -68,7 +68,6 @@
             grid: {
               display: true,
               color: "rgba(0, 0, 0, 0.06)",
-              drawBorder: false,
             },
             border: {
               display: true,
@@ -83,7 +82,7 @@
               padding: 8,
               stepSize: 20,
               callback: function(value) {
-                if (value >= 0 && value <= 100) {
+                if (typeof value === "number" && value >= 0 && value <= 100) {
                   return value + '%';
                 }
                 return '';
@@ -248,6 +247,7 @@
     font-weight: 800;
     margin: 0 0 1rem;
     background: linear-gradient(135deg, #1a1a1a 0%, #4a4a4a 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 1.2;

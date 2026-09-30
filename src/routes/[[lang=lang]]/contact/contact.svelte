@@ -1,8 +1,6 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
   import Location from "virtual:icons/typcn/location";
-  import Phone from "virtual:icons/solar/phone-linear";
-  import Email from "virtual:icons/iconamoon/email";
   import WhatsApp from "virtual:icons/ri/whatsapp-fill";
   import { ContactInfo } from "$lib/info";
   import Form from "./form.svelte";
@@ -19,22 +17,6 @@
       description: $_("contact_whatsapp_message_button"),
       href: "https://wa.me/+41794412406",
       whatsapp: true,
-    },
-    {
-      icon: Phone,
-      id: "phone-btn",
-      title: $_("contact_phone_title"),
-      description: ContactInfo.getPhoneNumber(),
-      href: `tel:${ContactInfo.getPhoneNumber()}`,
-      whatsapp: false,
-    },
-    {
-      icon: Email,
-      id: "email-btn",
-      title: $_("contact_email_title"),
-      description: ContactInfo.getEmail(),
-      href: `mailto:${ContactInfo.getEmail()}`,
-      whatsapp: false,
     },
     {
       icon: Location,
@@ -246,7 +228,7 @@
     }
 
     .info-column .info-inline {
-      flex: 1 1 220px;
+      flex: 0 0 auto;
       max-width: 320px;
     }
   }

@@ -23,5 +23,5 @@ Per chiunque (12+), non è richiesta alcuna conoscenza preliminare.
 
 ### Durata, prezzo e certificato
 - 1-2 ore, fino a 8 partecipanti.
-- CHF 445.- (IVA esclusa) per gruppo.
+- CHF 455.- (IVA esclusa) per gruppo.
 - Certificato SRC (valido 2 anni).

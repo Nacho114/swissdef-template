@@ -67,7 +67,7 @@ export const trainingCopy: Record<TrainingLanguage, TrainingCopy> = {
       },
     },
     hours: "hours",
-    groupPrice: "+ VAT per group",
+    groupPrice: "+ VAT per group · travel included",
     groupSize: "Up to 8 participants per instructor",
     certificate: "SRC course attendance certificate, valid for 2 years",
     details: "View course details",
@@ -101,7 +101,7 @@ export const trainingCopy: Record<TrainingLanguage, TrainingCopy> = {
       {
         question: "How much does a group course cost?",
         answer:
-          "Complet costs CHF 890 plus VAT per group; Compact costs CHF 455 plus VAT per group, for up to 8 participants per instructor. Request a quote to confirm the arrangements for your location and team.",
+          "Complet costs CHF 890 plus VAT per group; Compact costs CHF 455 plus VAT per group, for up to 8 participants per instructor. Travel within Switzerland is included. Request a quote to confirm the arrangements for your location and team.",
       },
       {
         question:
@@ -154,7 +154,7 @@ export const trainingCopy: Record<TrainingLanguage, TrainingCopy> = {
       },
     },
     hours: "Stunden",
-    groupPrice: "+ MwSt. pro Gruppe",
+    groupPrice: "+ MwSt. pro Gruppe · Anfahrt inklusive",
     groupSize: "Bis 8 Teilnehmende pro Instruktorin",
     certificate: "SRC-Kursbestätigung, 2 Jahre gültig",
     details: "Kursdetails ansehen",
@@ -188,7 +188,7 @@ export const trainingCopy: Record<TrainingLanguage, TrainingCopy> = {
       {
         question: "Was kostet ein Gruppenkurs?",
         answer:
-          "Complet kostet CHF 890 plus MwSt. pro Gruppe, Compact CHF 455 plus MwSt. pro Gruppe, für bis zu 8 Teilnehmende pro Instruktorin. Mit einer Offerte bestätigen wir die Details für Ihren Standort und Ihr Team.",
+          "Complet kostet CHF 890 plus MwSt. pro Gruppe, Compact CHF 455 plus MwSt. pro Gruppe, für bis zu 8 Teilnehmende pro Instruktorin. Die Anfahrt innerhalb der Schweiz ist inklusive. Mit einer Offerte bestätigen wir die Details für Ihren Standort und Ihr Team.",
       },
       {
         question:
@@ -241,7 +241,7 @@ export const trainingCopy: Record<TrainingLanguage, TrainingCopy> = {
       },
     },
     hours: "heures",
-    groupPrice: "+ TVA par groupe",
+    groupPrice: "+ TVA par groupe · déplacement inclus",
     groupSize: "Jusqu’à 8 participants par formatrice",
     certificate: "Attestation de participation SRC valable 2 ans",
     details: "Voir le détail du cours",
@@ -275,7 +275,7 @@ export const trainingCopy: Record<TrainingLanguage, TrainingCopy> = {
       {
         question: "Quel est le prix d’un cours de groupe ?",
         answer:
-          "Complet coûte CHF 890 plus TVA par groupe ; Compact coûte CHF 455 plus TVA par groupe, pour jusqu’à 8 participants par formatrice. Demandez un devis pour confirmer les modalités pour votre site et votre équipe.",
+          "Complet coûte CHF 890 plus TVA par groupe ; Compact coûte CHF 455 plus TVA par groupe, pour jusqu’à 8 participants par formatrice. Les frais de déplacement en Suisse sont inclus. Demandez un devis pour confirmer les modalités pour votre site et votre équipe.",
       },
       {
         question:
@@ -328,7 +328,7 @@ export const trainingCopy: Record<TrainingLanguage, TrainingCopy> = {
       },
     },
     hours: "ore",
-    groupPrice: "+ IVA per gruppo",
+    groupPrice: "+ IVA per gruppo · trasferta inclusa",
     groupSize: "Fino a 8 partecipanti per istruttrice",
     certificate: "Attestato di partecipazione SRC valido per 2 anni",
     details: "Dettagli del corso",
@@ -362,7 +362,7 @@ export const trainingCopy: Record<TrainingLanguage, TrainingCopy> = {
       {
         question: "Quanto costa un corso di gruppo?",
         answer:
-          "Complet costa CHF 890 più IVA per gruppo; Compact costa CHF 455 più IVA per gruppo, fino a 8 partecipanti per istruttrice. Richiedete un preventivo per confermare le condizioni per la vostra sede e il vostro team.",
+          "Complet costa CHF 890 più IVA per gruppo; Compact costa CHF 455 più IVA per gruppo, fino a 8 partecipanti per istruttrice. Le spese di trasferta in Svizzera sono incluse. Richiedete un preventivo per confermare le condizioni per la vostra sede e il vostro team.",
       },
       {
         question: "Il corso è riconosciuto SRC e quanto dura l’attestato?",

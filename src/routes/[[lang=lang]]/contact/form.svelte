@@ -6,8 +6,14 @@
   import { getEnquiryCopy } from "$lib/enquiry-copy";
 
   $: copy = getEnquiryCopy($page.params.lang);
-  let service = "training";
-  let course = "";
+  const validServices = ["training", "maintenance", "products", "other"];
+  const validCourses = ["basic", "lite", "recommended", "refresher"];
+  function queryChoice(key: string, choices: string[], fallback: string) {
+    const value = $page.url.searchParams.get(key);
+    return value && choices.includes(value) ? value : fallback;
+  }
+  let service = queryChoice("service", validServices, "training");
+  let course = queryChoice("course", validCourses, "");
   let appliedSearch: string | undefined;
   // A page-store update (including a hash change) must not overwrite user choices.
   // Apply incoming course links only when their search parameters change.

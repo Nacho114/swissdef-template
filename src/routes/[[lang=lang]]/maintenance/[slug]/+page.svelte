@@ -52,7 +52,7 @@
         <a class="enquiry" href={$localize("/contact?service=maintenance")}
           >{$_("maintenance_enquire")}</a
         >
-        <a href={data.payment_link}>{$_("maintenance_order")}</a>
+        <a class="order" href={data.payment_link}>{$_("maintenance_order")}</a>
       </div>
     </header>
     <div class="details">
@@ -114,6 +114,17 @@
     padding: 0.75rem 1.25rem;
     border-radius: var(--border-radius);
     text-decoration: none;
+  }
+  .order {
+    border: 1px solid #bbb;
+    color: var(--color-text);
+    padding: 0.75rem 1.25rem;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    text-align: center;
+  }
+  .order:hover {
+    background: #f5f5f5;
   }
   .details {
     max-width: 800px;

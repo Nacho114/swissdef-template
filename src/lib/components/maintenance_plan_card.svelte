@@ -22,9 +22,11 @@
     <a class="enquiry" href={$localize("/contact?service=maintenance")}
       >{$_("maintenance_enquire")}</a
     >
-    <a href={$localize(`/maintenance/${slug}`)}>{$_("maintenance_details")}</a>
+    <a class="order" href={payment_link}>{$_("maintenance_order")}</a>
   </div>
-  <a class="order" href={payment_link}>{$_("maintenance_order")}</a>
+  <a class="details-link" href={$localize(`/maintenance/${slug}`)}
+    >{$_("maintenance_details")}</a
+  >
 </article>
 
 <style>
@@ -67,7 +69,7 @@
   .actions {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem 1.5rem;
+    gap: 0.75rem;
     align-items: center;
     margin-top: auto;
   }
@@ -86,6 +88,19 @@
     text-align: center;
   }
   .order {
+    border: 1px solid #bbb;
+    color: var(--color-text);
+    padding: calc(0.9rem - 1px) 1.25rem;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+  }
+  .order:hover {
+    background: #f5f5f5;
+    border-color: var(--color-text);
+  }
+  .details-link {
     align-self: start;
     margin-top: 0.75rem;
   }

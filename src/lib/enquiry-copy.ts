@@ -7,9 +7,9 @@ const en = {
   metaDescription:
     "Contact Monica Aleman for on-site BLS-AED-SRC training in Switzerland. Request a course quote, ask about AED maintenance or find the right defibrillator.",
   optional: "optional",
-  title: "Talk to Monica about your team’s training",
+  title: "Request training for your team",
   intro:
-    "Tell us where, when and how many people you would like to train. Monica can help you choose a course and prepare a quote. For AED sales or maintenance, choose the relevant subject below.",
+    "Tell us where, when and how many people you would like to train. Your instructor, Monica Aleman, will help you choose the right course and prepare a quote. For AED sales or maintenance, choose the relevant subject below.",
   profileTitle: "Your instructor, Monica Aleman",
   profile:
     "Monica is an experienced BLS-AED-SRC instructor and adult educator. She personally delivers practical, hands-on training in small groups, helping participants practise how to respond to a cardiac emergency.",
@@ -63,9 +63,9 @@ export const enquiryCopy: Record<string, EnquiryCopy> = {
     metaDescription:
       "Kontaktieren Sie Monica Aleman für BLS-AED-SRC-Schulungen bei Ihnen vor Ort in der Schweiz. Fragen Sie nach Kursen, AED-Wartung oder Defibrillatoren.",
     optional: "optional",
-    title: "Planen Sie die Schulung Ihres Teams mit Monica",
+    title: "Schulung für Ihr Team anfragen",
     intro:
-      "Teilen Sie uns Ort, Zeitraum und Teilnehmerzahl mit. Monica unterstützt Sie bei der Kurswahl und erstellt eine Offerte. Für AED-Verkauf oder Wartung wählen Sie unten das passende Thema.",
+      "Teilen Sie uns Ort, Zeitraum und Teilnehmerzahl mit. Ihre Kursleiterin Monica Aleman unterstützt Sie bei der Kurswahl und erstellt eine Offerte. Für AED-Verkauf oder Wartung wählen Sie unten das passende Thema.",
     profileTitle: "Ihre Kursleiterin Monica Aleman",
     profile:
       "Monica ist eine erfahrene BLS-AED-SRC-Kursleiterin und Erwachsenenbildnerin. Sie führt die praktischen Schulungen in kleinen Gruppen persönlich durch. Die Teilnehmenden üben, wie sie bei einem Herznotfall handeln können.",
@@ -116,9 +116,9 @@ export const enquiryCopy: Record<string, EnquiryCopy> = {
     metaDescription:
       "Contactez Monica Aleman pour une formation BLS-AED-SRC dans vos locaux en Suisse. Demandez un devis, des conseils sur la maintenance ou un défibrillateur.",
     optional: "facultatif",
-    title: "Organisez la formation de votre équipe avec Monica",
+    title: "Demandez une formation pour votre équipe",
     intro:
-      "Indiquez le lieu, la période et le nombre de participants. Monica vous aide à choisir un cours et prépare un devis. Pour la vente ou la maintenance de DAE, choisissez le sujet correspondant ci-dessous.",
+      "Indiquez le lieu, la période et le nombre de participants. Votre formatrice, Monica Aleman, vous aide à choisir le cours adapté et prépare un devis. Pour la vente ou la maintenance de DAE, choisissez le sujet correspondant ci-dessous.",
     profileTitle: "Votre formatrice, Monica Aleman",
     profile:
       "Monica est une instructrice BLS-AED-SRC expérimentée et une formatrice d’adultes. Elle anime personnellement des formations pratiques en petits groupes, pour que chacun puisse s’exercer à réagir face à une urgence cardiaque.",
@@ -169,9 +169,9 @@ export const enquiryCopy: Record<string, EnquiryCopy> = {
     metaDescription:
       "Contattate Monica Aleman per corsi BLS-AED-SRC presso la vostra sede in Svizzera. Richiedete un preventivo, la manutenzione DAE o un defibrillatore.",
     optional: "facoltativo",
-    title: "Organizzate la formazione del vostro team con Monica",
+    title: "Richiedete una formazione per il vostro team",
     intro:
-      "Indicate luogo, periodo e numero di partecipanti. Monica vi aiuta a scegliere il corso e prepara un preventivo. Per la vendita o la manutenzione di DAE, scegliete l’argomento corrispondente qui sotto.",
+      "Indicate luogo, periodo e numero di partecipanti. La vostra istruttrice, Monica Aleman, vi aiuta a scegliere il corso adatto e prepara un preventivo. Per la vendita o la manutenzione di DAE, scegliete l’argomento corrispondente qui sotto.",
     profileTitle: "La vostra istruttrice, Monica Aleman",
     profile:
       "Monica è un’istruttrice BLS-AED-SRC esperta e una formatrice di adulti. Conduce personalmente corsi pratici in piccoli gruppi, aiutando i partecipanti a esercitarsi su come reagire a un’emergenza cardiaca.",

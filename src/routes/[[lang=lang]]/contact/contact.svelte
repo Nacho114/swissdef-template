@@ -6,7 +6,6 @@
   import WhatsApp from "virtual:icons/ri/whatsapp-fill";
   import { ContactInfo } from "$lib/info";
   import Form from "./form.svelte";
-  import InstructorProfile from "$lib/components/instructor-profile.svelte";
   import { page } from "$app/stores";
   import { getEnquiryCopy } from "$lib/enquiry-copy";
   $: copy = getEnquiryCopy($page.params.lang);
@@ -78,7 +77,6 @@
   <!-- Info column left, form right -->
   <div class="split-layout">
     <div class="info-column">
-      <InstructorProfile />
       {#each contactCards as card}
         <a id={card.id} href={card.href} class="info-inline">
           <div class="info-chip" class:whatsapp-chip={card.whatsapp}>

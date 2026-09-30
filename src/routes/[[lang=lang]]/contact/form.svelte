@@ -93,17 +93,18 @@
 
 <div class="form-wrapper" id="enquiry-form" tabindex="-1">
   <h2>{copy.formTitle}</h2>
-  <p class="guidance">{copy.details}</p>
+  <p class="guidance">{service === "training" ? copy.details : copy.generalDetails}</p>
   <form on:submit|preventDefault={handleSubmit} aria-busy={pending}>
     <fieldset disabled={pending}>
       <div class="form-group">
         <label for="subject">{copy.subject}</label>
-        <select id="subject" bind:value={service}>
+        <select id="subject" bind:value={service} aria-describedby="subject-hint">
           <option value="training">{copy.training}</option>
           <option value="maintenance">{copy.maintenance}</option>
           <option value="products">{copy.products}</option>
           <option value="other">{copy.other}</option>
         </select>
+        <p class="field-hint" id="subject-hint">{copy.subjectHint}</p>
       </div>
       {#if service === "training"}
         <div class="form-group">
@@ -150,11 +151,13 @@
               >{copy.participants} ({copy.optional})</label
             ><input
               id="participants"
+              aria-describedby="participants-hint"
               type="number"
               min="1"
               step="1"
               bind:value={participants}
             />
+            <p class="field-hint" id="participants-hint">{copy.participantsHint}</p>
           </div>
           <div class="form-group">
             <label for="language">{copy.language} ({copy.optional})</label
@@ -225,6 +228,12 @@
 </div>
 
 <style>
+  .field-hint {
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
   .course-details {
     margin: 0;
     color: var(--color-text-muted);

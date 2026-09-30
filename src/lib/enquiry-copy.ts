@@ -9,7 +9,7 @@ const en = {
   optional: "optional",
   title: "Request training for your team",
   intro:
-    "Tell us where, when and how many people you would like to train. Your instructor, Monica Aleman, will help you choose the right course and prepare a quote. For AED sales or maintenance, choose the relevant subject below.",
+    "Tell us where, when and how many people you would like to train. Your instructor, Monica Aleman, will help you choose the right course and prepare a quote.",
   profileTitle: "Your instructor, Monica Aleman",
   profile:
     "Monica is an experienced BLS-AED-SRC instructor and adult educator. She personally delivers practical, hands-on training in small groups, helping participants practise how to respond to a cardiac emergency.",
@@ -38,7 +38,10 @@ const en = {
   message: "Message",
   optionalMessage: "Anything else we should know? (optional)",
   details:
-    "Required fields unless marked optional. One instructor per eight participants; larger teams can request a tailored quote.",
+    "Start with your name and email. Add any training details you already know.",
+    subjectHint: "For AED sales or maintenance, choose the relevant subject above.",
+    participantsHint: "One instructor per eight participants. Larger teams can request a tailored quote.",
+    generalDetails: "Please add your name, email and message.",
   send: "Send enquiry",
   sending: "Sending…",
   error:
@@ -65,7 +68,7 @@ export const enquiryCopy: Record<string, EnquiryCopy> = {
     optional: "optional",
     title: "Schulung für Ihr Team anfragen",
     intro:
-      "Teilen Sie uns Ort, Zeitraum und Teilnehmerzahl mit. Ihre Kursleiterin Monica Aleman unterstützt Sie bei der Kurswahl und erstellt eine Offerte. Für AED-Verkauf oder Wartung wählen Sie unten das passende Thema.",
+      "Teilen Sie uns Ort, Zeitraum und Teilnehmerzahl mit. Ihre Kursleiterin Monica Aleman unterstützt Sie bei der Kurswahl und erstellt eine Offerte.",
     profileTitle: "Ihre Kursleiterin Monica Aleman",
     profile:
       "Monica ist eine erfahrene BLS-AED-SRC-Kursleiterin und Erwachsenenbildnerin. Sie führt die praktischen Schulungen in kleinen Gruppen persönlich durch. Die Teilnehmenden üben, wie sie bei einem Herznotfall handeln können.",
@@ -94,7 +97,10 @@ export const enquiryCopy: Record<string, EnquiryCopy> = {
     message: "Nachricht",
     optionalMessage: "Was sollten wir noch wissen? (optional)",
     details:
-      "Pflichtfelder, sofern nicht als optional markiert. Eine Kursleitung pro acht Teilnehmende; für grössere Teams erstellen wir eine individuelle Offerte.",
+      "Beginnen Sie mit Ihrem Namen und Ihrer E-Mail-Adresse. Ergänzen Sie die Kursdetails, die Sie bereits kennen.",
+    subjectHint: "Für AED-Verkauf oder Wartung wählen Sie oben das passende Thema.",
+    participantsHint: "Eine Kursleitung pro acht Teilnehmende. Für grössere Teams erstellen wir eine individuelle Offerte.",
+    generalDetails: "Bitte geben Sie Ihren Namen, Ihre E-Mail-Adresse und Ihre Nachricht an.",
     send: "Anfrage senden",
     sending: "Wird gesendet…",
     error:
@@ -118,7 +124,7 @@ export const enquiryCopy: Record<string, EnquiryCopy> = {
     optional: "facultatif",
     title: "Demandez une formation pour votre équipe",
     intro:
-      "Indiquez le lieu, la période et le nombre de participants. Votre formatrice, Monica Aleman, vous aide à choisir le cours adapté et prépare un devis. Pour la vente ou la maintenance de DAE, choisissez le sujet correspondant ci-dessous.",
+      "Indiquez le lieu, la période et le nombre de participants. Votre formatrice, Monica Aleman, vous aide à choisir le cours adapté et prépare un devis.",
     profileTitle: "Votre formatrice, Monica Aleman",
     profile:
       "Monica est une instructrice BLS-AED-SRC expérimentée et une formatrice d’adultes. Elle anime personnellement des formations pratiques en petits groupes, pour que chacun puisse s’exercer à réagir face à une urgence cardiaque.",
@@ -147,7 +153,10 @@ export const enquiryCopy: Record<string, EnquiryCopy> = {
     message: "Message",
     optionalMessage: "Autres précisions utiles (facultatif)",
     details:
-      "Champs obligatoires sauf mention contraire. Un instructeur pour huit participants ; les équipes plus nombreuses peuvent demander un devis adapté.",
+      "Commencez par votre nom et votre adresse e-mail. Ajoutez les détails de formation que vous connaissez déjà.",
+    subjectHint: "Pour la vente ou la maintenance de DAE, choisissez le sujet correspondant ci-dessus.",
+    participantsHint: "Une formatrice pour huit participants. Les équipes plus nombreuses peuvent demander un devis adapté.",
+    generalDetails: "Indiquez votre nom, votre adresse e-mail et votre message.",
     send: "Envoyer la demande",
     sending: "Envoi en cours…",
     error:
@@ -171,7 +180,7 @@ export const enquiryCopy: Record<string, EnquiryCopy> = {
     optional: "facoltativo",
     title: "Richiedete una formazione per il vostro team",
     intro:
-      "Indicate luogo, periodo e numero di partecipanti. La vostra istruttrice, Monica Aleman, vi aiuta a scegliere il corso adatto e prepara un preventivo. Per la vendita o la manutenzione di DAE, scegliete l’argomento corrispondente qui sotto.",
+      "Indicate luogo, periodo e numero di partecipanti. La vostra istruttrice, Monica Aleman, vi aiuta a scegliere il corso adatto e prepara un preventivo.",
     profileTitle: "La vostra istruttrice, Monica Aleman",
     profile:
       "Monica è un’istruttrice BLS-AED-SRC esperta e una formatrice di adulti. Conduce personalmente corsi pratici in piccoli gruppi, aiutando i partecipanti a esercitarsi su come reagire a un’emergenza cardiaca.",
@@ -200,7 +209,10 @@ export const enquiryCopy: Record<string, EnquiryCopy> = {
     message: "Messaggio",
     optionalMessage: "Altre informazioni utili (facoltativo)",
     details:
-      "Campi obbligatori salvo diversa indicazione. Un istruttore ogni otto partecipanti; per gruppi più grandi è possibile richiedere un preventivo personalizzato.",
+      "Iniziate con nome e indirizzo e-mail. Aggiungete i dettagli della formazione che già conoscete.",
+    subjectHint: "Per la vendita o la manutenzione di DAE, scegliete l’argomento corrispondente qui sopra.",
+    participantsHint: "Un’istruttrice ogni otto partecipanti. Per gruppi più grandi è possibile richiedere un preventivo personalizzato.",
+    generalDetails: "Indicate nome, indirizzo e-mail e messaggio.",
     send: "Invia richiesta",
     sending: "Invio in corso…",
     error:

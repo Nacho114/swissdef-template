@@ -44,12 +44,14 @@
     text-align: left;
   }
   header {
-    max-width: 720px;
+    max-width: 850px;
     margin-bottom: 3rem;
   }
   h1 {
     margin: 0 0 1rem;
-    font-size: var(--text-2xl);
+    font-size: clamp(2rem, 4vw, 3.1rem);
+    font-family: Oswald-SemiBold, sans-serif;
+    line-height: 1.2;
   }
   header p {
     margin: 0 0 1.5rem;
@@ -61,14 +63,15 @@
     display: inline-block;
     background: var(--global-color-primary);
     color: white;
-    padding: 0.75rem 1.25rem;
+    padding: 0.9rem 1.25rem;
+    font-weight: 600;
     border-radius: var(--border-radius);
     text-decoration: none;
   }
   .plans {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 3rem;
+    gap: 1.5rem;
   }
   a:focus-visible {
     outline: 3px solid var(--global-color-primary);

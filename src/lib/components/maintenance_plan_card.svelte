@@ -11,7 +11,7 @@
   $: description = $_(`${service_type}_${slug}_description`);
 </script>
 
-<article>
+<article class:onsite={slug === "basic_plan"}>
   <h2>{title}</h2>
   <p class="description">{description}</p>
   <p class="price">{formatPrice(price, false)}</p>
@@ -19,22 +19,32 @@
     {#each featuresString.split("\n") as feature}<li>{feature}</li>{/each}
   </ul>
   <div class="actions">
+    <a class="enquiry" href={$localize("/contact?service=maintenance")}
+      >{$_("maintenance_enquire")}</a
+    >
     <a href={$localize(`/maintenance/${slug}`)}>{$_("maintenance_details")}</a>
-    <a href={payment_link}>{$_("maintenance_order")}</a>
   </div>
+  <a class="order" href={payment_link}>{$_("maintenance_order")}</a>
 </article>
 
 <style>
   article {
-    border-top: 3px solid #ddd;
-    padding-top: 1.25rem;
+    border: 1px solid #d8d8d8;
+    border-top: 5px solid #747474;
+    border-radius: 6px;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     min-width: 0;
   }
+  article.onsite {
+    border-top-color: var(--global-color-primary);
+  }
   h2 {
-    margin: 0 0 0.75rem;
-    font-size: var(--text-xl);
+    font-family: Oswald-SemiBold, sans-serif;
+    line-height: 1.2;
+    margin: 0 0 1rem;
+    font-size: 1.65rem;
   }
   .description {
     margin: 0 0 1rem;
@@ -43,7 +53,8 @@
   }
   .price {
     margin: 0 0 1.5rem;
-    font-size: var(--text-xl);
+    font-size: 1.6rem;
+    font-weight: 600;
   }
   ul {
     margin: 0 0 1.5rem;
@@ -56,13 +67,32 @@
   .actions {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem 1.5rem;
+    gap: 1rem 1.5rem;
+    align-items: center;
     margin-top: auto;
   }
   a {
     color: var(--global-color-primary);
     text-underline-offset: 4px;
     padding: 0.5rem 0;
+  }
+  .enquiry {
+    background: var(--global-color-primary);
+    color: white;
+    padding: 0.9rem 1.25rem;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+  }
+  .order {
+    align-self: start;
+    margin-top: 0.75rem;
+  }
+  @media (max-width: 700px) {
+    article {
+      padding: 1.5rem;
+    }
   }
   a:focus-visible {
     outline: 3px solid var(--global-color-primary);

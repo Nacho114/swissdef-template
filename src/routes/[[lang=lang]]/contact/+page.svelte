@@ -1,13 +1,14 @@
 <script lang="ts">
   import Container from "$lib/components/container.svelte";
   import Contact from "./contact.svelte";
-  import { _ } from "svelte-i18n";
+  import { page } from "$app/stores";
+  import { getEnquiryCopy } from "$lib/enquiry-copy";
+  $: copy = getEnquiryCopy($page.params.lang);
 </script>
 
 <svelte:head>
-  <title>{$_("meta_title_contact")}</title>
-  <meta name="description" content={$_("meta_description_contact")} />
-  <meta name="keywords" content={$_("meta_keywords_contact")} />
+  <title>{copy.metaTitle}</title>
+  <meta name="description" content={copy.metaDescription} />
 </svelte:head>
 
 <Container>

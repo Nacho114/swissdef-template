@@ -1,22 +1,34 @@
 <script lang="ts">
   import Container from "$lib/components/container.svelte";
-  import { _ } from "svelte-i18n";
+  import { page } from "$app/stores";
+  import { localize } from "$lib/nav";
+  import { getEnquiryCopy } from "$lib/enquiry-copy";
+  $: copy = getEnquiryCopy($page.params.lang);
 </script>
 
+<svelte:head
+  ><title>{copy.success} | Swiss Defibrillator</title><meta
+    name="robots"
+    content="noindex"
+  /></svelte:head
+>
 <Container>
-  <h1>Form Successful</h1>
   <div class="message-container">
-    <h2>Thank you for your inquiry</h2>
-    <p>We will get back to you as soon as possible.</p>
+    <h1>{copy.success}</h1>
+    <p>{copy.successBody}</p>
+    <a href={$localize("/contact")}>{copy.back}</a>
   </div>
 </Container>
 
 <style>
   .message-container {
     text-align: center;
-    padding: 40px;
-    background-color: #f9f9f9;
-    border-radius: var(--border-radius);
-    margin: 20px 0;
+    padding: 4rem 1rem;
+  }
+  p {
+    line-height: 1.6;
+  }
+  a {
+    color: var(--global-color-primary);
   }
 </style>

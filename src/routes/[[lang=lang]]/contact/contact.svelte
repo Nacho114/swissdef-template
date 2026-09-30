@@ -6,6 +6,10 @@
   import WhatsApp from "virtual:icons/ri/whatsapp-fill";
   import { ContactInfo } from "$lib/info";
   import Form from "./form.svelte";
+  import InstructorProfile from "$lib/components/instructor-profile.svelte";
+  import { page } from "$app/stores";
+  import { getEnquiryCopy } from "$lib/enquiry-copy";
+  $: copy = getEnquiryCopy($page.params.lang);
 
   // WhatsApp first — it's the preferred contact channel
   $: contactCards = [
@@ -62,16 +66,19 @@
 
 <div class="contact-wrapper">
   <div class="header">
-    <h1>
-      {$_("contact_page_title")}
-      <span class="gradient-text">{$_("contact_page_title_highlight")}</span>
-    </h1>
-    <p class="subtitle">{$_("contact_sub_title")}</p>
+    <h1>{copy.title}</h1>
+    <p class="subtitle">{copy.intro}</p>
+    <nav class="quick-contact" aria-label={copy.formTitle}>
+      <a class="enquiry-link" href="#enquiry-form">{copy.formTitle}</a>
+      <a href={`tel:${ContactInfo.getPhoneNumber()}`}>{copy.callAction}</a>
+      <a href={`mailto:${ContactInfo.getEmail()}`}>{copy.emailAction}</a>
+    </nav>
   </div>
 
   <!-- Info column left, form right -->
   <div class="split-layout">
     <div class="info-column">
+      <InstructorProfile />
       {#each contactCards as card}
         <a id={card.id} href={card.href} class="info-inline">
           <div class="info-chip" class:whatsapp-chip={card.whatsapp}>
@@ -141,12 +148,6 @@
     color: var(--color-text);
   }
 
-  .gradient-text {
-    background: linear-gradient(135deg, #1a1a1a 0%, #4a5568 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
   .subtitle {
     font-size: var(--text-md);
     color: var(--color-text-muted);
@@ -154,6 +155,29 @@
     margin: 0 auto;
   }
 
+  .quick-contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .quick-contact a {
+    color: var(--global-color-primary);
+    padding: 0.6rem 0;
+  }
+  .quick-contact .enquiry-link {
+    background: var(--global-color-primary);
+    color: white;
+    padding: 0.75rem 1.25rem;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+  }
+  .quick-contact a:focus-visible {
+    outline: 2px solid var(--global-color-primary);
+    outline-offset: 3px;
+  }
   .info-inline {
     display: flex;
     gap: 1rem;
@@ -218,7 +242,7 @@
     }
 
     .info-column {
-      flex-direction: row;
+      flex-direction: column;
       flex-wrap: wrap;
       gap: 1.5rem;
     }

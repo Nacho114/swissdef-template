@@ -1,5 +1,5 @@
 # Formation de base
-![SRC Logo](../../assets/home/srclogo.jpeg)
+![SRC Logo](/assets/home/srclogo.jpeg)
 
 ## BLS-AED-SRC Complet (Fournisseur générique)
 

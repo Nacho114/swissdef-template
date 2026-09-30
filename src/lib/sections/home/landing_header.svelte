@@ -1,195 +1,134 @@
 <script lang="ts">
+  import { page } from "$app/stores";
   import { localize } from "$lib/nav";
   import Container from "$lib/components/container.svelte";
-  import Button from "$lib/components/button.svelte";
-  import ChevronRight from "virtual:icons/gg/chevron-right";
-  import { _ } from "svelte-i18n";
+  import { homeCopy } from "./copy";
+  $: copy = homeCopy($page.params.lang);
 </script>
 
 <Container>
-  <div class="landing-header">
+  <section class="landing-header" aria-labelledby="home-heading">
     <div class="header-content">
-      <h1>
-        <span class="gradient-text"
-          >{$_("section_home_landing_header_title")}</span
-        >
-      </h1>
-
-      <p class="subtitle">{$_("section_home_landing_header_subtitle")}</p>
-
+      <h1 id="home-heading">{copy.heading}</h1>
+      <p class="subtitle">{copy.intro}</p>
       <div class="cta-group">
-        <a href={$localize("/contact")} class="primary-cta">
-          <Button fullWidth={false}>
-            <div class="button-content">
-              {$_("section_home_landing_header_button")}
-              <ChevronRight />
-            </div>
-          </Button>
-        </a>
-
-        <a href={$localize("/products")} class="secondary-cta">
-          {$_("section_general_products")}
-          <ChevronRight />
-        </a>
+        <a
+          href={$localize("/contact") + "?service=training"}
+          class="primary-cta">{copy.request}</a
+        >
+        <a href={$localize("/training")} class="secondary-cta">{copy.explore}</a
+        >
       </div>
     </div>
-
-    <div class="header-image">
-      <div class="image-container">
-        <img
-          src="/assets/home/phillips_hs1_home_m.webp"
-          srcset="
-    /assets/home/phillips_hs1_home_m.webp 600w,
-    /assets/home/phillips_hs1_home_l.webp 1080w
-  "
-          sizes="(max-width: 600px) 600px, 1080px"
-          alt={$_("alt_philips_hs1")}
-          fetchpriority="high"
-          class="product-image"
-        />
-        <div class="image-backdrop"></div>
-      </div>
-    </div>
-  </div>
+    <aside class="course-summary" aria-labelledby="course-summary-title">
+      <h2 id="course-summary-title">{copy.panelTitle}</h2>
+      <ul>
+        <li>{copy.location}</li>
+        <li>{copy.languages}</li>
+        <li>{copy.courses}</li>
+      </ul>
+      <p>{copy.instructor}</p>
+    </aside>
+  </section>
 </Container>
 
 <style>
   .landing-header {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 4rem;
-    padding: 4rem 0;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 5rem;
+    padding: 3.5rem 0 4.5rem;
     align-items: center;
+    text-align: left;
   }
-
-  .header-content {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
   h1 {
     font-size: var(--text-hero);
-    line-height: 1.1;
-    margin-bottom: 1.5rem;
+    line-height: 1.15;
+    margin: 0 0 1.5rem;
+    max-width: 17ch;
   }
-
-  .gradient-text {
-    background: linear-gradient(135deg, #1a1a1a 0%, #4a5568 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
   .subtitle {
     font-size: var(--text-md);
     color: var(--color-text-muted);
-    line-height: 1.7;
-    margin-bottom: 2.5rem;
-    max-width: 90%;
+    line-height: 1.6;
+    margin: 0 0 2rem;
+    max-width: 52ch;
   }
-
   .cta-group {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
     align-items: center;
   }
-
-  .button-content {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
-  .secondary-cta {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: var(--color-text-muted);
-    text-decoration: none;
+  a {
+    font-size: var(--text-base);
     font-weight: 500;
-    transition: color 0.3s;
   }
-
-  .secondary-cta:hover {
+  .primary-cta {
+    background: var(--global-color-primary);
+    color: white;
+    padding: 14px 24px;
+    border-radius: var(--border-radius-pill);
+    text-decoration: none;
+  }
+  .primary-cta:hover {
+    background: var(--global-color-primary-dark);
+  }
+  .secondary-cta {
     color: var(--color-text);
+    text-underline-offset: 5px;
   }
-
-  .header-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  a:focus-visible {
+    outline: 3px solid var(--global-color-primary);
+    outline-offset: 5px;
   }
-
-  .image-container {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
+  .course-summary {
+    background: var(--global-color-light);
+    border-left: 5px solid var(--global-color-primary);
+    padding: 2rem;
   }
-
-  .product-image {
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    z-index: 2;
-    transition: transform 0.3s ease;
+  .course-summary h2 {
+    font-size: var(--text-xl);
+    margin: 0 0 1.5rem;
   }
-
-  .image-container:hover .product-image {
-    transform: translateY(-5px);
+  .course-summary ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
-
-  .image-backdrop {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    right: 10%;
-    bottom: 10%;
-    background: radial-gradient(
-      circle at center,
-      rgba(96, 165, 250, 0.1),
-      transparent
-    );
-    filter: blur(40px);
-    z-index: -1;
+  .course-summary li {
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+    font-size: var(--text-md);
+    line-height: 1.5;
   }
-
-  @media (max-width: 768px) {
+  .course-summary li:first-child {
+    padding-top: 0;
+  }
+  .course-summary p {
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    margin: 1.5rem 0 0;
+  }
+  @media (max-width: 900px) {
+    .landing-header {
+      gap: 2rem;
+    }
+  }
+  @media (max-width: 700px) {
     .landing-header {
       grid-template-columns: 1fr;
-      gap: 2rem;
-      padding: 2rem 0;
-      text-align: center;
+      padding: 2rem 0 3rem;
     }
-
-    .header-content {
-      padding: 0 1rem;
-    }
-
-    .subtitle {
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .cta-group {
-      justify-content: center;
-    }
-
-    .image-container {
-      max-width: 400px;
-      padding: 0 1rem;
+    .course-summary {
+      padding: 1.5rem;
     }
   }
-
-  @media (max-width: 480px) {
-    .cta-group {
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    .secondary-cta {
-      justify-content: center;
+  @media (max-width: 600px) {
+    .landing-header {
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
     }
   }
 </style>

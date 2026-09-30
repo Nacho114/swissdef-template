@@ -1,127 +1,83 @@
-<script>
+<script lang="ts">
+  import { page } from "$app/stores";
   import { localize } from "$lib/nav";
-  import { _ } from "svelte-i18n";
-  import Button from "$lib/components/button.svelte";
-  import ServiceCard from "./service_card.svelte";
+  import { homeCopy } from "./copy";
+  $: copy = homeCopy($page.params.lang);
+  const paths = ["/training", "/maintenance", "/products"];
 </script>
 
-<div class="services-section">
-  <div class="card-section">
-    <a href={$localize("/training")}>
-      <ServiceCard
-        src="/assets/home/training.webp"
-        summary={$_("section_home_services_training_summary")}
-        alt="{$_('alt_training_session')}}"
-        title={$_("section_general_training")}
-      /></a
-    >
-    <a href={$localize("/maintenance")}>
-      <ServiceCard
-        src="/assets/home/maintenance.webp"
-        summary={$_("section_home_services_maintenance_summary")}
-        alt="{$_('alt_maintenance_check')}}"
-        title={$_("section_general_maintenance")}
-      /></a
-    >
-    <a href={$localize("/products")}>
-      <ServiceCard
-        src="/assets/home/defibrillator.webp"
-        summary={$_("section_home_services_defibrillators_summary")}
-        alt="{$_('alt_defibrillator_product')}}"
-        title={$_("section_general_defibrillators")}
-      /></a
-    >
+<section class="services-section" aria-labelledby="services-title">
+  <h2 id="services-title">{copy.servicesTitle}</h2>
+  <p class="intro">{copy.servicesIntro}</p>
+  <div class="service-list">
+    {#each copy.services as service, i}
+      <article class:training={i === 0}>
+        <h3>{service.title}</h3>
+        <p>{service.summary}</p>
+        <a href={$localize(paths[i])}>{service.link}</a>
+      </article>
+    {/each}
   </div>
-
-  <div class="cta">
-    <h1>
-      {$_("section_home_services_title")}
-    </h1>
-    <p>
-      {$_("section_home_services_subtitle")}
-    </p>
-    <div class="mobile-links">
-      <a href={$localize("/products")}>{$_("section_general_products")}</a>
-      <a href={$localize("/training")}>{$_("section_general_training")}</a>
-      <a href={$localize("/maintenance")}>{$_("section_general_maintenance")}</a
-      >
-    </div>
-    <div class="learn-more-button">
-      <a href={$localize("/contact")}>
-        <Button isOutlined={true}>
-          {$_("section_home_services_learn_more_button")}
-        </Button>
-      </a>
-    </div>
-  </div>
-</div>
+</section>
 
 <style>
   .services-section {
+    padding: 1rem 0 3rem;
+    text-align: left;
+  }
+  h2 {
+    margin: 0 0 1rem;
+  }
+  .intro {
+    color: var(--color-text-muted);
+    font-size: var(--text-md);
+    line-height: 1.6;
+    margin: 0 0 2rem;
+  }
+  .service-list {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    gap: 2rem;
+  }
+  article {
+    border-top: 3px solid #ddd;
+    padding-top: 1rem;
     display: flex;
+    flex-direction: column;
+    align-items: start;
   }
-
-  .card-section {
-    flex: 2;
-    display: flex;
+  article.training {
+    border-color: var(--global-color-primary);
   }
-
-  .cta {
-    flex: 1;
-    padding-left: 3vw;
-    padding-right: 3vw;
-    padding-top: 2vw;
+  h3 {
+    font-size: var(--text-lg);
+    margin: 0 0 0.5rem;
   }
-
-  .cta p {
-    font-size: var(--text-base);
-    font-weight: 400;
-    color: Var(--global-color-gray-light);
-    margin-bottom: 1rem;
+  article p {
+    color: var(--color-text-muted);
+    line-height: 1.65;
+    margin: 0 0 1.5rem;
+    max-width: 45ch;
   }
-
-  .mobile-links {
-    display: none; /* Hide the links by default */
-    text-align: center; /* Center align the links */
-    padding: 1rem 0; /* Add some vertical padding */
+  a {
+    color: var(--global-color-primary);
+    text-underline-offset: 4px;
+    margin-top: auto;
+    font-weight: 500;
+    padding: 0.5rem 0;
   }
-
-  .mobile-links a {
-    display: inline-block; /* Display links inline-block for better control */
-    margin: 0.5rem; /* Add margin around each link */
-    padding: 0.5rem 1rem; /* Padding for clickable area */
-    background-color: var(--global-color-primary); /* A nice shade of red */
-    color: white; /* White text color */
-    border-radius: var(
-      --border-radius-pill
-    ); /* Rounded corners for the links */
-    text-decoration: none; /* Remove underline from links */
-    transition:
-      background-color 0.3s,
-      color 0.3s; /* Smooth transition for hover effect */
+  a:focus-visible {
+    outline: 3px solid var(--global-color-primary);
+    outline-offset: 4px;
   }
-
-  .mobile-links a:hover,
-  .mobile-links a:focus {
-    background-color: var(
-      --global-color-primary-dark
-    ); /* Slightly darker shade on hover/focus */
-    color: #ffffff; /* Keep text color white on hover/focus */
+  @media (max-width: 700px) {
+    .service-list {
+      grid-template-columns: 1fr;
+    }
   }
-
-  .mobile-links a:visited {
-    color: white; /* Ensure visited links remain white */
-  }
-
   @media (max-width: 600px) {
-    .mobile-links {
-      display: block; /* Show the links on small screens */
-    }
-    .card-section {
-      display: none; /* Hide the services section on small screens */
-    }
-    .learn-more-button {
-      display: none;
+    .services-section {
+      padding: 1rem 20px 3rem;
     }
   }
 </style>

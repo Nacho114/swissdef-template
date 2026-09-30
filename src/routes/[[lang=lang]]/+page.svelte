@@ -1,25 +1,22 @@
 <script lang="ts">
-  import { _ } from "svelte-i18n";
+  import { page } from "$app/stores";
+  import { homeCopy } from "$lib/sections/home/copy";
+  $: copy = homeCopy($page.params.lang);
   import Container from "$lib/components/container.svelte";
   import LandingHeader from "$lib/sections/home/landing_header.svelte";
   import TrustedBrands from "$lib/sections/home/trusted_brands.svelte";
   import Services from "$lib/sections/home/services.svelte";
-  import StatisticsChart from "$lib/components/StatisticsChart.svelte";
 </script>
 
 <svelte:head>
-  <title>{$_("meta_title_home")}</title>
-  <meta name="description" content={$_("meta_description_home")} />
-  <meta name="keywords" content={$_("meta_keywords_home")} />
+  <title>{copy.title}</title>
+  <meta name="description" content={copy.description} />
+  <meta property="og:title" content={copy.title} />
+  <meta property="og:description" content={copy.description} />
   <meta
-    property="og:title"
-    content="Swissdefibrillator - Your Partner for Heart Safety"
+    property="og:url"
+    content={"https://www.swissdefibrillator.ch" + $page.url.pathname}
   />
-  <meta
-    property="og:description"
-    content="Offering a range of defibrillators and first aid training services to equip companies in Switzerland for heart safety."
-  />
-  <meta property="og:url" content="https://www.swissdefibrillator.ch" />
   <meta property="og:type" content="website" />
   <meta
     property="og:image"
@@ -37,7 +34,7 @@
       "url": "https://www.swissdefibrillator.ch",
       "logo": "https://www.swissdefibrillator.ch/assets/logo.svg",
       "image": "https://www.swissdefibrillator.ch/assets/og-image.jpg",
-      "description": "Swiss supplier of Philips AED defibrillators, accessories, first aid training and AED maintenance services for companies in Switzerland.",
+      "description": "On-site BLS-AED-SRC training for companies, hotels, schools and organisations throughout Switzerland in English, French and German, with AED maintenance and Philips defibrillators.",
       "telephone": "+41 79 441 24 06",
       "email": "info@swissdefibrillator.ch",
       "address": {
@@ -48,7 +45,7 @@
         "addressCountry": "CH"
       },
       "areaServed": "CH",
-      "availableLanguage": ["German", "French", "Italian", "English"],
+      "availableLanguage": ["German", "French", "English"],
       "knowsAbout": [
         "Automated external defibrillators (AED)",
         "First aid training",
@@ -60,7 +57,6 @@
 </svelte:head>
 
 <LandingHeader />
-<TrustedBrands />
 
 <div class="services">
   <Container>
@@ -68,9 +64,7 @@
   </Container>
 </div>
 
-<Container>
-  <StatisticsChart />
-</Container>
+<TrustedBrands />
 
 <style>
   .services {

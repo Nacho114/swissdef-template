@@ -1,5 +1,12 @@
 <script lang="ts">
-  import { _ } from "svelte-i18n";
+  import { page } from "$app/stores";
+  const headings: Record<string, string> = {
+    en: "Organisations we work with",
+    fr: "Les organisations qui nous font confiance",
+    de: "Organisationen, mit denen wir zusammenarbeiten",
+    it: "Le organizzazioni con cui collaboriamo",
+  };
+  $: heading = headings[$page.params.lang || "en"] || headings.en;
 
   const logos = [
     { src: "/assets/home/clients/ibis.webp", alt: "Ibis Logo" },
@@ -18,7 +25,7 @@
 
 <div class="trusted-brands-section">
   <h2>
-    {$_("section_home_trusted_brands_title")}
+    {heading}
   </h2>
 
   <div class="logos-container">
@@ -133,6 +140,12 @@
 
   .logos-container:hover .logos-track {
     animation-play-state: paused;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .logos-track {
+      animation: none;
+    }
   }
 
   @media (max-width: 768px) {

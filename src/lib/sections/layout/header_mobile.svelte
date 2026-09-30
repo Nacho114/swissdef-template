@@ -51,8 +51,8 @@
             >
           </li>
           <li>
-            <a href={$localize("/products")} on:click={toggleMenu}
-              >{$_("section_general_products")}</a
+            <a href={$localize("/training")} on:click={toggleMenu}
+              >{$_("section_general_training")}</a
             >
           </li>
           <li>
@@ -61,8 +61,8 @@
             >
           </li>
           <li>
-            <a href={$localize("/training")} on:click={toggleMenu}
-              >{$_("section_general_training")}</a
+            <a href={$localize("/products")} on:click={toggleMenu}
+              >{$_("section_general_products")}</a
             >
           </li>
           <li>

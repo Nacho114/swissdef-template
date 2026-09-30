@@ -1,5 +1,5 @@
 # Lite Training
-![SRC Logo](../../assets/home/srclogo.jpeg)
+![SRC Logo](/assets/home/srclogo.jpeg)
 
 ## BLS-AED-SRC Kompakt (Basic Provider)
 
@@ -23,5 +23,5 @@ Für jedermann (12+), keine Vorkenntnisse erforderlich.
 
 ### Dauer, Preis & Zertifikat
 - 1-2 Stunden, bis zu 8 Teilnehmer.
-- CHF 445.- (exkl. MwSt.) pro Gruppe.
+- CHF 455.- (exkl. MwSt.) pro Gruppe.
 - SRC-zertifiziert (gültig 2 Jahre).

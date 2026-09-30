@@ -1,5 +1,5 @@
 # Basic Training
-![SRC Logo](../../assets/home/srclogo.jpeg)
+![SRC Logo](/assets/home/srclogo.jpeg)
 
 ## BLS-AED-SRC Complete (Generic Provider)
 

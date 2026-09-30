@@ -1,5 +1,5 @@
 # Lite Training
-![SRC Logo](../../assets/home/srclogo.jpeg)
+![SRC Logo](/assets/home/srclogo.jpeg)
 
 ## BLS-AED-SRC Compact (Basic Provider)
 
@@ -23,5 +23,5 @@ For anyone (12+), no prior knowledge needed.
 
 ### Duration, Price & Certificate
 - 1-2 hours, up to 8 participants.
-- CHF 445.- (excl. VAT) per group.
+- CHF 455.- (excl. VAT) per group.
 - SRC-certified (valid 2 years).

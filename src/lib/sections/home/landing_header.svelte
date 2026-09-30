@@ -27,7 +27,7 @@
         <li>{copy.languages}</li>
         <li>{copy.courses}</li>
       </ul>
-      <p>{copy.instructor}</p>
+      <p>{copy.practice}</p>
     </aside>
   </section>
 </Container>

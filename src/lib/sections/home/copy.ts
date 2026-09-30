@@ -9,7 +9,7 @@ export type HomeCopy = {
   location: string;
   languages: string;
   courses: string;
-  instructor: string;
+  practice: string;
   servicesTitle: string;
   servicesIntro: string;
   services: { title: string; summary: string; link: string }[];
@@ -18,17 +18,18 @@ const copy: Record<string, HomeCopy> = {
   en: {
     title: "BLS-AED-SRC courses for companies | Swiss Defibrillator",
     description:
-      "On-site BLS-AED-SRC training for companies, hotels, schools and organisations throughout Switzerland. Courses in English, French and German with Monica Aleman.",
+      "On-site BLS-AED-SRC training for companies, hotels, schools and organisations throughout Switzerland. Practical courses in English, French and German.",
     heading: "BLS-AED-SRC training at your workplace",
     intro:
-      "Prepare your team to respond to a cardiac arrest. Monica Aleman brings practical courses to companies, hotels, schools and organisations throughout Switzerland.",
+      "Prepare your team to respond to a cardiac arrest. We bring practical courses to companies, hotels, schools and organisations throughout Switzerland.",
     request: "Request a course",
     explore: "Explore courses",
     panelTitle: "A course for your team",
     location: "At your premises, anywhere in Switzerland",
     languages: "Taught in English, French or German",
     courses: "Complet: 3–4 hours · Compact: 1–2 hours",
-    instructor: "With Monica Aleman, BLS-AED-SRC instructor and adult educator",
+    practice:
+      "Small groups, with hands-on CPR and AED practice for every participant.",
     servicesTitle: "Train your team. Keep your AED ready.",
     servicesIntro:
       "Practical training, ongoing maintenance and defibrillators for your organisation.",
@@ -56,18 +57,18 @@ const copy: Record<string, HomeCopy> = {
   fr: {
     title: "Formations BLS-AED-SRC en entreprise | Swiss Defibrillator",
     description:
-      "Formations BLS-AED-SRC sur site pour entreprises, hôtels, écoles et organisations dans toute la Suisse. En français, allemand ou anglais avec Monica Aleman.",
+      "Formations BLS-AED-SRC sur site pour entreprises, hôtels, écoles et organisations dans toute la Suisse. Cours pratiques en français, allemand ou anglais.",
     heading: "Formation BLS-AED-SRC dans vos locaux",
     intro:
-      "Préparez votre équipe à réagir face à un arrêt cardiaque. Monica Aleman forme les entreprises, hôtels, écoles et organisations sur place, dans toute la Suisse.",
+      "Préparez votre équipe à réagir face à un arrêt cardiaque. Nous proposons des formations pratiques dans les locaux des entreprises, hôtels, écoles et organisations, partout en Suisse.",
     request: "Demander une formation",
     explore: "Découvrir les cours",
     panelTitle: "Une formation pour votre équipe",
     location: "Dans vos locaux, partout en Suisse",
     languages: "En français, allemand ou anglais",
     courses: "Complet : 3–4 heures · Compact : 1–2 heures",
-    instructor:
-      "Avec Monica Aleman, instructrice BLS-AED-SRC et formatrice d’adultes",
+    practice:
+      "En petits groupes, chaque participant pratique la réanimation et l’utilisation d’un défibrillateur.",
     servicesTitle: "Formez votre équipe. Gardez votre DAE prêt.",
     servicesIntro:
       "Formation pratique, maintenance et défibrillateurs pour votre organisation.",
@@ -95,18 +96,18 @@ const copy: Record<string, HomeCopy> = {
   de: {
     title: "BLS-AED-SRC-Kurse für Unternehmen | Swiss Defibrillator",
     description:
-      "BLS-AED-SRC-Schulungen vor Ort für Unternehmen, Hotels, Schulen und Organisationen in der ganzen Schweiz. Auf Deutsch, Französisch oder Englisch mit Monica Aleman.",
+      "BLS-AED-SRC-Schulungen vor Ort für Unternehmen, Hotels, Schulen und Organisationen in der ganzen Schweiz. Praxisnahe Kurse auf Deutsch, Französisch oder Englisch.",
     heading: "BLS-AED-SRC-Kurse bei Ihnen vor Ort",
     intro:
-      "Bereiten Sie Ihr Team auf einen Herz-Kreislauf-Stillstand vor. Monica Aleman schult Unternehmen, Hotels, Schulen und Organisationen direkt vor Ort – in der ganzen Schweiz.",
+      "Bereiten Sie Ihr Team auf einen Herz-Kreislauf-Stillstand vor. Wir schulen Unternehmen, Hotels, Schulen und Organisationen praxisnah bei Ihnen vor Ort – in der ganzen Schweiz.",
     request: "Kurs anfragen",
     explore: "Kurse entdecken",
     panelTitle: "Ein Kurs für Ihr Team",
     location: "In Ihren Räumlichkeiten, schweizweit",
     languages: "Auf Deutsch, Französisch oder Englisch",
     courses: "Complet: 3–4 Stunden · Compact: 1–2 Stunden",
-    instructor:
-      "Mit Monica Aleman, BLS-AED-SRC-Instruktorin und Erwachsenenbildnerin",
+    practice:
+      "In kleinen Gruppen üben alle Teilnehmenden die Wiederbelebung und den Einsatz eines AED.",
     servicesTitle: "Schulen Sie Ihr Team. Halten Sie Ihren AED bereit.",
     servicesIntro:
       "Praktische Schulungen, Wartung und Defibrillatoren für Ihre Organisation.",
@@ -134,18 +135,18 @@ const copy: Record<string, HomeCopy> = {
   it: {
     title: "Corsi BLS-AED-SRC per aziende | Swiss Defibrillator",
     description:
-      "Formazione BLS-AED-SRC in sede per aziende, hotel, scuole e organizzazioni in tutta la Svizzera. Corsi in francese, tedesco o inglese con Monica Aleman.",
+      "Formazione BLS-AED-SRC in sede per aziende, hotel, scuole e organizzazioni in tutta la Svizzera. Corsi pratici in francese, tedesco o inglese.",
     heading: "Formazione BLS-AED-SRC nella vostra sede",
     intro:
-      "Preparate il vostro team a intervenire in caso di arresto cardiaco. Monica Aleman tiene corsi pratici presso aziende, hotel, scuole e organizzazioni in tutta la Svizzera.",
+      "Preparate il vostro team a intervenire in caso di arresto cardiaco. Portiamo corsi pratici presso aziende, hotel, scuole e organizzazioni in tutta la Svizzera.",
     request: "Richiedi un corso",
     explore: "Scopri i corsi",
     panelTitle: "Un corso per il vostro team",
     location: "Nella vostra sede, in tutta la Svizzera",
     languages: "Corsi in francese, tedesco o inglese",
     courses: "Complet: 3–4 ore · Compact: 1–2 ore",
-    instructor:
-      "Con Monica Aleman, istruttrice BLS-AED-SRC e formatrice di adulti",
+    practice:
+      "In piccoli gruppi, ogni partecipante si esercita nella rianimazione e nell’uso del DAE.",
     servicesTitle: "Formate il team. Mantenete il DAE pronto.",
     servicesIntro:
       "Formazione pratica, manutenzione e defibrillatori per la vostra organizzazione.",

@@ -3,24 +3,6 @@ export const getProductById = (id: string): Product | undefined => {
   return products.find((product) => product.id === id);
 };
 
-export const MAX_SHIPPING_COST = 200;
-
-export const iva_value = (price: number): number => {
-  return price * 0.081;
-};
-
-export const with_iva = (price: number): number => {
-  return price + iva_value(price);
-};
-
-export const format_for_stripe = (price: number): number => {
-  // Multiply by 100 and round down to avoid decimals
-  const formattedPrice = Math.floor(price * 100);
-
-  // Return the formatted price
-  return formattedPrice;
-};
-
 // Define an enum for product types
 export enum ProductType {
   Defibrillator = "Defibrillator",

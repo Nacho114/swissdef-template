@@ -15,10 +15,24 @@ Lambda functions are in AWS, in Europe (Stockholm)
 - Back-end is used with AWS functions (with onsen account)
 - Payment with stripe
 
-## Stripe
+## Stripe checkout
 
-- [Checkout object](https://docs.stripe.com/api/checkout/sessions/object)
-- [Stripe dashboard](https://dashboard.stripe.com/)
+The product basket posts product IDs and quantities to the site’s own backend.
+The backend reads prices and weights from the same catalog as the basket and
+calculates amounts in rappen. VAT is rounded per product unit and once for
+shipping so the basket total matches the Stripe Checkout Session.
+
+Configure `STRIPE_CHECKOUT_SECRET_KEY` for Netlify Functions. Use a Stripe
+sandbox key in deploy previews and in local development. Keep the production
+key in the Netlify production environment only. The maintenance Stripe Payment
+Links use their existing Stripe configuration.
+
+Before switching production, complete a sandbox checkout from a deploy preview
+and confirm the CHF total, Swiss shipping restriction, and localized success and
+cancel pages. Configure the production key before publishing the checkout
+change. After confirming the production storefront uses the new checkout
+route, retire the old AWS checkout endpoints after checking for any other
+callers. The Lambda files in `aws-stripe/` describe the legacy integration.
 
 ## Icons
 

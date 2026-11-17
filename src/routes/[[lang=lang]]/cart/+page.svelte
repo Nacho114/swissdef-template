@@ -1,11 +1,7 @@
 <script lang="ts">
   import { cart } from "../../../store";
   import CartItem from "./cart_item.svelte";
-  import {
-    calculateShippingCost,
-    getProductById,
-    MAX_SHIPPING_COST,
-  } from "$lib/products";
+  import { getProductById } from "$lib/products";
   import Container from "$lib/components/container.svelte";
   import CartSummary from "./cart_summary.svelte";
   import { _ } from "svelte-i18n";
@@ -30,17 +26,6 @@
       return null;
     })
     .filter((item) => item !== null);
-
-  // Calculate subtotal reactively
-  $: subtotal = cartItems.reduce((sum, item) => {
-    return sum + item?.price * item?.quantity;
-  }, 0);
-
-  $: shippingCost = calculateShippingCost(
-    cartItems.reduce((sum, item) => {
-      return sum + item?.weight * item?.quantity;
-    }, 0),
-  );
 </script>
 
 <Container>
@@ -53,7 +38,7 @@
           <CartItem {...item} />
         {/each}
       </div>
-      <CartSummary {subtotal} {shippingCost} />
+      <CartSummary items={cartItems} />
     </div>
   {:else}
     <div class="empty-cart-container">

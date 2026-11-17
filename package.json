@@ -15,6 +15,7 @@
     "@iconify/json": "^2.2.195",
     "@sveltejs/adapter-netlify": "^4.4.2",
     "@sveltejs/kit": "^2.70.3",
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
     "@types/gtag.js": "^0.0.20",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
@@ -28,8 +29,7 @@
     "tslib": "^2.6.2",
     "typescript": "^5.4.3",
     "unplugin-icons": "^0.17.4",
-    "vite": "^5.4.19",
-    "@sveltejs/vite-plugin-svelte": "^3.1.2"
+    "vite": "^5.4.19"
   },
   "type": "module",
   "dependencies": {
@@ -39,6 +39,7 @@
     "chart.js": "^4.4.2",
     "chartjs-plugin-annotation": "^3.1.0",
     "intl-messageformat": "^10.5.11",
+    "stripe": "^17.7.0",
     "svelte-i18n": "^3.7.4",
     "svelte-markdown": "^0.4.1"
   }

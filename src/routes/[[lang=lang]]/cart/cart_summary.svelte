@@ -2,13 +2,11 @@
   import { _ } from "svelte-i18n";
   import Checkout from "./checkout.svelte";
   import { formatPrice } from "$lib/math";
-  import { with_iva, iva_value } from "$lib/products";
+  import { calculateCheckoutTotals, type CheckoutItem } from "$lib/checkout";
 
-  export let subtotal: number;
-  export let shippingCost: number;
+  export let items: CheckoutItem[];
 
-  $: totalCost = with_iva(subtotal + shippingCost);
-  $: vat = iva_value(subtotal + shippingCost);
+  $: totals = calculateCheckoutTotals(items);
 </script>
 
 <div class="cart-summary">
@@ -17,29 +15,26 @@
   <div class="summary-items">
     <div class="summary-line">
       <span>{$_("cart_subtotal")}</span>
-      <span>{formatPrice(subtotal)}</span>
+      <span>{formatPrice(totals.subtotal / 100)}</span>
     </div>
 
     <div class="summary-line">
       <span>{$_("cart_shipping")}</span>
-      <span>{formatPrice(shippingCost)}</span>
+      <span>{formatPrice(totals.shipping / 100)}</span>
     </div>
 
     <div class="summary-line">
       <span>VAT</span>
-      <span>{formatPrice(vat)}</span>
+      <span>{formatPrice(totals.vat / 100)}</span>
     </div>
 
     <div class="summary-line total">
       <span>{$_("cart_total")}</span>
-      <span>{formatPrice(totalCost)}</span>
+      <span>{formatPrice(totals.total / 100)}</span>
     </div>
   </div>
 
-  <!-- Important!!! Stripe does not add iva to shipping cost -->
-  <Checkout {totalCost} shippingCost={with_iva(shippingCost)}
-    >{$_("cart_checkout")}</Checkout
-  >
+  <Checkout>{$_("cart_checkout")}</Checkout>
 </div>
 
 <style>

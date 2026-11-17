@@ -78,7 +78,8 @@ follow-ups from that work plus the AI-search (GEO) audit.
 ### Checkout and measurement
 
 - [x] Show a visible, retryable checkout error and keep the selected language on return.
-- [ ] Identify the deployed Stripe handler and coordinate server-owned price and shipping calculations. Verify with an end-to-end test payment before switching production.
+- [x] Implement server-owned Stripe pricing and shipping using the storefront catalog.
+- [ ] Configure the Netlify checkout secret and verify a sandbox payment. Confirm the cutover and retire the legacy checkout endpoints.
 - [ ] Review the current analytics setup and measure successful enquiries by service, paid maintenance orders and paid product purchases.
 
 ### Business follow-ups

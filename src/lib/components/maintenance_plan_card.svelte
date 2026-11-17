@@ -4,6 +4,7 @@
   import { formatPrice } from "$lib/math";
   export let slug: string;
   export let price: number;
+  export let cabinetPrice: number;
   export let service_type: string;
   export let payment_link: string;
   $: featuresString = $_(`${service_type}_${slug}_overview_features`);
@@ -14,12 +15,23 @@
 <article class:onsite={slug === "basic_plan"}>
   <h2>{title}</h2>
   <p class="description">{description}</p>
-  <p class="price">{formatPrice(price, false)}</p>
+  <p class="price">
+    {formatPrice(price, false)} <small>{$_("maintenance_per_year")}</small>
+  </p>
+  <p class="description">
+    {$_("maintenance_with_cabinet")} · {formatPrice(cabinetPrice, false)}
+    {$_("maintenance_per_year")}
+  </p>
+  {#if slug === "remote"}<p class="description">
+      {$_("maintenance_consumables_extra")}
+    </p>{/if}
   <ul>
     {#each featuresString.split("\n") as feature}<li>{feature}</li>{/each}
   </ul>
   <div class="actions">
-    <a class="enquiry" href={$localize("/contact?service=maintenance")}
+    <a
+      class="enquiry"
+      href={$localize(`/contact?service=maintenance&plan=${slug}#enquiry-form`)}
       >{$_("maintenance_enquire")}</a
     >
     <a class="order" href={payment_link}>{$_("maintenance_order")}</a>
@@ -54,9 +66,13 @@
     color: var(--color-text-muted);
   }
   .price {
-    margin: 0 0 1.5rem;
+    margin: 0 0 0.5rem;
     font-size: 1.6rem;
     font-weight: 600;
+  }
+  small {
+    font-size: var(--text-base);
+    font-weight: 400;
   }
   ul {
     margin: 0 0 1.5rem;

@@ -2,6 +2,8 @@
 <script lang="ts">
   export let slug: string;
   export let imagePath: string;
+  export let price: number;
+  import { formatPrice } from "$lib/math";
   import { _ } from "svelte-i18n";
 
   // Reactive statement that updates the i18n keys when language changes
@@ -32,7 +34,16 @@
     <div class="product-info-container">
       <div class="product-info">
         <h2 class="product-title">{title}</h2>
-        <p class="product-summary">{truncatedSummary}</p>
+        <p class="product-price">
+          <strong>{formatPrice(price)}</strong> · {$_(
+            "section_products_vat_included",
+          )}
+        </p>
+        <p class="product-summary">
+          {slug === "philips_hs1" || slug === "philips_frx"
+            ? $_(`products_${slug}_use`)
+            : truncatedSummary}
+        </p>
         <span class="view-product">{$_("products_view")}</span>
       </div>
     </div>

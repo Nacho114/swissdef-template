@@ -62,3 +62,29 @@ follow-ups from that work plus the AI-search (GEO) audit.
       prices; upgraded `Organization` → `LocalBusiness`
 - [x] Product pages: `<title>`, meta description, `Product` JSON-LD
 - [x] `noindex` on cart/checkout/confirmation pages
+
+## Website improvements
+
+### Website and search pull request
+
+- [x] Show training, maintenance and shop actions near the top of the mobile homepage.
+- [x] Improve mobile menu accessibility and remove unused image preloads.
+- [x] Render product details and policies in the initial HTML.
+- [x] Link the training pages to the Swiss Resuscitation Council directory.
+- [x] Compare maintenance plans with annual prices and pass the choice to the enquiry.
+- [x] Show AED prices and compatible parts in the shop, and remove unverified availability from product markup.
+- [x] Put essential contact fields first and keep quote details optional.
+
+### Checkout and measurement
+
+- [x] Show a visible, retryable checkout error and keep the selected language on return.
+- [ ] Identify the deployed Stripe handler and coordinate server-owned price and shipping calculations. Verify with an end-to-end test payment before switching production.
+- [ ] Review the current analytics setup and measure successful enquiries by service, paid maintenance orders and paid product purchases.
+
+### Business follow-ups
+
+- [ ] Confirm maintenance inclusions, cabinet supplements and VAT treatment against the live payment links.
+- [ ] Ask SRC to update the company directory entry to the .ch domain.
+- [ ] Collect one customer-approved training case study.
+- [ ] Have the appropriate reviewer approve and date FAQ claims, with links to official Swiss guidance and model-specific manuals.
+- [ ] Verify Search Console, Bing Webmaster Tools and Google Business Profile using the owner's access. Check AI search referrals and citations against actual enquiries.

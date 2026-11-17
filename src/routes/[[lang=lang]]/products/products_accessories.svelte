@@ -3,15 +3,32 @@
   import Container from "$lib/components/container.svelte";
   import ProductCard from "./product_card.svelte";
   import { _ } from "svelte-i18n";
-  import { defibrillators } from "$lib/products";
+  import { defibrillators, ProductType } from "$lib/products";
   export let toggled_products = defibrillators;
   export let firstSelected: boolean;
+  const compatibleParts: Record<string, string[]> = {
+    philips_hs1: [
+      "philips_hs1_electrodes",
+      "philips_hs1_electrodes_child",
+      "philips_hs1_frx_batteries",
+    ],
+    philips_frx: [
+      "philips_frx_electrodes",
+      "philips_frx_child_key",
+      "philips_hs1_frx_batteries",
+    ],
+  };
+  $: displayedProducts = firstSelected
+    ? toggled_products.filter(({ type }) => type === ProductType.Defibrillator)
+    : toggled_products;
 </script>
 
 <Container>
   <section class="catalogue">
     <header>
-      <h1>{$_("section_general_products")}</h1>
+      <h1>
+        {$_(firstSelected ? "products_compare" : "section_general_accessories")}
+      </h1>
       <p>{$_("products_intro")}</p>
       <a class="help" href={$localize("/contact?service=products")}
         >{$_("products_help")}</a
@@ -32,10 +49,28 @@
       >
     </nav>
     <div class="product-grid">
-      {#each toggled_products as { img, slug }}
-        <a href={$localize(`/products/${slug}`)} class="product-link">
-          <ProductCard {slug} imagePath={`/assets/products/${img}_s.webp`} />
-        </a>
+      {#each displayedProducts as { img, slug, price }}
+        <article>
+          <a href={$localize(`/products/${slug}`)} class="product-link">
+            <ProductCard
+              {slug}
+              {price}
+              imagePath={`/assets/products/${img}_s.webp`}
+            />
+          </a>
+          {#if firstSelected && compatibleParts[slug]}
+            <h3>{$_("products_compatible_parts")}</h3>
+            <ul class="compatible-parts">
+              {#each compatibleParts[slug] as part}
+                <li>
+                  <a href={$localize(`/products/${part}`)}
+                    >{$_(`section_products_${part}_title`)}</a
+                  >
+                </li>
+              {/each}
+            </ul>
+          {/if}
+        </article>
       {/each}
     </div>
   </section>
@@ -88,6 +123,20 @@
     color: var(--color-text);
     border-color: var(--global-color-primary);
   }
+  h3 {
+    margin: 1.25rem 0 0.5rem;
+    font-size: var(--text-base);
+  }
+  .compatible-parts {
+    padding-left: 1.25rem;
+    margin: 0 0 1.5rem;
+  }
+  .compatible-parts a {
+    display: inline-block;
+    padding-block: 0.35rem;
+    color: var(--global-color-primary);
+    text-underline-offset: 3px;
+  }
   .product-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -104,6 +153,20 @@
     outline-offset: 4px;
   }
   @media (max-width: 1000px) {
+    h3 {
+      margin: 1.25rem 0 0.5rem;
+      font-size: var(--text-base);
+    }
+    .compatible-parts {
+      padding-left: 1.25rem;
+      margin: 0 0 1.5rem;
+    }
+    .compatible-parts a {
+      display: inline-block;
+      padding-block: 0.35rem;
+      color: var(--global-color-primary);
+      text-underline-offset: 3px;
+    }
     .product-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -111,6 +174,20 @@
   @media (max-width: 600px) {
     .catalogue {
       padding: 2rem 20px 3rem;
+    }
+    h3 {
+      margin: 1.25rem 0 0.5rem;
+      font-size: var(--text-base);
+    }
+    .compatible-parts {
+      padding-left: 1.25rem;
+      margin: 0 0 1.5rem;
+    }
+    .compatible-parts a {
+      display: inline-block;
+      padding-block: 0.35rem;
+      color: var(--global-color-primary);
+      text-underline-offset: 3px;
     }
     .product-grid {
       grid-template-columns: 1fr;

@@ -13,10 +13,14 @@
       <p class="subtitle">{copy.intro}</p>
       <div class="cta-group">
         <a
-          href={$localize("/contact") + "?service=training"}
+          href={$localize("/contact") + "?service=training#enquiry-form"}
           class="primary-cta">{copy.request}</a
         >
-        <a href={$localize("/training")} class="secondary-cta">{copy.explore}</a
+        <a href={$localize("/maintenance")} class="secondary-cta"
+          >{copy.services[1].link}</a
+        >
+        <a href={$localize("/products")} class="secondary-cta"
+          >{copy.services[2].link}</a
         >
       </div>
     </div>
@@ -57,7 +61,7 @@
   .cta-group {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 0.75rem 1.25rem;
     align-items: center;
   }
   a {
@@ -77,6 +81,7 @@
   .secondary-cta {
     color: var(--color-text);
     text-underline-offset: 5px;
+    padding-block: 0.65rem;
   }
   a:focus-visible {
     outline: 3px solid var(--global-color-primary);

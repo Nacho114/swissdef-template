@@ -27,6 +27,7 @@
           service_type="maintenance"
           slug={m.slug}
           price={m.price}
+          cabinetPrice={m.cabinetPrice}
           payment_link={m.payment_link}
         />
       {/each}

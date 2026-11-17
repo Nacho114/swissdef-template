@@ -1,9 +1,12 @@
 <script lang="ts">
   import { _ } from "svelte-i18n";
   import ProductsAccessories from "../products/products_accessories.svelte";
-  import { accessories } from "$lib/products";
+  import { accessories, defibrillators, ProductType } from "$lib/products";
 
-  let toggled_products = accessories; // default to defibrillators
+  const toggled_products = [
+    ...defibrillators.filter(({ type }) => type === ProductType.Accessory),
+    ...accessories,
+  ];
   let firstSelected = false;
 </script>
 

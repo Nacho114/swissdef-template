@@ -1,41 +1,9 @@
 <script lang="ts">
-  import { onMount } from "svelte";
-  import { locale } from "svelte-i18n";
   import Container from "$lib/components/container.svelte";
   import SvelteMarkdown from "svelte-markdown";
   import { fade } from "svelte/transition";
 
-  let source = "";
-  let previousLocale: string | undefined | null = undefined;
-
-  export let file_name: string;
-
-  // Function to load markdown based on the current locale
-  async function loadMarkdown(currentLocale: string | undefined | null) {
-    // Provide a default value for locale if it's undefined or null
-    currentLocale = currentLocale || "en"; // replace 'default' with your default locale
-
-    try {
-      const filePath = `${file_name}_${currentLocale}.md`;
-      const res = await fetch(filePath);
-      source = await res.text();
-    } catch (error) {
-      console.error("Failed to load markdown:", error);
-      source = "Content not found"; // Fallback text
-    }
-  }
-
-  // Reactive statement to reload content when locale changes
-  $: if ($locale !== previousLocale && previousLocale !== undefined) {
-    previousLocale = $locale;
-    loadMarkdown($locale);
-  }
-
-  // Initialize previousLocale and load content on component mount
-  onMount(() => {
-    previousLocale = $locale; // Track the initial locale
-    loadMarkdown($locale); // Load the initial markdown
-  });
+  export let source: string;
 </script>
 
 <Container>

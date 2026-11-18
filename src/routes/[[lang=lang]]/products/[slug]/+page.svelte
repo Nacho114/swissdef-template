@@ -1,19 +1,19 @@
 <script lang="ts">
-  import type { Product } from "$lib/products";
+  import type { PageData } from "./$types";
+  import { page } from "$app/stores";
   import { localize } from "$lib/nav";
   import Container from "$lib/components/container.svelte";
   import ProductHero from "../product_hero.svelte";
   import MdProductPage from "$lib/components/md_product_page.svelte";
   import { _ } from "svelte-i18n";
-  export let data: Product;
+  export let data: PageData;
 
-  let image_path = `/assets/products/${data.img}.webp`;
-  let price = data.price;
+  $: image_path = `/assets/products/${data.img}.webp`;
+  $: price = data.price;
   $: title = $_(`section_products_${data.slug}_title`);
   $: summary = $_(`section_products_${data.slug}_summary`);
 
-  let file_name = `/markdown/products/${data.slug}/info`;
-  let id = data.id;
+  $: id = data.id;
 
   $: productJsonLd = JSON.stringify({
     "@context": "https://schema.org",
@@ -23,10 +23,9 @@
     image: `https://www.swissdefibrillator.ch${image_path}`,
     offers: {
       "@type": "Offer",
-      url: `https://www.swissdefibrillator.ch/products/${data.slug}`,
+      url: `https://www.swissdefibrillator.ch${$page.url.pathname}`,
       priceCurrency: "CHF",
       price: price.toFixed(2),
-      availability: "https://schema.org/InStock",
       seller: {
         "@type": "Organization",
         name: "Swiss Defibrillator",
@@ -56,7 +55,7 @@
       stage={true}
       refined={true}
     />
-    <MdProductPage {file_name} clean={true} />
+    <MdProductPage source={data.markdown} clean={true} />
   </div>
 </Container>
 

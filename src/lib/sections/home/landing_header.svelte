@@ -13,10 +13,14 @@
       <p class="subtitle">{copy.intro}</p>
       <div class="cta-group">
         <a
-          href={$localize("/contact") + "?service=training"}
+          href={$localize("/contact") + "?service=training#enquiry-form"}
           class="primary-cta">{copy.request}</a
         >
-        <a href={$localize("/training")} class="secondary-cta">{copy.explore}</a
+        <a href={$localize("/maintenance")} class="secondary-cta"
+          >{copy.services[1].link}</a
+        >
+        <a href={$localize("/products")} class="secondary-cta"
+          >{copy.services[2].link}</a
         >
       </div>
     </div>
@@ -57,7 +61,7 @@
   .cta-group {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 0.75rem 1.25rem;
     align-items: center;
   }
   a {
@@ -77,6 +81,7 @@
   .secondary-cta {
     color: var(--color-text);
     text-underline-offset: 5px;
+    padding-block: 0.65rem;
   }
   a:focus-visible {
     outline: 3px solid var(--global-color-primary);
@@ -118,10 +123,34 @@
   @media (max-width: 700px) {
     .landing-header {
       grid-template-columns: 1fr;
-      padding: 2rem 0 3rem;
+      gap: 1.5rem;
+      padding: 1.5rem 0 3rem;
+    }
+    h1 {
+      font-size: clamp(2rem, 5.5vw, 2.25rem);
+      margin-bottom: 1rem;
+      max-width: 22ch;
+      text-wrap: balance;
+    }
+    .subtitle {
+      font-size: 1.125rem;
+      line-height: 1.5;
+      margin-bottom: 1.25rem;
     }
     .course-summary {
-      padding: 1.5rem;
+      padding: 1rem;
+    }
+    .course-summary h2 {
+      font-size: 1.375rem;
+      line-height: 1.25;
+      margin-bottom: 0.75rem;
+    }
+    .course-summary li {
+      font-size: var(--text-base);
+      padding-block: 0.625rem;
+    }
+    .course-summary p {
+      margin-top: 0.75rem;
     }
   }
   @media (max-width: 600px) {

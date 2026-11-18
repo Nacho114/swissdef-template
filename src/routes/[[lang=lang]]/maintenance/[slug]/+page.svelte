@@ -48,9 +48,15 @@
         <p class="intro">{description}</p>
       </div>
       <div class="service-actions">
-        <p class="price">{formatPrice(data.price, false)}</p>
-        <a class="enquiry" href={$localize("/contact?service=maintenance")}
-          >{$_("maintenance_enquire")}</a
+        <p class="price">
+          {formatPrice(data.price, false)}
+          <small>{$_("maintenance_per_year")}</small>
+        </p>
+        <a
+          class="enquiry"
+          href={$localize(
+            `/contact?service=maintenance&plan=${data.slug}#enquiry-form`,
+          )}>{$_("maintenance_enquire")}</a
         >
         <a class="order" href={data.payment_link}>{$_("maintenance_order")}</a>
       </div>

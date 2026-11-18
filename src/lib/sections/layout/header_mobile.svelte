@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { tick } from "svelte";
   import { localize } from "$lib/nav";
   import { _ } from "svelte-i18n";
   import LOGO from "$lib/svg/logo.svelte";
@@ -7,66 +8,79 @@
   import Locale from "./locale.svelte";
 
   let menuOpen = false;
+  let menuButton: HTMLButtonElement;
+  let firstLink: HTMLAnchorElement;
 
-  function toggleMenu() {
-    menuOpen = !menuOpen;
+  async function toggleMenu() {
+    if (menuOpen) {
+      closeMenu();
+      return;
+    }
+    menuOpen = true;
+    await tick();
+    firstLink.focus();
+  }
+
+  function closeMenu() {
+    menuOpen = false;
+    menuButton.focus();
   }
 
   function handleKeydown(event: KeyboardEvent) {
-    // Check if the Enter key or Space key is pressed
-    if (event.key === "Enter" || event.key === " ") {
-      toggleMenu();
-    }
-  }
-  function handleOverlayKeydown(event: KeyboardEvent) {
-    // Check if the Enter key or Space key is pressed
-    if (event.key === "Enter" || event.key === " ") {
-      toggleMenu();
-    }
+    if (menuOpen && event.key === "Escape") closeMenu();
   }
 </script>
 
+<svelte:window on:keydown={handleKeydown} />
+
 <div class="mobile-header">
-  <div
+  <button
+    type="button"
     class="hamburger"
-    role="button"
-    tabindex="0"
+    aria-label={$_("mobile_menu_label")}
+    aria-expanded={menuOpen}
+    aria-controls="mobile-navigation"
+    bind:this={menuButton}
     on:click={toggleMenu}
-    on:keydown={handleKeydown}
   >
     <Hamburger />
-  </div>
+  </button>
 
   <a href={$localize("/")}>
     <LOGO />
   </a>
 
-  <div class={menuOpen ? "side-menu open" : "side-menu"}>
+  <div
+    id="mobile-navigation"
+    class="side-menu"
+    class:open={menuOpen}
+    inert={!menuOpen}
+  >
     <div class="side-menu-content">
       <nav>
         <ul>
           <li>
-            <a href={$localize("/")} on:click={toggleMenu}
+            <a href={$localize("/")} bind:this={firstLink} on:click={closeMenu}
               >{$_("section_general_home")}</a
             >
           </li>
           <li>
-            <a href={$localize("/training")} on:click={toggleMenu}
+            <a href={$localize("/training")} on:click={closeMenu}
               >{$_("section_general_training")}</a
             >
           </li>
           <li>
-            <a href={$localize("/maintenance")} on:click={toggleMenu}
+            <a href={$localize("/maintenance")} on:click={closeMenu}
               >{$_("section_general_maintenance")}</a
             >
           </li>
           <li>
-            <a href={$localize("/products")} on:click={toggleMenu}
+            <a href={$localize("/products")} on:click={closeMenu}
               >{$_("section_general_products")}</a
             >
           </li>
           <li>
-            <a href={$localize("/contact")} on:click={toggleMenu}
+            <a href={$localize("/contact")} on:click={closeMenu}
               >{$_("section_general_contact")}</a
             >
           </li>
@@ -78,30 +92,35 @@
       </div>
 
       <div class="cart-icon">
-        <a href={$localize("/cart")} class="cart-link">
+        <a
+          href={$localize("/cart")}
+          class="cart-link"
+          aria-label={$_("section_general_checkout")}
+          on:click={closeMenu}
+        >
           <Cart />
         </a>
       </div>
 
       <div class="menu-bottom-links">
-        <a href={$localize("/contact")} on:click={toggleMenu}
+        <a href={$localize("/contact")} on:click={closeMenu}
           >{$_("section_general_contact")}</a
         >
-        <a href={$localize("/warranty_and_returns")} on:click={toggleMenu}
+        <a href={$localize("/warranty_and_returns")} on:click={closeMenu}
           >{$_("section_general_warranty_and_returns")}</a
         >
       </div>
     </div>
   </div>
 
-  <!-- This div will cover the rest of the screen -->
-  <div
-    class={menuOpen ? "overlay show" : "overlay"}
-    role="button"
-    tabindex="0"
-    on:click={toggleMenu}
-    on:keydown={handleOverlayKeydown}
-  />
+  <button
+    type="button"
+    class="overlay"
+    class:show={menuOpen}
+    tabindex="-1"
+    aria-label={$_("mobile_menu_close")}
+    on:click={closeMenu}
+  ></button>
 </div>
 
 <style>
@@ -114,8 +133,14 @@
 
   .hamburger {
     cursor: pointer;
-    margin-top: 35px;
-    transform: scale(1.8); /* Scales the element by 150% */
+    align-self: center;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    font-size: 1.8rem;
+    border: 0;
+    background: transparent;
     color: var(--global-color-gray);
   }
 
@@ -125,7 +150,8 @@
     left: -60%; /* Initially hidden */
     top: 0;
     width: 60%;
-    height: 100vh;
+    height: 100dvh;
+    overflow-y: auto;
     background-color: black;
     color: white;
     transition: left 0.3s; /* Smooth transition for opening/closing */
@@ -147,6 +173,7 @@
   /* side menu overlay shadow*/
   .overlay {
     position: fixed;
+    border: 0;
     top: 0;
     left: 0;
     width: 100%;

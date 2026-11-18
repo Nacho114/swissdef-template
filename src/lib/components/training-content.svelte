@@ -72,6 +72,12 @@
     <section class="instructor-intro" aria-labelledby="instructor-title">
       <h2 id="instructor-title">{copy.instructorTitle}</h2>
       <p>{copy.instructorBio}</p>
+      <a
+        href={$page.params.lang === "de"
+          ? "https://recognition.resuscitation.ch/de/anerkannte-kursanbieter/index.php#:~:text=Swiss%20Defibrillator"
+          : "https://recognition.resuscitation.ch/fr/prestataires-de-cours-reconnus/#:~:text=Swiss%20Defibrillator"}
+        >{$_("training_src_directory")}</a
+      >
     </section>
   {/if}
 

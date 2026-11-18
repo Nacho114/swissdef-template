@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { _ } from "svelte-i18n";
+  import { maintenances } from "$lib/maintenance";
   import emailjs from "@emailjs/browser";
   import { page } from "$app/stores";
   import { goto } from "$app/navigation";
@@ -14,23 +16,16 @@
   }
   let service = queryChoice("service", validServices, "training");
   let course = queryChoice("course", validCourses, "");
+  const planSlugs = maintenances.map(({ slug }) => slug);
+  let plan = "";
   let appliedSearch: string | undefined;
   // A page-store update (including a hash change) must not overwrite user choices.
   // Apply incoming course links only when their search parameters change.
   $: if ($page.url.search !== appliedSearch) {
     appliedSearch = $page.url.search;
-    const selectedService = $page.url.searchParams.get("service");
-    const selectedCourse = $page.url.searchParams.get("course");
-    service = ["training", "maintenance", "products", "other"].includes(
-      selectedService || "",
-    )
-      ? selectedService!
-      : "training";
-    course = ["basic", "lite", "recommended", "refresher"].includes(
-      selectedCourse || "",
-    )
-      ? selectedCourse!
-      : "";
+    service = queryChoice("service", validServices, "training");
+    course = queryChoice("course", validCourses, "");
+    plan = queryChoice("plan", planSlugs, "");
   }
   const courseNames: Record<string, string> = {
     basic: "BLS-AED-SRC Complet",
@@ -56,6 +51,11 @@
     failed = false;
     const summary = [
       `Subject: ${service}`,
+      ...(service === "maintenance"
+        ? [
+            `Maintenance plan: ${plan === "remote" ? "Remote" : plan === "basic_plan" ? "On-site" : "Advice requested"}`,
+          ]
+        : []),
       ...(service === "training"
         ? [
             `Course: ${courseNames[course] || "Advice requested"}`,
@@ -93,12 +93,18 @@
 
 <div class="form-wrapper" id="enquiry-form" tabindex="-1">
   <h2>{copy.formTitle}</h2>
-  <p class="guidance">{service === "training" ? copy.details : copy.generalDetails}</p>
+  <p class="guidance">
+    {service === "training" ? copy.details : copy.generalDetails}
+  </p>
   <form on:submit|preventDefault={handleSubmit} aria-busy={pending}>
     <fieldset disabled={pending}>
       <div class="form-group">
         <label for="subject">{copy.subject}</label>
-        <select id="subject" bind:value={service} aria-describedby="subject-hint">
+        <select
+          id="subject"
+          bind:value={service}
+          aria-describedby="subject-hint"
+        >
           <option value="training">{copy.training}</option>
           <option value="maintenance">{copy.maintenance}</option>
           <option value="products">{copy.products}</option>
@@ -106,6 +112,38 @@
         </select>
         <p class="field-hint" id="subject-hint">{copy.subjectHint}</p>
       </div>
+      <div class="field-row">
+        <div class="form-group">
+          <label for="name">{copy.name}</label><input
+            id="name"
+            autocomplete="name"
+            bind:value={name}
+            required
+            maxlength="200"
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">{copy.email}</label><input
+            type="email"
+            id="email"
+            autocomplete="email"
+            bind:value={email}
+            required
+            maxlength="254"
+          />
+        </div>
+      </div>
+      {#if service === "maintenance"}
+        <div class="form-group">
+          <label for="plan">{$_("maintenance_plan_label")}</label>
+          <select id="plan" bind:value={plan}>
+            <option value="">{$_("maintenance_plan_undecided")}</option>
+            {#each maintenances as { slug }}
+              <option value={slug}>{$_(`maintenance_${slug}_title`)}</option>
+            {/each}
+          </select>
+        </div>
+      {/if}
       {#if service === "training"}
         <div class="form-group">
           <label for="course">{copy.course}</label>
@@ -129,77 +167,62 @@
               {course === "basic" ? copy.basic : copy.lite}
             </p>{/if}
         </div>
-        <div class="form-group">
-          <label for="company">{copy.company} ({copy.optional})</label><input
-            id="company"
-            autocomplete="organization"
-            bind:value={company}
-            maxlength="200"
-          />
-        </div>
-        <div class="form-group">
-          <label for="location">{copy.location} ({copy.optional})</label><input
-            id="location"
-            autocomplete="address-level2"
-            bind:value={location}
-            maxlength="200"
-          />
-        </div>
-        <div class="field-row">
+        <details class="quote-details">
+          <summary>{$_("training_quote_details")}</summary>
           <div class="form-group">
-            <label for="participants"
-              >{copy.participants} ({copy.optional})</label
-            ><input
-              id="participants"
-              aria-describedby="participants-hint"
-              type="number"
-              min="1"
-              step="1"
-              bind:value={participants}
+            <label for="company">{copy.company} ({copy.optional})</label><input
+              id="company"
+              autocomplete="organization"
+              bind:value={company}
+              maxlength="200"
             />
-            <p class="field-hint" id="participants-hint">{copy.participantsHint}</p>
           </div>
           <div class="form-group">
-            <label for="language">{copy.language} ({copy.optional})</label
-            ><select id="language" bind:value={language}
-              ><option value="">{copy.choose}</option><option value="English"
-                >{copy.english}</option
-              ><option value="French">{copy.french}</option><option
-                value="German">{copy.german}</option
-              ></select
-            >
+            <label for="location">{copy.location} ({copy.optional})</label
+            ><input
+              id="location"
+              autocomplete="address-level2"
+              bind:value={location}
+              maxlength="200"
+            />
           </div>
-        </div>
-        <div class="form-group">
-          <label for="timing">{copy.timing}</label><input
-            id="timing"
-            bind:value={timing}
-            placeholder={copy.timingHint}
-            maxlength="300"
-          />
-        </div>
+          <div class="field-row">
+            <div class="form-group">
+              <label for="participants"
+                >{copy.participants} ({copy.optional})</label
+              ><input
+                id="participants"
+                aria-describedby="participants-hint"
+                type="number"
+                min="1"
+                step="1"
+                bind:value={participants}
+              />
+              <p class="field-hint" id="participants-hint">
+                {copy.participantsHint}
+              </p>
+            </div>
+            <div class="form-group">
+              <label for="language">{copy.language} ({copy.optional})</label
+              ><select id="language" bind:value={language}
+                ><option value="">{copy.choose}</option><option value="English"
+                  >{copy.english}</option
+                ><option value="French">{copy.french}</option><option
+                  value="German">{copy.german}</option
+                ></select
+              >
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="timing">{copy.timing}</label><input
+              id="timing"
+              bind:value={timing}
+              placeholder={copy.timingHint}
+              maxlength="300"
+            />
+          </div>
+        </details>
       {/if}
-      <div class="field-row">
-        <div class="form-group">
-          <label for="name">{copy.name}</label><input
-            id="name"
-            autocomplete="name"
-            bind:value={name}
-            required
-            maxlength="200"
-          />
-        </div>
-        <div class="form-group">
-          <label for="email">{copy.email}</label><input
-            type="email"
-            id="email"
-            autocomplete="email"
-            bind:value={email}
-            required
-            maxlength="254"
-          />
-        </div>
-      </div>
       <div class="form-group">
         <label for="message"
           >{service === "training" ? copy.optionalMessage : copy.message}</label
@@ -228,6 +251,14 @@
 </div>
 
 <style>
+  .quote-details summary {
+    cursor: pointer;
+    color: var(--global-color-primary);
+    padding-block: 0.5rem;
+  }
+  .quote-details .form-group {
+    margin-top: 0.75rem;
+  }
   .field-hint {
     margin: 0;
     color: var(--color-text-muted);

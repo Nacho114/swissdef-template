@@ -1,10 +1,12 @@
 <script lang="ts">
   import MdInfoPage from "$lib/components/md_info_page.svelte";
+  import type { PageData } from "./$types";
 
-  let file_name = `/markdown/terms_and_conditions/doc`;
+  export let data: PageData;
 </script>
 
-<MdInfoPage {file_name} />
+<svelte:head>
+  <title>{data.title}</title>
+</svelte:head>
 
-<style>
-</style>
+<MdInfoPage source={data.markdown} />

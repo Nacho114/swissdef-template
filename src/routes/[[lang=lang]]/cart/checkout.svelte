@@ -1,8 +1,6 @@
 <script lang="ts">
   import { cart } from "../../../store"; // Import the cart store
   import { format_for_stripe, getProductById } from "$lib/products";
-  import { _ } from "svelte-i18n";
-  import { localize } from "$lib/nav";
   import { dev } from "$app/environment"; // `dev` is `true` in development and `false` in production.
   import { with_iva } from "$lib/products";
 
@@ -13,8 +11,13 @@
     ? import.meta.env.VITE_TEST_AWS_STRIPE_LINK // Use test link in development
     : import.meta.env.VITE_AWS_STRIPE_LINK; // Use production link in production
 
-  let pending = false;
-  let failed = false;
+  let success_url = dev
+    ? "http://localhost:5173/success"
+    : "https://www.swissdefibrillator.ch/success";
+
+  let failure_url = dev
+    ? "http://localhost:5173/failure"
+    : "https://www.swissdefibrillator.ch/failure";
 
   $: line_items = Object.entries($cart)
     .map(([id, quantity]) => {
@@ -44,16 +47,6 @@
     .filter((item) => item !== null);
 
   async function handleCheckout() {
-    if (pending) return;
-    pending = true;
-    failed = false;
-    const origin = dev
-      ? window.location.origin
-      : "https://www.swissdefibrillator.ch";
-    const successUrl = new URL($localize("/success"), origin);
-    successUrl.searchParams.set("amount", String(totalCost));
-    const cancelUrl = new URL($localize("/failure"), origin);
-
     try {
       const response = await fetch(stripe_aws_link, {
         method: "POST",
@@ -68,46 +61,24 @@
               currency: "chf",
             },
           },
-          successUrl: successUrl.href,
-          cancelUrl: cancelUrl.href,
+          successUrl: success_url + `?amount=${totalCost}`,
+          cancelUrl: failure_url,
         }),
       });
 
-      if (!response.ok) throw new Error("Checkout request failed");
-      const { url } = await response.json();
-      if (typeof url !== "string" || new URL(url).protocol !== "https:") {
-        throw new Error("Invalid checkout URL");
-      }
-      window.location.assign(url);
-    } catch {
-      failed = true;
-      pending = false;
+      const { url } = await response.json(); // Extract 'url' instead of sessionId
+      window.location.href = url; // Redirect to Stripe checkout
+    } catch (err) {
+      console.error("Checkout error", err);
     }
   }
 </script>
 
-<button
-  id="checkout-btn"
-  class="checkout-btn"
-  disabled={pending}
-  aria-busy={pending}
-  on:click={handleCheckout}
->
+<button id="checkout-btn" class="checkout-btn" on:click={handleCheckout}>
   <slot />
 </button>
-{#if failed}<p role="alert" class="checkout-error">
-    {$_("checkout_retry_error")}
-  </p>{/if}
 
 <style>
-  .checkout-error {
-    color: var(--global-color-primary-dark);
-    margin-bottom: 0;
-  }
-  .checkout-btn:disabled {
-    opacity: 0.65;
-    cursor: wait;
-  }
   .checkout-btn {
     width: 100%;
     margin-top: 24px;

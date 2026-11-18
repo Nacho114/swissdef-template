@@ -77,7 +77,7 @@ follow-ups from that work plus the AI-search (GEO) audit.
 
 ### Checkout and measurement
 
-- [x] Show a visible, retryable checkout error and keep the selected language on return.
+- [ ] Keep checkout error and return-language changes in the separate Stripe work.
 - [ ] Identify the deployed Stripe handler and coordinate server-owned price and shipping calculations. Verify with an end-to-end test payment before switching production.
 - [ ] Review the current analytics setup and measure successful enquiries by service, paid maintenance orders and paid product purchases.
 
